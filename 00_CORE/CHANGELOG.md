@@ -1,5 +1,19 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-19] – CONTENT REGISTRY v1.0
+
+### Added
+- CONTENT_REGISTRY.md jako centrální inventura existujících materiálů projektu PRAMEN.
+
+### Scope
+- Registr eviduje původ, stav, důkazní úroveň a připravenost materiálů pro budoucí centralizaci.
+- Tento controlled write nevytváří nový historický, scénářový ani obrazový obsah.
+
+### Status
+- CONTROLLED WRITE: SUCCESS
+- CONTENT REGISTRY v1.0: RECORDED
+
+---
 ## [2026-09-11] – Initial CORE governance log
 
 ### Added
@@ -11,4 +25,4 @@
 - Neobsahuje samotná historická tvrzení projektu ani nenahrazuje PRAMEN_MASTER.md nebo PRAMEN_AI_PROTOCOL.md.
 
 ### Status
-- WRITE TEST: SUCCESS PENDING AUDIT
+- WRITE TEST: SUCCESS – superseded by controlled write dated 2026-09-19
