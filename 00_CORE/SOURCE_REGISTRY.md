@@ -365,7 +365,7 @@ SOURCE ID
 
 SOURCE REGISTRY v1.0
 
-🟢 VYTVOŘIT
+🟢 HOTOVO – SOURCE REGISTRY v1.0 ZAPSÁN
 
 Tato verze je pouze základní evidenční vrstva.
 
