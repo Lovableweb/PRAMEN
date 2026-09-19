@@ -172,7 +172,455 @@ odborné literatuře, archivech, katalozích a dalších důvěryhodných zdroj�
 
 # 2. OTÁZKY ŘÍDÍCÍHO MOZKU – DOPLŇKOVÉ OTÁZKY
 
-Tato sekce je připravena pro pozdější doplnění Řídícím mozkem projektu PRAMEN.
+### HIST-RM-001
+- ID: HIST-RM-001
+- OTÁZKA: Kdo byl v jednotlivých obdobích právním nebo faktickým vlastníkem pramene Bílinské kyselky a okolního území?
+- TÉMA: Vlastnictví
+- PROČ SE NA NI PTÁME: Historie pramene není pouze historie vody, ale také lidí a institucí, které s pramenem nakládaly.
+- CO BY MĚLO BÝT DOHLEDÁNO: Vlastnické vztahy, panství, vrchnost, město, církevní instituce a pozdější podnikatelské subjekty.
+- DŮLEŽITOST PRO PROJEKT: Umožní správně zobrazit mocenské a majetkové vztahy.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-002
+- ID: HIST-RM-002
+- OTÁZKA: Jak se v průběhu staletí měnila správa a kontrola nad pramenem?
+- TÉMA: Správa pramene
+- PROČ SE NA NI PTÁME: Vlastnictví a skutečná správa nemusely být totožné.
+- CO BY MĚLO BÝT DOHLEDÁNO: Konkrétní správci, instituce, vrchnostenské úřady, městská správa a pozdější provozovatelé.
+- DŮLEŽITOST PRO PROJEKT: Historická přesnost prostředí a postav.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-003
+- ID: HIST-RM-003
+- OTÁZKA: Existují dobové doklady o tom, že místní obyvatelé Bílinskou kyselku používali ještě před jejími odbornými popisy?
+- TÉMA: Lidové využití
+- PROČ SE NA NI PTÁME: Odborné publikace nemusí zachycovat běžné místní používání pramene.
+- CO BY MĚLO BÝT DOHLEDÁNO: Kroniky, vrchnostenské dokumenty, místní záznamy a další svědectví.
+- DŮLEŽITOST PRO PROJEKT: Pomůže odlišit odborné objevení od skutečného používání.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-004
+- ID: HIST-RM-004
+- OTÁZKA: Existují doklady o tom, že lidé z okolí pramen navštěvovali pravidelně před vznikem moderního lázeňského provozu?
+- TÉMA: Raná návštěvnost
+- PROČ SE NA NI PTÁME: Pravidelné používání může být starší než oficiální lázeňská tradice.
+- CO BY MĚLO BÝT DOHLEDÁNO: Dobové zprávy, kroniky, lékařské texty a hospodářské záznamy.
+- DŮLEŽITOST PRO PROJEKT: Chronologie využívání pramene.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-005
+- ID: HIST-RM-005
+- OTÁZKA: Jakým způsobem se voda z pramene v nejstarších doložených obdobích nabírala a odnášela?
+- TÉMA: Technické využití
+- PROČ SE NA NI PTÁME: Současná podoba stáčení nesmí být zpětně promítnuta do starších období.
+- CO BY MĚLO BÝT DOHLEDÁNO: Dobové popisy jímání, nádoby, studny, jímací zařízení a způsob odběru.
+- DŮLEŽITOST PRO PROJEKT: Vizuální přesnost komiksu.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-006
+- ID: HIST-RM-006
+- OTÁZKA: Jaké typy nádob byly historicky používány pro přepravu Bílinské kyselky a kdy se jednotlivé typy objevují?
+- TÉMA: Přeprava
+- PROČ SE NA NI PTÁME: Láhve a obaly se v čase měnily.
+- CO BY MĚLO BÝT DOHLEDÁNO: Dobové nádoby, materiály, typy lahví, sudy a jiné přepravní prostředky.
+- DŮLEŽITOST PRO PROJEKT: Historická podoba scén stáčení a obchodu.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-007
+- ID: HIST-RM-007
+- OTÁZKA: Kdy je poprvé doloženo skutečné stáčení Bílinské kyselky do nádob určených k přepravě nebo prodeji?
+- TÉMA: Stáčení
+- PROČ SE NA NI PTÁME: Potřebujeme odlišit odběr vody od obchodního stáčení.
+- CO BY MĚLO BÝT DOHLEDÁNO: První konkrétní písemný nebo obrazový doklad.
+- DŮLEŽITOST PRO PROJEKT: Vývoj komerční historie pramene.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-008
+- ID: HIST-RM-008
+- OTÁZKA: Kdy je poprvé doložen organizovaný prodej Bílinské kyselky mimo bezprostřední okolí Bíliny?
+- TÉMA: Obchod
+- PROČ SE NA NI PTÁME: Rozšíření vody mimo region je důležitým historickým mezníkem.
+- CO BY MĚLO BÝT DOHLEDÁNO: Obchodní záznamy, ceníky, inzeráty, doprava a odběratelé.
+- DŮLEŽITOST PRO PROJEKT: Vývoj pramene z lokálního zdroje k širšímu fenoménu.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-009
+- ID: HIST-RM-009
+- OTÁZKA: Do kterých měst nebo zemí byla Bílinská kyselka historicky přepravována a kdy?
+- TÉMA: Distribuce
+- PROČ SE NA NI PTÁME: Umožní rekonstruovat geografii obchodu.
+- CO BY MĚLO BÝT DOHLEDÁNO: Konkrétní destinace, data a dopravní trasy.
+- DŮLEŽITOST PRO PROJEKT: Mapa historického putování vody.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-010
+- ID: HIST-RM-010
+- OTÁZKA: Jaké byly historické způsoby dopravy Bílinské kyselky před železnicí a později po jejím zavedení?
+- TÉMA: Doprava
+- PROČ SE NA NI PTÁME: Způsob dopravy zásadně ovlivňuje podobu historických scén.
+- CO BY MĚLO BÝT DOHLEDÁNO: Povoznictví, koňské povozy, lodní doprava, železnice a další způsoby.
+- DŮLEŽITOST PRO PROJEKT: Rekonstrukce obchodních scén.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-011
+- ID: HIST-RM-011
+- OTÁZKA: Kdy se v pramenech poprvé objevuje systematické lékařské doporučování Bílinské kyselky?
+- TÉMA: Lékařství
+- PROČ SE NA NI PTÁME: Je třeba odlišit lidové užívání od odborné medicínské indikace.
+- CO BY MĚLO BÝT DOHLEDÁNO: Lékařské publikace, receptáře, lázeňské spisy a doporučení.
+- DŮLEŽITOST PRO PROJEKT: Historie léčebného využití.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-012
+- ID: HIST-RM-012
+- OTÁZKA: Jaké konkrétní léčebné účinky byly Bílinské kyselce v jednotlivých obdobích připisovány?
+- TÉMA: Léčebné představy
+- PROČ SE NA NI PTÁME: Historické představy nesmí být zaměňovány se současným medicínským hodnocením.
+- CO BY MĚLO BÝT DOHLEDÁNO: Dobové lékařské texty a přesné datování tvrzení.
+- DŮLEŽITOST PRO PROJEKT: Historická přesnost dialogů a textů.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-013
+- ID: HIST-RM-013
+- OTÁZKA: Jaké zdravotní účinky byly v dobových pramenech výslovně popisovány jako účinky Bílinské kyselky a jaké pouze jako obecné účinky minerálních vod?
+- TÉMA: Lékařské zdroje
+- PROČ SE NA NI PTÁME: Hrozí přenos obecných tvrzení na konkrétní pramen.
+- CO BY MĚLO BÝT DOHLEDÁNO: Přesné formulace v dobových pramenech.
+- DŮLEŽITOST PRO PROJEKT: Oddělení konkrétního důkazu od zobecnění.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-014
+- ID: HIST-RM-014
+- OTÁZKA: Kdy a proč začali odborníci provádět chemické rozbory Bílinské kyselky?
+- TÉMA: Chemie
+- PROČ SE NA NI PTÁME: Chemická analýza je zásadním mezníkem v historii vědeckého poznávání pramene.
+- CO BY MĚLO BÝT DOHLEDÁNO: První rozbory, autoři, metody a data.
+- DŮLEŽITOST PRO PROJEKT: Vývoj vědeckého poznání.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-015
+- ID: HIST-RM-015
+- OTÁZKA: Jaké byly nejstarší známé chemické charakteristiky Bílinské kyselky a jak se jejich interpretace v čase měnila?
+- TÉMA: Chemické složení
+- PROČ SE NA NI PTÁME: Historické chemické údaje mohou používat jinou terminologii a jednotky.
+- CO BY MĚLO BÝT DOHLEDÁNO: Původní analýzy, jednotky, metody a dobové interpretace.
+- DŮLEŽITOST PRO PROJEKT: Historická věrohodnost vědeckých scén.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-016
+- ID: HIST-RM-016
+- OTÁZKA: Jaké analytické metody používali jednotliví historicky doložení badatelé při zkoumání Bílinské kyselky?
+- TÉMA: Analytické metody
+- PROČ SE NA NI PTÁME: Nechceme zpětně připisovat moderní metody historickým chemikům.
+- CO BY MĚLO BÝT DOHLEDÁNO: Konkrétní metoda, autor, datum a primární text.
+- DŮLEŽITOST PRO PROJEKT: Přesnost scén s Reussem a dalšími badateli.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-017
+- ID: HIST-RM-017
+- OTÁZKA: Jaké přístroje a laboratorní vybavení používal Reuss při výzkumu minerálních pramenů?
+- TÉMA: Reuss – laboratorní práce
+- PROČ SE NA NI PTÁME: Vizuální podoba Reussovy práce musí odpovídat jeho době.
+- CO BY MĚLO BÝT DOHLEDÁNO: Popisy přístrojů, dobové ilustrace, laboratorní vybavení a Reussovy texty.
+- DŮLEŽITOST PRO PROJEKT: Vizuální přesnost komiksu.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-018
+- ID: HIST-RM-018
+- OTÁZKA: Kde přesně Reuss prováděl své analýzy a pozorování Bílinské kyselky?
+- TÉMA: Reuss – místo výzkumu
+- PROČ SE NA NI PTÁME: Není bezpečné automaticky zobrazovat laboratoř nebo pramen jako místo všech jeho činností.
+- CO BY MĚLO BÝT DOHLEDÁNO: Dobové texty, životopisné prameny a konkrétní místa.
+- DŮLEŽITOST PRO PROJEKT: Historická přesnost scén.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-019
+- ID: HIST-RM-019
+- OTÁZKA: Jaký byl přesný vztah mezi Františkem Ambrožem Reussem a jeho synem Augustem Emanuelem Reussem v souvislosti s minerálními prameny?
+- TÉMA: Reussova rodina
+- PROČ SE NA NI PTÁME: V projektu se nesmí zaměnit jednotliví členové rodiny Reussů.
+- CO BY MĚLO BÝT DOHLEDÁNO: Biografie, publikace a konkrétní role jednotlivých osob.
+- DŮLEŽITOST PRO PROJEKT: Správné přiřazení postav a děl.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-020
+- ID: HIST-RM-020
+- OTÁZKA: Kteří další badatelé, lékaři, chemici nebo přírodovědci se před rokem 1900 významně zabývali Bílinskou kyselkou?
+- TÉMA: Osobnosti
+- PROČ SE NA NI PTÁME: Dosavadní výzkum nemusí zachycovat všechny relevantní osoby.
+- CO BY MĚLO BÝT DOHLEDÁNO: Publikace, archivní záznamy a konkrétní příspěvky jednotlivých osob.
+- DŮLEŽITOST PRO PROJEKT: Rozšíření historické databáze postav.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-021
+- ID: HIST-RM-021
+- OTÁZKA: Kdy se Bílina začala spojovat s organizovaným lázeňským provozem a jak tento proces probíhal?
+- TÉMA: Lázeňství
+- PROČ SE NA NI PTÁME: Je třeba přesně určit přechod od pramene k lázeňskému místu.
+- CO BY MĚLO BÝT DOHLEDÁNO: Nejstarší lázeňské stavby, provoz, návštěvníci a dobové popisy.
+- DŮLEŽITOST PRO PROJEKT: Přechod mezi ranou historií a moderní lázeňskou érou.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-022
+- ID: HIST-RM-022
+- OTÁZKA: Jaké stavby historicky vznikaly v bezprostředním okolí Bílinské kyselky a kdy?
+- TÉMA: Architektura
+- PROČ SE NA NI PTÁME: Potřebujeme vědět, jak prostředí v jednotlivých obdobích skutečně vypadalo.
+- CO BY MĚLO BÝT DOHLEDÁNO: Prameny, kolonády, pavilony, lázeňské budovy, provozní objekty a jejich datace.
+- DŮLEŽITOST PRO PROJEKT: Rekonstrukce prostředí.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-023
+- ID: HIST-RM-023
+- OTÁZKA: Jak se historicky měnilo samotné jímání a technické zabezpečení pramene?
+- TÉMA: Technická historie
+- PROČ SE NA NI PTÁME: Současné technické řešení nelze automaticky použít pro minulost.
+- CO BY MĚLO BÝT DOHLEDÁNO: Konstrukce, opravy, rekonstrukce a technické popisy.
+- DŮLEŽITOST PRO PROJEKT: Přesné zobrazení pramene.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-024
+- ID: HIST-RM-024
+- OTÁZKA: Existují historické zprávy o změnách vydatnosti, teploty nebo charakteru pramene?
+- TÉMA: Proměny pramene
+- PROČ SE NA NI PTÁME: Dlouhodobé změny mohou vysvětlovat některé historické zásahy.
+- CO BY MĚLO BÝT DOHLEDÁNO: Měření, popisy, havárie, změny jímání a přírodní události.
+- DŮLEŽITOST PRO PROJEKT: Historie samotného vodního zdroje.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-025
+- ID: HIST-RM-025
+- OTÁZKA: Existují historické záznamy o vyschnutí, ztrátě nebo změně pramene?
+- TÉMA: Stabilita pramene
+- PROČ SE NA NI PTÁME: Takové události mohou být důležitou součástí skutečné historie.
+- CO BY MĚLO BÝT DOHLEDÁNO: Kroniky, technické zprávy, geologické záznamy a svědectví.
+- DŮLEŽITOST PRO PROJEKT: Historická chronologie pramene.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-026
+- ID: HIST-RM-026
+- OTÁZKA: Jaké přírodní nebo lidské zásahy v okolí mohly historicky ovlivnit Bílinskou kyselku?
+- TÉMA: Krajina
+- PROČ SE NA NI PTÁME: Vývoj krajiny může souviset s vývojem pramene.
+- CO BY MĚLO BÝT DOHLEDÁNO: Těžba, stavby, změny vodního režimu, zemědělství a další zásahy.
+- DŮLEŽITOST PRO PROJEKT: Kontext příběhu.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-027
+- ID: HIST-RM-027
+- OTÁZKA: Jak souvisel vývoj Bílinské kyselky s rozvojem města Bíliny?
+- TÉMA: Bílina – město a pramen
+- PROČ SE NA NI PTÁME: Historie města a pramene se mohou vzájemně ovlivňovat.
+- CO BY MĚLO BÝT DOHLEDÁNO: Městské dějiny, obchod, infrastruktura a lázeňský rozvoj.
+- DŮLEŽITOST PRO PROJEKT: Propojení příběhu vody a lidské historie.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-028
+- ID: HIST-RM-028
+- OTÁZKA: Jaký byl vztah Bílinské kyselky k teplickému lázeňskému okruhu a obchodu s minerálními vodami?
+- TÉMA: Bílina × Teplice
+- PROČ SE NA NI PTÁME: Projekt vypráví regionální historii a jednotlivé prameny nesmějí být izolovány.
+- CO BY MĚLO BÝT DOHLEDÁNO: Dobové obchodní, lékařské a lázeňské souvislosti.
+- DŮLEŽITOST PRO PROJEKT: Propojení kapitol komiksu.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-029
+- ID: HIST-RM-029
+- OTÁZKA: Jaký byl historický vztah Bílinské kyselky a Zaječické hořké vody?
+- TÉMA: Bílina × Zaječice
+- PROČ SE NA NI PTÁME: Oba prameny patří do stejného regionálního příběhu, ale mají odlišnou historii.
+- CO BY MĚLO BÝT DOHLEDÁNO: Obchodní, chemické, lékařské a historické souvislosti.
+- DŮLEŽITOST PRO PROJEKT: Propojení regionálního příběhu.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-030
+- ID: HIST-RM-030
+- OTÁZKA: Jak se Bílinská kyselka historicky lišila od ostatních minerálních pramenů v Čechách a proč jí byla věnována zvláštní pozornost?
+- TÉMA: Srovnávací historie
+- PROČ SE NA NI PTÁME: Chceme znát historický důvod jejího významu, nikoli jej pouze předpokládat.
+- CO BY MĚLO BÝT DOHLEDÁNO: Dobová odborná literatura a obchodní prameny.
+- DŮLEŽITOST PRO PROJEKT: Kontext regionálního významu.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-031
+- ID: HIST-RM-031
+- OTÁZKA: Jaké dobové mapy zachycují Bílinskou kyselku nebo její okolí?
+- TÉMA: Kartografie
+- PROČ SE NA NI PTÁME: Mapy mohou poskytnout nezávislý obraz vývoje místa.
+- CO BY MĚLO BÝT DOHLEDÁNO: Mapové sbírky, mapové značky, názvy a datace.
+- DŮLEŽITOST PRO PROJEKT: Vizuální a geografická rekonstrukce.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-032
+- ID: HIST-RM-032
+- OTÁZKA: Jaké dobové kresby, rytiny, obrazy nebo fotografie zachycují Bílinskou kyselku a její okolí?
+- TÉMA: Vizuální prameny
+- PROČ SE NA NI PTÁME: Vizuální prameny mohou ověřit podobu místa lépe než pozdější rekonstrukce.
+- CO BY MĚLO BÝT DOHLEDÁNO: Autor, datum, originál a provenience každého relevantního obrazu.
+- DŮLEŽITOST PRO PROJEKT: Vizuální věrohodnost komiksu.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-033
+- ID: HIST-RM-033
+- OTÁZKA: Existují historické fotografie lidí přímo spojených s provozem Bílinské kyselky a lze jejich identitu bezpečně určit?
+- TÉMA: Osoby a fotografie
+- PROČ SE NA NI PTÁME: Postavy komiksu musí být odděleny od anonymních nebo později identifikovaných osob.
+- CO BY MĚLO BÝT DOHLEDÁNO: Originální fotografie, popisky a archivní provenience.
+- DŮLEŽITOST PRO PROJEKT: Tvorba historických postav.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-034
+- ID: HIST-RM-034
+- OTÁZKA: Jak vypadala každodenní práce lidí, kteří historicky pramen jímali, plnili, přepravovali nebo prodávali?
+- TÉMA: Každodenní život
+- PROČ SE NA NI PTÁME: Komiks potřebuje realistický lidský rozměr.
+- CO BY MĚLO BÝT DOHLEDÁNO: Pracovní popisy, mzdy, pracovní postupy, nástroje a dobové obrazy.
+- DŮLEŽITOST PRO PROJEKT: Realistické vedlejší postavy a scény.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-035
+- ID: HIST-RM-035
+- OTÁZKA: Kdo byli lidé, kteří historicky pracovali přímo u stáčení nebo distribuce Bílinské kyselky?
+- TÉMA: Pracovníci
+- PROČ SE NA NI PTÁME: Chceme, pokud možno, zachytit skutečné lidské aktéry.
+- CO BY MĚLO BÝT DOHLEDÁNO: Jména, profese, zaměstnavatelé a archivní dokumenty.
+- DŮLEŽITOST PRO PROJEKT: Historické postavy.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-036
+- ID: HIST-RM-036
+- OTÁZKA: Jaké historické značky, etikety, pečetě nebo jiné identifikační prvky byly používány na obalech Bílinské kyselky?
+- TÉMA: Branding a obaly
+- PROČ SE NA NI PTÁME: Obal je významným historickým dokumentem.
+- CO BY MĚLO BÝT DOHLEDÁNO: Originální lahve, etikety, reklamy, pečetě a katalogy.
+- DŮLEŽITOST PRO PROJEKT: Vizuální přesnost komiksu i budoucí expozice.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-037
+- ID: HIST-RM-037
+- OTÁZKA: Kdy se začala Bílinská kyselka historicky propagovat prostřednictvím reklam, plakátů nebo inzerce?
+- TÉMA: Reklama
+- PROČ SE NA NI PTÁME: Reklama může přesně ukázat, jak byla voda vnímána a komu byla nabízena.
+- CO BY MĚLO BÝT DOHLEDÁNO: Nejstarší inzeráty, plakáty, noviny a katalogy.
+- DŮLEŽITOST PRO PROJEKT: Obchodní a kulturní historie.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-038
+- ID: HIST-RM-038
+- OTÁZKA: Jak se v různých obdobích měnil způsob, jakým byla Bílinská kyselka veřejnosti představována?
+- TÉMA: Obraz pramene
+- PROČ SE NA NI PTÁME: Historický obraz pramene může být jiný než dnešní marketingový obraz.
+- CO BY MĚLO BÝT DOHLEDÁNO: Reklamy, lékařské texty, průvodce a dobové články.
+- DŮLEŽITOST PRO PROJEKT: Vývoj kulturního významu pramene.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-039
+- ID: HIST-RM-039
+- OTÁZKA: Jaké návštěvníky lze historicky doložit jako konzumenty nebo návštěvníky Bílinské kyselky?
+- TÉMA: Návštěvníci
+- PROČ SE NA NI PTÁME: Chceme rozlišit historicky doložené návštěvníky od pozdějších legend.
+- CO BY MĚLO BÝT DOHLEDÁNO: Knihy návštěv, korespondence, paměti, tisk a další osobní prameny.
+- DŮLEŽITOST PRO PROJEKT: Historické osobnosti a lidské příběhy.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-040
+- ID: HIST-RM-040
+- OTÁZKA: Kteří významní návštěvníci jsou s Bílinskou kyselkou doloženě spojeni a jaký je konkrétní důkaz jejich návštěvy?
+- TÉMA: Známé osobnosti
+- PROČ SE NA NI PTÁME: Známé osobnosti bývají v lázeňské historii snadno zaměňovány s pozdějšími tradicemi.
+- CO BY MĚLO BÝT DOHLEDÁNO: Primární korespondence, deníky, návštěvní knihy a dobový tisk.
+- DŮLEŽITOST PRO PROJEKT: Bezpečné používání historických osobností v komiksu.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-041
+- ID: HIST-RM-041
+- OTÁZKA: Jaké jsou nejstarší dochované archivní dokumenty přímo související s Bílinskou kyselkou?
+- TÉMA: Archivy
+- PROČ SE NA NI PTÁME: Potřebujeme znát skutečný rozsah primárních pramenů.
+- CO BY MĚLO BÝT DOHLEDÁNO: Archivní fond, signatura, datace, původ a obsah.
+- DŮLEŽITOST PRO PROJEKT: Základní historická evidence.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-042
+- ID: HIST-RM-042
+- OTÁZKA: Které archivní fondy v Česku nebo zahraničí obsahují nejvíce relevantních pramenů k historii Bílinské kyselky?
+- TÉMA: Archivní výzkum
+- PROČ SE NA NI PTÁME: Budoucí historik potřebuje vědět, kam se obrátit.
+- CO BY MĚLO BÝT DOHLEDÁNO: Konkrétní archivy, fondy, sbírky a katalogy.
+- DŮLEŽITOST PRO PROJEKT: Umožní další systematický výzkum.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-043
+- ID: HIST-RM-043
+- OTÁZKA: Existují dosud nevyužité německé, české nebo latinské prameny, které mohou obsahovat starší zmínky o Bílinské kyselce?
+- TÉMA: Jazykové prameny
+- PROČ SE NA NI PTÁME: Historické materiály mohou být rozptýleny v různých jazykových tradicích.
+- CO BY MĚLO BÝT DOHLEDÁNO: Katalogy, odborné edice, latinské, německé a české texty.
+- DŮLEŽITOST PRO PROJEKT: Rozšíření primární evidence.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-044
+- ID: HIST-RM-044
+- OTÁZKA: Existují středověké nebo raně novověké zmínky o prameni ukryté pod jiným názvem, než jaký dnes používáme?
+- TÉMA: Pátrání pod historickými názvy
+- PROČ SE NA NI PTÁME: Nejstarší doklad nemusí obsahovat moderní název Bílinská kyselka.
+- CO BY MĚLO BÝT DOHLEDÁNO: Historické názvy místa, vody, minerálního pramene a okolních lokalit.
+- DŮLEŽITOST PRO PROJEKT: Pátrání po nejstarších dokladech.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-045
+- ID: HIST-RM-045
+- OTÁZKA: Jak přesně rozlišit historický doklad o existenci pramene od dokladu o jeho konkrétním využívání?
+- TÉMA: Metodologie historického důkazu
+- PROČ SE NA NI PTÁME: Existence vody automaticky nedokládá lidské využití.
+- CO BY MĚLO BÝT DOHLEDÁNO: Metodické rozlišení a příklady z primárních pramenů.
+- DŮLEŽITOST PRO PROJEKT: Základní pravidlo HISTORIE PŘED FIKCÍ.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-046
+- ID: HIST-RM-046
+- OTÁZKA: Jak přesně rozlišit historický doklad o využívání pramene od tvrzení, že byl pramen „objeven“?
+- TÉMA: Metodologie objevení
+- PROČ SE NA NI PTÁME: „Objevení“ je často pozdější interpretační pojem.
+- CO BY MĚLO BÝT DOHLEDÁNO: Dobové formulace a jejich význam.
+- DŮLEŽITOST PRO PROJEKT: Správná formulace příběhu.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-047
+- ID: HIST-RM-047
+- OTÁZKA: Existuje historický důkaz, že některý z pozdějších autorů pouze převzal starší tradici bez vlastního ověření?
+- TÉMA: Přenos tradice
+- PROČ SE NA NI PTÁME: Opakované tvrzení v literatuře nemusí znamenat nezávislé potvrzení.
+- CO BY MĚLO BÝT DOHLEDÁNO: Citace mezi autory a původ jednotlivých tvrzení.
+- DŮLEŽITOST PRO PROJEKT: Odhalení řetězce tradovaných informací.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-048
+- ID: HIST-RM-048
+- OTÁZKA: Které historické informace o Bílinské kyselce se v literatuře opakují nejčastěji, ale mají ve skutečnosti pouze sekundární nebo tradovaný původ?
+- TÉMA: Historické mýty
+- PROČ SE NA NI PTÁME: Časté opakování není důkaz.
+- CO BY MĚLO BÝT DOHLEDÁNO: Řetězec citací až k nejstaršímu známému prameni.
+- DŮLEŽITOST PRO PROJEKT: Ochrana celého projektu před historickými legendami vydávanými za fakta.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-049
+- ID: HIST-RM-049
+- OTÁZKA: Které historické skutečnosti o Bílinské kyselce lze podle současného stavu výzkumu považovat za natolik pevně doložené, že mohou být použity jako základní pilíře komiksového příběhu?
+- TÉMA: Důkazní hierarchie
+- PROČ SE NA NI PTÁME: Komiks potřebuje jasně oddělit pevná fakta od otevřených otázek.
+- CO BY MĚLO BÝT DOHLEDÁNO: Souhrnná evidence primárních a sekundárních pramenů.
+- DŮLEŽITOST PRO PROJEKT: Budoucí historická databáze a scénář.
+- STAV: 🔴 OTEVŘENO
+
+### HIST-RM-050
+- ID: HIST-RM-050
+- OTÁZKA: Které části příběhu Bílinské kyselky zůstávají i po současném výzkumu zásadně neznámé a neměly by být v komiksu vyprávěny jako historická skutečnost?
+- TÉMA: Hranice historického poznání
+- PROČ SE NA NI PTÁME: Projekt má vědomě přiznávat místa, kde historické prameny mlčí.
+- CO BY MĚLO BÝT DOHLEDÁNO: Souhrn otevřených otázek, chybějících pramenů a sporných interpretací.
+- DŮLEŽITOST PRO PROJEKT: Základní ochrana principu HISTORIE PŘED FIKCÍ.
+- STAV: 🔴 OTEVŘENO
 
 ---
 
@@ -236,8 +684,14 @@ NEZKRACUJ seznam pouze kvůli pohodlí.
 
 ---
 
+Doplňkové otázky HIST-RM-001 až HIST-RM-050 byly vytvořeny Řídícím mozkem projektu PRAMEN jako druhá vrstva historického výzkumu. Nejde o tvrzení historických skutečností. Jde o pracovní otázky určené k budoucímu ověření.
+
+---
+
 MOZKY PŘEMÝŠLEJÍ.
 HISTORIK HLEDÁ.
 CORE PAMATUJE.
 
 HISTORIE PŘED FIKCÍ.
+
+---

@@ -1,5 +1,19 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-19] – ÚKOL 020.2 – doplnění 50 doplňkových historických otázek Řídícího mozku do 01_HISTORIK/OTEVRENE_OTAZKY.md
+
+### Added
+- Doplňeno 50 doplňkových otázek (HIST-RM-001 až HIST-RM-050) do historického zásobníku otevřených otázek.
+
+### Scope
+- Přidána druhá vrstva otevřených otázek pro budoucí ověření; žádné historické závěry ani odpovědi.
+
+### Status
+- RM QUESTIONS: ADDED
+- CORE: UNCHANGED
+
+---
+
 ## [2026-09-19] – ÚKOL 020.1 – NAPLNĚNÍ HISTORIKA OTEVŘENÝMI OTÁZKAMI
 
 ### Added
