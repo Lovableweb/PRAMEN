@@ -1,5 +1,20 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-19] – ÚKOL 020.1 – NAPLNĚNÍ HISTORIKA OTEVŘENÝMI OTÁZKAMI
+
+### Added
+- První naplnění `01_HISTORIK/OTEVRENE_OTAZKY.md` otázkami vyplývajícími z dosavadního historického výzkumu.
+
+### Scope
+- Zachyceny otevřené otázky k Schwenckfeldtovi, Troschelovi, Reussovi, chronologii Bílinské kyselky, roku 761, starším obdobím, průzkumům před Reussem, terminologii, Reussovi × Berzeliovi, Beethovenovi a dalším starším zmínkám.
+- Nebyly doplněny historické odpovědi ani nové historické skutečnosti.
+
+### Status
+- HISTORIK: OPEN QUESTIONS RECORDED
+- CORE: UNCHANGED
+
+---
+
 ## [2026-09-19] – CONTENT REGISTRY v1.0
 
 ### Added
