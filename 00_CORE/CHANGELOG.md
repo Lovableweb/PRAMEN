@@ -1,5 +1,20 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-19] – ÚKOL 023 – ZALOŽENÍ MASTER RECOVERY MAP
+
+### Added
+- Založení `01_RECOVERY/MASTER_RECOVERY_MAP.md`.
+
+### Purpose
+- Centrální řízení obnovy projektových a historických materiálů.
+- Oddělení fyzicky uložených souborů, evidence, fragmentů, odvozených dokumentů a chybějících materiálů.
+
+### Status
+- MASTER RECOVERY MAP: RECORDED
+- Žádný chybějící obsah nebyl rekonstruován.
+
+---
+
 ## [2026-09-19] – ÚKOL 020.2 – doplnění 50 doplňkových historických otázek Řídícího mozku do 01_HISTORIK/OTEVRENE_OTAZKY.md
 
 ### Added
