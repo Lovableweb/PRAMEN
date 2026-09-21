@@ -40,7 +40,7 @@ Karel Bašta je v pracovních materiálech veden jako historický hlas / průvod
 | Digitální Jirka | Současný průvodce a digitální AI postava | Narativní/digitální prvek | 🟡 pracovní koncept |
 | František Ambrož Reuss | Historická postava spojená s vědeckým zkoumáním Bíliny | Historická osoba | 🟡 historické scény musí být vázány na dokumentaci |
 | Jöns Jacob Berzelius | Historická osoba spojená s publikací o Zaječické hořké vodě z roku 1840 | Historická osoba | 🟢 publikace doložena; přítomnost v Bílině nedoložena |
-| Ludwig van Beethoven | V pracovních promptech uveden v souvislosti s Bílinou roku 1812 | Historická osoba | 🟡 status ponechat podle evidence; vyžaduje ověření |
+| Ludwig van Beethoven | Cesta s J. W. Goethem z Teplic do Bíliny 20. 7. 1812 | Historická osoba | 🟢 cesta doložena (Goethe, Tagebuch, WA III 4, 304, aktualizace 2026-09-21); 🟡 pramen/léčení/kyselka/setkání s Reussem zůstávají neověřeny |
 | Volf z Vřesovic | V pracovním promptu uveden u renesanční výstavby lázní v Teplicích | Historická osoba / scénářový prvek | 🟡 vyžaduje ověření proti scénáři a pramenům |
 | Wilhelm Zsigmondy a Eduard Sueß | V pracovním promptu uvedeni u záchrany Pravřídla roku 1879 | Historické osoby / scénářový prvek | 🟡 vyžaduje ověření |
 | Jirka + Karlíček | Možné cameo na straně 26 | Nerozhodnutý narativní prvek | 🟡 nepovažovat za definitivní |
@@ -79,7 +79,7 @@ V některých evidencích se používají alternativní názvy jako `Prolog`, `H
 | 16 | Bílina | Mladší Reuss u pramene s měřicími nástroji | 🟡 pracovní prompt | Reussova bibliografická existence doložena; scéna ověřit | publikace uváděny 1788, 1808 |
 | 17 | Bílina | Starší Reuss, chemické přístroje, věda proti mýtu | 🟡 pracovní prompt | metodická vazba na Berzelia neověřena | Reuss hlavní postava |
 | 18 | Bílina | Dopis/publikace a přenos metody, nikoli osobní návštěva | 🟡 pracovní prompt | osobní spolupráce nedoložena | bezpečná metafora přenosu |
-| 19 | Bílina | Beethoven v Bílině roku 1812 | 🟡 pracovní prompt | ponechat jako vyžadující ověření | nepřekročit dostupný důkaz |
+| 19 | Bílina | Beethoven a Goethe na cestě z Teplic k Bílině / příchod do historické Bíliny (1812); Kapka jako vizuální spojnice | 🟢 historické jádro doloženo (aktualizace 2026-09-21) | Goethe, Tagebuch, 20. 7. 1812, WA III 4, 304 — cesta doložena; NEIMPLIKOVAT konkrétní pramen, léčebný pobyt, pití kyselky ani setkání s Reussem (tato dílčí tvrzení zůstávají 🟡) | bezpečná formulace: „20. července 1812 jel Ludwig van Beethoven společně s Johannem Wolfgangem Goethem do Bíliny." |
 | 20 | Bílina | Stáčení, přeprava a obchod s kyselkou | 🟡 pracovní prompt | vyžaduje historické ověření | 19. století v promptu |
 | 21 | Bílina → Zaječice | Kapka opouští Bílinsko a přechází k Zaječicím | 🟡 pracovní prompt | symbolický přechod | tyrkysová → šedozelená |
 | 22 | Zaječice | Tichá krajina, studny, skromnější prostředí | 🟡 pracovní prompt | NEOBSAŽENO / NEOVĚŘENO | nejtišší tón |
@@ -137,7 +137,7 @@ Tabulka je pracovní konsolidace promptového materiálu, nikoli přepis schvál
 - Dohledat obrazové soubory stran 1–30.
 - Formalizovat R-031 bez vytvoření nového stylu.
 - Ověřit historické body u Teplic, Bíliny a Zaječic.
-- Vyřešit status Beethovena v Bílině roku 1812.
+- Vyřešit status Beethovena v Bílině roku 1812 — ČÁSTEČNĚ VYŘEŠENO 2026-09-21: cesta Beethoven+Goethe do Bíliny 20. 7. 1812 doložena (Goethe, Tagebuch, WA III 4, 304). Zbývá ověřit: konkrétní pramen, léčebný pobyt, pití kyselky, setkání s Reussem.
 - Ověřit Reussovy primární texty a metodickou vazbu Reuss × Berzelius.
 - Rozhodnout, zda a jak použít cameo Jirka + Karlíček.
 - Neuzavírat neověřené scény jako historická fakta.

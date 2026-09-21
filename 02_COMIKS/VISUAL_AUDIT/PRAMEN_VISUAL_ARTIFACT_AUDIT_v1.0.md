@@ -63,7 +63,7 @@ Zdroj: archivní přepis, PDF strana 1–2 (⚠️ DŮLEŽITÉ UPOZORNĚNÍ v so
 
 Recovery status navíc potvrzuje: **samotná KOMIKSOVÁ BIBLE v1.0 jako kompletní originální dokument nebyla v repozitáři nalezena** — existuje jen jako registrovaná reference (`CONTENT_REGISTRY.md` C-002, `SOURCE_REGISTRY.md` SR-007, oba 🟡). Image prompty tedy nelze považovat za potvrzený finální scénář.
 
-## 7. GUARDRAILS (ověřeno přímo v archivním přepisu, PDF strana 17, 18, 26, 27, 29)
+## 7. GUARDRAILS (ověřeno přímo v archivním přepisu, PDF strana 17, 18, 19, 26, 27, 29)
 
 | Guardrail | Umístění ve zdroji | Přesné znění |
 |---|---|---|
@@ -73,6 +73,7 @@ Recovery status navíc potvrzuje: **samotná KOMIKSOVÁ BIBLE v1.0 jako kompletn
 | Berzelius | PDF str. 27 | „Berzelius osobně v Bílině = mýtus, nedoloženo — NEZOBRAZOVAT"; „Rok 1786 u Berzelia v Bílině = vyvráceno (Berzelius nar. 1779)" |
 | str. 17 — Reuss | PDF str. 17 (komiksová STRANA 17) | Reuss u pramene s dobovými chemickými přístroji; „Reuss je HLAVNÍ postava (R-030), NE Berzelius. Žádná scéna s Berzeliem osobně v Bílině — nedoloženo, fyzicky nemožné před 1786." |
 | str. 18 — metoda cestuje | PDF str. 17–18 (komiksová STRANA 18) | Vizuální metafora „metoda cestuje, osobní návštěva ne" — dopis/publikace putující mezi Švédskem a Čechami, žádné fyzické setkání Reuss–Berzelius zobrazeno. |
+| str. 19 — Beethoven × Bílina 1812 (aktualizováno 2026-09-21) | `01_HISTORIK/CLAIM_DATABASE.md` (BIL-BEETHOVEN-1812), `01_RECOVERY/RECOVERY-005...` §30 | 🟢 DOLOŽENO A SMÍ SE ZOBRAZIT: Beethoven a Goethe na cestě z Teplic do Bíliny / příchod do historické Bíliny 20. 7. 1812 (Goethe, Tagebuch, WA III 4, 304). Kapka smí sloužit jako vizuální spojnice. 🟡 NESMÍ SE PREZENTOVAT JAKO FAKT: Beethoven u konkrétního pramene, Beethoven pijící Bílinskou kyselku, Beethoven se v Bílině léčí, Beethoven se setkává s Reussem, že účelem cesty byla kyselka. |
 | str. 26 — Jirka + Karlíček | PDF str. 22–23 a str. 27 (komiksová STRANA 26 — pozor: v samotném souboru se stránkování mírně rozchází, přesná citace níže) | „POZNÁMKA: Cameo Jirka + Karlíček zatím NEROZHODNUTO — tento prompt nechává prostor obecný, ne konkrétní portrét." (shrnutí PDF str. 27: „Cameo Jirka + Karlíček (str. 26) = zatím nerozhodnuto, ponechat obecné") |
 | str. 29 — bez insolvence | PDF str. 25–26 (komiksová STRANA 29) | „DŮLEŽITÉ: BEZ zmínky/vizuální narážky na insolvenci firmy — replika i vizuál musí zůstat čistě reflexivní, bez firemního kontextu." (shrnutí PDF str. 27: „Insolvence firmy na str. 29 = NEZMIŇOVAT vizuálně ani textově") |
 
