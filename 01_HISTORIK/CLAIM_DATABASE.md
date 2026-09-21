@@ -1,12 +1,14 @@
 # PRAMEN – CLAIM DATABASE v1.0
 
 **Účel:** Centrální databáze historických tvrzení projektu PRAMEN.
-**Zdroj dat:** výhradně [[RECOVERY-005_HISTORICKA_BADATELNA_CHECKPOINT_1]] a [[RECOVERY-006_ZAJECICE_CHECKPOINT_2]] (obojí konsolidované checkpointy z PRAMEN – HISTORICKÁ BADATELNA), doplněno o `01_HISTORIK/OTEVRENE_OTAZKY.md` tam, kde je relevantní.
+**Zdroj dat:** výhradně [[RECOVERY-005_HISTORICKA_BADATELNA_CHECKPOINT_1]], [[RECOVERY-006_ZAJECICE_CHECKPOINT_2]] a [[RECOVERY-007_TEPLICE_INTEGRACNI_AUDIT_HB026]] (konsolidované checkpointy/audity z PRAMEN – HISTORICKÁ BADATELNA), doplněno o `01_HISTORIK/OTEVRENE_OTAZKY.md` tam, kde je relevantní.
 **Metodika:** viz [[PRAMEN_MASTER]] a [[PRAMEN_AI_PROTOCOL]] — HISTORIE PŘED FIKCÍ.
 
 Žádný nový claim nebyl vymyšlen. Žádný status nebyl zvýšen oproti zdrojovým checkpointům jen proto, že se tvrzení opakuje. Tabulka obsahuje minimální požadovanou sadu claimů dle zadání Kroku 03.
 
-**Aktualizace 2026-09-21:** `BIL-BEETHOVEN-1812` povýšen z YELLOW na GREEN na základě nově předloženého primárního dokladu (Goetheho deník, WA III 4, 304) — viz řádek níže. Jde o jedinou změnu statusu od založení tabulky; provedena na pokyn Jirky s konkrétním důkazním podkladem, ne svévolně.
+**Aktualizace 2026-09-21:** `BIL-BEETHOVEN-1812` povýšen z YELLOW na GREEN na základě nově předloženého primárního dokladu (Goetheho deník, WA III 4, 304) — viz řádek níže. Provedena na pokyn Jirky s konkrétním důkazním podkladem, ne svévolně.
+
+**Aktualizace 2026-09-22:** Doplněno 7 nových claimů z integračního auditu HB-026 (Historická badatelna): `TEP-BALNEA-1446`, `TEP-BALNEA-1477`, `TEP-WICKART-BODILY-1477`, `TEP-WICKART-HEALING-1477` (RED), `TEP-BUILDING-1477` (RED), `TEP-BUILDING-1581`, `TEP-FIRST-BATHS-1581` (RED). Přesahuje minimální sadu 19 claimů z Kroku 03 — doplněno na explicitní pokyn Jirky po předání auditu HB-026.
 
 **TYP EVIDENCE:** PRIMARY / SECONDARY / BIBLIOGRAPHIC / TRADITION / ARCHIVAL_TRACE
 **STATUS:** GREEN / YELLOW / RED
@@ -34,6 +36,13 @@
 | TEP-JUDITA-1156-1167 | Judita Durynská / teplické klášterní prostředí jako raný dokumentační horizont Teplic | — | — | SECONDARY | YELLOW | Důležitý raný dokumentační horizont, ale vyžaduje přímou kolaci v rámci teplické větve. (RECOVERY-005 §28) |
 | TEP-DOLLINGER-1879 | Katastrofa/zatopení Döllingerova dolu 10. 2. 1879 (21 obětí) a obnova Pravřídla 3. 3. 1879 | jména Wilhelm Zsigmondy, Eduard Sueß | — | SECONDARY | YELLOW | Historicky velmi relevantní a opakovaně uváděné údaje, ale primární/archivní kolace v této badatelně ještě nedokončena; nepoužívat dosud jako plně uzavřený claim bez označení. (RECOVERY-005 §29) |
 | BIL-BEETHOVEN-1812 | Ludwig van Beethoven navštívil Bílinu roku 1812 (dne 20. 7. 1812 odjel spolu s J. W. Goethem z Teplic do Bíliny) | Johann Wolfgang Goethe, Tagebuch, 20. 7. 1812: „Abends mit Beethoven nach Bilin zu gefahren." Kritická edice: WA III 4, 304. | WA III 4, s. 304 | PRIMARY | GREEN | **Aktualizováno 2026-09-21** (dříve YELLOW) na základě primárního dokladu — Goetheho deníkového zápisu, který potvrzuje samotnou cestu/návštěvu. Tento claim pokrývá VÝHRADNĚ tuto cestu. NEPOTVRZUJE a nezahrnuje: pití Bílinské kyselky, léčení se v Bílině, návštěvu konkrétního pramene, setkání s Reussem, ani že účelem cesty byla kyselka — tato dílčí tvrzení zůstávají samostatně 🟡 VYŽADUJE OVĚŘENÍ a nejsou tímto claimem dotčena. (RECOVERY-005 §30, aktualizace k tomuto datu) |
+| TEP-BALNEA-1446 | Nejpozději roku 1446 jsou teplické lázně přímo doloženy písemným pramenem | Prokop z Rabštejna, 1446: „chvátal do lázně do Teplice" | — | PRIMARY | GREEN | Dokládá pouze existenci lázně, ke které Prokop směřuje — NE podobu stavby, veřejný provoz, léčebný systém, personál, přesné umístění ani způsob koupání. (RECOVERY-007, integrační audit HB-026, §2) |
+| TEP-BALNEA-1477 | Roku 1477 písemný pramen výslovně uvádí v Teplicích „warmen badt" (teplou lázeň) | Ernst Saský → Johann Ilburk, 29. 8. 1477: „geyn Topliicz", „im warmen badt" | — | PRIMARY | GREEN | Nezávislý doklad od Prokopa 1446 — jiný pramen, jiný rok. (RECOVERY-007, §3) |
+| TEP-WICKART-BODILY-1477 | Pramen z roku 1477 spojuje plánované využití teplé lázně Hansem Wickartem s „notdorft ... sines libes" (tělesnou potřebou) | Ernst Saský → Johann Ilburk, 29. 8. 1477 | — | PRIMARY | GREEN | Neříká „léčba", „nemoc" ani „terapie" — jen obecnou tělesnou potřebu. Nepotvrzuje ani, že Wickart cestu skutečně uskutečnil (šlo o plán/záměr). (RECOVERY-007, §3) |
+| TEP-WICKART-HEALING-1477 | Wickart jel do Teplic na léčbu | — | — | PRIMARY | RED | ZAKÁZÁNO/NEPROKÁZÁNO — pramen uvádí jen „tělesnou potřebu", ne léčbu/nemoc/terapii. Nezaměňovat s `TEP-WICKART-BODILY-1477`. (RECOVERY-007, §3, §9) |
+| TEP-BUILDING-1477 | Roku 1477 stála v Teplicích konkrétní zděná lázeňská budova | — | — | PRIMARY | RED | NEPROKÁZÁNO — dopis z 1477 je textový doklad úmyslu/plánu, ne popis konkrétní stavby. (RECOVERY-007, §7, §9) |
+| TEP-BUILDING-1581 | Roku 1581 je archeologicky doložena konkrétní zděná lázeňská stavba | archeologická evidence / muzejní dokumentace | — | PRIMARY | GREEN | Nejstarší dosud archeologicky zjištěná zděná lázeňská stavba v Teplicích. NEPOUŽÍVAT jako „první teplické lázně" (písemné doklady 1446 a 1477 jsou starší) a NEPŘEDPOKLÁDAT identitu se stavbou, ke které se vztahují doklady 1446/1477 — jde o odlišné typy důkazů (text vs. archeologie). (RECOVERY-007, §4, §7, §9) |
+| TEP-FIRST-BATHS-1581 | Roku 1581 vznikly první teplické lázně | — | — | ARCHIVAL_TRACE | RED | ZAKÁZÁNO — textové doklady 1446 a 1477 jsou starší než archeologický nález 1581; 1581 není počátkem teplického lázeňství. (RECOVERY-007, §4, §9) |
 
 ---
 

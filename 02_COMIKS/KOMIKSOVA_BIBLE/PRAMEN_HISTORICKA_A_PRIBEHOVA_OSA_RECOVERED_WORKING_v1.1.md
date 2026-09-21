@@ -42,6 +42,7 @@ Přesné pořadí a názvy nejsou v dostupném původním scénáři v repozitá
 - Teplice jsou součástí regionálního příběhu pramenů a lázeňského vývoje.
 - Pracovní materiál uvádí rané Teplice, teplé prameny, osídlení a klášter.
 - Nejstarší doložená zpráva o klášteru u teplých vod je v pracovním promptu uvedena v rozmezí 1156–1167 v souvislosti s Juditou Durynskou; konkrétní pramen a přesné scénářové použití vyžadují ověření.
+- **Aktualizace 2026-09-22 (integrační audit HB-026, viz `01_RECOVERY/RECOVERY-007...`):** 🟢 Nejpozději roku 1446 je v Teplicích písemně doložena lázeň (Prokop z Rabštejna: „chvátal do lázně do Teplice"). 🟢 Roku 1477 jiný písemný pramen (Ernst Saský → Johann Ilburk, 29. 8. 1477) výslovně uvádí „warmen badt" (teplá lázeň) a spojuje plánované využití Hansem Wickartem s „notdorft ... sines libes" (tělesnou potřebou) — 🔴 NEPOUŽÍVAT jako doklad léčby/nemoci/terapie, ani jako potvrzení, že cesta skutečně proběhla. 🟢 Roku 1581 je archeologicky doložena konkrétní zděná lázeňská stavba — 🔴 NEPOUŽÍVAT jako „první teplické lázně" (písemné doklady 1446 a 1477 jsou starší) a 🔴 NEPŘEDPOKLÁDAT, že jde o stejnou stavbu, ke které se vztahují doklady z 1446/1477. 1446 a 1477 jsou dva samostatné písemné doklady, ne důkaz nepřetržitého provozu 1446–1477.
 - Lázeňský rozvoj je v pracovní dramaturgii rozvíjen přes středověké, renesanční, barokní a 19. století.
 - Volf z Vřesovic je v promptu uveden u budování zděných lázní v 16. století; detailní důkaz zde není přiložen.
 - 19. století je pracovní vrchol lázeňského společenského života.
@@ -51,7 +52,7 @@ Přesné pořadí a názvy nejsou v dostupném původním scénáři v repozitá
 
 ### Stav
 
-🟡 Pracovní historicko-dramaturgický materiál. Kompletní původní historická kapitola Teplice ani původní osa nebyly nalezeny. Rok 762 je legenda a nesmí být použit jako doložený rok objevení pramene.
+🟡 Pracovní historicko-dramaturgický materiál. Kompletní původní historická kapitola Teplice ani původní osa nebyly nalezeny. Rok 762 je legenda a nesmí být použit jako doložený rok objevení pramene. **Aktualizace 2026-09-22:** roky 1446 a 1477 jsou nyní 🟢 bezpečně doložené písemné body lázeňského využití (viz výše) — nejde o legendu jako u 762, ale ani o důkaz nepřetržitého provozu nebo konkrétní budovy.
 
 ## 4. BÍLINA
 

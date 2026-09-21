@@ -79,6 +79,18 @@ Recovery status navíc potvrzuje: **samotná KOMIKSOVÁ BIBLE v1.0 jako kompletn
 
 **Pozn. k číslování:** archivní přepis obsahuje mírný nesoulad mezi číslem PDF stránkového zlomu a číslem komiksové STRANY (text jedné komiksové strany často pokračuje přes hranici PDF stránky). Guardraily výše jsou citovány podle **komiksového číslování STRANA X**, které je v přepisu explicitně uvedeno u každého promptu, ne podle PDF page-breaku.
 
+## 7b. GUARDRAILS — TEPLICE 1446/1477/1581 (integrační audit HB-026, 2026-09-22)
+
+Tyto guardraily **nejsou zatím vázané na konkrétní stranu komiksu** — audit HB-026 nepřišel s dramaturgickým rozhodnutím o konkrétní scéně (na rozdíl od Beethovena/str. 19). Platí obecně pro jakoukoli budoucí vizualizaci teplického středověkého lázeňství. Zdroj: `01_RECOVERY/RECOVERY-007_TEPLICE_INTEGRACNI_AUDIT_HB026.md`.
+
+| Rok | 🟢 Lze vizualizovat | 🔴 Nelze bez dalšího vizualizovat/tvrdit |
+|---|---|---|
+| 1446 (Prokop) | osobu cestující do Teplic; lázeň jako místo; dobové prostředí | konkrétní historickou budovu, přesný bazén, konkrétní zařízení, personál |
+| 1477 (Wickart) | Hanse Wickarta jako historickou osobu (POKUD je vizuální podoba označena jako rekonstruovaná/ilustrativní, ne portrétně doložená); jeho cestu do Teplic; zamýšlené uložení do teplé lázně | konkrétní typ vany, konkrétní budovu, lázeňský personál, nemoc, léčebný rituál |
+| 1581 (archeologie) | archeologicky doložený typ stavby v rozsahu odpovídajícím nálezům | zpětné použití stavby z 1581 jako jisté podoby lázně z roku 1477 (jiný typ důkazu, není prokázaná identita) |
+
+Obecný zákaz napříč všemi třemi roky: NEPROPOJOVAT 1446/1477/1581 v ilustraci jako jistou identitu jedné stavby — lze je propojit pouze chronologicky („starší písemné svědectví" → „pozdější archeologicky doložená stavba"), ne fyzicky.
+
 ## 8. ODDĚLENÍ VIZUÁLNÍ REFERENCE OD HISTORICKÝCH PRAMENŮ
 
 Vizuální prompty (`ARCHIVE/SOURCES/PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md`) jsou **art-direction materiál**, odvozený z historického kontextu, ale nejsou to historické prameny samotné. Historické claimy a jejich GREEN/YELLOW/RED status jsou vedeny výhradně v `01_HISTORIK/CLAIM_DATABASE.md` a `01_RECOVERY/RECOVERY-005...`/`RECOVERY-006...`. Tento audit sám o sobě nemění ani nepotvrzuje žádný historický status — pouze konstatuje, že vizuální prompty na str. 17 (Reuss) a str. 18 (metoda cestuje) jsou v souladu s historickými guardraily již zapsanými v Claim Database (BIL-REUSS-1788/1801/1808, RED-body k Berzeliovi v RECOVERY-005 §2).
