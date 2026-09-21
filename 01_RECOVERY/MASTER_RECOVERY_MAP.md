@@ -6,6 +6,8 @@ Datum:
 Aktualizováno:
 2026-09-21 (po Krocích 01–05 GITHUB TRANSFER MASTER PACK — RECOVERY-005, RECOVERY-006, CLAIM DATABASE, VISUAL AUDIT, CROSS-AUDIT). Původní datum a obsah k 2026-09-19 zůstává beze změny níže, tento update pouze doplňuje sekci 2 o nově uložené soubory.
 
+2026-09-22 (integrace HB-026 — RECOVERY-007, viz sekce 2c). Obsah k 2026-09-19 a 2026-09-21 zůstává beze změny.
+
 Účel:
 Centrální mapa všech projektových materiálů, které jsou bezpečně uloženy,
 uloženy částečně, pouze evidovány, nalezeny v Git historii, fyzicky chybějí,
@@ -97,6 +99,40 @@ Cross-Audit (Krok 05) navíc zaznamenal jeden konkrétní rozpor mezi
 vizuální a historickou vrstvou (strana 19, Beethoven 1812 — prompt
 uvádí „doloženo 🟢", CLAIM DATABASE vede jako 🟡). Tento rozpor zůstává
 otevřený a NEBYL tímto updatem vyřešen — viz Cross-Audit dokument.
+
+(Pozn.: tento konkrétní rozpor byl následně vyřešen samostatnými
+kontrolovanými zápisy 2026-09-21/22, mimo rozsah tohoto updatu — viz
+commity `621a997...` a `35e0d53...`; sekce 2b výše se ponechává beze
+změny jako historický záznam stavu k 2026-09-21.)
+
+────────────────────────────────────────
+2c. NOVĚ ULOŽENO — INTEGRAČNÍ AUDIT HB-026 (2026-09-22)
+────────────────────────────────────────
+
+| Cesta | Známý commit |
+|---|---|
+| `01_RECOVERY/RECOVERY-007_TEPLICE_INTEGRACNI_AUDIT_HB026.md` | `88f62dd307dcdbeb8bfec8732fa4bfa3eb0a909c` |
+| `01_HISTORIK/CLAIM_DATABASE.md` (upraven, +7 claimů) | `88f62dd307dcdbeb8bfec8732fa4bfa3eb0a909c` |
+| `02_COMIKS/KOMIKSOVA_BIBLE/PRAMEN_HISTORICKA_A_PRIBEHOVA_OSA_RECOVERED_WORKING_v1.1.md` (upraven, §3 Teplice) | `88f62dd307dcdbeb8bfec8732fa4bfa3eb0a909c` |
+| `02_COMIKS/VISUAL_AUDIT/PRAMEN_VISUAL_ARTIFACT_AUDIT_v1.0.md` (upraven, nová §7b) | `88f62dd307dcdbeb8bfec8732fa4bfa3eb0a909c` |
+
+OBSAH: Integrační audit HB-026 (PRAMEN – Historická badatelna) k teplické
+lázeňské chronologii — Prokop z Rabštejna 1446 (🟢 písemný doklad lázně),
+Ernst Saský / Hans Wickart 1477 (🟢 písemný doklad „warmen badt" a tělesné
+potřeby; 🔴 NEPOUŽÍVAT jako doklad léčby, konkrétní budovy ani potvrzené
+cesty), a archeologicky doložená zděná lázeňská stavba 1581 (🟢; 🔴
+NEPOUŽÍVAT jako „první teplické lázně" ani jako stejnou stavbu jako
+1446/1477). RECOVERY-007 je klasifikace 🟡 D (odvozený dokument, věrný
+přepis auditu) — konsoliduje výzkum z Historické badatelny, není to
+primární pramen sám o sobě. 7 nových claimů v Claim Database.
+
+DŮLEŽITÉ ROZLIŠENÍ: Tento update NEPŘIŘAZUJE roky 1446/1477/1581 žádné
+konkrétní straně komiksu — audit sám nepřišel s dramaturgickým
+rozhodnutím o umístění (na rozdíl od Beethovena/str. 19). Storyboard,
+Komiksová Bible v1.0 a Historická a příběhová osa v1.1 jako PŮVODNÍ
+dokumenty zůstávají 🔴 F/G (nenalezeno) přesně jako před tímto updatem —
+zapsaný soubor `..._RECOVERED_WORKING_v1.1.md` je odvozený pracovní
+dokument, ne nalezený originál.
 
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY

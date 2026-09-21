@@ -1,5 +1,32 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-22] – INTEGRACE HB-026 – TEPLICE 1446/1477/1581
+
+### Commit SHA
+- `88f62dd307dcdbeb8bfec8732fa4bfa3eb0a909c`
+
+### Added
+- `01_RECOVERY/RECOVERY-007_TEPLICE_INTEGRACNI_AUDIT_HB026.md`
+
+### Changed
+- `01_HISTORIK/CLAIM_DATABASE.md` (+7 claimů: TEP-BALNEA-1446, TEP-BALNEA-1477, TEP-WICKART-BODILY-1477, TEP-WICKART-HEALING-1477, TEP-BUILDING-1477, TEP-BUILDING-1581, TEP-FIRST-BATHS-1581)
+- `02_COMIKS/KOMIKSOVA_BIBLE/PRAMEN_HISTORICKA_A_PRIBEHOVA_OSA_RECOVERED_WORKING_v1.1.md` (§3 Teplice — nová chronologie 1446/1477/1581)
+- `02_COMIKS/VISUAL_AUDIT/PRAMEN_VISUAL_ARTIFACT_AUDIT_v1.0.md` (nová §7b — guardraily pro 1446/1477/1581)
+
+### Purpose
+- Integrovat výsledek integračního auditu HB-026 (PRAMEN – Historická badatelna) do GitHub CORE na explicitní pokyn Jirky ("Ano chci to celé najednou").
+- Prokop z Rabštejna 1446 a Ernst Saský/Hans Wickart 1477 doloženy jako dva nezávislé písemné doklady teplické lázně; archeologicky doložená zděná stavba 1581 odlišena jako jiný typ důkazu, NE počátek lázeňství ani stejná stavba jako 1446/1477.
+
+### Type
+- ADD (RECOVERY-007) + UPDATE (Claim Database, Osa, Visual Audit)
+
+### Status
+- HB-026: INTEGROVÁNO
+- Žádné přiřazení k číslu strany komiksu neprovedeno (audit nepřišel s dramaturgickým rozhodnutím).
+- Žádný jiný claim/status mimo HB-026 nebyl touto integrací dotčen.
+
+---
+
 ## [2026-09-21] – GITHUB TRANSFER SESSION – KROK 06 – UPDATE MASTER RECOVERY MAP
 
 ### Commit SHA
