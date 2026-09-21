@@ -3,6 +3,9 @@
 Datum:
 2026-09-19
 
+Aktualizováno:
+2026-09-21 (po Krocích 01–05 GITHUB TRANSFER MASTER PACK — RECOVERY-005, RECOVERY-006, CLAIM DATABASE, VISUAL AUDIT, CROSS-AUDIT). Původní datum a obsah k 2026-09-19 zůstává beze změny níže, tento update pouze doplňuje sekci 2 o nově uložené soubory.
+
 Účel:
 Centrální mapa všech projektových materiálů, které jsou bezpečně uloženy,
 uloženy částečně, pouze evidovány, nalezeny v Git historii, fyzicky chybějí,
@@ -65,6 +68,35 @@ DŮLEŽITÉ:
 Poznámka: Uvedené soubory jsou fyzicky přítomné v aktuálním tree. Registry,
 evidence a recovery soubory nejsou tímto označeny za původní materiály,
 které pouze registrují.
+
+────────────────────────────────────────
+2b. NOVĚ ULOŽENO — GITHUB TRANSFER MASTER PACK, KROKY 01–05 (2026-09-21)
+────────────────────────────────────────
+
+| Cesta | Známý commit | Krok |
+|---|---|---|
+| `01_RECOVERY/RECOVERY-005_HISTORICKA_BADATELNA_CHECKPOINT_1.md` | `f42bba21f6cac121006b4ad9cf62e83c396a236c` | Krok 01 |
+| `01_RECOVERY/RECOVERY-006_ZAJECICE_CHECKPOINT_2.md` | `a7f5d9e9d7ff0a248998ecba307791d74eb0c6b8` | Krok 02 |
+| `01_HISTORIK/CLAIM_DATABASE.md` | `bc3a0bcd9490a45647e4eb7387717c6c710cb7a1` | Krok 03 |
+| `02_COMIKS/VISUAL_AUDIT/PRAMEN_VISUAL_ARTIFACT_AUDIT_v1.0.md` | `d8787e1d775479033f1fb707ab71b3b081cd6c0a` | Krok 04 |
+| `02_COMIKS/AUDIT/PRAMEN_SCENAR_HISTORIE_VISUAL_CROSS_AUDIT_v1.0.md` | `8e1566a27090d76550af559758463120df56f035` | Krok 05 |
+
+DŮLEŽITÉ ROZLIŠENÍ: Tyto soubory jsou **nové odvozené/konsolidační dokumenty**
+(checkpointy z Historické badatelny, databáze claimů, audity), NIKOLI nově
+nalezené originály. Nenahrazují a nezneplatňují žádnou položku v sekci 3
+níže — KOMIKSOVÁ BIBLE v1.0, HISTORICKÁ A PŘÍBĚHOVÁ OSA v1.1, BK-001,
+HT-BK-003, storyboard, `PRAMEN_image_prompty_str1-30.pdf` a další zůstávají
+🔴 F/G (nenalezeno) přesně jako před tímto updatem. RECOVERY-005 a
+RECOVERY-006 jsou klasifikace 🟡 D (odvozený dokument) — konsolidují
+výzkum z Historické badatelny, ale nejsou to primární prameny samy o sobě.
+CLAIM DATABASE, VISUAL AUDIT a CROSS-AUDIT jsou klasifikace 🟡 D/E —
+odvozené evidenční dokumenty postavené na RECOVERY-005/006 a existujícím
+archivu promptů.
+
+Cross-Audit (Krok 05) navíc zaznamenal jeden konkrétní rozpor mezi
+vizuální a historickou vrstvou (strana 19, Beethoven 1812 — prompt
+uvádí „doloženo 🟢", CLAIM DATABASE vede jako 🟡). Tento rozpor zůstává
+otevřený a NEBYL tímto updatem vyřešen — viz Cross-Audit dokument.
 
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY
