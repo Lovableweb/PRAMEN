@@ -1,0 +1,38 @@
+# PRAMEN – CLAIM DATABASE v1.0
+
+**Účel:** Centrální databáze historických tvrzení projektu PRAMEN.
+**Zdroj dat:** výhradně [[RECOVERY-005_HISTORICKA_BADATELNA_CHECKPOINT_1]] a [[RECOVERY-006_ZAJECICE_CHECKPOINT_2]] (obojí konsolidované checkpointy z PRAMEN – HISTORICKÁ BADATELNA), doplněno o `01_HISTORIK/OTEVRENE_OTAZKY.md` tam, kde je relevantní.
+**Metodika:** viz [[PRAMEN_MASTER]] a [[PRAMEN_AI_PROTOCOL]] — HISTORIE PŘED FIKCÍ.
+
+Žádný nový claim nebyl vymyšlen. Žádný status nebyl zvýšen oproti zdrojovým checkpointům jen proto, že se tvrzení opakuje. Tabulka obsahuje minimální požadovanou sadu claimů dle zadání Kroku 03.
+
+**TYP EVIDENCE:** PRIMARY / SECONDARY / BIBLIOGRAPHIC / TRADITION / ARCHIVAL_TRACE
+**STATUS:** GREEN / YELLOW / RED
+
+---
+
+| CLAIM-ID | CLAIM | PRAMEN | STRANA/LIST | TYP EVIDENCE | STATUS | POZNÁMKA |
+|---|---|---|---|---|---|---|
+| BIL-761 | Bílina, rok 761, jako datum objevu Bílinské kyselky | tradice spojená s Hájkem z Libočan | — | TRADITION | RED | Nepoužívat jako datum objevu; pozdější historická tradice/legendární podání, ne doložené datum. (RECOVERY-005 §2) |
+| TEP-762 | Teplice, rok 762, jako datum objevu Teplických pramenů | tradice/legenda | — | TRADITION | RED | Nepoužívat jako doložené datum objevu. (RECOVERY-005 §2, §28) |
+| BIL-SCHWENCKFELDT-1607 | Existence a obsah díla Schwenckfeldta k Bílinské kyselce | Caspar Schwenckfeldt, *Thermae Teplicenses*, Görlitz, Johann Rhambaw, 1607 (VK Olomouc sign. 14.797) | ? (přímá kolace nedokončena) | PRIMARY | YELLOW | Existence díla, rok, autor a existence Bílinské kapitoly jsou GREEN; přímá kolace originálních stran a interpretace „vires historici" jsou YELLOW; rok 1607 nelze interpretovat jako datum objevu pramene (RED aspekt). (RECOVERY-005 §3, §32 – explicitní příklad zdroje) |
+| BIL-TROSCHEL-1762 | Existence a obsah díla Troschela k Bílinské kyselce | Heinrich Gottlob Nepomuck Troschel, *Erforderliche Nachrichten von dem Biliner Sauer-Brunnen...*, 1762 | ? (text nekolacionován) | PRIMARY | YELLOW | Existence díla, rok a obsahová struktura GREEN; vlastní text a vztah k Hájkovi/Schwenckfeldtovi/761 nekolacionován. Troschel 1762 = Bílina (nezaměňovat s Troschel 1761 = Zaječice). (RECOVERY-005 §4, §32) |
+| ZAJ-HOFFMANN-1717 | Sedlitz a Seydschütz objeveny roku 1717 | Hoffmannův tisk z roku 1738 (zpětné tvrzení) | — | SECONDARY | YELLOW | Jde pouze o pozdější vlastní tvrzení Hoffmanna (tisk 1738), ne o dochovaný dokument z roku 1717. Žádný soudobý dokument z 1717 nalezen nebyl. (RECOVERY-005 §17, §25; RECOVERY-006 Záplata 021, Hoffmann 1738) |
+| ZAJ-HOFFMANN-1725 | Existence Hoffmannova tisku o pramenu v Sedlitz 1725 | Hoffmann, *Gründlicher Bericht... Des zu Sedlitz in Böhmen Neuentdeckten Bittern purgierenden Brunnens*, 1725 | — | PRIMARY | GREEN | Primární bibliografický objekt doložen. (RECOVERY-005 §17, §25) |
+| ZAJ-HOFFMANN-1727 | Existence Hoffmannova tisku o pramenu v Sedlitz 1727 | Hoffmann, *Gründlicher Bericht...*, 1727, LMU digitalizát, sign. 0014/W 8 Med. 3574#1 | 61 stran | PRIMARY | GREEN | Primární bibliografický objekt doložen (digitalizát existuje). (RECOVERY-005 §17) |
+| ZAJ-HOFFMANN-1738 | Hoffmannův tisk 1738 a jeho tvrzení o roku objevu | Hoffmann, *Gründlicher Bericht von denen zu Sedlitz und Seydschütz...*, Leipzig, Hochheimer, 1738, LMU sign. 0014/W 8 Med. 3833 | 14 stran + 1 list | PRIMARY | YELLOW | Existence tisku doložena; bezpečná formulace je „tisk z roku 1738 uvádí rok 1717 jako rok objevení" — ne že existuje dokument z 1717. (RECOVERY-005 §17; RECOVERY-006 Hoffmann 1738) |
+| ZAJ-KOHL-1727 | Mathes Kohl senior získal 3. 7. 1727 výhradní povolení k prodeji Saidschützer Bitterwasser | Troschel 1761 (dle rekonstrukce Schlarb 2023) | B4 verso | PRIMARY přes SECONDARY | YELLOW | Explicitní příklad ze zdroje (RECOVERY-005 §32). Kohl toto postavení nedokázal prosadit; originální dekret nenalezen; nepoužívat slovo „monopol". (RECOVERY-005 §21–22; RECOVERY-006 Kohl 1727) |
+| ZAJ-NAP-1727 | Archivní stopa k padělkům/podvodům kolem hořkých vod, červen 1727 | NAP, RŘK, Archiv, box 1298, inv. 794, dopis červen 1727 | — | ARCHIVAL_TRACE | YELLOW | Archivní reference identifikována přes sekundární práci (Schlarb); originální dopis nebyl přímo přečten. (RECOVERY-005 §24, §25; RECOVERY-006 Archivní stopy) |
+| ZAJ-SOAL-1780 | Archivní pramen — pozemková kniha Zaječic, smlouva 12. 7. 1780 | SOAL, inv. č. 127, sign. OS Most 969 | — | ARCHIVAL_TRACE | YELLOW | Archivní reference identifikována; obsah nekolacionován. (RECOVERY-005 §23; RECOVERY-006 Archivní stopy) |
+| BIL-REUSS-1788 | Existence díla Reusse o Bílinské kyselce, 1788 | Franz Ambros Reuß, *Naturgeschichte der Biliner Sauerbrunnen in Böhmen*, Prag, Schönfeld, 1788, VD18 13943804 | 316 stran, 5 skládacích rytin | PRIMARY | GREEN | Bezpečně identifikováno. (RECOVERY-005 §7) |
+| BIL-REUSS-1801 | Reuss 1801 jako nezměněné nové vydání díla z 1788 | Reuss, *Neue unveränderte Auflage*, Prag, Calve, 1801 | 316 vs. 376 stran (rozpor v katalozích) | PRIMARY | YELLOW | Existence a vztah k 1788 dobově potvrzeny; rozpor v udávaném rozsahu stran vyžaduje fyzickou kolaci — neopravovat násilně. (RECOVERY-005 §7) |
+| BIL-REUSS-1808 | Existence díla Reusse *Die Mineralquellen zu Bilin*, 1808 | Reuss, *Die Mineralquellen zu Bilin*, Wien, Geistinger, 1808; Phaidra Vídeň objekt o:8316 | 138 stran | PRIMARY | GREEN | Rok, autor, titul, vydavatel, rozsah a dobová recepce (Neue Annalen) GREEN. Otevřeno: Phaidra text nekolacionován, Steinmannovy poznámky nekolidovány (YELLOW); nepoužívat 1808 jako společné dílo Reuss+Steinmann bez ověření — to je bezpečně doloženo až pro rok 1827 (RED aspekt). (RECOVERY-005 §7) |
+| BIL-TRADE-1786-42000 | Roku 1786 expedováno 42 000 nádob Bílinské kyselky | 1977 muzeální rešerše a Kačurova studie, obě dle Löschnera | — | SECONDARY | YELLOW | Sekundárně silně podpořeno, ale mezi zdroji je rozpor v dalších letech (1779, 1856...); originální Löschnerův text nekolacionován; nepřevádět automaticky Krüge na lahve; tvrzení „dle Reuss 1801 p.12" bylo výslovně staženo/nepotvrzeno. (RECOVERY-005 §13) |
+| BIL-TRADE-1856-CONFLICT | Počet expedovaných nádob v letech 1856/1858 | Kačura/Löschner vs. muzeální chronologie | — | SECONDARY | YELLOW | NEUZAVŘENO — Kačura/Löschner uvádí 1856→170 000, 1858→250 000; muzeální chronologie 1856→250 000, 1859→260 000. Oba údaje musí zůstat odděleny do nalezení originálu. (RECOVERY-005 §15) |
+| TEP-JUDITA-1156-1167 | Judita Durynská / teplické klášterní prostředí jako raný dokumentační horizont Teplic | — | — | SECONDARY | YELLOW | Důležitý raný dokumentační horizont, ale vyžaduje přímou kolaci v rámci teplické větve. (RECOVERY-005 §28) |
+| TEP-DOLLINGER-1879 | Katastrofa/zatopení Döllingerova dolu 10. 2. 1879 (21 obětí) a obnova Pravřídla 3. 3. 1879 | jména Wilhelm Zsigmondy, Eduard Sueß | — | SECONDARY | YELLOW | Historicky velmi relevantní a opakovaně uváděné údaje, ale primární/archivní kolace v této badatelně ještě nedokončena; nepoužívat dosud jako plně uzavřený claim bez označení. (RECOVERY-005 §29) |
+| BIL-BEETHOVEN-1812 | Ludwig van Beethoven navštívil Bílinu roku 1812 | silná historická tradice a dokumentační stopa | — | TRADITION | YELLOW | Povoleno v projektu jako možný historický motiv; doporučeno dokončit přímou dokumentární kolaci před použitím detailní scény nebo přesné formulace. (RECOVERY-005 §30) |
+
+---
+
+**Poznámka GitHub Executora:** Tabulka obsahuje přesně minimální sadu 19 claimů zadanou v Kroku 03. Žádný claim nebyl vymyšlen nad rámec toho, co už je zapsáno v RECOVERY-005/006. Rozšíření o další claimy (např. Göritz/Görlitz 1727/1730, Jampert) je možné v navazujícím kroku, pokud si to Řídící mozek/Jirka vyžádá — zde záměrně neprovedeno, aby zápis odpovídal přesně zadanému rozsahu.
