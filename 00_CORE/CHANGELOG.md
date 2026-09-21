@@ -1,5 +1,126 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-21] – GITHUB TRANSFER SESSION – KROK 06 – UPDATE MASTER RECOVERY MAP
+
+### Commit SHA
+- `953a74c432f6bd7eea5ee0a02051d2f45966530f`
+
+### Changed
+- `01_RECOVERY/MASTER_RECOVERY_MAP.md`
+
+### Purpose
+- Doplnit mapu o skutečný stav po Krocích 01–05 (RECOVERY-005, RECOVERY-006, CLAIM DATABASE, VISUAL AUDIT, CROSS-AUDIT).
+- Původní obsah mapy z 2026-09-19 zachován beze změny; přidána pouze nová sekce 2b s novými soubory a jejich commit SHA.
+
+### Type
+- UPDATE (doplnění existujícího dokumentu, žádné mazání ani přepis starých stavů)
+
+### Status
+- MASTER RECOVERY MAP: UPDATED
+- Chybějící originály (Komiksová Bible v1.0, Historická a příběhová osa v1.1, BK-001, HT-BK-003, storyboard, PDF) zůstávají 🔴 beze změny.
+
+---
+
+## [2026-09-21] – GITHUB TRANSFER SESSION – KROK 05 – CROSS-AUDIT
+
+### Commit SHA
+- `8e1566a27090d76550af559758463120df56f035`
+
+### Added
+- `02_COMIKS/AUDIT/PRAMEN_SCENAR_HISTORIE_VISUAL_CROSS_AUDIT_v1.0.md`
+
+### Purpose
+- Kontrolní dokument SCÉNÁŘ × HISTORIE × VISUAL BIBLE pro všech 30 stran komiksu, postavený na Komiksové bibli, Historické ose, Claim Database a Visual Audit.
+
+### Type
+- ADD (nový kontrolní/auditní dokument)
+
+### Status
+- CROSS-AUDIT v1.0: RECORDED
+- Nalezen 1 otevřený rozpor (strana 19 – Beethoven 1812, vizuální prompt vs. CLAIM DATABASE) — zapsán jako nález, nevyřešen.
+
+---
+
+## [2026-09-21] – GITHUB TRANSFER SESSION – KROK 04 – VISUAL AUDIT
+
+### Commit SHA
+- `d8787e1d775479033f1fb707ab71b3b081cd6c0a`
+
+### Added
+- `02_COMIKS/VISUAL_AUDIT/PRAMEN_VISUAL_ARTIFACT_AUDIT_v1.0.md`
+
+### Purpose
+- Zapsat stav vizuálních materiálů PRAMEN (styl R-031, formát 16:9/4K, barevné větve, kapka vody, stav promptů 1–30, guardrails) na základě existujícího archivního přepisu promptů.
+
+### Type
+- ADD (nový auditní dokument, žádný nový vizuální návrh)
+
+### Status
+- VISUAL AUDIT v1.0: RECORDED
+
+---
+
+## [2026-09-21] – GITHUB TRANSFER SESSION – KROK 03 – CLAIM DATABASE
+
+### Commit SHA
+- `bc3a0bcd9490a45647e4eb7387717c6c710cb7a1`
+
+### Added
+- `01_HISTORIK/CLAIM_DATABASE.md`
+
+### Purpose
+- Centrální databáze 19 historických tvrzení (BIL-761 … BIL-BEETHOVEN-1812) odvozená výhradně z RECOVERY-005 a RECOVERY-006.
+
+### Type
+- ADD (nový evidenční dokument, žádný nový historický claim)
+
+### Status
+- CLAIM DATABASE v1.0: RECORDED
+
+---
+
+## [2026-09-21] – GITHUB TRANSFER SESSION – KROK 02 – RECOVERY-006
+
+### Commit SHA
+- `a7f5d9e9d7ff0a248998ecba307791d74eb0c6b8`
+
+### Added
+- `01_RECOVERY/RECOVERY-006_ZAJECICE_CHECKPOINT_2.md`
+
+### Purpose
+- Uložit delta oproti RECOVERY-005: Zaječice, chronologie 1717–1727, Göritz/Görlitz 1727/1730, Jampert, Kohl 1727, Hoffmann 1738.
+- Zdroj: `SOURCE_RECOVERY-006_CHECKPOINT_2_ZAJECICE.txt` (PRAMEN_GITHUB_TRANSFER_MASTER_PACK_v1.2), předáno Jirkou.
+
+### Type
+- ADD (věrný přepis dodaného zdrojového checkpointu)
+
+### Status
+- RECOVERY-006: RECORDED
+- Žádný status GREEN/YELLOW/RED nezměněn oproti zdroji.
+
+---
+
+## [2026-09-21] – GITHUB TRANSFER SESSION – KROK 01 – RECOVERY-005
+
+### Commit SHA
+- `f42bba21f6cac121006b4ad9cf62e83c396a236c`
+
+### Added
+- `01_RECOVERY/RECOVERY-005_HISTORICKA_BADATELNA_CHECKPOINT_1.md`
+
+### Purpose
+- Uložit konsolidovaný historický checkpoint 1 z PRAMEN – Historická badatelna (metodika HISTORIE PŘED FIKCÍ, Schwenckfeldt 1607, Troschel 1761/1762, Zittmann, Reuss 1786–1808, Berzelius, Hoffmann 1725–1738, obchodní údaje, Teplice, Beethoven a další).
+- Zdroj: `SOURCE_RECOVERY-005_FULL_CHECKPOINT.txt` (PRAMEN_GITHUB_TRANSFER_MASTER_PACK_v1.1), předáno Jirkou.
+
+### Type
+- ADD (věrný přepis dodaného zdrojového checkpointu)
+
+### Status
+- RECOVERY-005: RECORDED
+- Žádný status GREEN/YELLOW/RED nezměněn oproti zdroji.
+
+---
+
 ## [2026-09-19] – ÚKOL 023 – ZALOŽENÍ MASTER RECOVERY MAP
 
 ### Added
