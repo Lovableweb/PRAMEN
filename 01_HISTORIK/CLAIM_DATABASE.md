@@ -6,6 +6,8 @@
 
 Žádný nový claim nebyl vymyšlen. Žádný status nebyl zvýšen oproti zdrojovým checkpointům jen proto, že se tvrzení opakuje. Tabulka obsahuje minimální požadovanou sadu claimů dle zadání Kroku 03.
 
+**Aktualizace 2026-09-21:** `BIL-BEETHOVEN-1812` povýšen z YELLOW na GREEN na základě nově předloženého primárního dokladu (Goetheho deník, WA III 4, 304) — viz řádek níže. Jde o jedinou změnu statusu od založení tabulky; provedena na pokyn Jirky s konkrétním důkazním podkladem, ne svévolně.
+
 **TYP EVIDENCE:** PRIMARY / SECONDARY / BIBLIOGRAPHIC / TRADITION / ARCHIVAL_TRACE
 **STATUS:** GREEN / YELLOW / RED
 
@@ -31,7 +33,7 @@
 | BIL-TRADE-1856-CONFLICT | Počet expedovaných nádob v letech 1856/1858 | Kačura/Löschner vs. muzeální chronologie | — | SECONDARY | YELLOW | NEUZAVŘENO — Kačura/Löschner uvádí 1856→170 000, 1858→250 000; muzeální chronologie 1856→250 000, 1859→260 000. Oba údaje musí zůstat odděleny do nalezení originálu. (RECOVERY-005 §15) |
 | TEP-JUDITA-1156-1167 | Judita Durynská / teplické klášterní prostředí jako raný dokumentační horizont Teplic | — | — | SECONDARY | YELLOW | Důležitý raný dokumentační horizont, ale vyžaduje přímou kolaci v rámci teplické větve. (RECOVERY-005 §28) |
 | TEP-DOLLINGER-1879 | Katastrofa/zatopení Döllingerova dolu 10. 2. 1879 (21 obětí) a obnova Pravřídla 3. 3. 1879 | jména Wilhelm Zsigmondy, Eduard Sueß | — | SECONDARY | YELLOW | Historicky velmi relevantní a opakovaně uváděné údaje, ale primární/archivní kolace v této badatelně ještě nedokončena; nepoužívat dosud jako plně uzavřený claim bez označení. (RECOVERY-005 §29) |
-| BIL-BEETHOVEN-1812 | Ludwig van Beethoven navštívil Bílinu roku 1812 | silná historická tradice a dokumentační stopa | — | TRADITION | YELLOW | Povoleno v projektu jako možný historický motiv; doporučeno dokončit přímou dokumentární kolaci před použitím detailní scény nebo přesné formulace. (RECOVERY-005 §30) |
+| BIL-BEETHOVEN-1812 | Ludwig van Beethoven navštívil Bílinu roku 1812 (dne 20. 7. 1812 odjel spolu s J. W. Goethem z Teplic do Bíliny) | Johann Wolfgang Goethe, Tagebuch, 20. 7. 1812: „Abends mit Beethoven nach Bilin zu gefahren." Kritická edice: WA III 4, 304. | WA III 4, s. 304 | PRIMARY | GREEN | **Aktualizováno 2026-09-21** (dříve YELLOW) na základě primárního dokladu — Goetheho deníkového zápisu, který potvrzuje samotnou cestu/návštěvu. Tento claim pokrývá VÝHRADNĚ tuto cestu. NEPOTVRZUJE a nezahrnuje: pití Bílinské kyselky, léčení se v Bílině, návštěvu konkrétního pramene, setkání s Reussem, ani že účelem cesty byla kyselka — tato dílčí tvrzení zůstávají samostatně 🟡 VYŽADUJE OVĚŘENÍ a nejsou tímto claimem dotčena. (RECOVERY-005 §30, aktualizace k tomuto datu) |
 
 ---
 

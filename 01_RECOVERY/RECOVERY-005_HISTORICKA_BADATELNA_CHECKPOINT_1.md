@@ -796,6 +796,31 @@ Tento bod byl v projektu povolen jako možný historický motiv.
 Ale:
 [YELLOW] doporučeno dokončit přímou dokumentární kolaci před použitím detailní scény nebo přesné formulace.
 
+------------------------------------------------------------
+AKTUALIZACE 2026-09-21 — PRIMÁRNÍ DOKLAD NALEZEN (GOETHE 1812)
+------------------------------------------------------------
+
+Na pokyn Jirky doplněn primární doklad z PRAMEN – HISTORICKÁ BADATELNA:
+
+Johann Wolfgang Goethe, Tagebuch, 20. 7. 1812.
+Klíčový zápis: „Abends mit Beethoven nach Bilin zu gefahren.“
+Kritická edice: WA III 4, 304.
+
+Přesnější formulace pro PRAMEN:
+„Dne 20. července 1812 odjel Ludwig van Beethoven společně s Johannem Wolfgangem Goethem z Teplic do Bíliny.“
+
+STAV (aktualizováno):
+[GREEN] Beethoven navštívil Bílinu roku 1812 (cesta z Teplic 20. 7. 1812) — doloženo Goetheho denníkem, kritická edice WA III 4, 304.
+
+Toto GREEN pokrývá výhradně samotnou cestu/návštěvu. Následující dílčí tvrzení nejsou tímto dokladem dotčena a zůstávají:
+[YELLOW] Beethoven pil Bílinskou kyselku.
+[YELLOW] Beethoven se v Bílině léčil.
+[YELLOW] Beethoven navštívil konkrétní pramen.
+[YELLOW] Beethoven se setkal s Reussem.
+[YELLOW] Beethoven přijel do Bíliny kvůli kyselce.
+
+Promítnuto do `01_HISTORIK/CLAIM_DATABASE.md` (BIL-BEETHOVEN-1812, YELLOW→GREEN) a `02_COMIKS/AUDIT/PRAMEN_SCENAR_HISTORIE_VISUAL_CROSS_AUDIT_v1.0.md` (strana 19).
+
 ============================================================
 31. SCHWENCKFELDT → TROSCHEL → HANSA → REUSS
 ============================================================
@@ -983,3 +1008,5 @@ KONEC CHECKPOINTU.
 ---
 
 **Poznámka GitHub Executora:** Tímto zápisem se checkpoint výslovně ukládá do GitHub CORE (`01_RECOVERY/`) na pokyn Jirky ("PROVEĎ KROK 01"). Žádný status GREEN/YELLOW/RED nebyl změněn oproti zdroji. Žádné nové tvrzení nebylo přidáno.
+
+**Dodatek 2026-09-21:** Jediná výjimka z výše uvedeného je bod §30 (Beethoven 1812) — na základě nově předloženého primárního dokladu (Goetheho deník) byl status této konkrétní cesty povýšen na GREEN, viz „AKTUALIZACE 2026-09-21" v §30 výše. Původní text §30 zůstal zachován beze změny, dodatek byl pouze připojen. Žádný jiný bod checkpointu nebyl touto aktualizací dotčen.
