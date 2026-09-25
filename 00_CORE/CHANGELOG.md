@@ -1,5 +1,28 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-25] – RECOVERY-010 – ZÍSKÁN SCÉNÁŘ STRAN 6–30 (k1)
+
+### Added
+- `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md` — scénář stran 6–30, „finalizovaná verze k1" (Teplice, Bílina, Zaječice SCHVÁLENO; Epilog FINALIZOVÁNO), zapsaný **doslova**, s hlavičkou provenience. Text vydoloval Jirka z ChatGPT chatu podle instrukce k vytažení originálů.
+- `01_RECOVERY/RECOVERY-010_SCENAR_STR6-30_ZISKAN.md` — provenience, porovnání rozložení stran (scénář ≠ prompty ≠ HB-055), 13 rozporů s evidencí (S-01…S-13; 7 vysoce závažných), seznam nových neověřených tvrzení, dopad na blokery.
+
+### Changed
+- `01_HISTORIK/OTEVRENE_OTAZKY.md` — OO-HB056-01 → 🟡 ROZPRACOVÁNO (text získán); nové OO-SC-01 (Prolog 1–5), OO-SC-02 (rozpory), OO-SC-03 (doslovnost).
+- `01_RECOVERY/MASTER_RECOVERY_MAP.md` — hlavička + sekce 2f.
+- `02_COMIKS/AUDIT/…CROSS_AUDIT_v1.0.md` — čtvrtý dodatek (tabulka stojí na pracovním rozložení stran, ne na scénáři k1).
+- `00_CORE/PRAMEN_MAPA.md` — stav v kostce, blokery, nové soubory.
+
+### Proč
+- Priorita 1 předání HB-058 → HB-061: zachytit získaný scénář s proveniencí, bez přepisování a interpretace, a připravit kolaci SCÉNÁŘ × HISTORIE × PROMPTY.
+
+### Blokery
+- HB-057 Production Lock dál 🔴 (rozpory S-01…S-13, chybí Prolog 1–5, doslovnost neověřena). Komiksová Bible a storyboard dál 🔴.
+
+### Status
+- `CLAIM_DATABASE.md` nezměněna; scénář neupravován; žádný rozpor nerozhodnut.
+
+---
+
 ## [2026-09-25] – ZKRÁCENÝ CHECKPOINT HB-058 → HB-061 + STOPY K CITACÍM HB-044
 
 ### Added

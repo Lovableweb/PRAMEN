@@ -9,6 +9,7 @@ Aktualizováno:
 2026-09-22 (integrace HB-026 — RECOVERY-007, viz sekce 2c). Obsah k 2026-09-19 a 2026-09-21 zůstává beze změny.
 2026-09-25 (předání HB-044 → HB-061 — RECOVERY-008, viz sekce 2d). Rychlá orientace v celém repu: `00_CORE/PRAMEN_MAPA.md`.
 2026-09-25 (předání HB-058 → HB-061 + recovery search — RECOVERY-009, viz sekce 2e).
+2026-09-25 (získán scénář stran 6–30 k1 — RECOVERY-010, viz sekce 2f).
 
 Účel:
 Centrální mapa všech projektových materiálů, které jsou bezpečně uloženy,
@@ -199,6 +200,21 @@ RECOVERY SEARCH 2026-09-25 (GitHub celá historie + Google Drive Jirky):
   Bible. Do repa nekopírován.
 
 Stav všech chybějících originálů v §3 a §7 zůstává beze změny.
+
+────────────────────────────────────────
+2f. NOVĚ ULOŽENO — SCÉNÁŘ STRAN 6–30, VERZE k1 (2026-09-25)
+────────────────────────────────────────
+
+| Cesta | Klasifikace |
+|---|---|
+| `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md` | 🟢 A (fyzicky v repu) jako text; obsah 🟡 — doslovnost vůči původnímu chatu neověřena |
+| `01_RECOVERY/RECOVERY-010_SCENAR_STR6-30_ZISKAN.md` | 🟡 D — provenience + první kolace (rozpory S-01…S-13) |
+
+Text vydoloval Jirka z ChatGPT chatu (podle hlavičky „KOMPLETACE STRAN
+6–30") a vložil ho do Claude Code. Strany 6–30 jsou tím poprvé v repu.
+Stále chybí: Prolog 1–5, originální Komiksová Bible v1.0, Osa v1.1,
+storyboard, obrazy 1–30. Řádky „scénář" v §3 a §7 platí dál pro
+Prolog a pro ověření doslovnosti.
 
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY
