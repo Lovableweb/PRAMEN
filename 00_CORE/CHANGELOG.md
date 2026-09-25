@@ -1,5 +1,18 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-25] – CLAUDE.md – STARTOVNÍ POKYNY PRO CLAUDE CODE
+
+### Added
+- `CLAUDE.md` (kořen repozitáře) — krátké startovní pokyny: start session (pull, čtení protokolu), práce na úkolu (HISTORIE PŘED FIKCÍ), hlasový vstup, report ve formátu Předávacího režimu, ukládání přes pull request.
+
+### Purpose
+- Na pokyn Jirky převzít z projektu PrimeGadget EU jen pravidla vhodná pro PRAMEN. Záměrně NEpřevzato: režimy A/B, deník PAMET_PROJEKTU.md, složka memory/ (PRAMEN má CHANGELOG a 00_CORE), webová pravidla.
+
+### Type
+- ADD (procesní soubor, žádná změna historického obsahu)
+
+---
+
 ## [2026-09-25] – AKTUALIZACE AI PROTOKOLU v1.1 – UKLÁDÁNÍ NA GITHUB
 
 ### Changed
