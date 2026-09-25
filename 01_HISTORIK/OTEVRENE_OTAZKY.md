@@ -702,7 +702,7 @@ Zdroj: [[RECOVERY-008_PREDANI_HB044-HB061]]. Nejde o tvrzení historických skut
 
 | ID | Otázka / otevřený bod | Stav |
 |---|---|---|
-| OO-HB044-01 | Doplnit přesné bibliografické citace pramenů HB-044 (Döllinger 10. 2. 1879, 21/23 obětí, Mahler v dobovém tisku, Uherr, Zsigmondy, Sueß, voda 3. 3. 1879 ráno v cca 13 m). Předávací balík je neuvádí; claimy `TEP-1879-*` jsou vedeny 🟢 pouze na základě uzavřeného checkpointu. | 🔴 NEZODPOVĚZENO |
+| OO-HB044-01 | Doplnit přesné bibliografické citace pramenů HB-044 (Döllinger 10. 2. 1879, 21/23 obětí, Mahler v dobovém tisku, Uherr, Zsigmondy, Sueß, voda 3. 3. 1879 ráno v cca 13 m). Předávací balík je neuvádí; claimy `TEP-1879-*` jsou vedeny 🟢 pouze na základě uzavřeného checkpointu. **Stopy 2026-09-25:** `STOPY_HB044_TEPLICE_1879.md` (Gartenlaube 1879/10, PRIMARY NOT SEEN; rozpory R-1…R-3). | 🔴 NEZODPOVĚZENO |
 | OO-HB051-01 | Získat primární text Mitise (Eichler 1836 bibliograficky identifikován, Ryba 1980 existuje). Do té doby Mitise neinterpretovat. | 🔴 NEZODPOVĚZENO |
 | OO-HB051-02 | Primární doklad role Volfa z Vřesovic v rozvoji Teplic (dosud jen sekundárně). | 🔴 NEZODPOVĚZENO |
 | OO-HB053-01 | Reuss 1801 — rozsah stran 316 vs. 376 (rozpor v katalozích) vyžaduje fyzickou kolaci. | 🔴 NEZODPOVĚZENO |

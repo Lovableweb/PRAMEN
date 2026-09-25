@@ -2,7 +2,7 @@
 
 **Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
 **Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
-**Poslední aktualizace:** 2026-09-25 · RECOVERY-009 (předání HB-058 → HB-061).
+**Poslední aktualizace:** 2026-09-25 · RECOVERY-009 + dodatek (zkrácený checkpoint), stopy HB-044.
 
 Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
 
@@ -15,7 +15,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 - **Komiks** je podle Content Registry hotový (30 obrazů), ale **obrazy, originální Komiksová Bible, Osa v1.1, storyboard a schválený scénář NEJSOU v repu** (🔴). V repu jsou jen *recovered working* náhrady a přepis image promptů.
 - **Historie:** 45 claimů v `CLAIM_DATABASE.md` (🟢/🟡/🔴). Hlavní zdroj detailů: RECOVERY-005 (Bílina, Zaječice, Reuss), RECOVERY-007 (Teplice 1446/1477/1581), RECOVERY-008 (HB-044…HB-061).
 - **Stav HB (DEC-005):** HB-057 Production Lock 🔴 · HB-058 🟡 auditováno/připraveno (není Production Master) · HB-059 🟢 read-only reconciliace · HB-060 🔴 blokováno · HB-061 🟡 readiness audit.
-- **Blokery:** 1) schválený scénář P14–P24 🔴 · 2) originální Komiksová Bible 🔴 · 3) originální storyboard 🔴 · 4) citace HB-044 🟡. Recovery search 2026-09-25 (GitHub + Drive) nic nenašel; scénář je jen v ChatGPT chatu „KOMPLETACE STRAN 6–30" → musí dodat Jirka.
+- **Blokery:** 1) schválený scénář P14–P24 🔴 · 2) originální Komiksová Bible 🔴 · 3) originální storyboard 🔴 · 4) citace HB-044 🟡 (stopy: `01_HISTORIK/STOPY_HB044_TEPLICE_1879.md`). Recovery search 2026-09-25 (GitHub + Drive) nic nenašel; scénář je jen v ChatGPT chatu „KOMPLETACE STRAN 6–30" → musí dodat Jirka.
 - **PROMPT ≠ SCÉNÁŘ** (DEC-002). Recovered working ≠ originál.
 
 ## 2. KDE CO HLEDAT (NEJČASTĚJŠÍ ÚKOLY)
@@ -64,6 +64,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | `CLAIM_DATABASE.md` | 69 | ⭐ | 45 claimů: CLAIM / PRAMEN / TYP / STATUS / POZNÁMKA. Hlavní zdroj pravdy o faktech |
 | `OTEVRENE_OTAZKY.md` | 713 | 🔍 | HIST-001…013, HIST-RM-001…050 (téměř vše Bílina), OO-HB044…OO-HB060 z 2026-09-25. ⚠️ HIST-012 (Beethoven) už zodpovězen, status neaktualizován |
 | `BILINA/…RECOVERED_WORKING_v1.0.md` | 265 | 🔍 | Pracovní souhrn Bíliny. ⚠️ zastaralý: Beethoven 🟡, Reuss 1808 🔵 (Claim DB má 🟢) |
+| `STOPY_HB044_TEPLICE_1879.md` | 35 | 🔍 | Stopy k citacím HB-044: Gartenlaube 1879/10 (nepřečteno), Zsigmondy = Vilmos, komise Wolf/Laube/Suess; rozpory R-1…R-3 k ověření |
 | `TEPLICE/…RECOVERED_WORKING_v1.0.md` | 279 | 🔍 | Pracovní souhrn Teplic. ⚠️ zastaralý: chybí 1446/1477/1581 a HB-044; „záchrana Pravřídla" |
 
 ### `01_RECOVERY/` — obnova a předání z Historické badatelny
@@ -74,7 +75,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | `RECOVERY-006_ZAJECICE_CHECKPOINT_2.md` | 87 | 🔍 | Zaječice 1717–1727, Göritz/Görlitz, Jampert, Kohl |
 | `RECOVERY-007_TEPLICE_INTEGRACNI_AUDIT_HB026.md` | 272 | 🔍 | Teplice: Prokop 1446 × Wickart 1477 × archeologie 1581 |
 | `RECOVERY-008_PREDANI_HB044-HB061.md` | 248 | 🔍 | Teplice 1879, master osa, Volf/Mitis, Reuss, Beethoven, P14–P24, scénář nezískán; konflikty K-1…K-6 |
-| `RECOVERY-009_PREDANI_HB058-HB061.md` | 126 | ⭐ | **Aktuální stav HB-057…061**, blokery, fakta vs. pracovní interpretace, recovery search (GitHub + Drive), úrovně důkazu, pořadí další práce |
+| `RECOVERY-009_PREDANI_HB058-HB061.md` | 139 | ⭐ | **Aktuální stav HB-057…061**, blokery, fakta vs. pracovní interpretace, recovery search (GitHub + Drive), úrovně důkazu, pořadí další práce |
 | `PRAMEN_CENTRALNI_RECOVERY_SYNTHESE.md` | 278 | 📦 | Souhrn recovery k 2026-09-19 (commit „RECOVERY-001") |
 | `KOMIKSOVA_BIBLE_RECOVERY_STATUS.md` | 109 | 📦 | Originál Bible nenalezen |
 | `HISTORICKA_A_PRIBEHOVA_OSA_RECOVERY_STATUS.md` | 74 | 📦 | Originál Osy nenalezen |
