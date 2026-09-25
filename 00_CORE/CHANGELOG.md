@@ -1,5 +1,43 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-25] – PLÁN PRIMÁRNÍ KOLACE (PO AUDITU S-01…S-13)
+
+### Added
+- `01_HISTORIK/PRIMARNI_KOLACE_PLAN.md` — pro priority 1–5 Řídícího mozku 2 (Reuss × Berzelius × Zaječice, Hoffmann, Goethe × Bílina × Reuss, Teplice 1879, Vincentius) a Prolog: přesné identifikátory pramenů (VD18, PPN, Phaidra, LMU signatury, WA, Zenodo, DDB, Wikisource), co v nich ověřit, návaznost na S-XX, šablona výstupu.
+
+### Proč
+- Zadání „DALŠÍ FÁZE PO RECOVERY-010" žádá přímou primární kolaci.
+
+### Blokace
+- Síťová politika cloudového prostředí zamítá digitální knihovny (403); Google Books API vyčerpalo kvótu (429). **Primární kolace neprovedena.** Závěry auditu S-01…S-13 zůstávají pracovní — nic nepotvrzeno ani nezměněno. Odblokování: povolit domény v nastavení prostředí, nebo nahrát PDF na Google Drive.
+
+### Status
+- K1, Claim DB, HB-055, prompty, obrázky beze změny; K2 nevytvořena; HB-057 🔴.
+
+---
+
+## [2026-09-25] – HISTORICKÝ AUDIT SCÉNÁŘE K1 (S-01 AŽ S-13)
+
+### Added
+- `02_COMIKS/AUDIT/PRAMEN_AUDIT_SCENAR_K1_S01-S13.md` — důkazní audit všech 13 rozporů z RECOVERY-010 podle zadání Řídícího mozku 2: pro každý bod tvrzení K1, důkazy (repo + webové souhrny, označené SECONDARY QUOTED), FAKT / INTERPRETACE / REKONSTRUKCE / NEZNÁMO, status, typ problému, doporučení pro K2. Výsledek: 0 🟢 · 4 🟡 · 8 🔴 · 1 ⚪; 11 bodů pravděpodobně ke změně v K2.
+
+### Proč
+- Zadání „PRAMEN – HISTORICKÝ AUDIT SCÉNÁŘE K1 / RECOVERY-010 → S-01 až S-13".
+
+### Týká se
+- RECOVERY-010, scénář K1, HB-057 (blokery), HB-044, HB-051, HB-054.
+
+### Hlavní nález
+- Pravděpodobný původ S-05, S-06 a S-07: sekundární zdroj (en.wikipedia, F. A. Reuss) připisuje F. A. Reussovi (†1830) spolupráci s Berzeliem na zaječické vodě. Rozbor ale vyšel 1840 s A. E. Reussem. Jde o záměnu otce a syna.
+
+### Omezení
+- Weby se zdroji jsou z cloudu blokované, primární prameny nebyly přečteny (PRIMARY SEEN = 0).
+
+### Status
+- K1, `CLAIM_DATABASE.md`, HB-055, prompty i `OTEVRENE_OTAZKY.md` beze změny; K2 nevytvořena; HB-057 dál 🔴. Nové otázky AUD-01…08 jsou jen návrh v auditu.
+
+---
+
 ## [2026-09-25] – RECOVERY-010 – ZÍSKÁN SCÉNÁŘ STRAN 6–30 (k1)
 
 ### Added
