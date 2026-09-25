@@ -8,6 +8,7 @@ Aktualizováno:
 
 2026-09-22 (integrace HB-026 — RECOVERY-007, viz sekce 2c). Obsah k 2026-09-19 a 2026-09-21 zůstává beze změny.
 2026-09-25 (předání HB-044 → HB-061 — RECOVERY-008, viz sekce 2d). Rychlá orientace v celém repu: `00_CORE/PRAMEN_MAPA.md`.
+2026-09-25 (předání HB-058 → HB-061 + recovery search — RECOVERY-009, viz sekce 2e).
 
 Účel:
 Centrální mapa všech projektových materiálů, které jsou bezpečně uloženy,
@@ -176,6 +177,28 @@ Ostatní chybějící originály (Komiksová Bible v1.0, Historická a příběh
 osa v1.1, storyboard, BK-001, HT-BK-003, R-031 Visual Bible, obrazové
 soubory P1–P30) zůstávají 🔴 přesně jako před tímto updatem. Recovered
 working materiály NEJSOU originály.
+
+────────────────────────────────────────
+2e. NOVĚ ULOŽENO — PŘEDÁNÍ HB-058 → HB-061 + RECOVERY SEARCH (2026-09-25)
+────────────────────────────────────────
+
+| Cesta | Poznámka |
+|---|---|
+| `01_RECOVERY/RECOVERY-009_PREDANI_HB058-HB061.md` | 🟡 D — zápis předání + výsledek recovery search (commit viz `CHANGELOG.md`) |
+
+RECOVERY SEARCH 2026-09-25 (GitHub celá historie + Google Drive Jirky):
+- 🔴 G — doslovný schválený scénář P14–P24: NENALEZEN. Podle přepisu PDF
+  uložen v chatu „PRAMEN – KOMIKS A SCÉNÁŘ – KOMPLETACE STRAN 6–30"
+  (ChatGPT), který je pro Claude Code nedostupný.
+- 🔴 G — originální Komiksová Bible v1.0: NENALEZENA.
+- 🔴 G — originální storyboard: NENALEZEN.
+- 🔴 — obrazy stran 1–30: na Drivu nenalezeny.
+- 🔵 H — NOVĚ EVIDOVÁNO: Google Doc `PRAMEN_image_prompty_str1-30.md` na
+  Google Drivu Jirky (vytvořen 2026-09-10). Pravděpodobný zdroj PDF
+  s image prompty. Pracovní promptový zdroj — NE scénář, NE originál
+  Bible. Do repa nekopírován.
+
+Stav všech chybějících originálů v §3 a §7 zůstává beze změny.
 
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY

@@ -1,5 +1,34 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-25] – RECOVERY-009 – PŘEDÁNÍ HB-058 → HB-061 + RECOVERY SEARCH
+
+### Added
+- `01_RECOVERY/RECOVERY-009_PREDANI_HB058-HB061.md` — zápis předávacího bloku Řídícího mozku 2 (stav HB-057…061, fakta vs. pracovní interpretace, guardraily s odkazy, blokery, otevřené body, úrovně důkazu) + výsledek recovery search.
+
+### Changed
+- `00_CORE/DECISION_REGISTER.md` — DEC-005 (stav HB-058…061, priorita: nejdřív recovery search, Production Lock se nezahajuje). DEC-004 ponechán beze změny.
+- `01_HISTORIK/OTEVRENE_OTAZKY.md` — OO-HB055-01 (prostředí P15/P20/P22/P23), OO-HB060-01 (originální Bible a storyboard).
+- `01_RECOVERY/MASTER_RECOVERY_MAP.md` — hlavička + sekce 2e (výsledek recovery search, nově evidovaný Google Doc s prompty 🔵 H).
+- `00_CORE/PRAMEN_MAPA.md` — stav v kostce, nový soubor, DEC-005, úrovně důkazu.
+
+### Purpose
+- Uložit auditní a procesní výsledek HB-058 → HB-061 do GitHubu (předávací blok = souhlas k integraci) a provést recovery search originálního scénáře P14–P24, Komiksové Bible a storyboardu.
+
+### Týká se
+- HB-057 (🔴 blokován), HB-058 (🟡), HB-059 (🟢 read-only), HB-060 (🔴), HB-061 (🟡); RECOVERY-008 → RECOVERY-009.
+
+### Výsledek recovery search
+- GitHub (48 commitů, všechny větve, všechny kdy existující cesty) + Google Drive: **žádný originál nenalezen**. Evidován pouze Google Doc s image prompty (🔵 H, NE scénář).
+- Scénář je podle přepisu PDF v ChatGPT chatu „PRAMEN – KOMIKS A SCÉNÁŘ – KOMPLETACE STRAN 6–30", nedostupném pro Claude Code.
+
+### Blokery
+- Schválený scénář P14–P24 🔴 · originální Komiksová Bible 🔴 · originální storyboard 🔴 · citace HB-044 🟡.
+
+### Status
+- `CLAIM_DATABASE.md` nezměněna, žádný claim nepovýšen, žádný originál nerekonstruován, HB-057 neuzavřen.
+
+---
+
 ## [2026-09-25] – MAPA PROJEKTU + KOMPLETNÍ AUDIT REPOZITÁŘE
 
 ### Added
