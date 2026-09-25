@@ -84,3 +84,6 @@
   - P22: krajina / zdroj vody; podoba studny = rekonstrukce.
   - P23: Hoffmann / počátek 18. století; 1717 jen s opatrností; objevová scéna = rekonstrukce/tradice.
   - P24: Berzelius + chemická analýza 1840 (`ZAJ-BERZELIUS-1840`, doplněn podle doporučení u str. 24); August Emanuel Reuss odděleně; Franz Ambrosius Reuss sem nepatří; žádná osobní schůzka Berzelia s Reussem.
+
+**Čtvrtý dodatek 2026-09-25 (získán scénář k1, viz [RECOVERY-010](../../01_RECOVERY/RECOVERY-010_SCENAR_STR6-30_ZISKAN.md)):** Tabulka výše je postavena na **pracovním** rozložení stran (prompty, recovered working Bible). Získaný scénář stran 6–30 (`ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md`) má v řadě stran jiný obsah (např. str. 13 = Döllinger + Pravřídlo, str. 19 = prameny 1800–1806, str. 24 = Savory 1815). Tabulka ani dodatky nebyly přepsány. Přemapování na skutečné strany scénáře proběhne až po rozhodnutí rozporů S-01…S-13.
+
