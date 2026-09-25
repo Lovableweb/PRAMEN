@@ -709,3 +709,5 @@ Zdroj: [[RECOVERY-008_PREDANI_HB044-HB061]]. Nejde o tvrzení historických skut
 | OO-HB054-01 | Reuss × Berzelius — seznámení s Berzeliovými pracemi a metodologická souvislost; bez konkrétního důkazu neuzavírat. | 🔴 NEZODPOVĚZENO |
 | OO-HB054-02 | Zaječice 1717 — primární dokument z roku 1717 nenalezen; dosud jen Hoffmannovo pozdější tvrzení. | 🔴 NEZODPOVĚZENO |
 | OO-HB056-01 | Doslovný schválený scénář P14–P24 (chat „PRAMEN – KOMIKS A SCÉNÁŘ – KOMPLETACE STRAN 6–30") — nezískán. Po získání vést jako samostatný zdroj s proveniencí a provést SCÉNÁŘ × HISTORIE × PROMPTY. | 🔴 NEZODPOVĚZENO |
+| OO-HB055-01 | Historické prostředí stran P15, P20, P22, P23 (nádoby, oděvy, stavby, stáčení, lahve, povozy, podoba studny) — co je doloženo a co musí zůstat označeno jako rekonstrukce. (RECOVERY-009 §7) | 🔴 NEZODPOVĚZENO |
+| OO-HB060-01 | Originální Komiksová Bible v1.0 a originální storyboard — nenalezeny v GitHubu (celá historie) ani na Google Drivu (recovery search 2026-09-25, RECOVERY-009 §6). Nerekonstruovat z recovered working verze ani z Cross-Auditu. | 🔴 NEZODPOVĚZENO |
