@@ -1,5 +1,34 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-25] – INTEGRACE PŘEDÁNÍ HB-044 → HB-061
+
+### Commit SHA
+- `3504933d01af16be651918cc7c7fc4e2ca046825` (integrace)
+- tento CHANGELOG + MASTER RECOVERY MAP: navazující commit (SHA viz `git log`; nelze zapsat do vlastního obsahu)
+
+### Added
+- `01_RECOVERY/RECOVERY-008_PREDANI_HB044-HB061.md` — věrný přepis předávacího balíku (6 bloků) + tabulka konfliktů K-1 až K-6. Důvod: uchovat výsledky HB-044 až HB-056 a stav HB-057 až HB-061 na jednom místě s proveniencí.
+
+### Changed
+- `01_HISTORIK/CLAIM_DATABASE.md` — +18 claimů (`TEP-1879-*` ×11, `TEP-VINCENTIUS-12C`, `TEP-PULKAVA-14C`, `TEP-POGGIO-1416`, `TEP-VOLF-ROLE`, `TEP-VOLF-FIRST-BUILDING`, `TEP-MITIS`, `ZAJ-BERZELIUS-1840`). Důvod: oddělit pramen / evidenci / interpretaci / omezení podle HB-044, HB-050, HB-051, HB-054. Stávající claimy nepřepsány.
+- `01_HISTORIK/OTEVRENE_OTAZKY.md` — +7 otevřených bodů (OO-HB044-01 … OO-HB056-01). Důvod: zachovat, co zůstává neověřené.
+- `00_CORE/DECISION_REGISTER.md` — DEC-002 (PROMPT ≠ SCÉNÁŘ), DEC-003 (Production Lock blokován), DEC-004 (scénář přeskočen, HB-058 odložen). Důvod: rozhodnutí Řídícího mozku z předání.
+- `02_COMIKS/AUDIT/PRAMEN_SCENAR_HISTORIE_VISUAL_CROSS_AUDIT_v1.0.md` — třetí dodatek (str. 12–13 formulace 1879, pracovní mantinely P14–P24 z HB-055). Důvod: opravit zastaralé pracovní formulace bez přepisu původních řádků.
+- `01_RECOVERY/MASTER_RECOVERY_MAP.md` — nová sekce 2d. Důvod: evidovat nové soubory, chybějící scénář P14–P24 a upřesnit stav přepisu image prompt PDF.
+
+### Type
+- ADD (RECOVERY-008) + UPDATE (Claim Database, Otevřené otázky, Decision Register, Cross-Audit, Master Recovery Map)
+
+### Status
+- HB-044, HB-050, HB-051, HB-053, HB-054, HB-055, HB-056: INTEGROVÁNO jako uzavřené checkpointy.
+- HB-057 Production Lock: 🔴 BLOKOVÁN — neuzavřen.
+- HB-058: 🔵 neproveden (odložen). HB-059 / HB-060 / HB-061: 🔵 později.
+- Doslovný scénář P14–P24: 🔴 nezískán, nerekonstruován.
+- Otevřené konflikty: K-1 (chybí citace HB-044), K-2 („záchrana Pravřídla" v recovered working dokumentech), K-3 (Reuss 1801 ponechán 🟡), K-4 (Bílina working dokument zastaralý u 1808) — viz RECOVERY-008 §9.
+- Žádné nové přiřazení historických skutečností ke stranám komiksu nad rámec pracovních mantinelů HB-055.
+
+---
+
 ## [2026-09-22] – INTEGRACE HB-026 – TEPLICE 1446/1477/1581
 
 ### Commit SHA

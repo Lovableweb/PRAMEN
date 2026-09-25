@@ -134,6 +134,48 @@ dokumenty zůstávají 🔴 F/G (nenalezeno) přesně jako před tímto updatem 
 zapsaný soubor `..._RECOVERED_WORKING_v1.1.md` je odvozený pracovní
 dokument, ne nalezený originál.
 
+────────────────────────────────────────
+2d. NOVĚ ULOŽENO — PŘEDÁNÍ HB-044 → HB-061 (2026-09-25)
+────────────────────────────────────────
+
+| Cesta | Známý commit |
+|---|---|
+| `01_RECOVERY/RECOVERY-008_PREDANI_HB044-HB061.md` | `3504933d01af16be651918cc7c7fc4e2ca046825` |
+| `01_HISTORIK/CLAIM_DATABASE.md` (upraven, +18 claimů) | `3504933d01af16be651918cc7c7fc4e2ca046825` |
+| `01_HISTORIK/OTEVRENE_OTAZKY.md` (upraven, +7 otevřených bodů) | `3504933d01af16be651918cc7c7fc4e2ca046825` |
+| `00_CORE/DECISION_REGISTER.md` (upraven, DEC-002 až DEC-004) | `3504933d01af16be651918cc7c7fc4e2ca046825` |
+| `02_COMIKS/AUDIT/PRAMEN_SCENAR_HISTORIE_VISUAL_CROSS_AUDIT_v1.0.md` (upraven, třetí dodatek) | `3504933d01af16be651918cc7c7fc4e2ca046825` |
+
+OBSAH: Předání uzavřených checkpointů Historické badatelny HB-044 (Teplice
+1879), HB-050 (Teplice master osa), HB-051 (Volf × Mitis), HB-053 (Reuss
+1788/1801/1808), HB-054 (Bílina × Zaječice × Reuss × Berzelius ×
+Beethoven), HB-055 (integrační audit P14–P24 — pracovní, NE schválené
+produkční prompty) a HB-056 (doslovný scénář P14–P24 NEZÍSKÁN). RECOVERY-008
+je klasifikace 🟡 D (odvozený dokument, věrný přepis předávacího balíku) —
+plná znění výstupů HB-044 až HB-056 v repozitáři nejsou.
+
+STAV BLOKOVANÝCH KROKŮ: HB-057 Production Lock 🔴 BLOKOVÁN; HB-058 Image
+Prompt Master 1–30 🔵 odložen (příští práce od HB-058); HB-059, HB-060,
+HB-061 🔵 později. Viz `DECISION_REGISTER.md` DEC-002 až DEC-004.
+
+NOVĚ EVIDOVANÝ CHYBĚJÍCÍ MATERIÁL:
+- 🔴 G — doslovný schválený scénář P14–P24 (uložen v samostatném chatu
+  „PRAMEN – KOMIKS A SCÉNÁŘ – KOMPLETACE STRAN 6–30", do repozitáře nebyl
+  převeden; HB-056). PROMPT ≠ SCÉNÁŘ.
+- 🔴 — plná primární kolace některých otevřených pramenů (seznam viz
+  `01_HISTORIK/OTEVRENE_OTAZKY.md`, sekce 2026-09-25).
+
+UPŘESNĚNÍ K `PRAMEN_image_prompty_str1-30.pdf` (řádky v §3 a §4 níže
+ponechány beze změny): samotné PDF v repozitáři NENÍ (🔴 zůstává), ale jeho
+textový přepis a report jsou od 2026-09-19 v `ARCHIVE/SOURCES/` (commity
+`1ef38c3`, `e3d22c2`). Přepis je evidován jako 🟡 PRACOVNÍ PROMPTOVÝ ZDROJ —
+🔴 NE scénář, 🔴 NE finální Production Lock.
+
+Ostatní chybějící originály (Komiksová Bible v1.0, Historická a příběhová
+osa v1.1, storyboard, BK-001, HT-BK-003, R-031 Visual Bible, obrazové
+soubory P1–P30) zůstávají 🔴 přesně jako před tímto updatem. Recovered
+working materiály NEJSOU originály.
+
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY
 ════════════════════════════════════════
