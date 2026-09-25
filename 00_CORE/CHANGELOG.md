@@ -1,5 +1,21 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-25] – AKTUALIZACE AI PROTOKOLU v1.1 – UKLÁDÁNÍ NA GITHUB
+
+### Changed
+- `00_CORE/PRAMEN_AI_PROTOCOL.md` — verze 1.0 → 1.1, nová sekce „UKLÁDÁNÍ NA GITHUB (CLAUDE CODE V CLOUDU)".
+
+### Purpose
+- Zapsat pracovní postup schválený Jirkou: Claude Code v cloudu na konci práce vždy commitne a pushne do větve `claude/...`, do `main` nepushuje přímo, otevře pull request a pošle odkaz; Jirka slučuje tlačítkem Merge. Pokyn: „Ulož to na GitHub".
+
+### Type
+- UPDATE (procesní pravidlo, žádná změna historického obsahu)
+
+### Status
+- AI PROTOKOL: v1.1 AKTIVNÍ
+
+---
+
 ## [2026-09-25] – INTEGRACE PŘEDÁNÍ HB-044 → HB-061
 
 ### Commit SHA

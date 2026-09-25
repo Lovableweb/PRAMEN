@@ -1,6 +1,6 @@
 # PRAMEN – AI PROTOKOL
 
-Verze: 1.0  
+Verze: 1.1  
 Datum vytvoření: 2026-08-31  
 Status: 🟢 AKTIVNÍ
 
@@ -233,6 +233,19 @@ U destruktivních nebo zásadních změn:
 
 ---
 
+## UKLÁDÁNÍ NA GITHUB (CLAUDE CODE V CLOUDU)
+
+Schváleno Jirkou 2026-09-25. Platí i v dalších session.
+
+- Claude Code v cloudu (web / mobil) běží v dočasném počítači — co není nahráno na GitHub, se po jeho smazání ztratí. Proto na konci každé práce VŽDY: commit → push do přidělené větve `claude/...`, i bez výslovné výzvy.
+- Do `main` Claude Code NIKDY nepushuje přímo. Po pushi otevře **pull request do `main`** a pošle Jirkovi odkaz. Jirka ho sloučí tlačítkem **Merge** (jde i z mobilu).
+- Jirkův pokyn k uložení: **„Ulož to na GitHub"** (případně „zapiš to", „commitni", „pushni").
+- Pokud push selže (např. chybí přístup Claude GitHub App k repozitáři), Claude Code NEHLÁSÍ „hotovo v GitHubu", řekne přesně, co selhalo, a pošle zálohu commitů (bundle / patch).
+- Když je předchozí pull request už sloučený, nová práce začíná od aktuálního `main` a jde do nového pull requestu.
+- Po sloučení si lokální počítač změny stáhne přes `git pull`.
+
+---
+
 ## KOMUNIKAČNÍ KANÁLY
 
 - **CORE (GitHub 00_CORE)** – Dlouhodobá paměť, schválené rozhodnutí
@@ -284,5 +297,5 @@ Pokud je třeba změnit tento protokol:
 
 ---
 
-**Poslední aktualizace:** 2026-08-31  
+**Poslední aktualizace:** 2026-09-25 (v1.1 — sekce Ukládání na GitHub)  
 **Stav:** AKTIVNÍ 🟢
