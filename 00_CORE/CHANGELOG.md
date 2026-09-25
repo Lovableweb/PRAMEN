@@ -1,5 +1,21 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-25] – PLÁN PRIMÁRNÍ KOLACE (PO AUDITU S-01…S-13)
+
+### Added
+- `01_HISTORIK/PRIMARNI_KOLACE_PLAN.md` — pro priority 1–5 Řídícího mozku 2 (Reuss × Berzelius × Zaječice, Hoffmann, Goethe × Bílina × Reuss, Teplice 1879, Vincentius) a Prolog: přesné identifikátory pramenů (VD18, PPN, Phaidra, LMU signatury, WA, Zenodo, DDB, Wikisource), co v nich ověřit, návaznost na S-XX, šablona výstupu.
+
+### Proč
+- Zadání „DALŠÍ FÁZE PO RECOVERY-010" žádá přímou primární kolaci.
+
+### Blokace
+- Síťová politika cloudového prostředí zamítá digitální knihovny (403); Google Books API vyčerpalo kvótu (429). **Primární kolace neprovedena.** Závěry auditu S-01…S-13 zůstávají pracovní — nic nepotvrzeno ani nezměněno. Odblokování: povolit domény v nastavení prostředí, nebo nahrát PDF na Google Drive.
+
+### Status
+- K1, Claim DB, HB-055, prompty, obrázky beze změny; K2 nevytvořena; HB-057 🔴.
+
+---
+
 ## [2026-09-25] – HISTORICKÝ AUDIT SCÉNÁŘE K1 (S-01 AŽ S-13)
 
 ### Added
