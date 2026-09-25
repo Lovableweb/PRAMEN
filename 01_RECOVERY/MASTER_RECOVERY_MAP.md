@@ -7,6 +7,7 @@ Aktualizováno:
 2026-09-21 (po Krocích 01–05 GITHUB TRANSFER MASTER PACK — RECOVERY-005, RECOVERY-006, CLAIM DATABASE, VISUAL AUDIT, CROSS-AUDIT). Původní datum a obsah k 2026-09-19 zůstává beze změny níže, tento update pouze doplňuje sekci 2 o nově uložené soubory.
 
 2026-09-22 (integrace HB-026 — RECOVERY-007, viz sekce 2c). Obsah k 2026-09-19 a 2026-09-21 zůstává beze změny.
+2026-09-25 (předání HB-044 → HB-061 — RECOVERY-008, viz sekce 2d). Rychlá orientace v celém repu: `00_CORE/PRAMEN_MAPA.md`.
 
 Účel:
 Centrální mapa všech projektových materiálů, které jsou bezpečně uloženy,
