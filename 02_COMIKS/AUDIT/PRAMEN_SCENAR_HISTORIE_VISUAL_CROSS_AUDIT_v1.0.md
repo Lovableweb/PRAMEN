@@ -67,3 +67,20 @@
 **Dodatek 2026-09-21:** Na pokyn Jirky a na základě předloženého primárního dokladu (Goetheho deník, WA III 4, 304) byl status `BIL-BEETHOVEN-1812` aktualizován na 🟢 a řádek strany 19 výše byl odpovídajícím způsobem upraven.
 
 **Druhý dodatek 2026-09-21 (dramaturgické rozhodnutí):** Na základě navazujícího pokynu Jirky byla scéna strany 19 přepracována (viz `Bible §6`) a doplněn produkční guardrail (viz `Visual Audit §7`), aby scéna nadále neimplikovala pramen ani léčebný pobyt jako historický fakt. Žádná jiná strana ani claim v této tabulce nebyly touto opravou dotčeny.
+
+**Třetí dodatek 2026-09-25 (HB-044 / HB-055 / HB-056, viz [[RECOVERY-008_PREDANI_HB044-HB061]]):** Řádky tabulky výše NEBYLY přepsány — zachycují stav k 2026-09-21/22. Platí k nim tyto opravy a mantinely:
+
+- **PROMPT ≠ SCÉNÁŘ (HB-056, DEC-002).** Doslovný schválený scénář P14–P24 nebyl získán. Sloupec SCÉNA v této tabulce ani HB-055 nejsou schválený scénář. Production Lock (HB-057) je blokován.
+- **Str. 12–13 (Teplice 1879, HB-044):** formulace „záchrana Pravřídla" ve sloupci SCÉNA str. 13 je 🔴 jako přesný historický popis (`TEP-1879-RESCUE`). Bezpečně: „Pod lázeňským městem probíhala těžba a důl a voda se dostaly do nebezpečné souvislosti. Po zahájení hloubení byla 3. 3. 1879 ráno znovu zastižena voda." Zsigmondy = aktivní odborný účastník, Sueß = člen odborné komise / autor stanoviska (`TEP-1879-*` v Claim Database).
+- **Str. 14–24 — pracovní mantinely HB-055** (🟢 výzkumně-integračně validní, 🟡 NE finálně schválené produkční prompty; úplné znění v RECOVERY-008 §7):
+  - P14 „Bílina — pramen v krajině": bez 761, bez 770 l/min, bez „nejstarší pramen", pokud není definováno. (Nahrazuje vazbu str. 14 na `BIL-761` jako obsah scény.)
+  - P15: časově vrstvené využívání; nádoby/oblečení/stavby jen jako rekonstrukce.
+  - P16: Franz Ambrosius Reuss jako vědecká postava; nepředstírat přesný okamžik zahájení výzkumu.
+  - P17: Reuss sám; žádné „Reuss vyvrací mýtus o Berzeliovi". (Upřesňuje „věda proti mýtu" u str. 17.)
+  - P18: symbolická mapa / publikace / korespondence; ne fakt převzetí Berzeliovy metody.
+  - P19: cesta Teplice → Bílina; žádný pramen, pití, léčba, Reuss ani účel návštěvy.
+  - P20: 19. století, stáčení/obchod; lahve, etikety, povozy, sklady, technika = rekonstrukce, pokud nejsou doloženy.
+  - P21: symbolický dramaturgický most, NE historická cesta vody.
+  - P22: krajina / zdroj vody; podoba studny = rekonstrukce.
+  - P23: Hoffmann / počátek 18. století; 1717 jen s opatrností; objevová scéna = rekonstrukce/tradice.
+  - P24: Berzelius + chemická analýza 1840 (`ZAJ-BERZELIUS-1840`, doplněn podle doporučení u str. 24); August Emanuel Reuss odděleně; Franz Ambrosius Reuss sem nepatří; žádná osobní schůzka Berzelia s Reussem.

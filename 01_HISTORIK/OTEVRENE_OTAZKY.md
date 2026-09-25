@@ -695,3 +695,17 @@ CORE PAMATUJE.
 HISTORIE PŘED FIKCÍ.
 
 ---
+
+## DOPLNĚNO 2026-09-25 — OTEVŘENÉ BODY Z PŘEDÁNÍ HB-044 → HB-061
+
+Zdroj: [[RECOVERY-008_PREDANI_HB044-HB061]]. Nejde o tvrzení historických skutečností, ale o body k budoucímu ověření.
+
+| ID | Otázka / otevřený bod | Stav |
+|---|---|---|
+| OO-HB044-01 | Doplnit přesné bibliografické citace pramenů HB-044 (Döllinger 10. 2. 1879, 21/23 obětí, Mahler v dobovém tisku, Uherr, Zsigmondy, Sueß, voda 3. 3. 1879 ráno v cca 13 m). Předávací balík je neuvádí; claimy `TEP-1879-*` jsou vedeny 🟢 pouze na základě uzavřeného checkpointu. | 🔴 NEZODPOVĚZENO |
+| OO-HB051-01 | Získat primární text Mitise (Eichler 1836 bibliograficky identifikován, Ryba 1980 existuje). Do té doby Mitise neinterpretovat. | 🔴 NEZODPOVĚZENO |
+| OO-HB051-02 | Primární doklad role Volfa z Vřesovic v rozvoji Teplic (dosud jen sekundárně). | 🔴 NEZODPOVĚZENO |
+| OO-HB053-01 | Reuss 1801 — rozsah stran 316 vs. 376 (rozpor v katalozích) vyžaduje fyzickou kolaci. | 🔴 NEZODPOVĚZENO |
+| OO-HB054-01 | Reuss × Berzelius — seznámení s Berzeliovými pracemi a metodologická souvislost; bez konkrétního důkazu neuzavírat. | 🔴 NEZODPOVĚZENO |
+| OO-HB054-02 | Zaječice 1717 — primární dokument z roku 1717 nenalezen; dosud jen Hoffmannovo pozdější tvrzení. | 🔴 NEZODPOVĚZENO |
+| OO-HB056-01 | Doslovný schválený scénář P14–P24 (chat „PRAMEN – KOMIKS A SCÉNÁŘ – KOMPLETACE STRAN 6–30") — nezískán. Po získání vést jako samostatný zdroj s proveniencí a provést SCÉNÁŘ × HISTORIE × PROMPTY. | 🔴 NEZODPOVĚZENO |
