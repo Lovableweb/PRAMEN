@@ -1,6 +1,6 @@
 # PRAMEN – AI PROTOKOL
 
-Verze: 1.1  
+Verze: 1.2  
 Datum vytvoření: 2026-08-31  
 Status: 🟢 AKTIVNÍ
 
@@ -107,7 +107,7 @@ Před zásadní změnou:
 5. **Implementace** – provést změnu
 6. **Ověření** – otestovat funkčnost
 7. **Uložení** – uložit změnu s commit message
-8. **Aktualizace** – aktualizovat dokumentaci a návazné soubory
+8. **Aktualizace** – aktualizovat dokumentaci a návazné soubory, **vždy včetně mapy `00_CORE/PRAMEN_MAPA.md`**, pokud změna přidává, přejmenovává, přesouvá nebo výrazně mění soubor
 
 ---
 
@@ -297,5 +297,5 @@ Pokud je třeba změnit tento protokol:
 
 ---
 
-**Poslední aktualizace:** 2026-09-25 (v1.1 — sekce Ukládání na GitHub)  
+**Poslední aktualizace:** 2026-09-25 (v1.2 — mapa projektu `PRAMEN_MAPA.md` povinně aktualizovaná při každé změně souboru)  
 **Stav:** AKTIVNÍ 🟢

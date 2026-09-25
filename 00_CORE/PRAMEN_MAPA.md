@@ -1,0 +1,100 @@
+# PRAMEN – MAPA PROJEKTU
+
+**Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
+**Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
+**Poslední aktualizace:** 2026-09-25 · stav `main` po PR #5 (`1509a83`) + tento zápis.
+
+Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
+
+---
+
+## 1. STAV PROJEKTU V KOSTCE
+
+- **Co je PRAMEN:** historický komiks (30 stran) o Teplicích, Bílinské kyselce a Zaječické hořké vodě + historická databáze pod ním. Motto „Pohádka, která se opravdu stala." Zásada **HISTORIE PŘED FIKCÍ**.
+- **Kapitoly komiksu (pracovně):** Prolog 1–5 · Teplice 6–13 · Bílina 14–21 · Zaječice 22–27 · Epilog 28–30.
+- **Komiks** je podle Content Registry hotový (30 obrazů), ale **obrazy, originální Komiksová Bible, Osa v1.1, storyboard a schválený scénář NEJSOU v repu** (🔴). V repu jsou jen *recovered working* náhrady a přepis image promptů.
+- **Historie:** 45 claimů v `CLAIM_DATABASE.md` (🟢/🟡/🔴). Hlavní zdroj detailů: RECOVERY-005 (Bílina, Zaječice, Reuss), RECOVERY-007 (Teplice 1446/1477/1581), RECOVERY-008 (HB-044…HB-061).
+- **Blokováno:** HB-057 Production Lock 🔴. **Odloženo:** HB-058 Image Prompt Master, HB-059–061. Příští práce od HB-058.
+- **PROMPT ≠ SCÉNÁŘ** (DEC-002). Recovered working ≠ originál.
+
+## 2. KDE CO HLEDAT (NEJČASTĚJŠÍ ÚKOLY)
+
+| Úkol | Otevři |
+|---|---|
+| Je tvrzení doložené? | `01_HISTORIK/CLAIM_DATABASE.md` → pak zdrojový RECOVERY-00x |
+| Co se naposledy dělo | `00_CORE/CHANGELOG.md` (nejnovější nahoře) |
+| Co chybí / originály | `01_RECOVERY/MASTER_RECOVERY_MAP.md` |
+| Co platí pro konkrétní stranu komiksu | `02_COMIKS/AUDIT/…CROSS_AUDIT_v1.0.md` (+ dodatky dole) |
+| Vizuální styl R-031, barvy, Kapka | `02_COMIKS/VISUAL_AUDIT/…VISUAL_ARTIFACT_AUDIT_v1.0.md` |
+| Otevřené historické otázky | `01_HISTORIK/OTEVRENE_OTAZKY.md` |
+| Rozhodnutí projektu | `00_CORE/DECISION_REGISTER.md` |
+| Pravidla práce / role / ukládání | `00_CORE/PRAMEN_AI_PROTOCOL.md` |
+| Reuss × Berzelius | `00_CORE/REUSS_BERZELIUS_EVIDENCE.md` |
+| Nové předání od Řídícího mozku | zapsat jako `01_RECOVERY/RECOVERY-00x_…`, promítnout do Claim DB, Changelogu a této mapy |
+
+## 3. SOUBORY
+
+### Kořen
+| Soubor | ř. | ČÍST | Co to je |
+|---|---:|---|---|
+| `CLAUDE.md` | 31 | ⭐ | Startovní pokyny pro Claude Code |
+| `README.md` | 2 | 📦 | Jen název projektu |
+
+### `00_CORE/` — pravidla, registry, rozhodnutí
+| Soubor | ř. | ČÍST | Co to je / stav |
+|---|---:|---|---|
+| `PRAMEN_MAPA.md` | – | ⭐ | Tato mapa |
+| `PRAMEN_AI_PROTOCOL.md` | 301 | ⭐ | Hierarchie, pravidla změn/duplicit/rozporů, Předávací režim, ukládání na GitHub (v1.2) |
+| `CHANGELOG.md` | 278 | ⭐ (jen začátek) | Historie změn, nejnovější nahoře. ⚠️ neobsahuje záznamy ke ~20 starším commitům (viz audit) |
+| `DECISION_REGISTER.md` | 18 | ⭐ | DEC-001 architektura · DEC-002 PROMPT≠SCÉNÁŘ · DEC-003 Production Lock blokován · DEC-004 HB-058 odložen |
+| `PRAMEN_MASTER.md` | 312 | 🔍 | „Autoritativní jádro" v1.0 z 2026-08-31 — ⚠️ **zastaralé** (tvrdí, že nejsou žádná fakta ani otázky) |
+| `PRAMEN_ARCHITECTURE_UPGRADE_v1.0.md` | 121 | 🔍 | Cílový datový model SOURCE→CLAIM→PAGE→SCENE→VISUAL… (směr, ne implementace) |
+| `CONTENT_REGISTRY.md` | 890 | 🔍 | Inventura obsahu k 2026-09-18: postavy (Kapka, Karel Bašta, Digitální Jirka, Reuss), paleta, guardraily HG-001…007, priority migrace |
+| `SOURCE_REGISTRY.md` | 372 | 🔍 | Registr SR-001…014 (hlavně pracovní dokumenty, ne historické prameny) |
+| `REUSS_BERZELIUS_EVIDENCE.md` | 549 | 🔍 | Důkazní matice Reuss 1788/1801 × Berzelius 1840, zakázané formulace |
+| `SOURCE_REGISTRY_BILINA_EVIDENCE.md` | 37 | 📦 | Registrace větví BK-001, HT-BK-003 |
+| `SOURCE_REGISTRY_BILINA_EVIDENCE_CHECK.md` | 41 | 📦 | Kontrola: BK-001 a HT-BK-003 v repu nejsou |
+| `CHATGPT_WRITE_TEST.md` | 16 | 📦 | Technický test zápisu (nemazat) |
+| `AUDIT_REPOZITARE_2026-09-25.md` | – | 🔍 | Kompletní audit repa + návrhy zlepšení |
+
+### `01_HISTORIK/` — historická evidence
+| Soubor | ř. | ČÍST | Co to je / stav |
+|---|---:|---|---|
+| `CLAIM_DATABASE.md` | 69 | ⭐ | 45 claimů: CLAIM / PRAMEN / TYP / STATUS / POZNÁMKA. Hlavní zdroj pravdy o faktech |
+| `OTEVRENE_OTAZKY.md` | 711 | 🔍 | HIST-001…013, HIST-RM-001…050 (téměř vše Bílina), OO-HB* z 2026-09-25. ⚠️ HIST-012 (Beethoven) už zodpovězen, status neaktualizován |
+| `BILINA/…RECOVERED_WORKING_v1.0.md` | 265 | 🔍 | Pracovní souhrn Bíliny. ⚠️ zastaralý: Beethoven 🟡, Reuss 1808 🔵 (Claim DB má 🟢) |
+| `TEPLICE/…RECOVERED_WORKING_v1.0.md` | 279 | 🔍 | Pracovní souhrn Teplic. ⚠️ zastaralý: chybí 1446/1477/1581 a HB-044; „záchrana Pravřídla" |
+
+### `01_RECOVERY/` — obnova a předání z Historické badatelny
+| Soubor | ř. | ČÍST | Co to je |
+|---|---:|---|---|
+| `MASTER_RECOVERY_MAP.md` | 318 | 🔍 | Co je v repu / co chybí (klasifikace A–H), sekce 2b–2d = pozdější doplňky |
+| `RECOVERY-005_HISTORICKA_BADATELNA_CHECKPOINT_1.md` | 1012 | 🔍 | **Největší historický zdroj**: Schwenckfeldt 1607, Troschel 1761/1762, Hansa, Zittmann, Reuss 1786–1827, Berzelius, Löschner, obchod 42 000, Hoffmann, Kohl, Schlarb, Beethoven |
+| `RECOVERY-006_ZAJECICE_CHECKPOINT_2.md` | 87 | 🔍 | Zaječice 1717–1727, Göritz/Görlitz, Jampert, Kohl |
+| `RECOVERY-007_TEPLICE_INTEGRACNI_AUDIT_HB026.md` | 272 | 🔍 | Teplice: Prokop 1446 × Wickart 1477 × archeologie 1581 |
+| `RECOVERY-008_PREDANI_HB044-HB061.md` | 248 | 🔍 | Teplice 1879, master osa, Volf/Mitis, Reuss, Beethoven, P14–P24, scénář nezískán; konflikty K-1…K-6 |
+| `PRAMEN_CENTRALNI_RECOVERY_SYNTHESE.md` | 278 | 📦 | Souhrn recovery k 2026-09-19 (commit „RECOVERY-001") |
+| `KOMIKSOVA_BIBLE_RECOVERY_STATUS.md` | 109 | 📦 | Originál Bible nenalezen |
+| `HISTORICKA_A_PRIBEHOVA_OSA_RECOVERY_STATUS.md` | 74 | 📦 | Originál Osy nenalezen |
+| `HISTORICKY_VYZKUM_BILINSKE_KYSELKY_RECOVERY_STATUS.md` | 131 | 📦 | BK-001 / HT-BK-003 nenalezeny |
+
+### `02_COMIKS/` — komiks
+| Soubor | ř. | ČÍST | Co to je / stav |
+|---|---:|---|---|
+| `AUDIT/…CROSS_AUDIT_v1.0.md` | 86 | 🔍 | Tabulka stran 1–30: scéna × claim × prompt × problém; dodatky 2026-09-21 a 2026-09-25 dole |
+| `VISUAL_AUDIT/…VISUAL_ARTIFACT_AUDIT_v1.0.md` | 100 | 🔍 | R-031, 16:9 / 3840×2160, paleta, Kapka (varianta B), guardraily §7, §7b |
+| `KOMIKSOVA_BIBLE/…KOMIKSOVA_BIBLE_RECOVERED_WORKING_v1.0.md` | 166 | 🔍 | Pracovní Bible: postavy, kapitoly, tabulka stran 1–30 (NENÍ originál) |
+| `KOMIKSOVA_BIBLE/…OSA_RECOVERED_WORKING_v1.1.md` | 208 | 🔍 | Pracovní osa. ⚠️ Beethoven stále 🟡 (Claim DB 🟢) |
+
+### `ARCHIVE/SOURCES/`
+| Soubor | ř. | ČÍST | Co to je |
+|---|---:|---|---|
+| `PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md` | 426 | 📦 | Textový přepis PDF s image prompty 1–30 (PDF samo mimo repo). PROMPT ≠ SCÉNÁŘ |
+| `PRAMEN_image_prompty_str1-30_REPORT.md` | 108 | 📦 | Shrnutí promptů po kapitolách + mantinely |
+
+## 4. ZNAČKY A ID (rychlý slovník)
+
+- **Statusy:** 🟢 doloženo · 🟡 vyžaduje ověření / pracovní · 🔴 nepoužívat jako fakt · 🔵 archiv / odloženo / mimo repo · 📌 rozhodnutí. Claim DB píše GREEN/YELLOW/RED.
+- **Recovery klasifikace (mapa obnovy):** A fyzicky v repu · B v Git historii · C fragment · D odvozený · E jen evidence · F jen zmínka · G nenalezeno · H mimo repo.
+- **ID:** `HB-0xx` úkol Historické badatelny · `RECOVERY-00x` zapsané předání · `DEC-0xx` rozhodnutí · `SR-0xx` source registry · `HIST-…` / `OO-…` otevřené otázky · `BIL-/TEP-/ZAJ-…` claimy · `P14` = strana 14.
+- **Role:** Jirka (vlastník) · Claude Code (technika, GitHub) · ChatGPT = Řídící mozek 2 · Historická badatelna = specializovaný chat.

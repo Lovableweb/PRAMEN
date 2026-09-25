@@ -1,5 +1,24 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-25] – MAPA PROJEKTU + KOMPLETNÍ AUDIT REPOZITÁŘE
+
+### Added
+- `00_CORE/PRAMEN_MAPA.md` — mapa celého repozitáře (stav v kostce, kde co hledat, všechny soubory s účelem, velikostí a doporučením číst/nečíst, slovník značek a ID). Důvod: šetřit tokeny — agenti čtou nejdřív mapu, ne celé repo.
+- `00_CORE/AUDIT_REPOZITARE_2026-09-25.md` — audit všech souborů a commitů: 9 zastaralých míst (A1–A9), 10 technických chyb (B1–B10), 9 strukturálních návrhů (C1–C9), doporučené pořadí P1–P5. Pouze nálezy a návrhy.
+
+### Changed
+- `CLAUDE.md` — start session čte mapu; každá změna souboru musí aktualizovat mapu.
+- `00_CORE/PRAMEN_AI_PROTOCOL.md` — v1.1 → v1.2: Pravidlo změn bod 8 nově výslovně zahrnuje aktualizaci mapy.
+- `01_RECOVERY/MASTER_RECOVERY_MAP.md` — doplněn řádek „Aktualizováno 2026-09-25" do hlavičky (chyběl u zápisu RECOVERY-008) + odkaz na mapu.
+
+### Type
+- ADD (mapa, audit) + UPDATE (procesní pravidla)
+
+### Status
+- Žádný historický status ani obsah historických dokumentů nezměněn. Opravy navržené auditem čekají na schválení.
+
+---
+
 ## [2026-09-25] – CLAUDE.md – STARTOVNÍ POKYNY PRO CLAUDE CODE
 
 ### Added
