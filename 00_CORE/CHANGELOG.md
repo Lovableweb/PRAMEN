@@ -1,5 +1,26 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-25] – ZKRÁCENÝ CHECKPOINT HB-058 → HB-061 + STOPY K CITACÍM HB-044
+
+### Added
+- `01_HISTORIK/STOPY_HB044_TEPLICE_1879.md` — evidence stop k OO-HB044-01: dobový článek „Aus den Schreckenstagen zu Teplitz", *Die Gartenlaube* 1879, Heft 10, s. 164–166 (PRIMARY NOT SEEN); identifikace Wilhelm = Vilmos Zsigmondy (1821–1888); komise Wolf / Laube / Suess (SECONDARY QUOTED). Zapsány rozpory R-1…R-3 k ověření (počet obětí 23, role Zsigmondyho, Suess: hloubení vs. vrtání).
+
+### Changed
+- `01_RECOVERY/RECOVERY-009_PREDANI_HB058-HB061.md` — §10 dodatek: přijat zkrácený checkpoint téhož předání. Zapsány jen rozdíly (HEAD, Osa v1.1, RECOVERY-008 autoritativní, shoda stavů claimů), bez duplicity.
+- `01_HISTORIK/OTEVRENE_OTAZKY.md` — OO-HB044-01: odkaz na stopy (stav zůstává 🔴).
+- `00_CORE/PRAMEN_MAPA.md` — nový soubor, blokery.
+
+### Proč
+- Priorita 4 předávacího bloku (citace HB-044): doplnit jen skutečně dohledatelné údaje, nic neodhadovat.
+
+### Omezení
+- Weby se zdroji (wikisource aj.) jsou z cloudového prostředí blokované, fungovalo jen vyhledávání. Stopy nejsou citace; `CLAIM_DATABASE.md` nezměněna.
+
+### Blokery
+- Beze změny: scénář P14–P24 🔴, originální Bible 🔴, storyboard 🔴, citace HB-044 🟡.
+
+---
+
 ## [2026-09-25] – RECOVERY-009 – PŘEDÁNÍ HB-058 → HB-061 + RECOVERY SEARCH
 
 ### Added

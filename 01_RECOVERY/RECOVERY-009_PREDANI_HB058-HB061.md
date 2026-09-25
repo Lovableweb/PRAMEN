@@ -124,3 +124,16 @@ Bibliografická existence zdroje ≠ přečtení primárního textu.
 ## 9. CO SE NESMÍ
 
 Nevytvářet „finální scénář" z promptů · nevytvářet novou Komiksovou Bibli jako originál · nepovyšovat recovered working Bible · nepovyšovat Cross-Audit na storyboard · nepovyšovat HB-058 na Production Master · neuzavírat HB-057 · nevytvářet historické tvrzení bez zdroje · neměnit staré recovery dokumenty tak, aby zmizela jejich historie · neodstraňovat dnes zakázané formulace z archivních materiálů (provenance).
+
+---
+
+## 10. DODATEK 2026-09-25 — ZKRÁCENÝ INTEGRAČNÍ CHECKPOINT
+
+Řídící mozek 2 předal zkrácenou verzi téhož předání („HB-058 → HB-061 | ZKRÁCENÝ INTEGRAČNÍ CHECKPOINT"). Obsahově odpovídá §1–§9 výše, proto se **neduplikuje**. Zapisují se jen rozdíly:
+
+- **HEAD:** checkpoint uvádí `1509a83`; skutečný `main` při zápisu dodatku = `f3f13d4` (sloučené PR #6 a #7 s mapou, auditem a tímto dokumentem). Historický obsah mezi nimi změněn nebyl.
+- **Výslovně doplněno:** 🔴 originální *Historická a příběhová osa v1.1* nenalezena (už vedeno v mapě obnovy §3, RM-007).
+- **Výslovně doplněno:** RECOVERY-008 zůstává autoritativní pro aktuální historické guardraily.
+- **Stavy claimů v checkpointu** (`BIL-REUSS-1788`, `BIL-REUSS-1808`, `ZAJ-BERZELIUS-1840`, `TEP-BALNEA-1446`, `TEP-BALNEA-1477`, `TEP-BUILDING-1581` 🟢; `BIL-REUSS-1801`, `TEP-MITIS`, `TEP-VOLF-ROLE` 🟡; `BIL-761`, `TEP-762` 🔴) **odpovídají** `CLAIM_DATABASE.md`. Rozpor nenalezen, nic se neměnilo.
+- **Priorita 4 (citace HB-044):** provedeno hledání stop, výsledek je v `01_HISTORIK/STOPY_HB044_TEPLICE_1879.md`. Nalezena dobová stopa *Die Gartenlaube* 1879, Heft 10, s. 164–166 (PRIMARY NOT SEEN). Weby se zdroji jsou z cloudového prostředí blokované, takže text nebyl přečten. Zapsány 3 rozpory k ověření (R-1…R-3). Claimy nezměněny.
+- **Priority 1–3 (scénář, Bible, storyboard):** recovery search byl proveden už v §6. Nové zdroje, které by šly prohledat, nejsou k dispozici. Blokery trvají.
