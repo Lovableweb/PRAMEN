@@ -1,7 +1,7 @@
 # PRAMEN – CLAIM DATABASE v1.0
 
 **Účel:** Centrální databáze historických tvrzení projektu PRAMEN.
-**Zdroj dat:** výhradně [[RECOVERY-005_HISTORICKA_BADATELNA_CHECKPOINT_1]], [[RECOVERY-006_ZAJECICE_CHECKPOINT_2]] a [[RECOVERY-007_TEPLICE_INTEGRACNI_AUDIT_HB026]] (konsolidované checkpointy/audity z PRAMEN – HISTORICKÁ BADATELNA), doplněno o `01_HISTORIK/OTEVRENE_OTAZKY.md` tam, kde je relevantní.
+**Zdroj dat:** výhradně [[RECOVERY-005_HISTORICKA_BADATELNA_CHECKPOINT_1]], [[RECOVERY-006_ZAJECICE_CHECKPOINT_2]] [[RECOVERY-007_TEPLICE_INTEGRACNI_AUDIT_HB026]] a [[RECOVERY-008_PREDANI_HB044-HB061]] (konsolidované checkpointy/audity z PRAMEN – HISTORICKÁ BADATELNA), doplněno o `01_HISTORIK/OTEVRENE_OTAZKY.md` tam, kde je relevantní.
 **Metodika:** viz [[PRAMEN_MASTER]] a [[PRAMEN_AI_PROTOCOL]] — HISTORIE PŘED FIKCÍ.
 
 Žádný nový claim nebyl vymyšlen. Žádný status nebyl zvýšen oproti zdrojovým checkpointům jen proto, že se tvrzení opakuje. Tabulka obsahuje minimální požadovanou sadu claimů dle zadání Kroku 03.
@@ -9,6 +9,8 @@
 **Aktualizace 2026-09-21:** `BIL-BEETHOVEN-1812` povýšen z YELLOW na GREEN na základě nově předloženého primárního dokladu (Goetheho deník, WA III 4, 304) — viz řádek níže. Provedena na pokyn Jirky s konkrétním důkazním podkladem, ne svévolně.
 
 **Aktualizace 2026-09-22:** Doplněno 7 nových claimů z integračního auditu HB-026 (Historická badatelna): `TEP-BALNEA-1446`, `TEP-BALNEA-1477`, `TEP-WICKART-BODILY-1477`, `TEP-WICKART-HEALING-1477` (RED), `TEP-BUILDING-1477` (RED), `TEP-BUILDING-1581`, `TEP-FIRST-BATHS-1581` (RED). Přesahuje minimální sadu 19 claimů z Kroku 03 — doplněno na explicitní pokyn Jirky po předání auditu HB-026.
+
+**Aktualizace 2026-09-25:** Doplněno 18 nových claimů z předání HB-044 / HB-050 / HB-051 / HB-054 ([[RECOVERY-008_PREDANI_HB044-HB061]]). Stávající claimy NEBYLY přepsány. `TEP-DOLLINGER-1879` ponechán beze změny jako původní souhrnný záznam (🟡); jeho dílčí údaje jsou nově vedeny samostatně jako `TEP-1879-*` se stavem dle HB-044 — **přesné citace pramenů HB-044 nejsou v předávacím balíku a musí být doplněny** (RECOVERY-008 §9 K-1). `BIL-REUSS-1801` ponechán 🟡 (RECOVERY-008 §9 K-3). Nový `ZAJ-BERZELIUS-1840` doplňuje CLAIM-ID doporučené cross-auditem (str. 24).
 
 **TYP EVIDENCE:** PRIMARY / SECONDARY / BIBLIOGRAPHIC / TRADITION / ARCHIVAL_TRACE
 **STATUS:** GREEN / YELLOW / RED
@@ -43,6 +45,24 @@
 | TEP-BUILDING-1477 | Roku 1477 stála v Teplicích konkrétní zděná lázeňská budova | — | — | PRIMARY | RED | NEPROKÁZÁNO — dopis z 1477 je textový doklad úmyslu/plánu, ne popis konkrétní stavby. (RECOVERY-007, §7, §9) |
 | TEP-BUILDING-1581 | Roku 1581 je archeologicky doložena konkrétní zděná lázeňská stavba | archeologická evidence / muzejní dokumentace | — | PRIMARY | GREEN | Nejstarší dosud archeologicky zjištěná zděná lázeňská stavba v Teplicích. NEPOUŽÍVAT jako „první teplické lázně" (písemné doklady 1446 a 1477 jsou starší) a NEPŘEDPOKLÁDAT identitu se stavbou, ke které se vztahují doklady 1446/1477 — jde o odlišné typy důkazů (text vs. archeologie). (RECOVERY-007, §4, §7, §9) |
 | TEP-FIRST-BATHS-1581 | Roku 1581 vznikly první teplické lázně | — | — | ARCHIVAL_TRACE | RED | ZAKÁZÁNO — textové doklady 1446 a 1477 jsou starší než archeologický nález 1581; 1581 není počátkem teplického lázeňství. (RECOVERY-007, §4, §9) |
+| TEP-1879-DOLLINGER-DATE | Průval v Döllingerově dole 10. 2. 1879 | dle HB-044 (citace pramene v předání neuvedena — doplnit) | — | SECONDARY | GREEN | 🟢 dle uzavřeného checkpointu HB-044. Dílčí údaj z `TEP-DOLLINGER-1879`, který zůstává beze změny. (RECOVERY-008 §2, §9 K-1) |
+| TEP-1879-VICTIMS | V Döllingerově dole zemřelo 21 lidí; celkem 23 obětí v souvislosti s důlními průvaly, z toho 21 Döllinger a 2 Nelson | dle HB-044 (citace pramene v předání neuvedena — doplnit) | — | SECONDARY | GREEN | Nesčítat 23 obětí k Döllingeru — 2 patří Nelsonu. (RECOVERY-008 §2) |
+| TEP-1879-MAHLER | Julius Mahler je v dobovém tisku uváděn jako vedoucí abteufování (hloubení) | dobový tisk dle HB-044 (konkrétní titul/datum v předání neuvedeny — doplnit) | — | PRIMARY | GREEN | Dokládá pouze uvedení v tisku v této roli. NE „Mahler zachránil Pravřídlo" (viz `TEP-1879-RESCUE`). (RECOVERY-008 §2) |
+| TEP-1879-UHERR | Starosta Uherr provedl první tři symbolické údery za město | dle HB-044 (citace pramene v předání neuvedena — doplnit) | — | SECONDARY | GREEN | Symbolický akt. NE „Uherr rozhodl/zachránil pramen". (RECOVERY-008 §2) |
+| TEP-1879-ZSIGMONDY | Wilhelm Zsigmondy byl aktivním odborným účastníkem (1879) | dle HB-044 (citace pramene v předání neuvedena — doplnit) | — | SECONDARY | GREEN | NE „Zsigmondy zachránil Pravřídlo". (RECOVERY-008 §2) |
+| TEP-1879-SUESS | Eduard Sueß byl členem odborné komise / autorem odborného stanoviska a doporučení k řešení (1879) | dle HB-044 (citace pramene v předání neuvedena — doplnit) | — | SECONDARY | GREEN | NE „Sueß navrhl okamžité hluboké vrtání" (viz `TEP-1879-SUESS-DRILL`). (RECOVERY-008 §2) |
+| TEP-1879-WATER-0303 | 3. 3. 1879 ráno (cca 7:30–7:45) byla při hloubení přibližně v hloubce 13 m znovu zastižena voda | dle HB-044 (citace pramene v předání neuvedena — doplnit) | — | SECONDARY | GREEN | Používat „ráno", ne přesný čas. NE „3. březen ukončil krizi" (viz `TEP-1879-CRISIS-END`). (RECOVERY-008 §2) |
+| TEP-1879-RESCUE | Zsigmondy / Mahler / Uherr „zachránil Pravřídlo"; „záchrana Pravřídla" jako přesný historický popis technického výsledku | — | — | SECONDARY | RED | NEDOVOZOVAT. Bezpečně: „Po zahájení hloubení byla 3. 3. 1879 ráno znovu zastižena voda." (RECOVERY-008 §2; konflikt formulací v pracovních dokumentech viz §9 K-2) |
+| TEP-1879-SUESS-DRILL | Sueß navrhl okamžité hluboké vrtání | — | — | SECONDARY | RED | NEDOVOZOVAT. (RECOVERY-008 §2) |
+| TEP-1879-CRISIS-END | 3. březen 1879 ukončil krizi | — | — | SECONDARY | RED | NEDOVOZOVAT. (RECOVERY-008 §2) |
+| TEP-1879-DRAINED | Döllinger „vysál" Pravřídlo | — | — | SECONDARY | RED | NEDOVOZOVAT. Bezpečně: „důl a voda se dostaly do nebezpečné souvislosti". (RECOVERY-008 §2) |
+| TEP-VINCENTIUS-12C | Ve 12. století jsou v Teplicích doloženy teplé vody v souvislosti s královským klášterem | Vincentius: „ad Aquas calidas..." | — | PRIMARY | GREEN | Neprokazuje automaticky lázeňský provoz. (RECOVERY-008 §3; RECOVERY-007) |
+| TEP-PULKAVA-14C | Ve 14. století je výslovně zmíněna lázeň v Teplicích | Pulkava: „in Teplicz ad balnea ordinis sancti Benedicti" | — | PRIMARY | GREEN | Neprokazuje automaticky Juditino založení lázní (srov. `TEP-JUDITA-1156-1167`). (RECOVERY-008 §3; RECOVERY-007) |
+| TEP-POGGIO-1416 | Poggio Bracciolini jako doklad Teplic roku 1416 | — | — | SECONDARY | RED | NEPOUŽÍVAT — jeho relevantní lázeňský text se vztahuje k Badenu ve Švýcarsku. (RECOVERY-008 §3) |
+| TEP-VOLF-ROLE | Volf z Vřesovic měl významnou roli v rozvoji Teplic (16. století) | sekundární literatura dle HB-051 | — | SECONDARY | YELLOW | Vést s historickou opatrností. (RECOVERY-008 §4) |
+| TEP-VOLF-FIRST-BUILDING | Volf postavil první zděné lázně | — | — | SECONDARY | RED | Nelze zapisovat bez primárního důkazu. (RECOVERY-008 §4) |
+| TEP-MITIS | Mitis jako pramen k teplické historii | Eichler 1836 (bibliograficky identifikován); Ryba 1980 (existuje) | — | BIBLIOGRAPHIC | YELLOW | Primární text nebyl přímo získán. Obsah Mitisova textu zde záměrně NENÍ popisován; neprovádět další interpretaci bez primárního textu nebo nového zadání. (RECOVERY-008 §4) |
+| ZAJ-BERZELIUS-1840 | Berzelius je spojen s chemickým rozborem Saidschützer Bitterwasser; publikace „Das Saidschitzer Bitterwasser", Prag 1840, s poznámkami Augusta Emanuela Reusse o léčivých účincích | *Das Saidschitzer Bitterwasser*, Prag, 1840 | — | BIBLIOGRAPHIC | GREEN | August Emanuel Reuss (1811–1873) ≠ Franz Ambrosius Reuss (1761–1830) — nikdy neslučovat. Jiný fakt než 🔴 „Berzelius v Bílině 1786". (RECOVERY-005 §12; `00_CORE/REUSS_BERZELIUS_EVIDENCE.md` P4; RECOVERY-008 §6.2) |
 
 ---
 
