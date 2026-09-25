@@ -2,7 +2,7 @@
 
 **Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
 **Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
-**Poslední aktualizace:** 2026-09-25 · RECOVERY-010 — získán scénář stran 6–30 (k1).
+**Poslední aktualizace:** 2026-09-25 · historický audit scénáře K1 (S-01…S-13).
 
 Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
 
@@ -25,7 +25,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | Je tvrzení doložené? | `01_HISTORIK/CLAIM_DATABASE.md` → pak zdrojový RECOVERY-00x |
 | Co se naposledy dělo | `00_CORE/CHANGELOG.md` (nejnovější nahoře) |
 | Co chybí / originály | `01_RECOVERY/MASTER_RECOVERY_MAP.md` |
-| Co je na konkrétní straně podle scénáře | `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md` + rozpory v `RECOVERY-010` |
+| Co je na konkrétní straně podle scénáře | `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md` + rozpory v `RECOVERY-010` + důkazní audit `02_COMIKS/AUDIT/PRAMEN_AUDIT_SCENAR_K1_S01-S13.md` |
 | Co platí pro konkrétní stranu komiksu | `02_COMIKS/AUDIT/…CROSS_AUDIT_v1.0.md` (+ dodatky dole) |
 | Vizuální styl R-031, barvy, Kapka | `02_COMIKS/VISUAL_AUDIT/…VISUAL_ARTIFACT_AUDIT_v1.0.md` |
 | Otevřené historické otázky | `01_HISTORIK/OTEVRENE_OTAZKY.md` |
@@ -86,6 +86,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 ### `02_COMIKS/` — komiks
 | Soubor | ř. | ČÍST | Co to je / stav |
 |---|---:|---|---|
+| `AUDIT/PRAMEN_AUDIT_SCENAR_K1_S01-S13.md` | 247 | ⭐ | **Důkazní audit scénáře K1**: S-01…S-13 (0 🟢 · 4 🟡 · 8 🔴 · 1 ⚪), záměna F. A. × A. E. Reusse, návrhy pro K2, blokery HB-057 |
 | `AUDIT/…CROSS_AUDIT_v1.0.md` | 89 | 🔍 | Tabulka stran 1–30 podle **pracovního** rozložení stran (ne scénáře k1): scéna × claim × prompt × problém; dodatky dole |
 | `VISUAL_AUDIT/…VISUAL_ARTIFACT_AUDIT_v1.0.md` | 100 | 🔍 | R-031, 16:9 / 3840×2160, paleta, Kapka (varianta B), guardraily §7, §7b |
 | `KOMIKSOVA_BIBLE/…KOMIKSOVA_BIBLE_RECOVERED_WORKING_v1.0.md` | 166 | 🔍 | Pracovní Bible: postavy, kapitoly, tabulka stran 1–30 (NENÍ originál) |

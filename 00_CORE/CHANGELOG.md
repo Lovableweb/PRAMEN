@@ -1,5 +1,27 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-25] – HISTORICKÝ AUDIT SCÉNÁŘE K1 (S-01 AŽ S-13)
+
+### Added
+- `02_COMIKS/AUDIT/PRAMEN_AUDIT_SCENAR_K1_S01-S13.md` — důkazní audit všech 13 rozporů z RECOVERY-010 podle zadání Řídícího mozku 2: pro každý bod tvrzení K1, důkazy (repo + webové souhrny, označené SECONDARY QUOTED), FAKT / INTERPRETACE / REKONSTRUKCE / NEZNÁMO, status, typ problému, doporučení pro K2. Výsledek: 0 🟢 · 4 🟡 · 8 🔴 · 1 ⚪; 11 bodů pravděpodobně ke změně v K2.
+
+### Proč
+- Zadání „PRAMEN – HISTORICKÝ AUDIT SCÉNÁŘE K1 / RECOVERY-010 → S-01 až S-13".
+
+### Týká se
+- RECOVERY-010, scénář K1, HB-057 (blokery), HB-044, HB-051, HB-054.
+
+### Hlavní nález
+- Pravděpodobný původ S-05, S-06 a S-07: sekundární zdroj (en.wikipedia, F. A. Reuss) připisuje F. A. Reussovi (†1830) spolupráci s Berzeliem na zaječické vodě. Rozbor ale vyšel 1840 s A. E. Reussem. Jde o záměnu otce a syna.
+
+### Omezení
+- Weby se zdroji jsou z cloudu blokované, primární prameny nebyly přečteny (PRIMARY SEEN = 0).
+
+### Status
+- K1, `CLAIM_DATABASE.md`, HB-055, prompty i `OTEVRENE_OTAZKY.md` beze změny; K2 nevytvořena; HB-057 dál 🔴. Nové otázky AUD-01…08 jsou jen návrh v auditu.
+
+---
+
 ## [2026-09-25] – RECOVERY-010 – ZÍSKÁN SCÉNÁŘ STRAN 6–30 (k1)
 
 ### Added
