@@ -11,6 +11,7 @@
 - Postup ověření je v hlavičce skriptu. Skript obsahuje několik ručních oprav vázaných na konkrétní text v K2 (poznámka uvnitř repliky str. 12, titulek str. 20, patička); když se ten text změní, ověření ukáže rozdíl.
 
 ### Changed
+- `.gitattributes` (nový): `*.sh text eol=lf`. Na Windows s `autocrlf=true` by se skript po stažení převedl na CRLF a bash by ho nespustil.
 - `00_CORE/PRAMEN_MAPA.md` — nová sekce `scripts/`, hlavička.
 
 ### Status
