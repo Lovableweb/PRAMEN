@@ -1,5 +1,24 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – NOVÉ PROMPTY K3 (NÁVRH v0.1)
+
+### Added
+- `02_COMIKS/PRAMEN_NOVE_PROMPTY_K3_v0.1.md` — návrh šesti nových image promptů pro str. K3 11, 12, 16, 19, 24, 25 (druhý agent, doslovně) + kontrola Claude Code. **NÁVRH, neschváleno, není Vizuální Lock.** Archivní prompty nepřepsány.
+
+### Kontrola proti K3
+- Počty panelů sedí (5, 5, 5, 5, 5, 4). Zakázané motivy jsou jen v seznamech „nezobrazovat". Značky stavu odpovídají K3.
+- **Tři odchylky od popisů panelů v K3** (zadání chtělo „přesně podle K3"): str. 16 panel 3 (K3: „Kdosi se dívá z vrcholu Bořně", prompt: vědecká scéna s Reussem), str. 11 panel 4 (přidáni Beethoven a Goethe do pozadí), str. 12 panel 4 (přidán list/dopis v pozadí). K rozhodnutí: upravit prompt, nebo K3 přes K2.
+- Podoba osob není nikde doložena. Určí ji ilustrátor.
+
+### Changed
+- `01_HISTORIK/OTEVRENE_OTAZKY.md` — OO-K3-03 → 🟡 ROZPRACOVÁNO (návrh v0.1 hotov).
+- `00_CORE/PRAMEN_MAPA.md` — nový řádek, stav projektu.
+
+### Status
+- K1, K2, K3, archivní prompty, obrazy, Claim DB beze změny. Žádný Production Lock ani Vizuální Lock.
+
+---
+
 ## [2026-09-26] – VIZUÁLNÍ AUDIT K3
 
 ### Added
