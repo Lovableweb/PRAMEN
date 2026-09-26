@@ -1,5 +1,27 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – 🔒 UZAVŘENÍ TEXTU K3 STR. 6–30 (ROZHODNUTÍ ŘÍDÍCÍHO MOZKU 2 D-1…D-7)
+
+**Lock platí až po sloučení PR #30 → #31 → tohoto PR do `main` a ověření v `main`.** Claude nemerguje.
+
+### Added
+- `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md` — rozsah locku (jen text str. 6–30), co lock neuzavírá, podmínky D-7 a jejich splnění, postup změny po locku, zákaz rozšiřování.
+- `01_HISTORIK/CLAIM_DATABASE.md` — **16 claimů D-8b** (varianta A, D-2), jeden ke každé mezeře ⚠️1–16 cross-auditu. `TEP-INCIDENT-1812-TRADICE` = YELLOW (D-2); `BIL-AE-REUSS-BORN-1811` a `BIL-FA-REUSS-DEATH-1830` = GREEN (D-2); ostatní GREEN s primárním pramenem a stranou. RED claimy beze změny. **Celkem 75 claimů** (strojově; dřívější „45/60" byla chyba součtu o 1, žádný claim nechybí).
+- `00_CORE/DECISION_REGISTER.md` — DEC-006 (D-1…D-7).
+
+### Changed
+- **K2, K3, skript:** str. 12, replika Bašty „Jde o pozdější spornou tradici" 🟢 → 🟡 (D-2). Regex ruční opravy 1 ve `scripts/generate_k3_from_k2.sh` přijímá 🟢 i 🟡. Ověřeno: tělo K3 = výstup skriptu z K2 (diff prázdný); jediná změna těla K3 je tato značka. Hlavičky K2/K3 odkazují na lock.
+- **Prompty (D-4):** v0.2 schváleny jako pracovní produkční sada vázaná na K3 (`PRAMEN_NOVE_PROMPTY_K3_v0.1.md`, `PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md`). Dodatek D-4: str. 16 panel 2 (Humboldt a Freiesleben, Reuss v obraze není), str. 19 panel 1 (1789/1806, bez „od roku 1800"), str. 12 panel 2 značka 🟡. Pravidlo: K3 > prompt.
+- **Prompt Master Map:** prompt 27 vyřazen z produkční sady, archivován (nesmazán).
+- **Cross-audit:** §5 — mapování mezer na claimy, závěrečná kontrola (34 🟢 replik v K3, 0 bez claimu, 0 chybějících claim ID).
+- **Page Master 1.2:** LOCK 🔒 text str. 6–30, vizuální zadání 🟢 18 stran, str. 12/16/19 karty.
+- **Master Core 2.0:** stav, brána G1–G10 (G4–G7 🟢 pro lock textu, G8 ⚪, G9 🟡 a G10 🔴 = úkoly Jirky), otevřená rozhodnutí.
+- **Otevřené otázky:** OO-K3-03/04/05/07 vyřešeno (D-4), OO-K3-06 odloženo (D-6), OO-K3-01 = úkol Jirky mimo lock textu.
+- `00_CORE/PRAMEN_MAPA.md` — §1 přepsán (lock, 75 claimů, HB-057, co zůstává otevřené), řádky souborů.
+
+### Nezměněno
+- K1, text K3 mimo značku str. 12, RED claimy, archivní prompty, obrazy. Úkoly Jirky (ověření str. 29, souhlasy G10) **nejsou** označeny za splněné.
+
 ## [2026-09-26] – SKRIPT PRO GENEROVÁNÍ K3 Z K2 ULOŽEN DO REPA
 
 ### Added

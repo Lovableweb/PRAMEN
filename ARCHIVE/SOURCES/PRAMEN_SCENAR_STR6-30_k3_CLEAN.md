@@ -1,13 +1,15 @@
 # PRAMEN – SCÉNÁŘ STRAN 6–30 (verze K3 CLEAN)
 
-> **K3 = čistá historicky kontrolovaná verze scénáře. NENÍ Production Lock.**
+> **K3 = čistá historicky kontrolovaná verze scénáře. 🔒 TEXT STRAN 6–30 JE V PRODUCTION LOCKU** (rozhodnutí Řídícího mozku 2 D-7, 2026-09-26; rozsah a podmínky: `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md`). Lock platí jen pro text str. 6–30 — ne pro Prolog 1–5, obrazy, publikaci ani lidská schválení (str. 29, souhlasy).
 >
 > - **Vznik:** 2026-09-26, Claude Code. Odvozeno z `PRAMEN_SCENAR_STR6-30_k2_WORKING.md` (stav K2.5) odstraněním redakčních poznámek (odkazy na K1, audity, RECOVERY, claimy, historii oprav) podle RECOVERY-013 K3-A.
 > - **Text replik a captionů odpovídá K2.5 (poslední změna: integrace nálezů N-01…N-17, viz K2 příloha K).** Výjimky: odstraněna jedna poznámka uvnitř repliky (str. 12) a tučné písmo u jmen. Ověřeno strojovým porovnáním všech 130 replik.
 > - **Značky stavu** jsou sjednoceny na konec každé repliky (platí nejslabší stav v celé replice): 🟢 doloženo · 🟡 otevřené / neověřené · 🟡k převzato z K1, nekolacionováno · 💡 dramaturgie / metafora (ne historické tvrzení). U str. 29 je navíc [OVĚŘIT PŘED TISKEM].
 > - **Důvody změn, zdroje a historie oprav** jsou v K2 (přílohy A–J) a v `RECOVERY-011`, `-012`, `-013`. K3 je odvozená čistá kopie, **zdroj pravdy o důvodech zůstává K2**. Když se text mění, upravuje se K2 a K3 se z něj znovu vygeneruje.
 > - **Chybí:** strany 1–5 (Prolog).
-> - **Blokátory Production Lock:** ověření str. 29 (muzeum, Bašta, výroba), nový PROMPT MASTER MAP a audit promptů, přečtení originálů u 🟡 claimů, rozhodnutí Řídícího mozku 2 o K3.
+> - **Co lock NEuzavírá (zůstává otevřené):** ověření str. 29 (muzeum, Bašta, výroba; úkol Jirky), souhlasy Karla Bašty a Digitálního Jirky (úkol Jirky), Prolog 1–5, audit obrazů. Značky 🟡 / 🟡k v textu platí dál — lock je nepovyšuje.
+> - **Změna textu po locku** jen výslovným rozhodnutím Řídícího mozku 2 / Jirky: upraví se K2 a K3 se znovu vygeneruje skriptem `scripts/generate_k3_from_k2.sh`.
+> - **Poslední změna textu (D-2, 2026-09-26):** str. 12, replika Bašty o „pozdější sporné tradici" 🟢 → 🟡 (claim `TEP-INCIDENT-1812-TRADICE`).
 
 ---
 
@@ -104,7 +106,7 @@ STRANA 12 — "Legenda z promenády"
 Panel 1 (rám jako dobová litografie): Beethoven razí si cestu davem, Goethe se klaní, císařovna s doprovodem.
 CAPTION: "‚Incident v Teplicích', 1887 – obraz namalovaný 75 let po události." 🟡k
 Panel 2: Bašta „vystupuje" z rámu.
-BAŠTA: "Tenhle obraz zná celá Evropa. Jenže vznikl o 75 let později, podle pozdějšího vyprávění. Jde o pozdější spornou tradici." 🟢
+BAŠTA: "Tenhle obraz zná celá Evropa. Jenže vznikl o 75 let později, podle pozdějšího vyprávění. Jde o pozdější spornou tradici." 🟡
 Panel 3 (rozdělený): legenda vlevo, klidnější realističtější verze vpravo.
 BAŠTA (caption): "Co se stalo doopravdy, přesně nevíme. Deník máme, takže víme, že spolu jeli k Bílině a že se navštěvovali. Legenda je barvitější než doklady."
 Panel 4: Goethe odjíždí kočárem, ohlíží se.
