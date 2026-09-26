@@ -5,7 +5,7 @@
 > - **Vznik:** 2026-09-26, Claude Code, na zadání Jirky (krok K2).
 > - **Vstup:** `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md` (dramaturgická základna, NE historická autorita), `01_RECOVERY/RECOVERY-011_AUDIT_K1_STR6-30.md` (závazný audit + kontrola R11-01…07), `01_HISTORIK/CLAIM_DATABASE.md`, `01_HISTORIK/PRIMARNI_KOLACE_VYSLEDEK.md`, `00_CORE`.
 > - **Toto NENÍ:** finální scénář, Production Lock, zápis do `00_CORE` ani do Claim Database. Obrazové prompty ani vizuály nejsou dotčeny. K1 zůstává beze změny.
-> - **Stav:** čeká na následný audit Řídícího mozku 2. **K2.1 (2026-09-26):** opraveny výhrady vlastního auditu `RECOVERY-012` F-01…F-03, F-05…F-08, F-11 (viz příloha G). F-04 a F-09 zůstávají otevřené.
+> - **Stav:** čeká na nezávislý audit Řídícího mozku 2. **K2.2 (2026-09-26):** promítnut výzkum P1–P10 (příloha H). **K2.1 (2026-09-26):** opraveny výhrady vlastního auditu `RECOVERY-012` F-01…F-03, F-05…F-08, F-11 (viz příloha G). F-04 a F-09 zůstávají otevřené.
 > - **Rozhodnutí o rozporech R11-01…R11-07:** K2 se řídí primární kolací (u těchto sedmi bodů je přesnější než původní znění auditu) – viz sekce A na konci.
 
 ## Legenda značek
@@ -102,7 +102,7 @@ CAPTION: [K2] "V červenci 1812 se v Teplicích setkávají Beethoven a Goethe. 
 Panel 2: Procházka zámeckým parkem.
 BAŠTA (caption): [K2] "Několik dní spolu trávili čas. Goethe si 21. července zapsal, že Beethoven hrál nádherně. 🟢"
 Panel 3: Beethoven hraje na klavír, Goethe pohlcený.
-CAPTION (parafráze Goethova dopisu): [K2] "Goethe o něm napsal, že tak soustředěného, energického a vroucného umělce ještě neviděl." 🟡 (citát je znám jen ze sekundárních zdrojů, datum a adresát se liší – neuvádět „manželce")
+CAPTION (parafráze Goethova dopisu): [K2] "O několik týdnů později Goethe napsal manželce Christiane, že tak soustředěného, energického a vroucného umělce ještě neviděl." 🟡 (K2.2: adresát Christiane a datum 19. 8. 1812 podle Goethe-Gesellschaft = SECONDARY QUOTED; originál WA IV 23, s. 43 nikdo nečetl, KOL-K2-05; dřívější kolace S-09 uváděla, že se datum v sekundárních zdrojích liší)
 Panel 4: Kapka stéká po okenní tabuli.
 KAPKA VODY: "Dva různé zvuky. Jeden hlasitý jako bouře. Druhý tichý jako řeka. Na chvíli tekli spolu." 💡
 Panel 5: Procházka pokračuje, v dálce se objevuje zářivě oděná společnost s doprovodem.
@@ -116,7 +116,7 @@ BAŠTA: [K2] "Tenhle obraz zná celá Evropa. Jenže vznikl o 75 let později, p
 Panel 3 (rozdělený): legenda vlevo, klidnější realističtější verze vpravo.
 BAŠTA (caption): [K2] "Co se stalo doopravdy, přesně nevíme. Deník máme, takže víme, že spolu jeli k Bílině a že se navštěvovali. Legenda je barvitější než doklady."
 Panel 4: Goethe odjíždí kočárem, ohlíží se.
-CAPTION: [K2] "Goethe z Teplic odjel. Legenda z toho udělala scénu definitivního rozchodu. Jenže doklady o pozdějších kontaktech mezi oběma muži existují." 🟡 (K2.1: převzato z auditu P12, kolace to neověřila – sníženo z 🟢, viz RECOVERY-012 F-01; audit P12: „už si nikdy nenapsali" a „už se nikdy nesetkali" = 🔴, odstraněno)
+CAPTION: [K2] "Goethe z Teplic odjel. Legenda z toho udělala scénu definitivního rozchodu. Jenže doklady o pozdějších kontaktech mezi oběma muži existují – například Beethovenův dopis Goethovi z února 1823." 🟡 (K2.2: konkrétní opora z výzkumu P2 – Beethovenův dopis Goethovi 8. 2. 1823 a zaslaná partitura *Meeresstille*, podle Beethoven-Haus = SECONDARY QUOTED, originál nečten, KOL-K2-06; status zůstává 🟡 do přečtení originálu; K2.1: sníženo z 🟢, viz RECOVERY-012 F-01; audit P12: „už si nikdy nenapsali" a „už se nikdy nesetkali" = 🔴, odstraněno)
 Panel 5: Digitální Jirka u pamětní desky, fotí telefonem.
 DIGITÁLNÍ JIRKA: "Zajímavý, že jo? Někdy legenda přežije pravdu, protože je prostě líp vyprávěná. My si tady ale držíme to, co se dá doložit."
 
@@ -174,9 +174,9 @@ STRANA 16 — "Sopka, která možná není sopka"
 Panel 1 (velký): hora Bořeň nad Bílinou, ranní mlha.
 CAPTION: [K2] "Nad Bílinou se tyčí hora Bořeň. O tom, jak takové kopce vznikly, se v době F. A. Reusse vedly vědecké spory."
 Panel 2: [K2] Reuss a cizí návštěvník na Bořni. [VIZ]
-CAPTION: [K2] "Traduje se, že v roce 1791 se s Františkem Ambrožem Reussem setkal mladý Alexander von Humboldt. Podrobnosti té návštěvy zatím nemáme ověřené." 🟡 (Humboldt 1791, společný výstup = 🟡)
+CAPTION: [K2] "Sekundární prameny uvádějí, že roku 1791 vystoupil na Bořeň mladý Alexander von Humboldt spolu s Františkem Ambrožem Reussem. Primární doklad zatím nemáme přečtený." 🟡 (K2.2: výzkum P6 – sekundární literatura a muzeum Bílinské kyselky; primární Humboldtův záznam nečten, KOL-K2-12; K1: „přesvědčí Reusse" vypuštěno)
 Panel 3: [K2] Kdosi se dívá z vrcholu Bořně.
-BAŠTA (caption): [K2] "Otázka byla prostá, ale zásadní: vznikl čedič sopečnou činností, nebo něčím jiným? Tehdy se o tom vedla velká debata." 🟡k
+BAŠTA (caption): [K2] "Otázka byla prostá, ale zásadní: vznikl čedič sopečnou činností, nebo něčím jiným? Tehdy se o tom vedla velká debata. Sám František Ambrož Reuss vydal roku 1790 spis, jehož titul se ptá: ‚Je čedič sopečný, nebo ne?'" 🟢 (K2.2: bibliografická existence – *Orographie des nordwestlichen Mittelgebirges in Böhmen*, Dresden 1790, výzkum P6; obsah spisu o Bořni nečten, KOL-K2-11)
 Panel 4: Reuss píše svůj závěr, pokorný výraz.
 CAPTION: [K2] "Co přesně si F. A. Reuss o Bořni tehdy myslel, ještě prověřujeme. Dnešní geologie vychází z jiných poznatků než doba, ve které žil. Dvě věci se nesmí míchat: co věděl on – a co víme my." 🟡 (audit P16: „freatomagmatický vulkanismus" oddělen od historického názoru; „Reuss se nemýlil o moc" = 🔴 odstraněno)
 Panel 5: Další kočár, Goethe vyhlíží ven.
@@ -207,17 +207,17 @@ KAPKA VODY: "Čísla cestují snadněji než člověk. Nepotřebují kočár. Ne
 Panel 5: Digitální Jirka klidně vysvětluje.
 DIGITÁLNÍ JIRKA: [K2] "O tom, že by se ti dva někdy potkali u jednoho stolu, nic nevíme. Jméno Františka Ambrože Reusse ale u Berzelia najdeme. To stačí, aby ten příběh byl zajímavý i bez legendy." (K1: „Reuss uměl díky němu spočítat" = 🔴 odstraněno)
 
-STRANA 19 — "Šest let ticha"
+STRANA 19 — [K2] "Léta ticha" (K1: „Šest let ticha" – šestiletý výpadek není podložen; podle výzkumu P8 jde o problémy od 1800, vážné poškození 1806 a obnovu popsanou 1821)
 Panel 1: Přelom století, silný déšť, prameny se plní kalnou vodou.
-CAPTION: [K2] "Kolem přelomu 18. a 19. století byly bílinské prameny podle dostupných zpráv poškozeny. Příčinu a přesný rozsah ještě zkoumáme." 🟡 (K1: „dlouhotrvající deště zaplavily…" – příčina neověřena)
+CAPTION: [K2] "Od roku 1800 se povrchové jímky bílinských pramenů při přívalových deštích ucpávaly jílem. Roku 1806 byla prameniště vážně poškozena." 🟡 (K2.2: výzkum P8 – sekundární studie Muzea Bílinské kyselky 1977; přesný rozsah zásahů nečten, KOL-K2-14)
 Panel 2: Reuss nad nefunkční jímkou.
-CAPTION: [K2] "Zhruba mezi lety 1800 a 1806 se voda podle těchto zpráv nedala běžně jímat. Pro lázně, které na téhle vodě stály, to muselo být dlouhé mlčení." 🟡
+CAPTION: [K2] "Pro lázně, které na téhle vodě stály, to muselo být dlouhé mlčení." 💡 (K2.2: K1 „mezi lety 1800 a 1806 nebylo možné vodu jímat" vypuštěno – zdroj to neříká)
 Panel 3: Opuštěný lázeňský dvůr.
 BAŠTA (caption): "Města, která žijí z pramene, si na chvíli musela zvyknout na to, že jejich pramen jako by neexistoval." 💡
 Panel 4: Kapka téměř neviditelná, splývající s kalnou vodou.
 KAPKA VODY: [K2] "Nezmizela jsem. Jen jsem se schovala." 💡
 Panel 5: A. K. Eichler dohlíží na obnovu pramenů, jaro.
-CAPTION: "1821. A. K. Eichler prameny znovu zachytí a popíše jejich obnovu. Voda se vrací." 🟡k
+CAPTION: [K2] "1821. A. K. Eichler popsal nové zachycení pramenů po jejich zničení roku 1806. Voda se vrací." 🟡 (K2.2: sekundární studie muzea; Eichlerův originál nečten, KOL-K2-14)
 
 STRANA 20 — "Voda, která putovala"
 (K1: „Voda, která obeplula svět" – hyperbola k obchodu, který je 🟡; název zmírněn)
@@ -226,7 +226,7 @@ CAPTION: [K2] "Voda z Bíliny se rozesílala v džbáncích. Odkdy přesně a v 
 Panel 2: Stylizovaná mapa Evropy s ikonami lodí a povozů.
 BAŠTA (caption): [K2] "Bílinská kyselka se prodávala daleko za hranice kraje. Jak daleko a kdy, na to čekáme na doložení." 🟡
 Panel 3: Starší Reuss s hotovými výtisky svých knih.
-CAPTION: [K2] "František Ambrož Reuss shrnul své poznání bílinských pramenů v knihách z let 1788 a 1808. 🟢 Pozdější doba mu začala říkat ‚otec bílinské kyselky'. Byla to ale pozdější přezdívka, ne dobová funkce." 🟢 (BIL-REUSS-1788, BIL-REUSS-1808 GREEN jako bibliografická existence; K1 „poděkoval knížeti v úvodu" – nekolacionováno, vypuštěno)
+CAPTION: [K2] "František Ambrož Reuss shrnul své poznání bílinských pramenů v knihách z let 1788 a 1808 (ta první vyšla roku 1801 znovu jako nové nezměněné vydání). 🟢 Pozdější doba mu začala říkat ‚otec bílinské kyselky'. Byla to ale pozdější přezdívka, ne dobová funkce." 🟢 (BIL-REUSS-1788, BIL-REUSS-1808 GREEN jako bibliografická existence; K1 „poděkoval knížeti v úvodu" – nekolacionováno, vypuštěno)
 Panel 4: Digitální Jirka s moderní láhví vs. ilustrace starého džbánku.
 DIGITÁLNÍ JIRKA: [K2] "Ta láhev se za dvě stě let hodně změnila. Jméno Bílinská kyselka zůstalo." 💡
 
@@ -236,7 +236,7 @@ CAPTION: [K2] "Reussův syn, **August Emanuel** Reuss, se narodil v Bílině rok
 Panel 2: Hřbitov v Bílině, náhrobek Reuss.
 CAPTION: [K2] "František Ambrož Reuss zemřel roku 1830. 🟢" (K1 „pochován v Bílině" – nekolacionováno, vypuštěno)
 Panel 3 (velký): 1898, odhalení pomníku otci a synovi.
-CAPTION: "Podle dostupných zpráv byl roku 1898 před hlavní lázeňskou budovou odhalen společný pomník Reussových – otce a syna." 🟡 (pomník 1898 = 🟡 do zdroje)
+CAPTION: [K2] "Podle muzea Bílinské kyselky byl 29. května 1898 odhalen společný pomník otce a syna Reussových – Františka Ambrože a Augusta Emanuela." 🟡 (K2.2: datum z výzkumu P9 – muzeum, SECONDARY; dobový pramen nečten, KOL-K2-16)
 Panel 4: August Emanuel se chystá na cestu, kniha o Zaječicích na stole.
 BAŠTA (caption): [K2] "Syn ale nezůstal jen u kyselky. Zajímala ho i hořká voda z nedalekých Zaječic. A tam se objeví jméno švédského chemika, které jsme v Bílině záměrně nechali stranou."
 Panel 5 (most k Zaječicím): Kapka stoupá směrem k mapě Zaječic.
@@ -278,9 +278,9 @@ CAPTION: "Sláva ale přitáhla i lidi, kteří v ní viděli hlavně příleži
 
 STRANA 24 — "Lež v prášku"
 Panel 1: Londýnská lékárna 1815, Thomas Field Savory míchá bílý prášek, výloha „Seidlitz Powders".
-CAPTION: [K2] "Kolem roku 1815 začal londýnský lékárník Thomas Field Savory prodávat ‚Seidlitz Powders' – prášek, který se tvářil jako náhrada pravé zaječické vody." 🟡 (Savory 1815 = 🟡 do primárního patentu / dobové reklamy)
+CAPTION: [K2] "V roce 1815 získal londýnský lékárník Thomas Field Savory patent na ‚Seidlitz Powders' – prášek, který se tvářil jako náhrada pravé zaječické vody." 🟡 (K2.2: rok 1815 a patent podle sekundárních zdrojů, výzkum P5; originál patentu nečten, KOL-K2-10; přesné datum 23. 8. 1815 zatím neuvádět)
 Panel 2: Reklamní leták – slib zázraku, drobným písmem složení.
-CAPTION: [K2] "Podle běžně uváděného složení šlo o směs jinou směs než zaječickou hořkou sůl. Přesné složení je nutné ověřit v dobové reklamě nebo patentu." 🟡 (K2.1: konkrétní složky vypuštěny, RECOVERY-012 F-05; K1 uváděl jedlou sodu, vinný kámen a Rochellskou sůl – nekolacionováno)
+CAPTION: [K2] "Podle pozdějších popisů šlo o směs Rochellské soli, jedlé sody a kyseliny vinné – tedy ne o zaječickou hořkou sůl. Původní patent zatím nikdo nečetl." 🟡 (K2.2: složení podle sekundárních zdrojů – farmaceutické dějiny, Britské muzeum, výzkum P5; K1 psal „vinný kámen", zdroje „kyselina vinná") (K2.1: konkrétní složky vypuštěny, RECOVERY-012 F-05; K1 uváděl jedlou sodu, vinný kámen a Rochellskou sůl – nekolacionováno)
 DIGITÁLNÍ JIRKA (inzert): "Jinak řečeno – prodáváno jako originál, uvnitř jiná chemie."
 Panel 3: Bašta klidně komentuje.
 BAŠTA: [K2] "Šlo o obchod se jménem, které už mělo dobrou pověst." 💡
@@ -567,3 +567,25 @@ Opraveny jen věci, které byly chybou. Nic jiného se neměnilo. Číslování 
 - F-04 (oddělení „čistého" textu od redakčních poznámek) – až před Production Lock.
 - F-09 (spárování promptů se stranami K2) – v cross-auditu.
 - Kapka na str. 26 dál říká „Chodily lahve, dopisy a čísla". Je to metafora (💡), na rozdíl od faktické repliky Jirky.
+
+## H. K2.2 – INTEGRACE VÝZKUMU P1–P10 (2026-09-26)
+
+Zdroj: `01_HISTORIK/PRIMARNI_KOLACE_K2_VYZKUM.md` (výstup Řídícího mozku 2, s kontrolou Claude Code na začátku souboru). Do K2 se promítlo jen to, co je podložené. Žádný status se nezvýšil na 🟢 bez opory: sekundární zdroje zůstávají 🟡.
+
+| Bod výzkumu | Str. | Změna v K2.2 |
+|---|---:|---|
+| P2 Goethe | 11 | Výrok „soustředěnější, energičtější, vroucnější": „O několik týdnů později napsal manželce Christiane"; 🟡 (datum 19. 8. 1812 podle Goethe-Gesellschaft, originál nečten) |
+| P2 kontakty | 12 | F-01: doplněna konkrétní opora, Beethovenův dopis Goethovi z února 1823; 🟡 (originál nečten) |
+| P6 Humboldt | 16 | „Sekundární prameny uvádějí společný výstup na Bořeň 1791"; 🟡 |
+| P6 Reuss 1790 | 16 | Doplněn bibliografický fakt: F. A. Reuss vydal 1790 spis s titulem „Je čedič sopečný, nebo ne?"; 🟢 (jen existence, obsah o Bořni nečten) |
+| P8 Bílina | 19 | Název „Léta ticha" (místo „Šest let ticha"); 1800 ucpávání jímek, 1806 vážné poškození, 1821 Eichler popsal nové zachycení; věta „1800–1806 nebylo možné jímat" vypuštěna (zdroj ji neříká); 🟡 |
+| P9 | 20, 21 | 1788 vyšla 1801 znovu jako „nezměněné vydání" (🟢 bibliografie); pomník odhalen 29. 5. 1898 podle muzea Bílinské kyselky (🟡) |
+| P5 Savory | 24 | „V roce 1815 získal patent"; složení podle pozdějších popisů: Rochellská sůl, jedlá soda, kyselina vinná (🟡, původní patent nečten). Opravuje F-05 z K2.1, kde jsem složení vypustil úplně. Odstraněna gramatická chyba z K2.1 („směs jinou směs") |
+
+**Záměrně nezměněno:**
+- **P7 měď (str. 26):** výzkum tvrdí, že měď je „doložena (🟢)", ale jen odkazuje na dřívější kolaci. Ta ji ale neobsahuje (S-12: cín, jod, brom). Měď zůstává 🟡, dokud ji někdo nenajde v Berzelius 1840 (KOL-K2-13).
+- **P1 Hoffmann:** K2 už je ve shodě (Sedlec, ne přímo Zaječice).
+- **P3 Judita, P4 Volf:** K2 už je opatrný, výzkum jen potvrzuje. „Primární archivní doklad" Volfa 1559 je jen katalogový záznam (CATALOG ONLY).
+- **P10 (KOL-01, KOL-05):** nic se nepřidává. Zůstává otevřeno.
+
+**Nová 🟡 vzniklá touto integrací:** datum a adresát Goethova dopisu (secondary), Beethovenův dopis 1823, Humboldt/Reuss 1791, poškození pramenů 1800/1806, Eichler 1821, pomník 1898, patent Savory 1815 a složení.

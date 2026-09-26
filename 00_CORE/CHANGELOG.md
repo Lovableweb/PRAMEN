@@ -1,5 +1,27 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – K2.2: VÝZKUM P1–P10 ULOŽEN A PROMÍTNUT DO K2
+
+### Added
+- `01_HISTORIK/PRIMARNI_KOLACE_K2_VYZKUM.md` — výstup Řídícího mozku 2 na zadání „VÝZKUM-K2" (P1–P10, nové otázky KOL-K2-01…19). Doslovný přepis bez technických značek citací (neměly URL). Na začátku kontrola Claude Code.
+
+### Changed
+- `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k2_WORKING.md` → K2.2: str. 11, 12, 16, 19, 20, 21, 24 upraveny podle výzkumu (viz příloha H). Název str. 19 „Léta ticha". Opravena gramatická chyba z K2.1 na str. 24.
+- `00_CORE/PRAMEN_MAPA.md` — nový řádek, stav projektu.
+
+### Kontrola výzkumu
+- Shoda s dosavadní kolací: P1, P3, P9 (bibliografie).
+- **Rozpor P7:** výzkum označil „měď 🟢" s odkazem na dřívější kolaci, ta ale měď neobsahuje (S-12: cín, jod, brom). Nepřebráno, měď zůstává 🟡.
+- P2: datum dopisu Christiane 19. 8. 1812 potvrzeno Goethe-Gesellschaft (sekundárně).
+- P4: „primární archivní doklad" Volfa 1559 je jen katalogový záznam (DDB).
+- Všechny webové nálezy = SECONDARY / CATALOG ONLY, dokud nejsou přečteny v originále.
+
+### Status
+- K1, `CLAIM_DATABASE.md`, `OTEVRENE_OTAZKY.md`, prompty, vizuály beze změny. Žádný status nepovýšen na 🟢 bez opory. Production Lock nevytvořen, HB-057 dál 🔴.
+- K rozhodnutí: zapsat KOL-K2-01…19 do `OTEVRENE_OTAZKY.md` a promítnout do Claim DB? (samostatný krok se souhlasem Jirky).
+
+---
+
 ## [2026-09-26] – K2.1: OPRAVY PO AUDITU RECOVERY-012
 
 ### Changed
