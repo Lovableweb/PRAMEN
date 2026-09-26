@@ -649,3 +649,19 @@ Zdroj nálezů: `01_HISTORIK/NALEZY_WEB_2026-09-26.md`. Zdroj rozhodnutí: instr
 - **Nový prompt str. 16, panel 2** zobrazuje Reusse a Humboldta na Bořni. K3 teď říká Humboldt a Freiesleben, Reuss v obraze není.
 - **Nový prompt str. 19, panel 1** uvádí „poškozování od roku 1800". K3 už rok 1800 nepoužívá.
 - **Upravený prompt str. 14, panel 4 (jímky)** a str. 9 (požár) — drobné, ověřit.
+
+### K.1 Vazba na Claim DB (doplněno po auditu PR #30)
+
+Každé nové 🟢 z K2.5 má claim v `01_HISTORIK/CLAIM_DATABASE.md`. Úplné trasování všech 🟢 v K3 a seznam 16 starších mezer je v `01_HISTORIK/CROSS_AUDIT_K3_CLAIMDB_2026-09-26.md`.
+
+| Str. | Nové / změněné 🟢 v K2.5 | Claim |
+|---:|---|---|
+| 7 | 762 = tradice, nápis na reliéfu | `TEP-REUSS-1823-762` (`TEP-762` zůstává RED) |
+| 9 | 1793 velký požár | `TEP-REUSS-1823-FIRE-1793` |
+| 11 | Goethe → Christiane 19. 7. 1812 | `TEP-GOETHE-CHRISTIANE-1812` |
+| 12 | Goethe → Zelter 2. 9. 1812 | `TEP-GOETHE-ZELTER-1812` |
+| 14 | 761 tradice o slaném prameni | `BIL-REUSS-1801-HAJEK-761` (`BIL-761` zůstává RED) |
+| 14 | Eleonora, 1761, 1781 | `BIL-REUSS-1801-EARLY-HISTORY` |
+| 16 | Humboldt a Freiesleben, Reuss jen citován | `HUM-BORSEN-1792` |
+| 19 | 1789, 1806 | `BIL-REUSS-1808-1806` |
+| 21 | pomník 29. 5. 1898 | `BIL-REUSS-DENKMAL-1898` |

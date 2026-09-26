@@ -78,10 +78,10 @@ Postup: **předání → zápis do repa (RECOVERY-0xx nebo pracovní soubor) →
 
 | Vrstva | Stav | Detail |
 |---|---|---|
-| **Historie** | 🟡 | Claim DB 45 claimů. Primární kolace: 13 pramenů PRIMARY SEEN (Gartenlaube 1879, Reuss 1791–1827, Berzelius 1823/1840, Hoffmann, Goethe WA, Vincentius) + výzkum P1–P10 pro K2. Nálezy z kolace zatím **nejsou promítnuty do Claim DB** (samostatný krok se souhlasem Jirky). |
-| **Scénář 6–30** | 🟡 | K1 → K2 (K2.1–K2.4, audity RECOVERY-011/012/013) → **K3 CLEAN**. Čeká na rozhodnutí Řídícího mozku 2 a Jirky. |
+| **Historie** | 🟡 | Claim DB 60 claimů (45 původních + 15 z 2026-09-26 podle rozhodnutí D-8 a auditu PR #30). Primární kolace: 13 pramenů PRIMARY SEEN (Gartenlaube 1879, Reuss 1791–1827, Berzelius 1823/1840, Hoffmann, Goethe WA, Vincentius) + výzkum P1–P10 pro K2. Každé 🟢 tvrzení z nálezů použité v K3 (N-01, N-02, N-04…N-10, N-12…N-14) má vlastní claim; N-03 (v K3 nepoužito), N-11 (1589, stopa), N-15 (OCR nejisté), N-16 (jen katalog), N-17 (sekundární) se do Claim DB **nepromítají**. |
+| **Scénář 6–30** | 🟡 | K1 → K2 (K2.1–K2.5, audity RECOVERY-011/012/013) → **K3 CLEAN**. Čeká na rozhodnutí Řídícího mozku 2 a Jirky. |
 | **Scénář 1–5 (Prolog)** | 🔴 | chybí |
-| **Page Master** | 🟡 návrh | text 25/30 · historie 🟢 6 stran · 19 🟡 · vizuální zadání 🟢 2 stran · obraz 0/30 auditováno · Lock 0 |
+| **Page Master** | 🟡 návrh | text 25/30 · historie 🟢 8 stran · 17 🟡 · vizuální zadání 🟢 2 stran · obraz 0/30 auditováno · Lock 0 |
 | **Postavy** | 🟡 návrh | Character Register: 3 průvodci, 25 historických postav a zmínek, anonymní postavy, 4 vyřazené/odložené |
 | **Prompty** | 🟡 | archivní 1–30. Návrhy: 6 nových (str. 11, 12, 16, 19, 24, 25) a 10 upravených (7, 8, 13, 15, 17, 18, 21, 23, 26, 28), v0.2, **neschváleno**. Prompty 8, 11, 13, 15, 19, 26, 27 nepoužity. |
 | **Obrazy** | ⚪ | 30 obrazů podle Content Registry existuje, ale mimo repo. **Obrazový audit odložen na úplný konec** (pokyn Jirky 2026-09-26). |
