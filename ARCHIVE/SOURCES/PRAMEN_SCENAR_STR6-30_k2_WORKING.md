@@ -184,8 +184,7 @@ CAPTION: [K2] "Bořeň přitahoval pozornost dalších návštěvníků. V květ
 
 STRANA 17 — [K2] "Básník na Bořni" (K1: „Básník, sopka a jeden dopis do Teplic" – „dopis" = 🔴 odstraněno)
 Panel 1: Goethe a Reuss stoupají po Bořni.
-CAPTION: [K2] "V květnu 1813 si Goethe do deníku zapsal: ‚Do Bíliny. Zastihl jsem dr. Reusse. Geologický rozhovor s ním.' A o dvě
- týdny později: ‚S dr. Reussem ke skále, kterou lid nazývá Bořeň.' 🟢" (Goethe, Tagebücher, WA III 5: 12. 5. a 28. 5. 1813; „Dr. Reuß" 1813 = František Ambrož Reuss, odvozeno chronologicky; K1 „sám sebe nazýval nadšeným geologickým turistou" a „se stejnou otázkou jako Humboldt" = nedoloženo, vypuštěno)
+CAPTION: [K2] "V květnu 1813 si Goethe do deníku zapsal: ‚Do Bíliny. Zastihl jsem dr. Reusse. Geologický rozhovor s ním.' A o dva týdny později: ‚S dr. Reussem ke skále, kterou lid nazývá Bořeň.' 🟢" (Goethe, Tagebücher, WA III 5: 12. 5. a 28. 5. 1813; „Dr. Reuß" 1813 = František Ambrož Reuss, odvozeno chronologicky; K1 „sám sebe nazýval nadšeným geologickým turistou" a „se stejnou otázkou jako Humboldt" = nedoloženo, vypuštěno)
 Panel 2: Goethe drží kus čediče proti světlu.
 BAŠTA (caption): "Goethe se zajímal o geologii vážně – sbíral horniny celý život. Bořeň pro něj byl přesně ten typ hádanky, který měl rád." 🟡k
 Panel 3 (klíčový, **jiná časová vrstva – flashback o rok dříve**, jiný rám/paleta než panely 1–2): [K2] Dva muži v kočáře, večer, krajina mezi Teplicemi a Bílinou; Beethoven a Goethe. [VIZ]
