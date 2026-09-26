@@ -1,0 +1,2 @@
+# shell skripty musí mít LF i na Windows (autocrlf=true by je jinak převedl na CRLF a bash by je nespustil)
+*.sh text eol=lf

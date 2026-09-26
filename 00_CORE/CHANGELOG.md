@@ -1,5 +1,24 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – SKRIPT PRO GENEROVÁNÍ K3 Z K2 ULOŽEN DO REPA
+
+### Added
+- `scripts/generate_k3_from_k2.sh` — generátor těla K3 CLEAN z K2 WORKING (odstraní redakční poznámky, přesune značky stavu na konec replik). Dosud byl jen v dočasné složce.
+
+### Ověření
+- **Test 1:** skript pustěný na K2 z `main` přesně reprodukuje K3 z `main` (diff prázdný).
+- **Test 2:** skript pustěný na K2.5 (větev PR #30) přesně reprodukuje K3 z téže větve (diff prázdný).
+- Postup ověření je v hlavičce skriptu. Skript obsahuje několik ručních oprav vázaných na konkrétní text v K2 (poznámka uvnitř repliky str. 12, titulek str. 20, patička); když se ten text změní, ověření ukáže rozdíl.
+
+### Changed
+- `.gitattributes` (nový): `*.sh text eol=lf`. Na Windows s `autocrlf=true` by se skript po stažení převedl na CRLF a bash by ho nespustil.
+- `00_CORE/PRAMEN_MAPA.md` — nová sekce `scripts/`, hlavička.
+
+### Status
+- Postaveno na větvi PR #30 (`claude/integrace-n01-n17`), protože mění stejné soubory (mapa, changelog). Po sloučení #30 do `main` se dostane do `main` s ním. K1, K2, K3, Claim DB, prompty beze změny.
+
+---
+
 ## [2026-09-26] – K2.5: INTEGRACE NÁLEZŮ N-01…N-17 (rozhodnutí Řídícího mozku 2 D-1…D-10)
 
 **PR čeká na audit Řídícího mozku 2. Není to schválený merge. Nic se nepovažuje za hotové v CORE, dokud není ověřený merge.**
