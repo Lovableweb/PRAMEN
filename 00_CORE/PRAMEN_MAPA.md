@@ -2,7 +2,7 @@
 
 **Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
 **Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
-**Poslední aktualizace:** 2026-09-26 · RECOVERY-011: kompletní audit K1 str. 6–30 (Řídící mozek 2) + kontrola proti kolaci.
+**Poslední aktualizace:** 2026-09-26 · K2 scénáře str. 6–30 (WORKING, není Production Lock) vytvořeno, čeká na audit Řídícího mozku 2.
 
 Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
 
@@ -16,7 +16,8 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 - **Historie:** 45 claimů v `CLAIM_DATABASE.md` (🟢/🟡/🔴). Hlavní zdroj detailů: RECOVERY-005 (Bílina, Zaječice, Reuss), RECOVERY-007 (Teplice 1446/1477/1581), RECOVERY-008 (HB-044…HB-061).
 - **Stav HB (DEC-005):** HB-057 Production Lock 🔴 · HB-058 🟡 auditováno/připraveno (není Production Master) · HB-059 🟢 read-only reconciliace · HB-060 🔴 blokováno · HB-061 🟡 readiness audit.
 - **Primární kolace (2026-09-26):** 13 pramenů PRIMARY SEEN (Gartenlaube 1879, Reuss 1791/1801/1808/1818/1827, Berzelius 1823/1840, Hoffmann, Goethe WA, Vincentius FRB II). Hlavní nálezy: Goethe × F. A. Reuss doloženo 1813 (Bořeň); Berzelius 1840 na žádost A. E. Reusse; Hoffmann 1717 = Sedlec, „anglický lékař“ = Grew; Suess nedoporučil vrt. Claim DB a K1 zatím beze změny.
-- **Audit K1 str. 6–30 (RECOVERY-011, 2026-09-26):** K1 = pracovní dramaturgický scénář, není historicky uzavřen. K2 připraveno k tvorbě, **nevytvořeno**. 7 rozporů auditu s primární kolací (R11-01…07) k rozhodnutí před K2.
+- **Audit K1 str. 6–30 (RECOVERY-011, 2026-09-26):** K1 = pracovní dramaturgický scénář, není historicky uzavřen. 7 rozporů auditu s primární kolací (R11-01…07) řešeno v K2 podle kolace.
+- **K2 scénáře str. 6–30 (2026-09-26):** `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k2_WORKING.md` — historicky korigovaná **pracovní** verze, **NENÍ Production Lock**. Sloučeno do main (PR #13). Čeká na audit Řídícího mozku 2. Prompty a vizuály beze změny; konflikty s prompty jsou v sekci E souboru (tvrdé: str. 8, 13, 18, 19, 24). Aktuální fakta epilogu (muzeum, Bašta, výroba) k ověření před tiskem.
 - **Blokery:** 1) scénář P14–P24 🟡 získán, ale rozpory S-01…S-13 + neověřená doslovnost + chybí Prolog · 2) originální Komiksová Bible 🔴 · 3) originální storyboard 🔴 · 4) citace HB-044 🟡 (stopy: `01_HISTORIK/STOPY_HB044_TEPLICE_1879.md`). HB-057 dál 🔴.
 - **PROMPT ≠ SCÉNÁŘ** (DEC-002). Recovered working ≠ originál.
 
@@ -27,7 +28,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | Je tvrzení doložené? | `01_HISTORIK/CLAIM_DATABASE.md` → pak zdrojový RECOVERY-00x |
 | Co se naposledy dělo | `00_CORE/CHANGELOG.md` (nejnovější nahoře) |
 | Co chybí / originály | `01_RECOVERY/MASTER_RECOVERY_MAP.md` |
-| Co je na konkrétní straně podle scénáře | `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md` + rozpory v `RECOVERY-010` + důkazní audit `02_COMIKS/AUDIT/PRAMEN_AUDIT_SCENAR_K1_S01-S13.md` + primární kolace `01_HISTORIK/PRIMARNI_KOLACE_VYSLEDEK.md` + audit str. 6–30 `01_RECOVERY/RECOVERY-011_AUDIT_K1_STR6-30.md` |
+| Co je na konkrétní straně podle scénáře | (pracovně platná historicky korigovaná verze) `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k2_WORKING.md`; původní `…_k1.md` + rozpory v `RECOVERY-010` + důkazní audit `02_COMIKS/AUDIT/PRAMEN_AUDIT_SCENAR_K1_S01-S13.md` + primární kolace `01_HISTORIK/PRIMARNI_KOLACE_VYSLEDEK.md` + audit str. 6–30 `01_RECOVERY/RECOVERY-011_AUDIT_K1_STR6-30.md` |
 | Co platí pro konkrétní stranu komiksu | `02_COMIKS/AUDIT/…CROSS_AUDIT_v1.0.md` (+ dodatky dole) |
 | Vizuální styl R-031, barvy, Kapka | `02_COMIKS/VISUAL_AUDIT/…VISUAL_ARTIFACT_AUDIT_v1.0.md` |
 | Otevřené historické otázky | `01_HISTORIK/OTEVRENE_OTAZKY.md` |
@@ -101,6 +102,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | Soubor | ř. | ČÍST | Co to je |
 |---|---:|---|---|
 | `PRAMEN_SCENAR_STR6-30_k1.md` | 381 | 🔍 | **Scénář stran 6–30, verze k1** — doslovný zápis z ChatGPT chatu (Teplice, Bílina, Zaječice, Epilog). 🟢 značky v textu = hodnocení scénáře, ne ověření PRAMEN |
+| `PRAMEN_SCENAR_STR6-30_k2_WORKING.md` | 549 | ⭐ | **Scénář stran 6–30, verze K2** — historicky korigovaná pracovní verze (K1 + audit RECOVERY-011 + primární kolace). NENÍ Production Lock. Na konci přílohy A–F: změny K1→K2, otevřené 🟡, další výzkum, dramaturgie, konflikty s prompty. Značky: 🟢 doloženo · 🟡 otevřené · 🟡k převzato z K1 nekolacionováno · 💡 dramaturgie |
 | `PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md` | 426 | 📦 | Textový přepis PDF s image prompty 1–30 (PDF samo mimo repo). PROMPT ≠ SCÉNÁŘ |
 | `PRAMEN_image_prompty_str1-30_REPORT.md` | 108 | 📦 | Shrnutí promptů po kapitolách + mantinely |
 
