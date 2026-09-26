@@ -1,5 +1,29 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – VIZUÁLNÍ AUDIT K3
+
+### Added
+- `02_COMIKS/AUDIT/PRAMEN_VIZUALNI_AUDIT_K3.md` — výstup druhého agenta (doslovně) + kontrola Claude Code na začátku. Audit **vizuálního zadání** (K3 → master mapa → prompty → Claim DB → guardraily). Hotové obrazy agent neviděl.
+
+### Hlavní výsledek
+- 2 strany v pořádku (29, 30), 17 úprava, 6 nový prompt (11, 12, 16, 19, 24, 25), 0 blokováno. Nálezy VA-001…072.
+- Rámce nových promptů (co zobrazit, co nezobrazovat, respektované značky) pro 11, 12, 16, 19, 24, 25. Finální prompty nenapsány.
+- Doporučené pořadí: nové prompty → odstranit rizikové vrstvy (13, 18, 26, prompty 19 a 8) → sjednotit vizuální identitu osob → upravit existující sloty → produkční kontrola.
+
+### Kontrola Claude Code
+- Shoda s master mapou a RECOVERY-012/013. Rozdíl: audit je přísnější (jen 29 a 30 „v pořádku"), protože hodnotí historickou bezpečnost popisů, ne tematickou shodu.
+- Str. 29 „v pořádku" jen s podmínkou ověření před tiskem (OO-K3-01 odloženo).
+- VA-050: „1717 🟡" se týká spojení se Zaječicemi, ne roku (doložen pro Sedlec).
+
+### Changed
+- `01_HISTORIK/OTEVRENE_OTAZKY.md` — OO-K3-06 → 🟡 ROZPRACOVÁNO (audit zadání hotov, obrazy neauditovány).
+- `00_CORE/PRAMEN_MAPA.md` — nový řádek, stav projektu.
+
+### Status
+- K1, K2, K3, prompty, obrazy, Claim DB beze změny. Žádný Production Lock ani Vizuální Lock.
+
+---
+
 ## [2026-09-26] – CAMEO JIRKA + KARLÍČEK ODLOŽENO
 
 ### Changed
