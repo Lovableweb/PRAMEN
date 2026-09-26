@@ -1,5 +1,21 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – NOVÉ NÁLEZY Z DIGITÁLNÍCH KNIHOVEN (N-01…N-17)
+
+### Added
+- `01_HISTORIK/NALEZY_WEB_2026-09-26.md` — cílené hledání k 🟡 místům K3 a otázkám KOL-K2 (archive.org, MDZ, zeno.org, ANNO). Doslovné citace + překlady + úrovně důkazu. Nejdůležitější:
+  - Goethův výrok o Beethovenovi („Zusammengefaßter…") je v dopise Christiane z Teplic 19. 7. 1812 (WA IV 23, č. 6348); K3 str. 11 uvádí „o několik týdnů později".
+  - Humboldt a Freiesleben popisují výstup na Bořeň v *Bergmännisches Journal* 1792; Reuss je jen citován, ne jako průvodce (K3 str. 16).
+  - Reuss 1801: Hájkova legenda 761 mluví o slaném prameni; kyselka je známa až od doby kněžny Eleonory; 1761 obezdění; 1781 balírna.
+  - Reuss 1808: roku 1806 se rozesílání bílinské vody zastavilo.
+  - Reuss 1823: nápis „FONS NOSTER 762 EST DETECTUS"; požár 1793; lázně 1589 Radislav Vchynský.
+  - Dobový tisk: 2 oběti v šachtě Nelson (Wiener Zeitung 14. 2. 1879) – rozpor vyřešen; Mahlerův telegram 3. 3. 1879; pomník Reussů o Svatodušní neděli 1898.
+
+### Status
+- Claim DB, K1–K3, prompty, obrazy beze změny. Návrhy dopadu na K3 jsou v §3 souboru, k rozhodnutí.
+
+---
+
 ## [2026-09-26] – MASTER CORE 2.0 · PAGE MASTER 1–30 · CHARACTER REGISTER (NÁVRHY)
 
 ### Added
