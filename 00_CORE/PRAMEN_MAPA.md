@@ -2,7 +2,7 @@
 
 **Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
 **Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
-**Poslední aktualizace:** 2026-09-26 · Upravené prompty K3 v0.1 + dodatek v0.2 (`PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md`).
+**Poslední aktualizace:** 2026-09-26 · Master Core 2.0, Page Master 1–30 a Character Register (návrhy ke schválení).
 
 Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
 
@@ -10,6 +10,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 
 ## 1. STAV PROJEKTU V KOSTCE
 
+- **🆕 ŘÍDICÍ JÁDRO (2026-09-26, NÁVRH ke schválení):** `00_CORE/PRAMEN_MASTER_CORE_2.0.md` (zdroje pravdy, stav, brána k Production Lock G1–G10) · `02_COMIKS/PAGE_MASTER_1-30.md` (stav každé strany v 5 vrstvách) · `02_COMIKS/CHARACTER_REGISTER.md` (všechny postavy, CH-001…029). Obrazový audit odložen na úplný konec (Jirka). **Začni číst Master Core 2.0.**
 - **Co je PRAMEN:** historický komiks (30 stran) o Teplicích, Bílinské kyselce a Zaječické hořké vodě + historická databáze pod ním. Motto „Pohádka, která se opravdu stala." Zásada **HISTORIE PŘED FIKCÍ**.
 - **Kapitoly komiksu (pracovně):** Prolog 1–5 · Teplice 6–13 · Bílina 14–21 · Zaječice 22–27 · Epilog 28–30.
 - **Komiks** je podle Content Registry hotový (30 obrazů). **Scénář stran 6–30 (verze k1) je od 2026-09-25 v repu** (`ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md`, 🟡 doslovnost neověřena, 13 rozporů s historií S-01…S-13 v RECOVERY-010). **Chybí:** Prolog 1–5, obrazy, originální Komiksová Bible, Osa v1.1, storyboard (🔴).
@@ -49,10 +50,11 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | Soubor | ř. | ČÍST | Co to je / stav |
 |---|---:|---|---|
 | `PRAMEN_MAPA.md` | – | ⭐ | Tato mapa |
+| `PRAMEN_MASTER_CORE_2.0.md` | 132 | ⭐ | **Master Core 2.0 (NÁVRH)**: identita, role, zásady, **zdroje pravdy** (který soubor platí pro co), stav projektu, **brána k Production Lock G1–G10**, otevřená rozhodnutí, známé rozpory. Po schválení nahrazuje `PRAMEN_MASTER.md` |
 | `PRAMEN_AI_PROTOCOL.md` | 301 | ⭐ | Hierarchie, pravidla změn/duplicit/rozporů, Předávací režim, ukládání na GitHub (v1.2) |
 | `CHANGELOG.md` | 278 | ⭐ (jen začátek) | Historie změn, nejnovější nahoře. ⚠️ neobsahuje záznamy ke ~20 starším commitům (viz audit) |
 | `DECISION_REGISTER.md` | 19 | ⭐ | DEC-001 architektura · DEC-002 PROMPT≠SCÉNÁŘ · DEC-003 Production Lock blokován · DEC-004 HB-058 odložen · DEC-005 stav HB-058…061 + priorita recovery search |
-| `PRAMEN_MASTER.md` | 312 | 🔍 | „Autoritativní jádro" v1.0 z 2026-08-31 — ⚠️ **zastaralé** (tvrdí, že nejsou žádná fakta ani otázky) |
+| `PRAMEN_MASTER.md` | 312 | 📦 | „Autoritativní jádro" v1.0 z 2026-08-31 — ⚠️ **zastaralé** (tvrdí, že nejsou žádná fakta ani otázky); nahrazuje ho `PRAMEN_MASTER_CORE_2.0.md` po schválení |
 | `PRAMEN_ARCHITECTURE_UPGRADE_v1.0.md` | 121 | 🔍 | Cílový datový model SOURCE→CLAIM→PAGE→SCENE→VISUAL… (směr, ne implementace) |
 | `CONTENT_REGISTRY.md` | 890 | 🔍 | Inventura obsahu k 2026-09-18: postavy (Kapka, Karel Bašta, Digitální Jirka, Reuss), paleta, guardraily HG-001…007, priority migrace |
 | `SOURCE_REGISTRY.md` | 372 | 🔍 | Registr SR-001…014 (hlavně pracovní dokumenty, ne historické prameny) |
@@ -96,6 +98,8 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | Soubor | ř. | ČÍST | Co to je / stav |
 |---|---:|---|---|
 | `PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md` | 684 | ⭐ | **Upravené prompty K3 — NÁVRH v0.1 + dodatek v0.2** pro str. 7, 8, 13, 15, 17, 18, 21, 23, 26, 28 (druhý agent + kontrola Claude Code). **Panely u 8 z 10 stran nesedělo s K3** (agent tvrdil opak), proto je nahrazuje dodatek v0.2 (popisy panelů z K3, značky z K3). Neschváleno, není Vizuální Lock. Archivní prompty nepřepsány |
+| `PAGE_MASTER_1-30.md` | 157 | ⭐ | **Page Master 1–30 (NÁVRH)**: stav každé strany ve vrstvách TEXT / HISTORIE / VIZUÁLNÍ ZADÁNÍ / OBRAZ / LOCK + karty stran (postavy, historické jádro, slot, guardraily, blokery) |
+| `CHARACTER_REGISTER.md` | 262 | ⭐ | **Character Register (NÁVRH)**: průvodci (Kapka, Bašta, Digitální Jirka), historické postavy (F. A. × A. E. Reuss, Berzelius, Beethoven, Goethe…), zmínky, anonymní, vyřazené; co je doloženo, co se nesmí, vzhled |
 | `PRAMEN_NOVE_PROMPTY_K3_v0.1.md` | 347 | ⭐ | **Nové image prompty K3 — NÁVRH v0.1** pro str. 11, 12, 16, 19, 24, 25 (druhý agent + kontrola Claude Code). Neschváleno, není Vizuální Lock. 3 odchylky od K3 opraveny dodatkem v0.2 (prompt se přizpůsobil K3). Archivní prompty nepřepsány |
 | `AUDIT/PRAMEN_AUDIT_SCENAR_K1_S01-S13.md` | 247 | ⭐ | **Důkazní audit scénáře K1**: S-01…S-13 (0 🟢 · 4 🟡 · 8 🔴 · 1 ⚪), záměna F. A. × A. E. Reusse, návrhy pro K2, blokery HB-057 |
 | `AUDIT/PRAMEN_VIZUALNI_AUDIT_K3.md` | 358 | ⭐ | **Vizuální audit K3** (druhý agent + kontrola Claude Code): audit vizuálního zadání, ne obrazů. 2 strany v pořádku (29, 30), 17 úprava, 6 nový prompt (11, 12, 16, 19, 24, 25). Rámce nových promptů. Nálezy VA-001…072. Doporučené pořadí prací |
