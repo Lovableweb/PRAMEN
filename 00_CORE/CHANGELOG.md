@@ -1,5 +1,28 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – PROMPT MASTER MAP (K3 → vizuální sloty)
+
+### Added
+- `02_COMIKS/AUDIT/PRAMEN_PROMPT_MASTER_MAP.md` — výstup druhého agenta (doslovně, tabulky přepsány do Markdownu) + kontrola Claude Code na začátku. Každá strana K3 6–30 má právě jeden primární vizuální slot (prompt nebo „PROMPT CHYBÍ").
+
+### Hlavní výsledek
+- Přímo použitelné strany: 6, 9, 10, 14, 20, 22, 27, 29, 30. Úprava popisu promptu: 7, 8, 13, 15, 17, 18, 21, 23, 26, 28. **Nový prompt nutný: 11, 12, 16, 19, 24, 25.**
+- Prompt 24 = K3 str. 26. Prompty 8, 13, 19 mají tvrdý historický konflikt.
+
+### Kontrola Claude Code (nesrovnalosti v mapě)
+- **Prompt 27 není přiřazen a chybí ve výčtu nepoužitých.** Správně nepoužité (6–30): 8, 11, 13, 15, 19, 26, 27.
+- Prompty 28 a 29 jsou v seznamu „nepatřících k žádné straně" omylem (jsou přiřazeny).
+- Prompt 7 je použit dvakrát (str. 7 a 8), takže str. 8 může potřebovat vlastní nový prompt.
+- Sekce 24 a 29 se u str. 10 a 14 mírně rozcházejí.
+
+### Changed
+- `00_CORE/PRAMEN_MAPA.md` — nový řádek, stav projektu.
+
+### Status
+- Prompty, obrazy, K1, K2, K3, Claim DB beze změny. Žádný Production Lock ani Vizuální Lock. K rozhodnutí: cameo Jirka + Karlíček (prompt 26); kdo napíše nové prompty.
+
+---
+
 ## [2026-09-26] – K3 CLEAN: ČISTÁ VERZE SCÉNÁŘE STRAN 6–30
 
 ### Added
