@@ -1,5 +1,25 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – K2 SCÉNÁŘE STRAN 6–30 (WORKING)
+
+### Added
+- `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k2_WORKING.md` — historicky korigovaná pracovní verze scénáře stran 6–30. **NENÍ Production Lock.** Vstup: K1, `RECOVERY-011`, `CLAIM_DATABASE.md`, `PRIMARNI_KOLACE_VYSLEDEK.md`. Zachováno stránkování 6–30, kapitoly, Kapka / Bašta / Digitální Jirka; změněné řádky označeny [K2]. Přílohy A–F: 61 historických změn K1→K2, otevřené 🟡, další výzkum, dramaturgické změny, konflikty s prompty.
+
+### Changed
+- `00_CORE/PRAMEN_MAPA.md` — nový řádek K2, stav projektu, tabulka úkolů.
+
+### Rozhodnutí při tvorbě
+- R11-01…07 řešeny podle primární kolace (u těchto bodů přesnější než audit).
+- Šest názvů stran změněno (str. 8, 17, 18, 20, 25, 26), protože obsahovaly 🔴/🟡 tvrzení — ke kontrole.
+- Tvrzení z K1, která projekt nekolacionoval, značena 🟡k (status nezvýšen).
+
+### Status
+- K1, `00_CORE` (kromě mapy a changelogu), `CLAIM_DATABASE.md`, prompty, vizuály beze změny. Production Lock nevytvořen, HB-057 dál 🔴.
+- Prompty: 5 tvrdých konfliktů (str. 8, 13, 18, 19, 24) — nic nepřepsáno.
+- Aktuální fakta epilogu (muzeum, Bašta, výroba) k ověření před tiskem.
+
+---
+
 ## [2026-09-26] – RECOVERY-011: AUDIT K1 STRANY 6–30
 
 ### Added
