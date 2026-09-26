@@ -1,11 +1,11 @@
 # PRAMEN – SCÉNÁŘ STRAN 6–30 (verze K2, WORKING)
 
-> **K2 = historicky korigovaná pracovní verze. NENÍ Production Lock.**
+> **K2 = historicky korigovaná pracovní verze (zdroj pravdy o důvodech změn). Uzamčený produkční text je K3 str. 6–30 — viz `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md` (D-7, 2026-09-26). Změna K2 po locku jen výslovným rozhodnutím Řídícího mozku 2 / Jirky. D-2: str. 12 „sporná tradice" 🟢 → 🟡.**
 >
 > - **Vznik:** 2026-09-26, Claude Code, na zadání Jirky (krok K2).
 > - **Vstup:** `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md` (dramaturgická základna, NE historická autorita), `01_RECOVERY/RECOVERY-011_AUDIT_K1_STR6-30.md` (závazný audit + kontrola R11-01…07), `01_HISTORIK/CLAIM_DATABASE.md`, `01_HISTORIK/PRIMARNI_KOLACE_VYSLEDEK.md`, `00_CORE`.
 > - **Toto NENÍ:** finální scénář, Production Lock, zápis do `00_CORE` ani do Claim Database. Obrazové prompty ani vizuály nejsou dotčeny. K1 zůstává beze změny.
-> - **Stav:** nezávislý audit (RECOVERY-013) = schváleno s výhradami. **K2.3 (2026-09-26):** promítnuty jeho nálezy (příloha I). **K2.2 (2026-09-26):** promítnut výzkum P1–P10 (příloha H). **K2.1 (2026-09-26):** opraveny výhrady vlastního auditu `RECOVERY-012` F-01…F-03, F-05…F-08, F-11 (viz příloha G). F-04 a F-09 zůstávají otevřené.
+> - **Stav:** nezávislý audit (RECOVERY-013) = schváleno s výhradami. **K2.5 (2026-09-26):** promítnuty nálezy N-01…N-17 podle rozhodnutí D-1…D-10 (příloha K). **K2.3 (2026-09-26):** promítnuty jeho nálezy (příloha I). **K2.2 (2026-09-26):** promítnut výzkum P1–P10 (příloha H). **K2.1 (2026-09-26):** opraveny výhrady vlastního auditu `RECOVERY-012` F-01…F-03, F-05…F-08, F-11 (viz příloha G). F-04 a F-09 zůstávají otevřené.
 > - **Rozhodnutí o rozporech R11-01…R11-07:** K2 se řídí primární kolací (u těchto sedmi bodů je přesnější než původní znění auditu) – viz sekce A na konci.
 
 ## Legenda značek
@@ -53,7 +53,7 @@ STRANA 7 — "Pohádka, nebo pravda?"
 Panel 1 (pohádkový rám, jiná textura): pasáček s prasátkem, pramen tryská.
 CAPTION: [K2] "Vypráví se, že všechno začalo prasátkem, které se opařilo v horké louži…" 💡 (rok legendy vypuštěn; TEP-762 = 🔴 jako datum)
 Panel 2: Bašta „zavírá" pohádkovou stránku.
-BAŠTA: [K2] "Tohle je moc hezký příběh. Ale je to legenda, ne fakt. Zapsal ji kronikář Hájek z Libočan, stovky let po tom, co se měla stát." 🟡 (Hájek jako zapisovatel = pracovní tvrzení; „poprvé zapsal" = neuzavřeno, proto slovo „poprvé" vypuštěno)
+BAŠTA: [K2] "Tohle je moc hezký příběh. Ale je to legenda, ne fakt. Zapsal ji kronikář Hájek z Libočan, stovky let po tom, co se měla stát. Klade ji do roku 762. F. A. Reuss v roce 1823 podotýká, že se té pověsti přikládá větší váha, než si zaslouží." 🟡 (K2.5 / D-6: 762 = doložená TRADICE, ne rok objevu; N-09 Reuss, *Taschenbuch für die Badegäste von Tepliz*, 1823, s. 47 „Hayek giebt das Jahr 762, Balbin aber 507" = PRIMARY SEEN; nápis „FONS NOSTER 762 EST DETECTUS" na reliéfu Městských lázní je ve frontispisu téhož díla; TEP-762 zůstává 🔴 jako datum objevu; Hájek jako zapisovatel = pracovní tvrzení, slovo „poprvé" vypuštěno)
 Panel 3: Digitální Jirka pobaveně.
 DIGITÁLNÍ JIRKA: "Takže žádné prasátko?"
 BAŠTA: "Žádný důkaz o prasátku. Ale o tom, co přišlo pak, důkazy máme."
@@ -79,7 +79,7 @@ CAPTION: "18. století. Rod Clary-Aldringenů promění Teplice v místo, kam je
 Panel 2: Jan Nepomuk Clary-Aldringen s architektem nad plány.
 BAŠTA (caption): "Jan Nepomuk Clary-Aldringen přestavěl zámek, lázně i park. Byla to jeho ‚zlatá éra' – a Teplic taky." 🟡k
 Panel 3: Noční požár, plameny, panika.
-CAPTION: "1793. Velký požár zasáhne obytné domy i lázně." 🟡k
+CAPTION: [K2] "1793. Velký požár." 🟢 (K2.5 / D-6: N-10 Reuss 1823, s. 47 zmiňuje „Brande vom Jahre 1793" = dílčí doklad PRIMARY SEEN; rozsah požáru a zasažené budovy nejsou doloženy, proto vypuštěno „zasáhne obytné domy i lázně")
 Panel 4: Ráno po požáru, pramen dál klidně vyvěrá.
 KAPKA VODY: "Oheň spálí, co je nahoře. Mě nespálí nic. Já jsem pod tím vším." 💡
 Panel 5: Kočár přijíždí v noci, vystupuje muž v tmavém plášti (Beethoven, silueta).
@@ -102,7 +102,7 @@ CAPTION: [K2] "V červenci 1812 se v Teplicích setkávají Beethoven a Goethe. 
 Panel 2: Procházka zámeckým parkem.
 BAŠTA (caption): [K2] "Několik dní spolu trávili čas. Goethe si 21. července zapsal, že Beethoven hrál nádherně. 🟢"
 Panel 3: Beethoven hraje na klavír, Goethe pohlcený.
-CAPTION (parafráze Goethova dopisu): [K2] "O několik týdnů později Goethe napsal manželce Christiane, že tak soustředěného, energického a vroucného umělce ještě neviděl." 🟡 (K2.2: adresát Christiane a datum 19. 8. 1812 podle Goethe-Gesellschaft = SECONDARY QUOTED; originál WA IV 23, s. 43 nikdo nečetl, KOL-K2-05; dřívější kolace S-09 uváděla, že se datum v sekundárních zdrojích liší)
+CAPTION (parafráze Goethova dopisu): [K2] "Týž den, 19. července 1812, napsal Goethe z Teplic manželce Christiane, že tak soustředěného, energického a vroucného umělce ještě neviděl." 🟢 (K2.5 / D-1: N-01 Goethe → Christiane, Teplice, neděle 19. 7. 1812, WA IV 23, č. 6348 = PRIMARY SEEN; oprava K2.2, kde stálo „o několik týdnů později" a datum 19. 8. 1812 podle sekundárního zdroje Goethe-Gesellschaft, který se mýlil; KOL-K2-05)
 Panel 4: Kapka stéká po okenní tabuli.
 KAPKA VODY: "Dva různé zvuky. Jeden hlasitý jako bouře. Druhý tichý jako řeka. Na chvíli tekli spolu." 💡
 Panel 5: Procházka pokračuje, v dálce se objevuje zářivě oděná společnost s doprovodem.
@@ -112,11 +112,11 @@ STRANA 12 — "Legenda z promenády"
 Panel 1 (rám jako dobová litografie): Beethoven razí si cestu davem, Goethe se klaní, císařovna s doprovodem.
 CAPTION: "‚Incident v Teplicích', 1887 – obraz namalovaný 75 let po události." 🟡k
 Panel 2: Bašta „vystupuje" z rámu.
-BAŠTA: [K2] "Tenhle obraz zná celá Evropa. Jenže vznikl o 75 let později, podle pozdějšího vyprávění. Jde o pozdější spornou tradici. 🟢 (K2.3: RECOVERY-013 K3-G; původně „které historici považují za sporné")"
+BAŠTA: [K2] "Tenhle obraz zná celá Evropa. Jenže vznikl o 75 let později, podle pozdějšího vyprávění. Jde o pozdější spornou tradici. 🟡 (K2.3: RECOVERY-013 K3-G; původně „které historici považují za sporné"; D-2 2026-09-26: 🟢 → 🟡, claim `TEP-INCIDENT-1812-TRADICE`)"
 Panel 3 (rozdělený): legenda vlevo, klidnější realističtější verze vpravo.
 BAŠTA (caption): [K2] "Co se stalo doopravdy, přesně nevíme. Deník máme, takže víme, že spolu jeli k Bílině a že se navštěvovali. Legenda je barvitější než doklady."
 Panel 4: Goethe odjíždí kočárem, ohlíží se.
-CAPTION: [K2] "Goethe z Teplic odjel. Legenda z toho udělala scénu definitivního rozchodu. Jenže doklady o pozdějších kontaktech mezi oběma muži existují – například Beethovenův dopis Goethovi z února 1823." 🟡 (K2.2: konkrétní opora z výzkumu P2 – Beethovenův dopis Goethovi 8. 2. 1823 a zaslaná partitura *Meeresstille*, podle Beethoven-Haus = SECONDARY QUOTED, originál nečten, KOL-K2-06; status zůstává 🟡 do přečtení originálu; K2.1: sníženo z 🟢, viz RECOVERY-012 F-01; audit P12: „už si nikdy nenapsali" a „už se nikdy nesetkali" = 🔴, odstraněno)
+CAPTION: [K2] "Goethe z Teplic odjel. Legenda z toho udělala scénu definitivního rozchodu. Jenže Goethe o Beethovenovi psal i po odjezdu z Teplic – například Zelterovi 2. září 1812 – a pozdější kontakt dokládá i Beethovenův dopis Goethovi z února 1823." 🟡 (K2.5 / D-2: N-02 Goethe → Zelter, Karlovy Vary 2. 9. 1812, WA IV 23, č. 6373 = PRIMARY SEEN; Beethovenův dopis Goethovi 8. 2. 1823 zůstává SECONDARY QUOTED (N-17, Beethoven-Haus), originál nečten, KOL-K2-06, proto celý caption 🟡; K2.1: sníženo z 🟢, viz RECOVERY-012 F-01; audit P12: „už si nikdy nenapsali" a „už se nikdy nesetkali" = 🔴, odstraněno)
 Panel 5: Digitální Jirka u pamětní desky, fotí telefonem.
 DIGITÁLNÍ JIRKA: "Zajímavý, že jo? Někdy legenda přežije pravdu, protože je prostě líp vyprávěná. My si tady ale držíme to, co se dá doložit."
 
@@ -150,13 +150,13 @@ EMOČNÍ OBLOUK: legenda (rychlejší tempo, čtenář znovu pravidlo) → vzest
 
 STRANA 14 — "Ta samá pohádka, jiné město"
 Panel 1 (pohádkový rám): kronikář píše brkem, mlžný obraz pramene.
-CAPTION: [K2] "Podle legendy, kterou zapsal kronikář Václav Hájek z Libočan, se pramen objevil v osmém století. Tradice uvádí rok 761." 🟡 (761 = 🔴 jako datum objevu, jen tradice; „o osm set let později" vypuštěno)
+CAPTION: [K2] "Podle Hájkovy kroniky, kterou cituje František Ambrož Reuss, našli roku 761 služebníci nedaleko Bíliny slaný pramen. S dnešní kyselkou to Reuss nespojuje." 🟢 (K2.5 / D-4: N-06 Reuss 1801 cituje Hájka (něm. překlad 1596): „Anno 761 … einen gesalzenen Quellbrunnen" = tradice o SLANÉM prameni; Reuss = PRIMARY SEEN, Hájek = SECONDARY QUOTED; 761 zůstává legendární/tradiční vrstvou a NENÍ doklad dnešní kyselky, BIL-761 = 🔴 jako datum objevu kyselky; K1: „o osm set let později" vypuštěno)
 Panel 2: Kapka „mrká" ke čtenáři.
 KAPKA VODY: "Tuhle písničku už znáte. Datum, které nikdo neviděl. Kronikář, který přišel pozdě." 💡
 Panel 3: Bašta pobaveně.
 BAŠTA: [K2] "Hájkova kronika vyšla roku 1541. Jestli je to první zápis té legendy, ještě prověřujeme. Že by prameny existovaly už dřív? Jistě. Že by se to stalo přesně takhle a přesně tehdy? To nevíme." 🟡
-Panel 4 (velký): 17.–18. století, jímky bílinských pramenů, dozor knížecí správy. [VIZ]
-CAPTION: [K2] "Bílinské prameny patřily rodu Lobkoviců. V 17. a 18. století byly opakovaně zachycovány a obezdívány. Konkrétní roky a jména ještě ověřujeme." 🟡 (K1: „kněžna Eleonora z Lobkowicz, 1712, 1761, ‚divoké vody'" = 🟡 bez zdrojového ukotvení, jména a roky vypuštěny)
+Panel 4 (velký): 18. století, jímky bílinských pramenů obložené kamenem a obezděné zdí, dozor knížecí správy. [VIZ]
+CAPTION: [K2] "Bílinské prameny patřily rodu Lobkoviců. Podle F. A. Reusse se o pramenu nic neví před dobou kněžny Eleonory z Lobkowicz. Roku 1761 byly prameny obloženy kamenem a obezděny, roku 1781 vznikl dům pro balení a rozesílání vody." 🟢 (K2.5 / D-4: N-07 Reuss 1801, s. 5–9 = PRIMARY SEEN; rok 1712 v této pasáži není a NEPOUŽÍVÁ SE jako uzavřený fakt; K1: „1712" a „divoké vody" vypuštěno)
 Panel 5: Kočár přijíždí, mladý Reuss vyhlíží ven.
 CAPTION: [K2] "Později sem lobkovická správa povolá mladého lékaře. Jmenuje se František Ambrož Reuss – Franz Ambrosius Reuss." 🟡k (K1: „z Prahy" ověřit)
 
@@ -173,8 +173,8 @@ DIGITÁLNÍ JIRKA: [K2] "F. A. Reuss vlastně dělal to, co dneska děláme s da
 STRANA 16 — "Sopka, která možná není sopka"
 Panel 1 (velký): hora Bořeň nad Bílinou, ranní mlha.
 CAPTION: [K2] "Nad Bílinou se tyčí hora Bořeň. O tom, jak takové kopce vznikly, se v době F. A. Reusse vedly vědecké spory."
-Panel 2: [K2] Reuss a cizí návštěvník na Bořni. [VIZ]
-CAPTION: [K2] "Sekundární prameny uvádějí, že roku 1791 vystoupil na Bořeň mladý Alexander von Humboldt spolu s Františkem Ambrožem Reussem. Primární doklad zatím nemáme přečtený." 🟡 (K2.2: výzkum P6 – sekundární literatura a muzeum Bílinské kyselky; primární Humboldtův záznam nečten, KOL-K2-12; K1: „přesvědčí Reusse" vypuštěno)
+Panel 2: [K2] Humboldt a Freiesleben na Bořni; Reuss v obraze není. [VIZ] (K2.5 / D-3: dřívější „Reuss a cizí návštěvník" tvrdilo společný výstup, který N-05 nedokládá)
+CAPTION: [K2] "V roce 1792 vyšel v odborném časopise popis výstupu na Bořeň, připisovaný Freieslebenovi a Alexanderu von Humboldtovi. František Ambrož Reuss je v něm zmíněn jen jako autor, na kterého odkazují. Že by šel s nimi, text neříká." 🟢 (K2.5 / D-3: N-05 *Bergmännisches Journal*, březen 1792, s. 237–248, a duben 1792, s. 297 = PRIMARY SEEN; Humboldt = „unser erfahrener Begleiter", Reuss = „Hr. D. Reuß erwähnt"; rok samotné cesty NENÍ uzavřen, článek vyšel 1792; KOL-K2-12 → 🟡 ROZPRACOVÁNO; K2.2 „1791 … spolu s F. A. Reussem" bylo nedoložené; K1: „přesvědčí Reusse" vypuštěno)
 Panel 3: [K2] Kdosi se dívá z vrcholu Bořně.
 BAŠTA (caption): [K2] "Otázka byla prostá, ale zásadní: vznikl čedič sopečnou činností, nebo něčím jiným? Tehdy se o tom vedla velká debata. Sám František Ambrož Reuss vydal roku 1790 spis, jehož titul se ptá: ‚Je čedič sopečný, nebo ne?'" 🟢 (K2.2: bibliografická existence – *Orographie des nordwestlichen Mittelgebirges in Böhmen*, Dresden 1790, výzkum P6; obsah spisu o Bořni nečten, KOL-K2-11)
 Panel 4: Reuss píše svůj závěr, pokorný výraz.
@@ -207,9 +207,9 @@ KAPKA VODY: "Čísla cestují snadněji než člověk. Nepotřebují kočár. Ne
 Panel 5: Digitální Jirka klidně vysvětluje.
 DIGITÁLNÍ JIRKA: [K2] "O tom, že by se ti dva někdy potkali u jednoho stolu, nic nevíme. Jméno Františka Ambrože Reusse ale u Berzelia najdeme. To stačí, aby ten příběh byl zajímavý i bez legendy." (K1: „Reuss uměl díky němu spočítat" = 🔴 odstraněno)
 
-STRANA 19 — [K2] "Léta ticha" (K1: „Šest let ticha" – šestiletý výpadek není podložen; podle výzkumu P8 jde o problémy od 1800, vážné poškození 1806 a obnovu popsanou 1821)
-Panel 1: Přelom století, silný déšť, prameny se plní kalnou vodou.
-CAPTION: [K2] "Od roku 1800 se povrchové jímky bílinských pramenů při přívalových deštích ucpávaly jílem. Roku 1806 byla prameniště vážně poškozena." 🟡 (K2.2: výzkum P8 – sekundární studie Muzea Bílinské kyselky 1977; přesný rozsah zásahů nečten, KOL-K2-14)
+STRANA 19 — [K2] "Léta ticha" (K1: „Šest let ticha" – šestiletý výpadek není podložen; podle Reusse 1808 (N-08) jde o částečnou nápravu 1789, úplné zastavení rozesílání 1806 a obnovu popsanou 1821)
+Panel 1: Silný déšť, mokrá zima, prameny se plní kalnou vodou. [VIZ] (K2.5 / D-5: „přelom století" vypuštěno, rok 1800 není doložen)
+CAPTION: [K2] "Roku 1789 se poškození pramenů podařilo jen zčásti napravit. Po zanedbání a mokrých zimách se minerální voda mísila s dešťovou, takže roku 1806 muselo být rozesílání bílinské vody úplně zastaveno." 🟢 (K2.5 / D-5: N-08 Reuss, *Die Mineralquellen zu Bilin*, 1808, s. 18–19 = PRIMARY SEEN; rok 1800 se nepoužívá, v Reussovi 1808 není samostatně doložen; nahrazuje K2.2 „od roku 1800 … vážně poškozena" ze sekundární studie muzea 1977)
 Panel 2: Reuss nad nefunkční jímkou.
 CAPTION: [K2] "Pro lázně, které na téhle vodě stály, to muselo být dlouhé mlčení." 💡 (K2.2: K1 „mezi lety 1800 a 1806 nebylo možné vodu jímat" vypuštěno – zdroj to neříká)
 Panel 3: Opuštěný lázeňský dvůr.
@@ -236,7 +236,7 @@ CAPTION: [K2] "Reussův syn, **August Emanuel** Reuss, se narodil v Bílině rok
 Panel 2: Hřbitov v Bílině, náhrobek Reuss.
 CAPTION: [K2] "František Ambrož Reuss zemřel roku 1830. 🟢" (K1 „pochován v Bílině" – nekolacionováno, vypuštěno)
 Panel 3 (velký): 1898, odhalení pomníku otci a synovi.
-CAPTION: [K2] "Podle muzea Bílinské kyselky byl 29. května 1898 odhalen společný pomník otce a syna Reussových – Františka Ambrože a Augusta Emanuela." 🟡 (K2.2: datum z výzkumu P9 – muzeum, SECONDARY; dobový pramen nečten, KOL-K2-16)
+CAPTION: [K2] "Na Svatodušní neděli, 29. května 1898, byl v Bílině odhalen pomník Františka Ambrože Reusse a jeho syna Augusta Emanuela." 🟢 (K2.5 / D-8 č. 3: N-14 dobový tisk – *Allgemeine Wiener medizinische Zeitung* 17. 5. 1898, s. 10 (oznámení „am Pfingstsonntag in Bilin") a *Prager Tagblatt* 2. 6. 1898, s. 3–4 (zpráva o odhalení) = PRIMARY SEEN (výřezy ANNO); doloženo datum a pocta oběma Reussům, podoba pomníku a autor NE; Svatodušní neděle 1898 = 29. 5.; KOL-K2-16)
 Panel 4: August Emanuel se chystá na cestu, kniha o Zaječicích na stole.
 BAŠTA (caption): [K2] "Syn ale nezůstal jen u kyselky. Zajímala ho i hořká voda z nedalekých Zaječic. A tam se objeví jméno švédského chemika, které jsme v Bílině záměrně nechali stranou."
 Panel 5 (most k Zaječicím): Kapka stoupá směrem k mapě Zaječic.
@@ -623,3 +623,45 @@ Zdroj: `02_COMIKS/AUDIT/PRAMEN_K2_PROMPT_PAROVANI.md` (druhý agent, s kontrolou
 **Nepokryté strany K2 (žádný odpovídající prompt):** 7, 11, 12, 16, 19, 24, 25, 28. **Nepřiřazený prompt:** 26 (osobní příběh / cameo). **Prompt 24 = Berzelius = K2 str. 26.**
 **Tvrdý historický konflikt po K2:** prompty 8 (Volf), 13 („záchrana Pravřídla"), 18 (Reuss používal Berzeliovu metodu), 19 (Beethoven u pramene). **Střední:** 17, 24.
 **Další krok:** až po čisté verzi K3 vytvořit „K2/K3 → PROMPT MASTER MAP" (jedna strana = jeden vizuální slot nebo „PROMPT CHYBÍ"). Prompty ani obrazy se nepřepisují.
+
+## K. K2.5 – INTEGRACE NÁLEZŮ N-01…N-17 (rozhodnutí Řídícího mozku 2 D-1…D-10, 2026-09-26)
+
+Zdroj nálezů: `01_HISTORIK/NALEZY_WEB_2026-09-26.md`. Zdroj rozhodnutí: instrukce Řídícího mozku 2 „Rozhodnutí k nálezům N-01…N-17". Úroveň důkazu u všech použitých nálezů: PRIMARY SEEN (OCR a výřezy ANNO), pokud není uvedeno jinak. K3 CLEAN se z tohoto souboru přegeneruje.
+
+| D | Str. | Změna v K2.5 | Nález |
+|---|---:|---|---|
+| D-1 | 11 | „O několik týdnů později…" → „Týž den, 19. července 1812, napsal Goethe z Teplic manželce Christiane…"; 🟡 → 🟢. Opravuje datum 19. 8. 1812 z K2.2 (sekundární zdroj se mýlil) | N-01 |
+| D-2 | 12 | Doplněn Goetheho dopis Zelterovi 2. 9. 1812; Beethovenův dopis 1823 zůstává, caption dál 🟡 | N-02, N-17 |
+| D-3 | 16 | Panel 2 a caption: Humboldt a Freiesleben popsali výstup na Bořeň (1792), Reuss je jen citován, společný výstup se netvrdí; rok cesty neuzavřen | N-05 |
+| D-4 | 14 | 761 = tradice o **slaném** prameni podle Reussovy citace Hájka, nespojuje se s kyselkou. Eleonora, 1761 obezdění, 1781 dům pro balení podle Reusse 1801. Rok 1712 vypuštěn. Panel 4: „18. století" | N-06, N-07 |
+| D-5 | 19 | 1789 částečná náprava, 1806 úplné zastavení rozesílání (Reuss 1808). Rok 1800 vypuštěn. Panel 1 bez „přelomu století" | N-08 |
+| D-6 | 7 | Bašta doplněn: legenda klade objev do roku 762, Reuss 1823 říká, že se pověsti přikládá větší váha, než si zaslouží; 762 = tradice | N-09 |
+| D-6 | 9 | „1793. Velký požár." (bez „zasáhne obytné domy i lázně"); 🟡k → 🟢 jako dílčí doklad | N-10 |
+| D-8 č. 3 | 21 | Pomník: „Na Svatodušní neděli, 29. května 1898…"; 🟡 → 🟢 | N-14 |
+
+**Záměrně beze změny:**
+- **D-7 (str. 8):** 1589 a Radislav Vchynský (N-11) = jen 🟡 badatelská stopa, do K3 se nepromítá.
+- **N-15, N-16, N-17:** nepovýšeno na 🟢 (N-15 OCR „18?7", identita Reusse neuzavřena; N-16 jen katalog; N-17 sekundární, dopis 1823 nečten).
+- **Str. 13:** N-12 (Nelson, 2 oběti) a N-13 (voda 13 m, Mahler) odpovídají stávajícímu textu, mění se jen evidence v Claim DB.
+- **Str. 10:** N-04 (Goethe dorazil 14. 7. 1812) text nevyžaduje, „Červenec 1812. V Teplicích je i on." platí.
+
+**Dopad na návrhy promptů (NEPŘEPSÁNO, čeká na rozhodnutí):**
+- **Nový prompt str. 16, panel 2** zobrazuje Reusse a Humboldta na Bořni. K3 teď říká Humboldt a Freiesleben, Reuss v obraze není.
+- **Nový prompt str. 19, panel 1** uvádí „poškozování od roku 1800". K3 už rok 1800 nepoužívá.
+- **Upravený prompt str. 14, panel 4 (jímky)** a str. 9 (požár) — drobné, ověřit.
+
+### K.1 Vazba na Claim DB (doplněno po auditu PR #30)
+
+Každé nové 🟢 z K2.5 má claim v `01_HISTORIK/CLAIM_DATABASE.md`. Úplné trasování všech 🟢 v K3 a seznam 16 starších mezer je v `01_HISTORIK/CROSS_AUDIT_K3_CLAIMDB_2026-09-26.md`.
+
+| Str. | Nové / změněné 🟢 v K2.5 | Claim |
+|---:|---|---|
+| 7 | 762 = tradice, nápis na reliéfu | `TEP-REUSS-1823-762` (`TEP-762` zůstává RED) |
+| 9 | 1793 velký požár | `TEP-REUSS-1823-FIRE-1793` |
+| 11 | Goethe → Christiane 19. 7. 1812 | `TEP-GOETHE-CHRISTIANE-1812` |
+| 12 | Goethe → Zelter 2. 9. 1812 | `TEP-GOETHE-ZELTER-1812` |
+| 14 | 761 tradice o slaném prameni | `BIL-REUSS-1801-HAJEK-761` (`BIL-761` zůstává RED) |
+| 14 | Eleonora, 1761, 1781 | `BIL-REUSS-1801-EARLY-HISTORY` |
+| 16 | Humboldt a Freiesleben, Reuss jen citován | `HUM-BORSEN-1792` |
+| 19 | 1789, 1806 | `BIL-REUSS-1808-1806` |
+| 21 | pomník 29. 5. 1898 | `BIL-REUSS-DENKMAL-1898` |
