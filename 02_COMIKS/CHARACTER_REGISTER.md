@@ -151,6 +151,7 @@ Status osoby: 🟢 existence a uvedené údaje doloženy · 🟡 částečně / 
   - narozen v Bílině 1811 🟢 (audit);
   - syn F. A.;
   - lázeňský lékař v Bílině, podepsán „Brunnenarzt zu Bilin" 14. 11. 1839 (📜).
+  - pozdější profesor mineralogie v Praze a ve Vídni (📜 dobový tisk: *Allgemeine Wiener medizinische Zeitung* 17. 5. 1898, s. 10, „nachmaligen Professors der Mineralogie in Prag und Wien"; nález N-14, rozhodnutí D-10). Pomník otci a synovi odhalen 29. 5. 1898 (`BIL-REUSS-DENKMAL-1898`).
 - **Doložené:**
   - tlumočil Berzeliovi žádost bílinské správy pramenů o rozbor zaječické vody (📜 Berzelius 1840, s. 8);
   - poznámky o léčivých účincích v knize 1840 (🟢 `ZAJ-BERZELIUS-1840`).

@@ -1,6 +1,6 @@
 # PRAMEN – PAGE MASTER 1–30
 
-> **Verze:** 1.0 (NÁVRH ke schválení Jirkou) · **Založil:** Claude Code, 2026-09-26 · **Není Production Lock.**
+> **Verze:** 1.1 (NÁVRH ke schválení Jirkou; 2026-09-26 aktualizováno po K2.5: strany 7, 9, 11, 12, 14, 16, 19, 21) · **Založil:** Claude Code, 2026-09-26 · **Není Production Lock.**
 >
 > **Účel:** Jedna řádka = jedna strana komiksu. Kdo chce vědět, v jakém stavu je kterákoli strana, najde to tady. Nemusí přitom procházet scénáře, audity a prompty.
 >
@@ -52,19 +52,19 @@ Počty v závorce = kolikrát se značka na straně vyskytuje.
 | 6 | Teplice | Voda, která tu byla dřív než my | 🟢 | 🟡 (🟡k 2, 🟡 1) | 🟡 prompt 6, úprava | ⚪ | 🔴 |
 | 7 | Teplice | Pohádka, nebo pravda? | 🟢 | 🟡 (🟢 1, 🟡 2) | 🟡 prompt 7, úprava (návrh v0.2) | ⚪ | 🔴 |
 | 8 | Teplice | Kámen a voda | 🟢 | 🟡 (🟢 1, 🟡 1) | 🟡 prompt 7 (sdílený se str. 7), úprava (návrh v0.2) | ⚪ | 🔴 |
-| 9 | Teplice | Malá Paříž | 🟢 | 🟡 (🟡k 4) | 🟡 prompt 9, úprava | ⚪ | 🔴 |
+| 9 | Teplice | Malá Paříž | 🟢 | 🟡 (🟢 1, 🟡k 3) | 🟡 prompt 9, úprava | ⚪ | 🔴 |
 | 10 | Teplice | Skladatel, který neslyší ticho | 🟢 | 🟡 (🟢 1, 🟡k 3) | 🟡 prompt 10, úprava | ⚪ | 🔴 |
-| 11 | Teplice | Dva velikáni | 🟢 | 🟡 (🟢 2, 🟡 1) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
+| 11 | Teplice | Dva velikáni | 🟢 | 🟢 (🟢 3) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
 | 12 | Teplice | Legenda z promenády | 🟢 | 🟡 (🟢 1, 🟡k 1, 🟡 1) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
 | 13 | Teplice | Den, kdy Teplice ztratily hlas | 🟢 | 🟢 (🟢 6) | 🔴 prompt 12 – tvrdý konflikt v archivní verzi (záchranáři, vrt); úprava v návrhu v0.2 | ⚪ | 🔴 |
-| 14 | Bílina | Ta samá pohádka, jiné město | 🟢 | 🟡 (🟡k 1, 🟡 3) | 🟡 prompt 14, úprava | ⚪ | 🔴 |
+| 14 | Bílina | Ta samá pohádka, jiné město | 🟢 | 🟡 (🟢 2, 🟡k 1, 🟡 1) | 🟡 prompt 14, úprava | ⚪ | 🔴 |
 | 15 | Bílina | Muž, který se ptal proč | 🟢 | 🟡 (🟡k 2) | 🟡 prompt 16, úprava (návrh v0.2) | ⚪ | 🔴 |
-| 16 | Bílina | Sopka, která možná není sopka | 🟢 | 🟡 (🟢 2, 🟡 2) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
+| 16 | Bílina | Sopka, která možná není sopka | 🟢 | 🟡 (🟢 3, 🟡 1) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
 | 17 | Bílina | Básník na Bořni | 🟢 | 🟡 (🟢 2, 🟡k 1) | 🟡 prompt 17, úprava (návrh v0.2) | ⚪ | 🔴 |
 | 18 | Bílina | Čísla, která cestovala | 🟢 | 🟢 (🟢 3) | 🔴 prompt 18 – starší tvrzení o Berzeliově metodě; úprava v návrhu v0.2 | ⚪ | 🔴 |
-| 19 | Bílina | Léta ticha | 🟢 | 🟡 (🟡 2) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
+| 19 | Bílina | Léta ticha | 🟢 | 🟡 (🟢 1, 🟡 1) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
 | 20 | Bílina | Voda, která putovala | 🟢 | 🟡 (🟡 3) | 🟡 prompt 20, úprava | ⚪ | 🔴 |
-| 21 | Bílina → Zaječice | Otec, syn a most k jinému prameni | 🟢 | 🟡 (🟢 2, 🟡 1) | 🟡 prompt 21, úprava (návrh v0.2) | ⚪ | 🔴 |
+| 21 | Bílina → Zaječice | Otec, syn a most k jinému prameni | 🟢 | 🟢 (🟢 3) | 🟡 prompt 21, úprava (návrh v0.2) | ⚪ | 🔴 |
 | 22 | Zaječice | Muž, který kopal na vlastním poli | 🟢 | 🟡 (🟡 3) | 🟡 prompt 22, úprava | ⚪ | 🔴 |
 | 23 | Zaječice | Jméno, které mělo tucet tváří | 🟢 | 🟡 (🟡k 2, 🟡 1) | 🟡 prompt 23, úprava (návrh v0.2) | ⚪ | 🔴 |
 | 24 | Zaječice | Lež v prášku | 🟢 | 🟡 (🟢 1, 🟡 2) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
@@ -77,7 +77,7 @@ Počty v závorce = kolikrát se značka na straně vyskytuje.
 
 **Souhrn (2026-09-26):**
 - **TEXT:** 25 🟢 (str. 6–30) · 5 🔴 (Prolog 1–5).
-- **HISTORIE:** 6 🟢 (13, 18, 25, 26, 28, 30) · 19 🟡 · Prolog nelze hodnotit.
+- **HISTORIE:** 8 🟢 (11, 13, 18, 21, 25, 26, 28, 30) · 17 🟡 · Prolog nelze hodnotit. (K2.5: strany 11 a 21 nově 🟢, viz K2 příloha K)
 - **VIZUÁLNÍ ZADÁNÍ:**
   - 2 🟢 (29, 30);
   - 3 🔴 v archivní verzi (13, 18, 26 — návrh úpravy existuje, neschválen);
@@ -109,25 +109,25 @@ Formát karty: **postavy** (ID z Character Registeru) · **historické jádro** 
 | Str. | Postavy | Historické jádro | Vizuální slot · guardraily | Blokuje |
 |---:|---|---|---|---|
 | 6 | CH-001, CH-002, CH-003 | Keltové a Římané 🟡k/🟡 | P6; mince a votivní dar jen jako rekonstrukce | 🟡k Keltové, 🟡 mince |
-| 7 | CH-001, CH-002, CH-003, CH-009, CH-011 (zmínka), CH-012 (zmínka), CH-013 (zmínka) | legenda (💡), Hájek 🟡, Judita/Vincentius 🟡, Pulkava 1446 předchůdce 🟢 | P7; nespojovat Juditin klášter a lázně do jedné stavby (VA-003/005), žádný léčebný rituál (VA-004) | 🟡 Judita (roky), Hájek |
+| 7 | CH-001, CH-002, CH-003, CH-009, CH-011 (zmínka), CH-012 (zmínka), CH-013 (zmínka) | legenda (💡), Hájek 🟡 s rokem 762 jako TRADICE (Reuss 1823), Judita/Vincentius 🟡, Pulkava 1446 předchůdce 🟢 | P7; nespojovat Juditin klášter a lázně do jedné stavby (VA-003/005), žádný léčebný rituál (VA-004) | 🟡 Judita (roky), Hájek |
 | 8 | CH-001, CH-002, CH-003, CH-010 | 1446, 1477, 1581 🟢; Volf 🟡 | P7 (sdílený); Volf nesmí stavět „první lázně"; 1446/1477/1581 nespojovat jako jednu stavbu (guardrail 7b) | 🟡 Volf; sdílený prompt |
-| 9 | CH-001, CH-002, CH-014, CH-007 (silueta) | Clary, Malá Paříž, požár 1793, Beethoven 1811 🟡k | P9 | 4× 🟡k |
+| 9 | CH-001, CH-002, CH-014, CH-007 (silueta) | Clary, Malá Paříž 🟡k, požár 1793 🟢 (jen dílčí doklad, Reuss 1823), Beethoven 1811 🟡k | P9 | 3× 🟡k |
 | 10 | CH-002, CH-003, CH-007, CH-008 | Beethoven 1811/12 🟡k, dopis nesmrtelné milé 🟡k, Goethe v Teplicích 7/1812 🟢 | P10; nejmenovat adresátku; samota jen jako tradice | 3× 🟡k |
-| 11 | CH-001, CH-002, CH-007, CH-008, CH-028 (zmínka) | setkání 19. 7. 1812, hra 21. 7. 🟢; dopis Christiane 🟡 | NOVÝ (návrh v0.2); panel 4 jen Kapka; žádná císařská scéna jako fakt | 🟡 dopis; prompt neschválen |
-| 12 | CH-002, CH-003, CH-007, CH-008 | obraz 1887 🟡k; pozdější sporná tradice 🟢; kontakty po 1812 (dopis 1823) 🟡 | NOVÝ (návrh v0.2); legenda vizuálně odlišena rámem; panel 4 jen Goethe v kočáře | 🟡k obraz, 🟡 dopis 1823 |
+| 11 | CH-001, CH-002, CH-007, CH-008, CH-028 (zmínka) | setkání 19. 7. 1812, hra 21. 7. 🟢; dopis Christiane Teplice 19. 7. 1812 🟢 (WA IV 23, č. 6348) | NOVÝ (návrh v0.2); panel 4 jen Kapka; žádná císařská scéna jako fakt | prompt neschválen |
+| 12 | CH-002, CH-003, CH-007, CH-008 | obraz 1887 🟡k; pozdější sporná tradice 🟢; kontakty po 1812: Goethe → Zelter 2. 9. 1812 🟢, Beethovenův dopis 1823 🟡 | NOVÝ (návrh v0.2); legenda vizuálně odlišena rámem; panel 4 jen Goethe v kočáře | 🟡k obraz, 🟡 dopis 1823 |
 | 13 | CH-001, CH-024, CH-025, CH-026, CH-027, CH-029 (horníci) | 10. 2. 1879, 21 + 2 oběti, pramen ustal 12./13. 2., komise, hloubení 22. 2., voda 3. 3. v ~13 m 🟢 | P12 → úprava; **zakázáno:** vrtná souprava, hrdinský „zachránce" (Zsigmondy, Sueß, Mahler, Uherr), 64 horníků, „vysál", grafické násilí | vizuální zadání (tvrdý konflikt archivní verze) |
 
 ### KAPITOLA BÍLINA (str. 14–21) — větev tyrkys `#2E8C8C` + ochrová
 | Str. | Postavy | Historické jádro | Vizuální slot · guardraily | Blokuje |
 |---:|---|---|---|---|
-| 14 | CH-001, CH-002, CH-004 (mladý), CH-011 (zmínka), Lobkovicové (CH-023 obecně) | 761 tradice 🟡; Hájek 1541 🟡; jímky 17.–18. stol. 🟡; příchod F. A. Reusse 🟡k | P14; 761 ne jako datum objevu; 770 l/min nepoužívat; mladý Reuss = F. A. | 🟡 × 3, 🟡k |
+| 14 | CH-001, CH-002, CH-004 (mladý), CH-011 (zmínka), Lobkovicové (CH-023 obecně) | 761 tradice o SLANÉM prameni 🟢 (Reuss 1801 cituje Hájka; nespojovat s kyselkou); Hájek 1541 🟡; Eleonora, 1761 obezdění, 1781 dům pro balení 🟢 (Reuss 1801; rok 1712 NEPOUŽÍVAT); příchod F. A. Reusse 🟡k | P14; 761 ne jako datum objevu kyselky; 770 l/min nepoužívat; mladý Reuss = F. A.; panel 4 jímky obložené kamenem a obezděné | 🟡 × 1, 🟡k |
 | 15 | CH-002, CH-003, CH-004, CH-016 (Werner), CH-023 | studium, Freiberg, najmutí 🟡k | P16; úprava v0.2 | 2× 🟡k |
-| 16 | CH-002, CH-004, CH-015, CH-008 (příjezd 1813) | Humboldt 1791 🟡; Reussův spis 1790 🟢; Reussův názor 🟡; Goethe 5/1813 🟢 | NOVÝ (v0.2); panel 3 anonymní postava na vrcholu; neuzavírat Humboldt × Reuss (VA-030/031) | 🟡 Humboldt, 🟡 Reussův názor |
+| 16 | CH-002, CH-004, CH-015, CH-008 (příjezd 1813) | Humboldt a Freiesleben, popis výstupu na Bořeň (článek 1792) 🟢 — Reuss v něm jen citován, rok cesty neuzavřen; Reussův spis 1790 🟢; Reussův názor 🟡; Goethe 5/1813 🟢 | NOVÝ (v0.2); panel 3 anonymní postava na vrcholu; **panel 2 v K3: Reuss v obraze není** (K2.5 D-3); prompt v0.2 panel 2 zobrazuje Reusse s Humboldtem a **čeká na úpravu** | 🟡 Reussův názor; prompt panel 2 neodpovídá K3 |
 | 17 | CH-001, CH-002, CH-003, CH-008, CH-004, CH-007 | Goethe × F. A. Reuss 12. a 28. 5. 1813 🟢; cesta s Beethovenem 20. 7. 1812 🟢; Goethe sběratel 🟡k | P17 (úprava v0.2); panel 3 jiná časová vrstva; Beethoven ne u pramene, ne s Reussem | 🟡k |
 | 18 | CH-001, CH-002, CH-003, CH-004, CH-006 | Berzelius 1823 cituje Reusse 🟢; Reuss 1818 počítá s Berzeliem 🟢; návštěva Bíliny nedoložena | P18 → úprava; **žádné** setkání, **žádná** „Berzeliova metoda" v bílinských pracích (VA-035/037) | vizuální zadání (archivní text) |
-| 19 | CH-001, CH-002, CH-004, CH-017 | 1800–1806 🟡; Eichler 1821 🟡 | NOVÝ (v0.2) | 2× 🟡 |
+| 19 | CH-001, CH-002, CH-004, CH-017 | 1789 částečná náprava, 1806 zastavení rozesílání 🟢 (Reuss 1808); Eichler 1821 🟡 | NOVÝ (v0.2); **prompt panel 1 uvádí „od roku 1800", K3 rok 1800 nepoužívá — čeká na úpravu** | 1× 🟡 (Eichler); prompt panel 1 |
 | 20 | CH-002, CH-003, CH-004 (starší) | obchod 🟡; knihy 1788/1801/1808; přezdívka „otec" = pozdější 🟡 | P20 | 3× 🟡 |
-| 21 | CH-001, CH-002, CH-004, CH-005 | A. E. nar. 1811 🟢; F. A. † 1830 🟢; pomník 1898 🟡 | P21 (úprava v0.2); F. A. × A. E. rozlišit věkem a popiskem (VA-044); pomník bez jisté podoby (VA-045) | 🟡 pomník |
+| 21 | CH-001, CH-002, CH-004, CH-005 | A. E. nar. 1811 🟢; F. A. † 1830 🟢; pomník 29. 5. 1898 🟢 (dobový tisk, N-14; A. E. = pozdější profesor mineralogie) | P21 (úprava v0.2); F. A. × A. E. rozlišit věkem a popiskem (VA-044); pomník bez jisté podoby (VA-045: podoba a autor nejsou doloženy) | — |
 
 ### KAPITOLA ZAJEČICE (str. 22–27) — větev šedozelená `#7C9494`
 | Str. | Postavy | Historické jádro | Vizuální slot · guardraily | Blokuje |
