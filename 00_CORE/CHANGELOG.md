@@ -1,5 +1,27 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – RECOVERY-012: AUDIT K2 STRANY 6–30
+
+### Added
+- `01_RECOVERY/RECOVERY-012_AUDIT_K2_STR6-30.md` — audit K2 (nad main 3ced58a). Verdikt: **schváleno s výhradami**, 11 nálezů F-01…F-11, žádný blokující. Mechanická kontrola zakázaných formulací: všechny jsou jen v redakčních závorkách. R11-01…07 potvrzeny podle kolace.
+
+### Hlavní výhrady
+- F-01, F-02: 🟢 bez opory v kolaci (pozdější kontakty Goethe–Beethoven; „stopy mědi").
+- F-05: K2 si sám změnil složení Savoryho prášku („kyselina vinná" místo „vinný kámen").
+- F-03: F. A. Reuss bez jména na str. 15, 16, 18, 25.
+- F-04: redakční závorky obsahují zakázané formulace doslova (riziko při kopírování do produkce).
+- F-06: název str. 26 „z Bíliny" a „dopisy" nejsou doloženy.
+- F-09: číslování „STRANA N" v promptech neodpovídá číslování scénáře.
+
+### Changed
+- `00_CORE/PRAMEN_MAPA.md` — nový řádek, stav projektu.
+
+### Status
+- **Audit není nezávislý** (K2 psal i audit tentýž nástroj). Čeká na Řídícího mozku 2.
+- K2, K1, `CLAIM_DATABASE.md`, prompty, vizuály beze změny. Production Lock nevytvořen, HB-057 dál 🔴.
+
+---
+
 ## [2026-09-26] – K2 SCÉNÁŘE STRAN 6–30 (WORKING)
 
 ### Added
