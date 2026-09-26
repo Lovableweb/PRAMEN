@@ -726,7 +726,7 @@ Zápis provedl Claude Code na pokyn Jirky. Do Claim Database se nic nepromítá 
 | ID | Otázka / otevřený bod | Stav |
 |---|---|---|
 | OO-K3-01 | **Ověření str. 29** (aktuální fakta epilogu): muzeum Bílinské kyselky otevřené v roce 2026, Karel Bašta jako skutečný průvodce, pokračování výroby. Nelze zjistit z archivů, ověřit u Karla Bašty nebo z oficiálního oznámení. **Záměrně odloženo na pokyn Jirky (2026-09-26).** Do té doby zůstává str. 29 v K2/K3 označená „OVĚŘIT PŘED TISKEM". Blokátor Production Lock. | 🟡 ODLOŽENO |
-| OO-K3-02 | Cameo Jirka + Karlíček (prompt 26, „osobní/tichý příběh") — v promptech „zatím nerozhodnuto"; master mapa ho nepřiřazuje k žádné straně K3. Rozhodnout, zda a kam. | 🔴 NEZODPOVĚZENO |
+| OO-K3-02 | Cameo Jirka + Karlíček (prompt 26, „osobní/tichý příběh"). **Odloženo na pokyn Jirky (2026-09-26): nepatří do historické části. Případně až na samý konec knihy, jako hra.** Master mapa ho nepřiřazuje k žádné straně K3 a zatím se ho nedotýkat. Nemá vliv na historii. | 🟡 ODLOŽENO |
 | OO-K3-03 | Nové image prompty pro str. K3 **11, 12, 16, 19, 24, 25** (master mapa: PROMPT CHYBÍ). Možná i str. 8 (prompt 7 je použit dvakrát). Kdo je napíše a kdy. | 🔴 NEZODPOVĚZENO |
 | OO-K3-04 | Úprava popisů existujících promptů u str. K3 7, 8, 13, 15, 17, 18, 21, 23, 26, 28 (master mapa). Prompty 8, 13, 19 mají tvrdý historický konflikt. | 🔴 NEZODPOVĚZENO |
 | OO-K3-05 | Master mapa: **prompt 27** není přiřazen k žádné straně a chybí ve výčtu nepoužitých promptů. Rozhodnout jeho využití. | 🔴 NEZODPOVĚZENO |
