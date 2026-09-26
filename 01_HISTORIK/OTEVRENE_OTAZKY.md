@@ -714,3 +714,46 @@ Zdroj: [[RECOVERY-008_PREDANI_HB044-HB061]]. Nejde o tvrzení historických skut
 | OO-SC-01 | Prolog, strany 1–5 — scénář k1 je neobsahuje (podle textu nebyl v chatu „KOMPLETACE STRAN 6–30"). Dohledat v jiném chatu. (RECOVERY-010 §1) | 🔴 NEZODPOVĚZENO |
 | OO-SC-02 | Rozpory scénáře k1 s evidencí S-01…S-13 (Volf, Pravřídlo 1879, Reuss × Berzelius, dva Reussové, Hoffmann „anglický", Goethe × Reuss, Judita, Berzeliovy prvky, 64 horníků) — rozhodnout: opravit scénář (nová verze), nebo doložit. (RECOVERY-010 §3) | 🔴 NEZODPOVĚZENO |
 | OO-SC-03 | Doslovnost scénáře k1 — ověřit proti původním zprávám chatu, že nejde o nově vygenerovaný text. (RECOVERY-010 §6) | 🔴 NEZODPOVĚZENO |
+
+---
+
+## DOPLNĚNO 2026-09-26 — OTEVŘENÉ BODY Z K2 / K3 (výzkum P1–P10, audity RECOVERY-012/013, master mapa)
+
+Zápis provedl Claude Code na pokyn Jirky. Do Claim Database se nic nepromítá (samostatný krok se souhlasem Jirky). Zdroje: `01_HISTORIK/PRIMARNI_KOLACE_K2_VYZKUM.md`, `01_RECOVERY/RECOVERY-013_NEZAVISLY_AUDIT_K2.md`, `02_COMIKS/AUDIT/PRAMEN_PROMPT_MASTER_MAP.md`.
+
+### A. Produkční a provozní body (K3 / komiks)
+
+| ID | Otázka / otevřený bod | Stav |
+|---|---|---|
+| OO-K3-01 | **Ověření str. 29** (aktuální fakta epilogu): muzeum Bílinské kyselky otevřené v roce 2026, Karel Bašta jako skutečný průvodce, pokračování výroby. Nelze zjistit z archivů, ověřit u Karla Bašty nebo z oficiálního oznámení. **Záměrně odloženo na pokyn Jirky (2026-09-26).** Do té doby zůstává str. 29 v K2/K3 označená „OVĚŘIT PŘED TISKEM". Blokátor Production Lock. | 🟡 ODLOŽENO |
+| OO-K3-02 | Cameo Jirka + Karlíček (prompt 26, „osobní/tichý příběh") — v promptech „zatím nerozhodnuto"; master mapa ho nepřiřazuje k žádné straně K3. Rozhodnout, zda a kam. | 🔴 NEZODPOVĚZENO |
+| OO-K3-03 | Nové image prompty pro str. K3 **11, 12, 16, 19, 24, 25** (master mapa: PROMPT CHYBÍ). Možná i str. 8 (prompt 7 je použit dvakrát). Kdo je napíše a kdy. | 🔴 NEZODPOVĚZENO |
+| OO-K3-04 | Úprava popisů existujících promptů u str. K3 7, 8, 13, 15, 17, 18, 21, 23, 26, 28 (master mapa). Prompty 8, 13, 19 mají tvrdý historický konflikt. | 🔴 NEZODPOVĚZENO |
+| OO-K3-05 | Master mapa: **prompt 27** není přiřazen k žádné straně a chybí ve výčtu nepoužitých promptů. Rozhodnout jeho využití. | 🔴 NEZODPOVĚZENO |
+| OO-K3-06 | Vizuální audit K3 (text ↔ claim ↔ vizuál) — hotové obrazy nejsou v repozitáři, jen textové prompty. Určit, kdo a nad čím vizuály auditovat. | 🔴 NEZODPOVĚZENO |
+
+### B. Historické otázky z výzkumu P1–P10 (KOL-K2)
+
+Mapování na starší návrhy KOL-01…05 z `PRIMARNI_KOLACE_VYSLEDEK.md`: KOL-01 → KOL-K2-17, KOL-02 → KOL-K2-01 / -03, KOL-03 → KOL-K2-04 / -05, KOL-04 → KOL-K2-08, KOL-05 → KOL-K2-18.
+
+| ID | Otázka / otevřený bod | Stav |
+|---|---|---|
+| KOL-K2-01 | Přečíst Hoffmannův text v *Breslauische Sammlungen* 1717 (lokalita, název vody, datum, vztah Sedlec × Zaječice). | 🔴 NEZODPOVĚZENO |
+| KOL-K2-02 | Kolacionovat Hoffmann, *Gründlicher Bericht* 1725/1738 (Sedlec, Zaječice, Epsom). | 🟡 ROZPRACOVÁNO |
+| KOL-K2-03 | Rozpor v Reussovi 1791: Hoffmann 1717, Sedlec, Zaječice, Kohl, rok 1721, „Ursprungsquelle". | 🔴 NEZODPOVĚZENO |
+| KOL-K2-04 | Goethův deník WA III 4, zápis 20. 7. 1812 — přesná strana (303 × 304) a okolní text. | 🟡 ROZPRACOVÁNO |
+| KOL-K2-05 | Goethův dopis Christiane 19. 8. 1812 (WA IV 23, s. 43) — originál. Datum zatím jen sekundárně (Goethe-Gesellschaft). | 🟡 ROZPRACOVÁNO |
+| KOL-K2-06 | Beethovenův dopis Goethovi 8. 2. 1823 — originál. | 🟡 ROZPRACOVÁNO |
+| KOL-K2-07 | Vincentiův latinský text — přesné místo a chronologické zařazení zápisu. | 🔴 NEZODPOVĚZENO |
+| KOL-K2-08 | Původ rozmezí 1156–1167 (Judita): primární datum × odborný odhad × turistická tradice. | 🔴 NEZODPOVĚZENO |
+| KOL-K2-09 | Primární text Mitise o teplických lázních a Volfovi z Vřesovic. | 🔴 NEZODPOVĚZENO |
+| KOL-K2-10 | Originál patentu Thomase Fielda Savoryho z 23. 8. 1815 (složení prášku zatím jen sekundárně). | 🔴 NEZODPOVĚZENO |
+| KOL-K2-11 | Reuss, *Orographie* 1790 — co píše o Bořni. | 🔴 NEZODPOVĚZENO |
+| KOL-K2-12 | Humboldtův primární doklad návštěvy Bíliny / Bořně 1791. | 🔴 NEZODPOVĚZENO |
+| KOL-K2-13 | Berzelius 1840: měď, cín, jod, brom. **Měď a jod/brom doloženy v OCR (RECOVERY-013, s. 14, 26, 27, 40); zbývá kolace nad skenem a přesná čísla stran.** | 🟡 ROZPRACOVÁNO |
+| KOL-K2-14 | Originální Eichlerova publikace 1821 (obnova pramenů po poškození 1800/1806). | 🔴 NEZODPOVĚZENO |
+| KOL-K2-15 | Titulní a dedikační list Reussovy knihy 1788 (věnování Lobkovicovi). | 🔴 NEZODPOVĚZENO |
+| KOL-K2-16 | Dobový pramen k odhalení pomníku Reussů 29. 5. 1898 (zatím jen muzeum). | 🟡 ROZPRACOVÁNO |
+| KOL-K2-17 | Který „Professor Dr. Reuß" varoval kolem 1867 před důlním neštěstím v Teplicích? | 🔴 NEZODPOVĚZENO |
+| KOL-K2-18 | „Prof. Rings" (1712) v Reussově výkladu 1827 — identita a zdroj. | 🔴 NEZODPOVĚZENO |
+| KOL-K2-19 | Pozdější kontakty Goethe–Beethoven: korespondence, umělecký kontakt, nebo osobní kontakt? | 🟡 ROZPRACOVÁNO |
