@@ -1,5 +1,16 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – CAMEO JIRKA + KARLÍČEK ODLOŽENO
+
+### Changed
+- `01_HISTORIK/OTEVRENE_OTAZKY.md` — OO-K3-02: cameo Jirka + Karlíček (prompt 26) odloženo na pokyn Jirky. Nepatří do historické části, případně až na konec knihy jako hra. Bez vlivu na historii.
+- `00_CORE/PRAMEN_MAPA.md` — stav projektu, hlavička.
+
+### Status
+- K1, K2, K3, prompty, vizuály, Claim DB beze změny.
+
+---
+
 ## [2026-09-26] – OTEVŘENÉ OTÁZKY: BODY Z K2 / K3
 
 ### Changed
