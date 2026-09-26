@@ -2,7 +2,7 @@
 
 **Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
 **Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
-**Poslední aktualizace:** 2026-09-26 · Master Core 2.0, Page Master 1–30 a Character Register (návrhy ke schválení).
+**Poslední aktualizace:** 2026-09-26 · Nové nálezy z digitálních knihoven (`01_HISTORIK/NALEZY_WEB_2026-09-26.md`, N-01…N-17).
 
 Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
 
@@ -70,6 +70,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | `CLAIM_DATABASE.md` | 69 | ⭐ | 45 claimů: CLAIM / PRAMEN / TYP / STATUS / POZNÁMKA. Hlavní zdroj pravdy o faktech |
 | `OTEVRENE_OTAZKY.md` | 759 | 🔍 | HIST-001…013, HIST-RM-001…050 (téměř vše Bílina), OO-HB044…OO-HB060, OO-SC-01…03 z 2026-09-25, **OO-K3-01…06 a KOL-K2-01…19 z 2026-09-26** (ověření str. 29 odloženo, cameo, nové prompty, výzkum P1–P10). ⚠️ HIST-012 (Beethoven) už zodpovězen, status neaktualizován |
 | `BILINA/…RECOVERED_WORKING_v1.0.md` | 265 | 🔍 | Pracovní souhrn Bíliny. ⚠️ zastaralý: Beethoven 🟡, Reuss 1808 🔵 (Claim DB má 🟢) |
+| `NALEZY_WEB_2026-09-26.md` | 137 | ⭐ | **17 nových nálezů (N-01…N-17)** k 🟡 místům K3: Goethův dopis o Beethovenovi je z 19. 7. 1812; Humboldt na Bořni doložen (Bergm. Journal 1792), ale bez Reusse; Hájkova legenda 761 = slaný pramen; 1761/1781/1806 u Bíliny (Reuss); FONS NOSTER 762; oběti v Nelsonu potvrzeny; pomník Reussů 1898. Claim DB a K3 beze změny |
 | `PRIMARNI_KOLACE_PLAN.md` | 91 | 🔍 | Plán primární kolace (priority 1–5, identifikátory pramenů). Stav: **provedeno 2026-09-26** → výsledek v `PRIMARNI_KOLACE_VYSLEDEK.md` |
 | `PRIMARNI_KOLACE_K2_VYZKUM.md` | 1247 | 🔍 | **Výzkum otevřených bodů K2 (P1–P10)** od Řídícího mozku 2 (doslovně, bez značek citací) + kontrola Claude Code na začátku: shoda s kolací, **rozpor P7 (měď)**, web-zdroje jen SECONDARY. Nové otázky KOL-K2-01…19. Do Claim DB nepovýšeno |
 | `PRIMARNI_KOLACE_VYSLEDEK.md` | 276 | ⭐ | **Výsledek primární kolace S-01…S-13**: test přístupu, doslovné citace (originál + překlad), úrovně důkazu, potvrzeno/změněno/otevřené, návrhy pro K2 a otázky KOL-01…05 |
