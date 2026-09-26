@@ -15,7 +15,25 @@
 - `00_CORE/PRAMEN_MAPA.md` — nová sekce `scripts/`, hlavička.
 
 ### Status
-- Postaveno na větvi PR #30 (`claude/integrace-n01-n17`), protože mění stejné soubory (mapa, changelog). Po sloučení #30 do `main` se dostane do `main` s ním. K1, K2, K3, Claim DB, prompty beze změny.
+- Postaveno na větvi PR #30 (`claude/integrace-n01-n17`) — do větve přimergován aktuální stav #30 po opravách po auditu (Claim DB 60 claimů); skript ověřen i na něm. Důvod: mění stejné soubory (mapa, changelog). Po sloučení #30 do `main` se dostane do `main` s ním. K1, K2, K3, Claim DB, prompty beze změny.
+
+## [2026-09-26] – K2.5 PO AUDITU PR #30 (REQUEST CHANGES): OPRAVY
+
+**Audit Řídícího mozku 2 vrátil PR #30 s výhradami. Opraveno v téže větvi. PR čeká na opakovaný audit, není schválený merge.**
+
+### Opraveno
+- **CH-015 Humboldt** (Character Register): stará „Bořeň 1791 s F. A. Reussem" nahrazena podle D-3 a N-05 (článek 1792, Freiesleben + Humboldt, Reuss jen citován, společný výstup nedoložen, rok cesty 🟡). Souvisí opravy CH-004 (F. A. Reuss), CH-008 (Goethe: dopis Christiane 19. 7. 1812 nově 🟢 + dopis Zelterovi), CH-028 (Christiane 🟢), CH-011 (Hájek: 761/762 jen jako tradice).
+- **Claim DB: +8 claimů** (celkem 15 nových v této dávce), aby **každé nové 🟢 v K3 mělo claim**: `TEP-GOETHE-CHRISTIANE-1812` (N-01, N-04), `TEP-GOETHE-ZELTER-1812` (N-02), `HUM-BORSEN-1792` (N-05), `BIL-REUSS-1801-HAJEK-761` (N-06), `BIL-REUSS-1801-EARLY-HISTORY` (N-07), `BIL-REUSS-1808-1806` (N-08), `TEP-REUSS-1823-762` (N-09), `TEP-REUSS-1823-FIRE-1793` (N-10). **`BIL-761` a `TEP-762` zůstávají RED** (jako datum objevu); nové claimy jsou jiná tvrzení (Reuss cituje tradici) a mají v poznámce výslovný zákaz povyšovat RED claimy.
+- **Page Master:** karty stran 7, 9, 11, 12, 14, 16, 19, 21 odkazují na konkrétní claimy.
+- **Master Core 2.0:** počet claimů (60), stav Page Master (8 🟢 / 17 🟡), K2.5.
+- **K2 příloha K.1:** vazba změn K2.5 na claimy.
+
+### Cross-audit (nový soubor `01_HISTORIK/CROSS_AUDIT_K3_CLAIMDB_2026-09-26.md`)
+- Všechna 🟢, která přinesl PR #30, mají claim. **16 starších 🟢 v K3 (z K2.1–K2.4, ne z PR #30) claim nemá** (str. 11 deník, 12 Incident, 13 Gartenlaube a noviny ×4, 16 spis 1790, 18 Berzelius 1822 a Reuss 1818, 21 A. E. 1811 a F. A. †1830, 24 kniha 1827, 25 Steinmann a Reuss 1827 ×3). Podle D-8 nezapsáno, **k rozhodnutí Řídícího mozku 2**: zapsat jako dávku D-8b, nebo u nich snížit značku na 🟡. Zvlášť str. 12 „Incident = pozdější sporná tradice" 🟢 je jen z auditu.
+- **Strojově ověřeno:** všechna claim ID v Page Master, Character Register, K2 a cross-auditu existují v Claim DB; K3 přesně odpovídá K2 (skript); žádná stará tvrzení („Humboldt × Reuss 1791", „o několik týdnů později", „19. 8. 1812", „od roku 1800", „1712") v živých dokumentech.
+
+### Neprovedeno (podle pokynu)
+- Production Lock, prompty (OO-K3-07 čeká), obrazy. PR #31 (skript) zatím ignorován.
 
 ---
 

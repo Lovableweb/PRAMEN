@@ -63,7 +63,7 @@ Status osoby: 🟢 existence a uvedené údaje doloženy · 🟡 částečně / 
 | CH-025 | profesor Gustav Laube | HISTORICKÁ | 13 | 🟢 |
 | CH-026 | profesor Eduard Suess (Sueß) | HISTORICKÁ | 13 | 🟢 |
 | CH-027 | Julius Mahler | HISTORICKÁ | 13 | 🟢 |
-| CH-028 | Christiane Goethe | ZMÍNKA | 11 | 🟡 |
+| CH-028 | Christiane Goethe | ZMÍNKA | 11 | 🟢 |
 | CH-029 | anonymní postavy | ANONYMNÍ | 6, 7, 9, 13, 14, 20, 23, 25, 29 | 💡 |
 | CH-X01 | Wilhelm Zsigmondy | VYŘAZENÁ z obrazu | (archivní prompt 13) | 🟢 existence / nepoužito |
 | CH-X02 | starosta Uherr | VYŘAZENÁ z obrazu | (HB-044) | 🟢 / nepoužito |
@@ -139,7 +139,7 @@ Status osoby: 🟢 existence a uvedené údaje doloženy · 🟡 částečně / 
 - **🔴 Nesmí:**
   - setkání nebo spolupráce s Berzeliem;
   - „Berzeliova metoda" v bílinských pracích 1788–1808;
-  - Humboldt × Reuss 1791 jako fakt (🟡);
+  - společný výstup Humboldt × Reuss na Bořni jako doložený fakt (N-05: Reuss je v pramenu jen citován, rok cesty neuzavřen; `HUM-BORSEN-1792`);
   - chemický rozbor 1827 provedený Reussem (dělal ho Steinmann);
   - záměna se synem.
 - **Vzhled:** nedoložen. **Musí stárnout:** ve 14 mladý (příchod), v 17 kolem 52 let (1813), ve 20–21 starší, zemřel v 69 letech.
@@ -199,8 +199,10 @@ Status osoby: 🟢 existence a uvedené údaje doloženy · 🟡 částečně / 
   - Teplice červenec 1812;
   - 20. 7. 1812 cesta s Beethovenem k Bílině;
   - 24. 8. 1810 v Bílině kreslil (📜);
-  - 12. a 28. 5. 1813 s F. A. Reussem, Bořeň (🟢 K3 / 📜).
-- **🟡:** dopis Christiane o Beethovenovi (parafráze); „sbíral horniny celý život" (🟡k).
+  - 12. a 28. 5. 1813 s F. A. Reussem, Bořeň (🟢 K3 / 📜; `BIL-GOETHE-REUSS-1813`);
+  - 19. 7. 1812 dopis manželce Christiane z Teplic o Beethovenovi (📜 WA IV 23, č. 6348; `TEP-GOETHE-CHRISTIANE-1812`); dorazil do Teplic 14. 7. 1812;
+  - 2. 9. 1812 dopis Zelterovi z Karlových Varů, „Beethoven habe ich in Töplitz kennen gelernt" (📜 WA IV 23, č. 6373; `TEP-GOETHE-ZELTER-1812`).
+- **🟡:** „sbíral horniny celý život" (🟡k). Beethovenův dopis Goethovi z února 1823 (N-17) je jen SECONDARY QUOTED, originál nečten (🟡).
 - **Strany:** 10, 11, 12, 16 (příjezd 1813), 17 (1813 + flashback 1812), koláž 28.
 - **🔴 Nesmí:**
   - „přijel do Bíliny za Reussem se stejnou otázkou jako Humboldt" (účel cesty neznámý);
@@ -216,11 +218,11 @@ Status osoby: 🟢 existence a uvedené údaje doloženy · 🟡 částečně / 
 |---|---|---|---|---|
 | CH-009 | královna Judita | Vincentius chválí Juditu za stavbu kláštera sv. Jana Křtitele u teplých vod 🟡 (roky nedoloženy); Jarloch ji jmenuje zakladatelkou (📜 FRB II s. 467, zatím nezapsáno) | nespojovat s lázněmi; bez letopočtu 1156–1167 | 7 |
 | CH-010 | Volf z Vřesovic | rozvoj Teplic v 16. stol. 🟡 (`TEP-VOLF-ROLE`) | 🔴 „postavil první zděné lázně", špitál, dochovaný základ | 8 |
-| CH-011 | Václav Hájek z Libočan | kronika 1541; legendy 762/761 🟡 | „poprvé zapsal" neuzavřeno | 7, 14 (kronikář s brkem = anonymní vyobrazení) |
+| CH-011 | Václav Hájek z Libočan | kronika 1541; legendy 762 (Teplice) a 761 (Bílina, „slaný pramen") jen jako TRADICE 🟡 (Reuss 1801/1823 je cituje; `BIL-REUSS-1801-HAJEK-761`, `TEP-REUSS-1823-762`) | „poprvé zapsal" neuzavřeno | 7, 14 (kronikář s brkem = anonymní vyobrazení) |
 | CH-012 | Vincentius | letopis 12. stol. 🟢 `TEP-VINCENTIUS-12C` | jen caption | 7 |
 | CH-013 | Pulkava | „in Teplicz ad balnea" 🟢 `TEP-PULKAVA-14C` | jen caption | 7 |
 | CH-014 | Jan Nepomuk Clary-Aldringen | přestavby, „Malá Paříž" 🟡k | ověřit před Lockem | 9 |
-| CH-015 | Alexander von Humboldt | Bořeň 1791 s F. A. Reussem 🟡 (jen sekundárně) | nezobrazovat jako uzavřenou společnou výpravu (VA-030/031); K3 str. 16 panel 2 „cizí návštěvník" | 16 |
+| CH-015 | Alexander von Humboldt | **popis výstupu na Bořeň (článek 1792, Freiesleben + Humboldt) 🟢**; rok cesty 🟡; **Reuss v něm jen citován, společný výstup Humboldt × Reuss NENÍ doložen** (claim `HUM-BORSEN-1792`, N-05, rozhodnutí D-3) | nezobrazovat spolu s Reussem na Bořni jako doložený fakt; **K3 str. 16 panel 2 = „Humboldt a Freiesleben na Bořni; Reuss v obraze není"**; nový prompt v0.2 str. 16 panel 2 to ještě neodráží (OO-K3-07) | 16 |
 | CH-016 | Abraham Gottlob Werner | Reussovo studium ve Freibergu 🟡k | — | 15 |
 | CH-017 | A. K. Eichler | popis obnovy pramenů 1821 🟡 | — | 19 |
 | CH-018 | Matyáš Loos | tradice kolem 1770 🟡; kaple 1780 = archivní stopa 🟡 (`ZAJ-SOAL-1780`) | jen jako tradiční postava (VA-047). ⚠️ Nový nález Claude Code: Reuss 1791, s. 7–8, uvádí „Bauer Matthias Loose", studny vykopané **1743**, prodej 1780 odmítl (zatím nezapsáno do evidence) | 22, koláž 28 |
@@ -233,7 +235,7 @@ Status osoby: 🟢 existence a uvedené údaje doloženy · 🟡 částečně / 
 | CH-025 | prof. Gustav Laube | člen komise 1879 🟢 | ne „zachránce" | 13 |
 | CH-026 | prof. Eduard Suess | komise, posudek, **doporučil hloubení, vrt nedoporučil** 🟢 `TEP-1879-SUESS` | 🔴 `TEP-1879-SUESS-DRILL`, vrtná souprava, „zachránce" | 13 |
 | CH-027 | Julius Mahler | vedl hloubení od 22. 2. 1879 🟢 `TEP-1879-MAHLER` | ne „zachránil Pravřídlo" | 13 |
-| CH-028 | Christiane Goethe | adresátka Goethova dopisu 🟡 | nekreslit | 11 |
+| CH-028 | Christiane Goethe | adresátka Goethova dopisu z Teplic 19. 7. 1812 🟢 (`TEP-GOETHE-CHRISTIANE-1812`) | nekreslit | 11 |
 
 ## 5. ANONYMNÍ POSTAVY (CH-029)
 - **Str. 6:** keltská ruka s votivním darem (rekonstrukce).

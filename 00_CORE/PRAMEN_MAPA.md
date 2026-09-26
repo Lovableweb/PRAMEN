@@ -2,7 +2,7 @@
 
 **Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
 **Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
-**Poslední aktualizace:** 2026-09-26 · skript pro generování K3 z K2 uložen do repa (`scripts/generate_k3_from_k2.sh`).
+**Poslední aktualizace:** 2026-09-26 · K2.5 po auditu PR #30 (+8 claimů, CH-015, cross-audit K3 ↔ Claim DB) + skript pro generování K3 z K2 uložen do repa (`scripts/generate_k3_from_k2.sh`).
 
 Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
 
@@ -67,10 +67,11 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 ### `01_HISTORIK/` — historická evidence
 | Soubor | ř. | ČÍST | Co to je / stav |
 |---|---:|---|---|
-| `CLAIM_DATABASE.md` | 78 | ⭐ | 52 claimů (z toho 7 nových z 2026-09-26): CLAIM / PRAMEN / TYP / STATUS / POZNÁMKA. Hlavní zdroj pravdy o faktech |
+| `CLAIM_DATABASE.md` | 86 | ⭐ | 60 claimů (z toho 15 nových z 2026-09-26): CLAIM / PRAMEN / TYP / STATUS / POZNÁMKA. Hlavní zdroj pravdy o faktech |
 | `OTEVRENE_OTAZKY.md` | 762 | 🔍 | HIST-001…013, HIST-RM-001…050 (téměř vše Bílina), OO-HB044…OO-HB060, OO-SC-01…03 z 2026-09-25, **OO-K3-01…06 a KOL-K2-01…19 z 2026-09-26** (ověření str. 29 odloženo, cameo, nové prompty, výzkum P1–P10). ⚠️ HIST-012 (Beethoven) už zodpovězen, status neaktualizován |
 | `BILINA/…RECOVERED_WORKING_v1.0.md` | 265 | 🔍 | Pracovní souhrn Bíliny. ⚠️ zastaralý: Beethoven 🟡, Reuss 1808 🔵 (Claim DB má 🟢) |
 | `NALEZY_WEB_2026-09-26.md` | 137 | ⭐ | **17 nových nálezů (N-01…N-17)** k 🟡 místům K3: Goethův dopis o Beethovenovi je z 19. 7. 1812; Humboldt na Bořni doložen (Bergm. Journal 1792), ale bez Reusse; Hájkova legenda 761 = slaný pramen; 1761/1781/1806 u Bíliny (Reuss); FONS NOSTER 762; oběti v Nelsonu potvrzeny; pomník Reussů 1898. Claim DB a K3 beze změny |
+| `CROSS_AUDIT_K3_CLAIMDB_2026-09-26.md` | 74 | ⭐ | **Cross-audit K3 ↔ Claim DB**: ke každému 🟢 tvrzení v K3 claim. Vše z PR #30 pokryto; **16 starších 🟢 bez claimu** (str. 11, 12, 13, 16, 18, 21, 24, 25) k rozhodnutí Řídícího mozku 2 (zapsat claimy, nebo snížit na 🟡) |
 | `PRIMARNI_KOLACE_PLAN.md` | 91 | 🔍 | Plán primární kolace (priority 1–5, identifikátory pramenů). Stav: **provedeno 2026-09-26** → výsledek v `PRIMARNI_KOLACE_VYSLEDEK.md` |
 | `PRIMARNI_KOLACE_K2_VYZKUM.md` | 1247 | 🔍 | **Výzkum otevřených bodů K2 (P1–P10)** od Řídícího mozku 2 (doslovně, bez značek citací) + kontrola Claude Code na začátku: shoda s kolací, **rozpor P7 (měď)**, web-zdroje jen SECONDARY. Nové otázky KOL-K2-01…19. Do Claim DB nepovýšeno |
 | `PRIMARNI_KOLACE_VYSLEDEK.md` | 276 | ⭐ | **Výsledek primární kolace S-01…S-13**: test přístupu, doslovné citace (originál + překlad), úrovně důkazu, potvrzeno/změněno/otevřené, návrhy pro K2 a otázky KOL-01…05 |
@@ -100,7 +101,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 |---|---:|---|---|
 | `PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md` | 684 | ⭐ | **Upravené prompty K3 — NÁVRH v0.1 + dodatek v0.2** pro str. 7, 8, 13, 15, 17, 18, 21, 23, 26, 28 (druhý agent + kontrola Claude Code). **Panely u 8 z 10 stran nesedělo s K3** (agent tvrdil opak), proto je nahrazuje dodatek v0.2 (popisy panelů z K3, značky z K3). Neschváleno, není Vizuální Lock. Archivní prompty nepřepsány |
 | `PAGE_MASTER_1-30.md` | 157 | ⭐ | **Page Master 1–30 (NÁVRH)**: stav každé strany ve vrstvách TEXT / HISTORIE / VIZUÁLNÍ ZADÁNÍ / OBRAZ / LOCK + karty stran (postavy, historické jádro, slot, guardraily, blokery) |
-| `CHARACTER_REGISTER.md` | 263 | ⭐ | **Character Register (NÁVRH)**: průvodci (Kapka, Bašta, Digitální Jirka), historické postavy (F. A. × A. E. Reuss, Berzelius, Beethoven, Goethe…), zmínky, anonymní, vyřazené; co je doloženo, co se nesmí, vzhled |
+| `CHARACTER_REGISTER.md` | 265 | ⭐ | **Character Register (NÁVRH)**: průvodci (Kapka, Bašta, Digitální Jirka), historické postavy (F. A. × A. E. Reuss, Berzelius, Beethoven, Goethe…), zmínky, anonymní, vyřazené; co je doloženo, co se nesmí, vzhled |
 | `PRAMEN_NOVE_PROMPTY_K3_v0.1.md` | 347 | ⭐ | **Nové image prompty K3 — NÁVRH v0.1** pro str. 11, 12, 16, 19, 24, 25 (druhý agent + kontrola Claude Code). Neschváleno, není Vizuální Lock. 3 odchylky od K3 opraveny dodatkem v0.2 (prompt se přizpůsobil K3). Archivní prompty nepřepsány |
 | `AUDIT/PRAMEN_AUDIT_SCENAR_K1_S01-S13.md` | 247 | ⭐ | **Důkazní audit scénáře K1**: S-01…S-13 (0 🟢 · 4 🟡 · 8 🔴 · 1 ⚪), záměna F. A. × A. E. Reusse, návrhy pro K2, blokery HB-057 |
 | `AUDIT/PRAMEN_VIZUALNI_AUDIT_K3.md` | 358 | ⭐ | **Vizuální audit K3** (druhý agent + kontrola Claude Code): audit vizuálního zadání, ne obrazů. 2 strany v pořádku (29, 30), 17 úprava, 6 nový prompt (11, 12, 16, 19, 24, 25). Rámce nových promptů. Nálezy VA-001…072. Doporučené pořadí prací |
@@ -121,7 +122,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 |---|---:|---|---|
 | `PRAMEN_SCENAR_STR6-30_k1.md` | 381 | 🔍 | **Scénář stran 6–30, verze k1** — doslovný zápis z ChatGPT chatu (Teplice, Bílina, Zaječice, Epilog). 🟢 značky v textu = hodnocení scénáře, ne ověření PRAMEN |
 | `PRAMEN_SCENAR_STR6-30_k3_CLEAN.md` | 366 | ⭐ | **Scénář stran 6–30, verze K3 CLEAN** — čistá kopie K2.4 bez redakčních poznámek (odkazy na K1, audity, claimy). Text replik beze změny, značky stavu 🟢/🟡/🟡k/💡 na konci replik. NENÍ Production Lock. Zdroj pravdy o důvodech změn zůstává K2 |
-| `PRAMEN_SCENAR_STR6-30_k2_WORKING.md` | 651 | ⭐ | **Scénář stran 6–30, verze K2** — historicky korigovaná pracovní verze (K1 + audit RECOVERY-011 + primární kolace). NENÍ Production Lock. Na konci přílohy A–F: změny K1→K2, otevřené 🟡, další výzkum, dramaturgie, konflikty s prompty. Značky: 🟢 doloženo · 🟡 otevřené · 🟡k převzato z K1 nekolacionováno · 💡 dramaturgie |
+| `PRAMEN_SCENAR_STR6-30_k2_WORKING.md` | 667 | ⭐ | **Scénář stran 6–30, verze K2** — historicky korigovaná pracovní verze (K1 + audit RECOVERY-011 + primární kolace). NENÍ Production Lock. Na konci přílohy A–F: změny K1→K2, otevřené 🟡, další výzkum, dramaturgie, konflikty s prompty. Značky: 🟢 doloženo · 🟡 otevřené · 🟡k převzato z K1 nekolacionováno · 💡 dramaturgie |
 | `PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md` | 426 | 📦 | Textový přepis PDF s image prompty 1–30 (PDF samo mimo repo). PROMPT ≠ SCÉNÁŘ |
 | `PRAMEN_image_prompty_str1-30_REPORT.md` | 108 | 📦 | Shrnutí promptů po kapitolách + mantinely |
 
