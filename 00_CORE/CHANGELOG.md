@@ -1,5 +1,31 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – PRIMÁRNÍ KOLACE S-01…S-13 PROVEDENA
+
+### Added
+- `01_HISTORIK/PRIMARNI_KOLACE_VYSLEDEK.md` — výsledek primární kolace podle `PRIMARNI_KOLACE_PLAN.md` (P1 Reuss × Berzelius × Zaječice → P2 Hoffmann → P3 Goethe × Bílina × Reuss → P4 Teplice 1879 → P5 Vincentius): test přístupu, ke každému S-XX potvrzeno / změněno / otevřené, doslovné citace (originál + český překlad), úrovně důkazu, návrhy pro K2, návrh otázek KOL-01…05.
+
+### Changed
+- `01_HISTORIK/PRIMARNI_KOLACE_PLAN.md` — doplněn řádek o provedení kolace (původní text ponechán).
+- `00_CORE/PRAMEN_MAPA.md` — nový soubor, stav projektu, tabulka úkolů.
+
+### Proč
+- Zadání Jirky „PRAMEN – PRIMÁRNÍ KOLACE (převzetí z předchozí session)". Síť cloudového prostředí je nově otevřená (archive.org, MDZ, Wikisource, zeno.org přes http, ANNO API, Zenodo, FRB).
+
+### Hlavní nálezy (PRIMARY SEEN)
+- Goethe se s (F. A.) Reussem v Bílině setkal 12. a 28. 5. 1813, s ním i na Bořeni (WA III 5). Pozvání Beethovena „z Bíliny" je v rozporu s deníkem 1812.
+- Berzelius 1840: rozbor „auf das vom Dr. Reuss in Bilin mir mitgetheilte Verlangen der dortigen Brunnendirection", voda zaslána v lahvích; Reuss = A. E. (předmluva 1839).
+- Berzelius 1823 cituje analýzy „Dr. Reuss zu Bilin" (Karlovy Vary 1812, bílinský pramen).
+- Reuss 1818 počítá s Berzeliovými údaji; Reuss 1827: rozbor dělal Steinmann, podnětem byly Berzeliovy objevy; výrok „nejbohatší ze všech dosud známých minerálních vod" (s. 53).
+- Hoffmann (vlastní text): květen 1717, Sedlec; sůl podobná epsomské, česká voda lepší; „anglický lékař" = Grew; prodávaná epsomská sůl umělá.
+- Gartenlaube 1879/10: pramen ustal v noci 12./13. 2.; 23 obětí = 21 + 2; komise Wolf – Laube – Suess; Suess nedoporučil hlubinný vrt; 22. 2. první rýč (Julius Mahler). Tisk 3.–5. 3. 1879: voda v 13,25 m, „Die Teplitzer Quellen sind gerettet".
+- Vincentius (FRB II, s. 408): Judita, „ad Aquas calidas … regalis monasterii constructio"; léta 1156–1167 v pasáži nejsou.
+
+### Status
+- K1, `CLAIM_DATABASE.md`, HB-055, prompty, `OTEVRENE_OTAZKY.md` beze změny; K2 nevytvořena; HB-057 dál 🔴. Doporučení a nové otázky jsou jen návrh.
+
+---
+
 ## [2026-09-25] – PLÁN PRIMÁRNÍ KOLACE (PO AUDITU S-01…S-13)
 
 ### Added

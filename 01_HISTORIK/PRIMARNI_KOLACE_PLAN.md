@@ -3,6 +3,7 @@
 **Zadání:** Řídící mozek 2, „DALŠÍ FÁZE PO RECOVERY-010 / AUDIT S-01–S-13" (2026-09-25). Primární kolace je hlavní priorita.
 **Zapsal:** Claude Code, 2026-09-25.
 **Stav:** 🔴 **PRIMÁRNÍ KOLACE ZATÍM NEPROVEDENA — BLOKOVÁNO PŘÍSTUPEM.**
+**Aktualizace 2026-09-26:** přístup k digitálním knihovnám otevřen, kolace P1–P5 **provedena** → `01_HISTORIK/PRIMARNI_KOLACE_VYSLEDEK.md`. Text plánu níže ponechán beze změny jako evidence.
 
 **Proč:** Síťová politika cloudového prostředí Claude Code zamítá spojení na digitální knihovny (odpověď 403 „policy denial"). Ověřeno 2026-09-25: archive.org, zenodo.org, books.google.com, de.wikisource.org, zeno.org, digitale-sammlungen.de, deutsche-digitale-bibliothek.de, digital.slub-dresden.de, e-rara.ch, anno.onb.ac.at, kramerius5.nkp.cz, digitalniknihovna.cz, hathitrust.org, gallica.bnf.fr, europeana.eu, wikipedia.org. Google Books API je dostupné, ale vyčerpaná denní kvóta (429). Funguje jen webové vyhledávání (souhrny, ne texty).
 
