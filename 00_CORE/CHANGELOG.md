@@ -1,5 +1,23 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – UPRAVENÉ PROMPTY K3 (NÁVRH v0.1 + dodatek v0.2)
+
+### Added
+- `02_COMIKS/PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md` — deset upravených promptů (str. K3 7, 8, 13, 15, 17, 18, 21, 23, 26, 28) od druhého agenta (doslovně) + kontrola Claude Code + dodatek v0.2. **NÁVRH, neschváleno, není Vizuální Lock.** Archivní prompty nepřepsány.
+
+### Kontrola proti K3 (důležité)
+- **Agent tvrdil, že popisy panelů odpovídají K3 („ano" u všech deseti). Ověření panel po panelu: platí jen u str. 17 (drobnost) a 28.** U str. 8, 13, 15, 18, 21, 23 a 26 panely nesouhlasily (posunuté panely, obsah replik místo popisu panelu, prohozené panely, chybějící Kapka a Jirka, u str. 18 zobrazen Berzelius v panelu, který má být Kapka), u str. 7 chyběla Judita a značky stavu nesedí.
+- **Dodatek v0.2** nahrazuje KOMPOZICI u stran 7, 8, 13, 15, 17 (panel 2), 18, 21, 23 a 26: popisy panelů z K3 a značky z K3. Strojově ověřeno proti K3. Drobné úpravy: velká písmena, doplněná jména a roky Reussů, podmět „Berzelius" u str. 26 panelu 2. Nic nepřidáno. Části STYL, PALETA, TÓN, „CO NEZOBRAZOVAT" od agenta zůstávají (věcně správné).
+
+### Changed
+- `01_HISTORIK/OTEVRENE_OTAZKY.md` — OO-K3-04 → 🟡 ROZPRACOVÁNO.
+- `00_CORE/PRAMEN_MAPA.md` — nový řádek, stav projektu.
+
+### Status
+- K1, K2, K3, archivní prompty, obrazy, Claim DB beze změny. Žádný Production Lock ani Vizuální Lock.
+
+---
+
 ## [2026-09-26] – NOVÉ PROMPTY K3 (NÁVRH v0.1)
 
 ### Added
