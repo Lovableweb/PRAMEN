@@ -1,5 +1,18 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – OTEVŘENÉ OTÁZKY: BODY Z K2 / K3
+
+### Changed
+- `01_HISTORIK/OTEVRENE_OTAZKY.md` — nová sekce „DOPLNĚNO 2026-09-26" (na konci, starší text beze změny):
+  - **OO-K3-01 … 06:** ověření str. 29 (**odloženo na pokyn Jirky**, blokátor Production Lock), cameo Jirka + Karlíček, nové prompty pro str. 11, 12, 16, 19, 24, 25, úpravy popisů promptů, prompt 27 nepřiřazen, vizuální audit (obrazy nejsou v repu).
+  - **KOL-K2-01 … 19:** historické otázky z výzkumu P1–P10, včetně mapování na starší KOL-01…05. KOL-K2-13 doplněno o nález z RECOVERY-013 (měď a jod/brom doloženy v OCR).
+- `00_CORE/PRAMEN_MAPA.md` — řádek OTEVRENE_OTAZKY, hlavička.
+
+### Status
+- Do `CLAIM_DATABASE.md` se nic nepromítá (samostatný krok se souhlasem Jirky). K1, K2, K3, prompty, vizuály beze změny.
+
+---
+
 ## [2026-09-26] – PROMPT MASTER MAP (K3 → vizuální sloty)
 
 ### Added
