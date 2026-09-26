@@ -1,5 +1,48 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – K2.4: PÁROVÁNÍ PROMPTŮ SE STRANAMI K2
+
+### Added
+- `02_COMIKS/AUDIT/PRAMEN_K2_PROMPT_PAROVANI.md` — výstup druhého agenta (doslovně, tabulky přepsány do Markdownu) + kontrola Claude Code. Řeší RECOVERY-012 F-09.
+
+### Changed
+- `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k2_WORKING.md` — upozornění na začátku sekce E (sloupec „Str." = číslo promptu, ne strana K2) + příloha J. Text scénáře beze změny.
+- `00_CORE/PRAMEN_MAPA.md` — nový řádek, stav projektu.
+
+### Hlavní nálezy
+- Číslování „STRANA N" v promptech ≠ číslování scénáře. Prompt 24 = Berzelius = K2 str. 26; prompt 26 (cameo) nemá odpovídající stranu K2.
+- **Chyba v sekci E K2 (Claude Code):** tabulka byla psána podle čísel promptů a mohla vést k záměně. Opraveno upozorněním.
+- K2 strany bez promptu: 7, 11, 12, 16, 19, 24, 25, 28. Tvrdý konflikt: prompty 8, 13, 18, 19.
+- Kontrola: prompt 13 – skutečný konflikt je „záchrana Pravřídla" a naznačený vrt, ne jména Zsigmondy a Sueß (oba GREEN v Claim DB).
+
+### Status
+- Prompty, obrazy, K1, Claim DB beze změny. Žádný Production Lock. Další krok: čistá verze K3, pak „PROMPT MASTER MAP".
+
+---
+
+## [2026-09-26] – RECOVERY-013: NEZÁVISLÝ AUDIT K2 ULOŽEN, K2.3
+
+### Added
+- `01_RECOVERY/RECOVERY-013_NEZAVISLY_AUDIT_K2.md` — nezávislý audit K2.2 od Řídícího mozku 2 (doslovný přepis bez značek citací) + úvodní kontrola Claude Code. Verdikt: **schváleno s výhradami**, K2 se nevrací.
+
+### Changed
+- `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k2_WORKING.md` → K2.3 (příloha I): str. 12, 18, 20, 26, 27 upraveny podle auditu.
+- `00_CORE/PRAMEN_MAPA.md` — nový řádek, stav projektu.
+
+### Klíčový nález
+- **Měď v Berzelius 1840 je doložena.** Audit (IA-020) ji označil za nedoloženou, protože ji neobsahovala dřívější kolace. Claude Code stáhl OCR spisu (archive.org `bub_gb_uN1aAAAAcAAJ`) a našel: stopy mědi (s. 14), „kleine Mengen … Kupfers" (s. 26), „starke Kupferreaction" (s. 27), v tabulce složení (s. 40) „Kupferhaltiges Zinnoxyd", dále jod, brom, fluor. Status 🟢 PRIMARY SEEN (OCR, čísla stran přibližná). „Nový prvek" dál 🔴. K2 str. 26 aktualizováno.
+
+### Promítnuto z auditu
+- str. 18 identita F. A. odvozená z data (🟡), str. 20 „otec bílinské kyselky" 🟡, str. 26 „nikdo nečekal" a „dopisy" vypuštěno, „a nevylučují to" vypuštěno, str. 12 „pozdější sporná tradice", str. 27 bez absolutního „nikdy".
+
+### Otevřené před Production Lock
+- K3-A čistá verze bez redakčních závorek; audit promptů proti K2 (F-09); ověření str. 29 (aktuální fakta).
+
+### Status
+- K1, `CLAIM_DATABASE.md`, `OTEVRENE_OTAZKY.md`, prompty, vizuály beze změny. Production Lock nevytvořen, HB-057 dál 🔴.
+
+---
+
 ## [2026-09-26] – K2.2: VÝZKUM P1–P10 ULOŽEN A PROMÍTNUT DO K2
 
 ### Added

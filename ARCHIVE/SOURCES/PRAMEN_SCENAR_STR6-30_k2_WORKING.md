@@ -5,7 +5,7 @@
 > - **Vznik:** 2026-09-26, Claude Code, na zadání Jirky (krok K2).
 > - **Vstup:** `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md` (dramaturgická základna, NE historická autorita), `01_RECOVERY/RECOVERY-011_AUDIT_K1_STR6-30.md` (závazný audit + kontrola R11-01…07), `01_HISTORIK/CLAIM_DATABASE.md`, `01_HISTORIK/PRIMARNI_KOLACE_VYSLEDEK.md`, `00_CORE`.
 > - **Toto NENÍ:** finální scénář, Production Lock, zápis do `00_CORE` ani do Claim Database. Obrazové prompty ani vizuály nejsou dotčeny. K1 zůstává beze změny.
-> - **Stav:** čeká na nezávislý audit Řídícího mozku 2. **K2.2 (2026-09-26):** promítnut výzkum P1–P10 (příloha H). **K2.1 (2026-09-26):** opraveny výhrady vlastního auditu `RECOVERY-012` F-01…F-03, F-05…F-08, F-11 (viz příloha G). F-04 a F-09 zůstávají otevřené.
+> - **Stav:** nezávislý audit (RECOVERY-013) = schváleno s výhradami. **K2.3 (2026-09-26):** promítnuty jeho nálezy (příloha I). **K2.2 (2026-09-26):** promítnut výzkum P1–P10 (příloha H). **K2.1 (2026-09-26):** opraveny výhrady vlastního auditu `RECOVERY-012` F-01…F-03, F-05…F-08, F-11 (viz příloha G). F-04 a F-09 zůstávají otevřené.
 > - **Rozhodnutí o rozporech R11-01…R11-07:** K2 se řídí primární kolací (u těchto sedmi bodů je přesnější než původní znění auditu) – viz sekce A na konci.
 
 ## Legenda značek
@@ -112,7 +112,7 @@ STRANA 12 — "Legenda z promenády"
 Panel 1 (rám jako dobová litografie): Beethoven razí si cestu davem, Goethe se klaní, císařovna s doprovodem.
 CAPTION: "‚Incident v Teplicích', 1887 – obraz namalovaný 75 let po události." 🟡k
 Panel 2: Bašta „vystupuje" z rámu.
-BAŠTA: [K2] "Tenhle obraz zná celá Evropa. Jenže vznikl o 75 let později, podle pozdějšího vyprávění, které historici považují za sporné. 🟢 (pozdější, sporná tradice)"
+BAŠTA: [K2] "Tenhle obraz zná celá Evropa. Jenže vznikl o 75 let později, podle pozdějšího vyprávění. Jde o pozdější spornou tradici. 🟢 (K2.3: RECOVERY-013 K3-G; původně „které historici považují za sporné")"
 Panel 3 (rozdělený): legenda vlevo, klidnější realističtější verze vpravo.
 BAŠTA (caption): [K2] "Co se stalo doopravdy, přesně nevíme. Deník máme, takže víme, že spolu jeli k Bílině a že se navštěvovali. Legenda je barvitější než doklady."
 Panel 4: Goethe odjíždí kočárem, ohlíží se.
@@ -200,7 +200,7 @@ CAPTION: "‚V roce 1822 studoval slavný chemik Berzelius Bílinskou kyselku…
 Panel 2: Bašta vystupuje z rámu.
 BAŠTA: [K2] "Tenhle příběh je hezký. Ale dobový pramen, který by dokládal Berzeliovu návštěvu Bíliny, neznáme. Berzelius roku 1822 skutečně projížděl Čechami, ale ve své práci Bílinu jako zastávku nezmiňuje. 🟢"
 Panel 3 (klíčový): Reuss v pracovně, dopis a kniha. **Berzelius fyzicky v obraze není.** [VIZ]
-CAPTION: [K2] "Co doložené je: Berzelius ve své práci z roku 1823 o karlovarských, teplických a kynžvartských vodách jmenuje ‚doktora Reusse z Bíliny' – podle data jde o Františka Ambrože Reusse – a do srovnávací tabulky zařadil bílinský pramen podle jeho rozboru. Bílinskou vodu sám nerozebíral – převzal Reussova čísla. 🟢" (oprava R11-01: Bílina v práci JE, přes Reussův rozbor; Berzelius ji sám neanalyzoval)
+CAPTION: [K2] "Co doložené je: Berzelius ve své práci z roku 1823 o karlovarských, teplických a kynžvartských vodách jmenuje ‚doktora Reusse z Bíliny' – podle data jde o Františka Ambrože Reusse – a do srovnávací tabulky zařadil bílinský pramen podle jeho rozboru. Bílinskou vodu sám nerozebíral – převzal Reussova čísla. 🟢" (K2.3: 🟢 platí pro citaci a tabulku; **identita F. A. je odvozená z data = 🟡**, RECOVERY-013 IA-035) (oprava R11-01: Bílina v práci JE, přes Reussův rozbor; Berzelius ji sám neanalyzoval)
 BAŠTA (caption): [K2] "František Ambrož Reuss zase později, v knize o Mariánských Lázních z roku 1818, počítal s Berzeliovými údaji. 🟢 Že by Berzeliovu metodu používal už v bílinských pracích z let 1788 až 1808, to doložené není." (R11-02: RED jen pro Bílinu; 1818 doloženo)
 Panel 4: Kapka tekoucí od Stockholmu přes mapu Evropy k bílinskému prameni.
 KAPKA VODY: "Čísla cestují snadněji než člověk. Nepotřebují kočár. Nepotřebují ani jméno na dveřích – stačí, že sedí." 💡 (metafora)
@@ -226,7 +226,7 @@ CAPTION: [K2] "Voda z Bíliny se rozesílala v džbáncích. Odkdy přesně a v 
 Panel 2: Stylizovaná mapa Evropy s ikonami lodí a povozů.
 BAŠTA (caption): [K2] "Bílinská kyselka se prodávala daleko za hranice kraje. Jak daleko a kdy, na to čekáme na doložení." 🟡
 Panel 3: Starší Reuss s hotovými výtisky svých knih.
-CAPTION: [K2] "František Ambrož Reuss shrnul své poznání bílinských pramenů v knihách z let 1788 a 1808 (ta první vyšla roku 1801 znovu jako nové nezměněné vydání). 🟢 Pozdější doba mu začala říkat ‚otec bílinské kyselky'. Byla to ale pozdější přezdívka, ne dobová funkce." 🟢 (BIL-REUSS-1788, BIL-REUSS-1808 GREEN jako bibliografická existence; K1 „poděkoval knížeti v úvodu" – nekolacionováno, vypuštěno)
+CAPTION: [K2] "František Ambrož Reuss shrnul své poznání bílinských pramenů v knihách z let 1788 a 1808 (ta první vyšla roku 1801 znovu jako nové nezměněné vydání). 🟢 Pozdější doba mu začala říkat ‚otec bílinské kyselky'. Byla to ale pozdější přezdívka, ne dobová funkce." 🟡 (K2.3: přezdívka „otec bílinské kyselky" = 🟡, RECOVERY-013 IA-034; 🟢 zůstává jen u knih 1788 a 1808; BIL-REUSS-1788, BIL-REUSS-1808 GREEN jako bibliografická existence; K1 „poděkoval knížeti v úvodu" – nekolacionováno, vypuštěno)
 Panel 4: Digitální Jirka s moderní láhví vs. ilustrace starého džbánku.
 DIGITÁLNÍ JIRKA: [K2] "Ta láhev se za dvě stě let hodně změnila. Jméno Bílinská kyselka zůstalo." 💡
 
@@ -303,17 +303,17 @@ STRANA 26 — [K2] "Lahve do Stockholmu" (KOMORNÍ VRCHOL KAPITOLY, N-029) (K1: 
 Panel 1: Malá dřevěná bedýnka s velkými skleněnými lahvemi, na cestě (dopravní prostředek neurčen), žádní lidé v záběru.
 CAPTION: [K2] "Velké lahve z bílého skla, zabroušené zátky, kousek odparku. Dlouhá cesta na sever. 🟢" (Berzelius 1840, s. 8)
 Panel 2: Stockholm, Berzeliova laboratoř, opatrně rozbaluje bedýnku.
-CAPTION: [K2] "Jöns Jacob Berzelius, jeden ze zakladatelů moderní chemie, dostal vodu zaslanou. Rozbor provedl na žádost bílinské správy pramenů. Tu mu sdělil bílinský lázeňský lékař Dr. **August Emanuel Reuss**. 🟢 Že by v Zaječicích někdy osobně byl, prameny nedokládají – a nevylučují to." 🟢 (ZAJ-BERZELIUS-1840 GREEN; R11-07: „nikdy tam nebyl" = neověřeno)
+CAPTION: [K2] "Jöns Jacob Berzelius, jeden ze zakladatelů moderní chemie, dostal vodu zaslanou. Rozbor provedl na žádost bílinské správy pramenů. Tu mu sdělil bílinský lázeňský lékař Dr. **August Emanuel Reuss**. 🟢 Jeho osobní návštěva Zaječic v pramenech doložena není." 🟢 (ZAJ-BERZELIUS-1840 GREEN; R11-07: „nikdy tam nebyl" = neověřeno)
 Panel 3 (split kompozice): Berzelius ve Stockholmu / August Emanuel Reuss v Bílině, spojeni tenkou modrou linkou.
-KAPKA VODY: [K2] "Tentokrát nechodili lidé. Chodily lahve, dopisy a čísla." 💡
+KAPKA VODY: [K2] "Tentokrát nechodili lidé. Chodily lahve a čísla." 💡 (K2.3: „dopisy" vypuštěno, RECOVERY-013 IA-022)
 Panel 4: Berzelius zapisuje výsledky, drobný úsměv.
-CAPTION: [K2] "Ke svému velkému údivu našel Berzelius v zaječické vodě i cín. 🟢 Podle Augusta Emanuela Reusse v ní zjistil také jod a brom. 🟢 Stopy mědi zatím nemáme ověřené. 🟡 Žádné nové prvky – ale složky, které v té vodě nikdo nečekal." (S-12; „objevil nové chemické prvky" = 🔴 odstraněno)
+CAPTION: [K2] "Ke svému velkému údivu našel Berzelius v zaječické vodě cín – a v něm stopy mědi. 🟢 V jeho tabulce složení jsou také jod a brom. 🟢 Žádné nové prvky, ale ten cín Berzelia překvapil." (K2.3: měď doložena přímo v textu Berzelius 1840, viz příloha I; věta „složky, které nikdo nečekal" vypuštěna, RECOVERY-013 IA-021) (S-12; „objevil nové chemické prvky" = 🔴 odstraněno)
 Panel 5: Prázdná otevřená lahvička, večerní světlo, laboratoř ztichlá.
 BAŠTA (caption): [K2] "Zaznamenat se dá tohle: Bílina zadá práci – lahve putují do Stockholmu – Berzelius rozebírá vodu – v roce 1840 vychází v Praze společná kniha, s poznámkami Augusta Emanuela Reusse o léčivých účincích. 🟢 Jestli si kdy napsali osobní dopis, nevíme." (audit P26: „tichá spolupráce" odstraněna; řetězec A. E. Reuss → požadavek správy → zaslaná voda → Berzelius → rozbor → publikace 1840)
 
 STRANA 27 — "Tichá voda, hlasitý svět"
 Panel 1: Zaječický pramen, obyčejný, jímka a les kolem.
-CAPTION: "Zaječice si nikdy nepostavily velké lázně jako Teplice ani honosnou kolonádu jako Bílina. Zůstaly tím, čím byly od začátku – tichým pramenem uprostřed kraje." 🟡k
+CAPTION: "Zaječice se nerozvinuly v lázeňské centrum jako Teplice nebo Bílina. Zůstaly tichým pramenem uprostřed kraje." 🟡k (K2.3: absolutní „nikdy" vypuštěno, RECOVERY-013 IA-038)
 Panel 2: Regál v lékárně, konec 19. století, pravá voda vpředu, napodobeniny vzadu.
 BAŠTA (caption): [K2] "Napodobeniny přicházely a odcházely. Jméno Zaječice zůstalo." 💡
 Panel 3: Kapka klidně tekoucí krajinou, bez dramatu.
@@ -515,6 +515,8 @@ Strany 1–5 (Prolog) nejsou součástí tohoto souboru.
 
 ## E. POTENCIÁLNÍ KONFLIKTY S EXISTUJÍCÍMI OBRAZOVÝMI PROMPTY
 
+> ⚠️ **K2.3 – UPOZORNĚNÍ (RECOVERY-012 F-09, `02_COMIKS/AUDIT/PRAMEN_K2_PROMPT_PAROVANI.md`):** Sloupec „Str." v této tabulce je **číslo promptu („STRANA N" v promptech), ne strana scénáře K2**. Např. „str. 24 – Berzelius" = prompt 24 = K2 str. 26; „str. 26 – cameo" = prompt 26, který nemá odpovídající stranu K2. Tato tabulka je jen audit původního číslování promptů. **Platné párování je v `PRAMEN_K2_PROMPT_PAROVANI.md`.**
+
 Zdroj: `ARCHIVE/SOURCES/PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md`. Prompty jsou (podle jejich vlastní hlavičky) **rekonstruované z kontextu, ne z doslovného scénáře**. Číslování stran odpovídá „STRANA N" v promptech. **Nic se nepřepisuje.**
 
 | Str. | Prompt říká | K2 mění | Konflikt |
@@ -589,3 +591,35 @@ Zdroj: `01_HISTORIK/PRIMARNI_KOLACE_K2_VYZKUM.md` (výstup Řídícího mozku 2,
 - **P10 (KOL-01, KOL-05):** nic se nepřidává. Zůstává otevřeno.
 
 **Nová 🟡 vzniklá touto integrací:** datum a adresát Goethova dopisu (secondary), Beethovenův dopis 1823, Humboldt/Reuss 1791, poškození pramenů 1800/1806, Eichler 1821, pomník 1898, patent Savory 1815 a složení.
+
+## I. K2.3 – NEZÁVISLÝ AUDIT RECOVERY-013 (2026-09-26)
+
+Zdroj: `01_RECOVERY/RECOVERY-013_NEZAVISLY_AUDIT_K2.md` (Řídící mozek 2, s kontrolou Claude Code na začátku). Verdikt auditu: **schváleno s výhradami**, K2 se nevrací. Není Production Lock.
+
+| Nález | Str. | Změna v K2.3 |
+|---|---:|---|
+| IA-020 / P7 měď | 26 | **Měď doložena přímo v Berzelius 1840** (Claude Code stáhl OCR z archive.org; stopy mědi v oxidu cíničitém, s. 14, 26, 27; tabulka složení s. 40 uvádí „Kupferhaltiges Zinnoxyd", také jod, brom, fluor). Status 🟢, PRIMARY SEEN (OCR). Audit i výzkum se v tomto bodě mýlili nebo neměli citaci. „Nový prvek" dál 🔴. Detaily v RECOVERY-013, úvodní kontrola |
+| IA-021, IA-036 | 26 | „složky, které v té vodě nikdo nečekal" vypuštěno; doložené je jen Berzeliovo překvapení nad cínem |
+| IA-022 | 26 | Kapka: „lahve a čísla" (bez „dopisy") |
+| IA-010 / K3-F | 26 | „a nevylučují to" vypuštěno; „Jeho osobní návštěva Zaječic v pramenech doložena není." |
+| IA-035 | 18 | 🟢 platí pro citaci a tabulku, identita F. A. je odvozená z data (🟡) |
+| IA-016, IA-034 | 20 | „otec bílinské kyselky" 🟡; 🟢 jen u knih 1788 a 1808 |
+| IA-025 / K3-G | 12 | „pozdější sporná tradice" místo „historici považují za sporné" |
+| IA-038 / K3-E | 27 | „Zaječice se nerozvinuly v lázeňské centrum…" místo absolutního „nikdy" |
+
+**Nezměněno záměrně:** IA-014 (str. 16 „velká debata") a IA-037 (str. 23 „od té doby cestovala") zůstávají jako dramaturgický kontext.
+
+**Otevřené před Production Lock (převzato z auditu):**
+1. **K3-A:** čistá verze bez redakčních závorek („K3_CLEAN"). Zatím neprovedeno.
+2. Nový audit promptů proti K2 (čeká na výstup druhého agenta, F-09).
+3. Ověření aktuálních údajů na str. 29 (muzeum, Bašta, výroba).
+
+## J. K2.4 – PÁROVÁNÍ PROMPTŮ (2026-09-26)
+
+Zdroj: `02_COMIKS/AUDIT/PRAMEN_K2_PROMPT_PAROVANI.md` (druhý agent, s kontrolou Claude Code). Text scénáře se nemění, jen se upozorňuje na správné čtení sekce E.
+
+**Hlavní výsledek:** číslování „STRANA N" v promptech ≠ číslování stran scénáře. Sekce E je proto audit číslování promptů, ne párování.
+
+**Nepokryté strany K2 (žádný odpovídající prompt):** 7, 11, 12, 16, 19, 24, 25, 28. **Nepřiřazený prompt:** 26 (osobní příběh / cameo). **Prompt 24 = Berzelius = K2 str. 26.**
+**Tvrdý historický konflikt po K2:** prompty 8 (Volf), 13 („záchrana Pravřídla"), 18 (Reuss používal Berzeliovu metodu), 19 (Beethoven u pramene). **Střední:** 17, 24.
+**Další krok:** až po čisté verzi K3 vytvořit „K2/K3 → PROMPT MASTER MAP" (jedna strana = jeden vizuální slot nebo „PROMPT CHYBÍ"). Prompty ani obrazy se nepřepisují.
