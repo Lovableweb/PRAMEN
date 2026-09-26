@@ -82,7 +82,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | `RECOVERY-007_TEPLICE_INTEGRACNI_AUDIT_HB026.md` | 272 | 🔍 | Teplice: Prokop 1446 × Wickart 1477 × archeologie 1581 |
 | `RECOVERY-008_PREDANI_HB044-HB061.md` | 248 | 🔍 | Teplice 1879, master osa, Volf/Mitis, Reuss, Beethoven, P14–P24, scénář nezískán; konflikty K-1…K-6 |
 | `RECOVERY-010_SCENAR_STR6-30_ZISKAN.md` | 88 | ⭐ | Scénář 6–30 získán: provenience, scénář ≠ prompty (rozložení stran), **rozpory S-01…S-13**, dopad na HB-057 |
-| `RECOVERY-012_AUDIT_K2_STR6-30.md` | 90 | ⭐ | **Audit K2 str. 6–30** (Claude Code, není nezávislý): verdikt „schváleno s výhradami", 11 nálezů F-01…F-11 (🟢 bez opory v kolaci, nové tvrzení o složení Savoryho prášku, Reuss bez jména, zakázané fráze v redakčních závorkách, nesoulad číslování promptů × scénář) |
+| `RECOVERY-012_AUDIT_K2_STR6-30.md` | 70 | ⭐ | **Audit K2 str. 6–30** (Claude Code, není nezávislý): verdikt „schváleno s výhradami", 11 nálezů F-01…F-11 (🟢 bez opory v kolaci, nové tvrzení o složení Savoryho prášku, Reuss bez jména, zakázané fráze v redakčních závorkách, nesoulad číslování promptů × scénář) |
 | `RECOVERY-011_AUDIT_K1_STR6-30.md` | 219 | ⭐ | **Kompletní audit K1 str. 6–30** od Řídícího mozku 2 (doslovně) + kontrola Claude Code proti primární kolaci: rozpory R11-01…07. Blokery K2, stav: K2 nevytvořeno |
 | `RECOVERY-009_PREDANI_HB058-HB061.md` | 139 | ⭐ | **Aktuální stav HB-057…061**, blokery, fakta vs. pracovní interpretace, recovery search (GitHub + Drive), úrovně důkazu, pořadí další práce |
 | `PRAMEN_CENTRALNI_RECOVERY_SYNTHESE.md` | 278 | 📦 | Souhrn recovery k 2026-09-19 (commit „RECOVERY-001") |
