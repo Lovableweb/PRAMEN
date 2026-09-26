@@ -2,7 +2,7 @@
 
 **Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
 **Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
-**Poslední aktualizace:** 2026-09-26 · RECOVERY-012: audit K2 str. 6–30 (schváleno s výhradami).
+**Poslední aktualizace:** 2026-09-26 · K2.1: opraveny výhrady auditu RECOVERY-012 v K2 (F-04, F-09 otevřené).
 
 Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
 
@@ -17,7 +17,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 - **Stav HB (DEC-005):** HB-057 Production Lock 🔴 · HB-058 🟡 auditováno/připraveno (není Production Master) · HB-059 🟢 read-only reconciliace · HB-060 🔴 blokováno · HB-061 🟡 readiness audit.
 - **Primární kolace (2026-09-26):** 13 pramenů PRIMARY SEEN (Gartenlaube 1879, Reuss 1791/1801/1808/1818/1827, Berzelius 1823/1840, Hoffmann, Goethe WA, Vincentius FRB II). Hlavní nálezy: Goethe × F. A. Reuss doloženo 1813 (Bořeň); Berzelius 1840 na žádost A. E. Reusse; Hoffmann 1717 = Sedlec, „anglický lékař“ = Grew; Suess nedoporučil vrt. Claim DB a K1 zatím beze změny.
 - **Audit K1 str. 6–30 (RECOVERY-011, 2026-09-26):** K1 = pracovní dramaturgický scénář, není historicky uzavřen. 7 rozporů auditu s primární kolací (R11-01…07) řešeno v K2 podle kolace.
-- **K2 scénáře str. 6–30 (2026-09-26):** `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k2_WORKING.md` — historicky korigovaná **pracovní** verze, **NENÍ Production Lock**. Sloučeno do main (PR #13). Vlastní audit: `01_RECOVERY/RECOVERY-012_AUDIT_K2_STR6-30.md` (schváleno s výhradami, F-01…F-11). Čeká na nezávislý audit Řídícího mozku 2. Prompty a vizuály beze změny; konflikty s prompty jsou v sekci E souboru (tvrdé: str. 8, 13, 18, 19, 24). Aktuální fakta epilogu (muzeum, Bašta, výroba) k ověření před tiskem.
+- **K2 scénáře str. 6–30 (2026-09-26):** `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k2_WORKING.md` — historicky korigovaná **pracovní** verze, **NENÍ Production Lock**. Sloučeno do main (PR #13). Vlastní audit: `01_RECOVERY/RECOVERY-012_AUDIT_K2_STR6-30.md` (schváleno s výhradami, F-01…F-11). **K2.1:** výhrady F-01…F-03, F-05…F-08, F-11 opraveny (příloha G v K2); otevřené F-04 (čistý text před Production Lock) a F-09 (párování promptů). Čeká na nezávislý audit Řídícího mozku 2. Prompty a vizuály beze změny; konflikty s prompty jsou v sekci E souboru (tvrdé: str. 8, 13, 18, 19, 24). Aktuální fakta epilogu (muzeum, Bašta, výroba) k ověření před tiskem.
 - **Blokery:** 1) scénář P14–P24 🟡 získán, ale rozpory S-01…S-13 + neověřená doslovnost + chybí Prolog · 2) originální Komiksová Bible 🔴 · 3) originální storyboard 🔴 · 4) citace HB-044 🟡 (stopy: `01_HISTORIK/STOPY_HB044_TEPLICE_1879.md`). HB-057 dál 🔴.
 - **PROMPT ≠ SCÉNÁŘ** (DEC-002). Recovered working ≠ originál.
 
@@ -103,7 +103,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | Soubor | ř. | ČÍST | Co to je |
 |---|---:|---|---|
 | `PRAMEN_SCENAR_STR6-30_k1.md` | 381 | 🔍 | **Scénář stran 6–30, verze k1** — doslovný zápis z ChatGPT chatu (Teplice, Bílina, Zaječice, Epilog). 🟢 značky v textu = hodnocení scénáře, ne ověření PRAMEN |
-| `PRAMEN_SCENAR_STR6-30_k2_WORKING.md` | 549 | ⭐ | **Scénář stran 6–30, verze K2** — historicky korigovaná pracovní verze (K1 + audit RECOVERY-011 + primární kolace). NENÍ Production Lock. Na konci přílohy A–F: změny K1→K2, otevřené 🟡, další výzkum, dramaturgie, konflikty s prompty. Značky: 🟢 doloženo · 🟡 otevřené · 🟡k převzato z K1 nekolacionováno · 💡 dramaturgie |
+| `PRAMEN_SCENAR_STR6-30_k2_WORKING.md` | 569 | ⭐ | **Scénář stran 6–30, verze K2** — historicky korigovaná pracovní verze (K1 + audit RECOVERY-011 + primární kolace). NENÍ Production Lock. Na konci přílohy A–F: změny K1→K2, otevřené 🟡, další výzkum, dramaturgie, konflikty s prompty. Značky: 🟢 doloženo · 🟡 otevřené · 🟡k převzato z K1 nekolacionováno · 💡 dramaturgie |
 | `PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md` | 426 | 📦 | Textový přepis PDF s image prompty 1–30 (PDF samo mimo repo). PROMPT ≠ SCÉNÁŘ |
 | `PRAMEN_image_prompty_str1-30_REPORT.md` | 108 | 📦 | Shrnutí promptů po kapitolách + mantinely |
 

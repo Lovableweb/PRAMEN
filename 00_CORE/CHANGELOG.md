@@ -1,5 +1,26 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – K2.1: OPRAVY PO AUDITU RECOVERY-012
+
+### Changed
+- `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k2_WORKING.md` — opraveny výhrady F-01, F-02, F-03, F-05, F-06, F-07, F-08, F-11 (viz nová příloha G v souboru). Soubor dál označen jako WORKING, **NENÍ Production Lock**.
+  - F-01 (str. 12): „pozdější kontakty Goethe–Beethoven" 🟢 → 🟡.
+  - F-02 (str. 26): měď 🟡; cín, jod, brom 🟢.
+  - F-03 (str. 15, 16, 18, 25): doplněna křestní jména F. A. Reusse.
+  - F-05 (str. 24): složení Savoryho prášku vypuštěno.
+  - F-06 (str. 26, 27): název „Lahve do Stockholmu", „dopisy" vypuštěno z Jirkovy repliky.
+  - F-07, F-08, F-11: drobné (pravěk → doba železná, laboratoř/loď zobecněny, „tucet jmen" → „řadu jmen").
+- `00_CORE/PRAMEN_MAPA.md` — stav projektu.
+
+### Otevřené
+- F-04 (čistý text bez redakčních poznámek) — před Production Lock.
+- F-09 (párování promptů se stranami K2) — v cross-auditu.
+
+### Status
+- K1, `CLAIM_DATABASE.md`, prompty, vizuály beze změny. Production Lock nevytvořen, HB-057 dál 🔴. Čeká na nezávislý audit Řídícího mozku 2.
+
+---
+
 ## [2026-09-26] – RECOVERY-012: AUDIT K2 STRANY 6–30
 
 ### Added

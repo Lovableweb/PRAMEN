@@ -5,7 +5,7 @@
 > - **Vznik:** 2026-09-26, Claude Code, na zadání Jirky (krok K2).
 > - **Vstup:** `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md` (dramaturgická základna, NE historická autorita), `01_RECOVERY/RECOVERY-011_AUDIT_K1_STR6-30.md` (závazný audit + kontrola R11-01…07), `01_HISTORIK/CLAIM_DATABASE.md`, `01_HISTORIK/PRIMARNI_KOLACE_VYSLEDEK.md`, `00_CORE`.
 > - **Toto NENÍ:** finální scénář, Production Lock, zápis do `00_CORE` ani do Claim Database. Obrazové prompty ani vizuály nejsou dotčeny. K1 zůstává beze změny.
-> - **Stav:** čeká na následný audit Řídícího mozku 2.
+> - **Stav:** čeká na následný audit Řídícího mozku 2. **K2.1 (2026-09-26):** opraveny výhrady vlastního auditu `RECOVERY-012` F-01…F-03, F-05…F-08, F-11 (viz příloha G). F-04 a F-09 zůstávají otevřené.
 > - **Rozhodnutí o rozporech R11-01…R11-07:** K2 se řídí primární kolací (u těchto sedmi bodů je přesnější než původní znění auditu) – viz sekce A na konci.
 
 ## Legenda značek
@@ -43,7 +43,7 @@ KAPKA VODY: "Než tu byla města, byla jsem tady já. Teplá, i když všechno k
 Panel 2: Detail páry mezi kameny, jelen přichází pít.
 KAPKA VODY: "Zvířata to věděla dřív než lidé." 💡
 Panel 3: Doba železná, keltská osada, ruka pokládá votivní dar do vody. 🟡k
-BAŠTA (caption): [K2] "Lidé sem přicházeli už v pravěku. V době železné tu žili Keltové. Jestli k vodě chodili i s úctou, to se traduje – přesně to nevíme." 🟡k (K1: „doloženi od 4. stol. př. n. l." – nekolacionováno, letopočet vypuštěn; votivní dar = rekonstrukce)
+BAŠTA (caption): [K2] "Lidé sem přicházeli už v době železné. Byli to Keltové. Jestli k vodě chodili i s úctou, to se traduje – přesně to nevíme." 🟡k (K1: „doloženi od 4. stol. př. n. l." – nekolacionováno, letopočet vypuštěn; votivní dar = rekonstrukce)
 Panel 4: Římská mince v bahně, makro detail.
 BAŠTA (caption): [K2] "Později tu prošli i Římané. Nechali po sobě mince – jestli sem přišli kvůli vodě, nebo jen tudy procházeli, to jistě nevíme." 🟡 (přesný nález a kontext mincí neověřen)
 Panel 5: Digitální Jirka na dnešní kolonádě, stejný úhel jako panel 1.
@@ -116,7 +116,7 @@ BAŠTA: [K2] "Tenhle obraz zná celá Evropa. Jenže vznikl o 75 let později, p
 Panel 3 (rozdělený): legenda vlevo, klidnější realističtější verze vpravo.
 BAŠTA (caption): [K2] "Co se stalo doopravdy, přesně nevíme. Deník máme, takže víme, že spolu jeli k Bílině a že se navštěvovali. Legenda je barvitější než doklady."
 Panel 4: Goethe odjíždí kočárem, ohlíží se.
-CAPTION: [K2] "Goethe z Teplic odjel. Legenda z toho udělala scénu definitivního rozchodu. Jenže doklady o pozdějších kontaktech mezi oběma muži existují." 🟢 (audit P12: „už si nikdy nenapsali" a „už se nikdy nesetkali" = 🔴, odstraněno)
+CAPTION: [K2] "Goethe z Teplic odjel. Legenda z toho udělala scénu definitivního rozchodu. Jenže doklady o pozdějších kontaktech mezi oběma muži existují." 🟡 (K2.1: převzato z auditu P12, kolace to neověřila – sníženo z 🟢, viz RECOVERY-012 F-01; audit P12: „už si nikdy nenapsali" a „už se nikdy nesetkali" = 🔴, odstraněno)
 Panel 5: Digitální Jirka u pamětní desky, fotí telefonem.
 DIGITÁLNÍ JIRKA: "Zajímavý, že jo? Někdy legenda přežije pravdu, protože je prostě líp vyprávěná. My si tady ale držíme to, co se dá doložit."
 
@@ -162,23 +162,23 @@ CAPTION: [K2] "Později sem lobkovická správa povolá mladého lékaře. Jmenu
 
 STRANA 15 — "Muž, který se ptal proč"
 Panel 1: Reuss jako student ve Freibergu, přednáška Wernera.
-CAPTION: "Reuss vystudoval medicínu v Praze – ale geologie a minerály ho zajímaly stejně tak. Navštívil hornickou akademii ve Freibergu, kde poslouchal přednášky slavného Abrahama Gottloba Wernera." 🟡k
+CAPTION: "František Ambrož Reuss vystudoval medicínu v Praze – ale geologie a minerály ho zajímaly stejně tak. Navštívil hornickou akademii ve Freibergu, kde poslouchal přednášky slavného Abrahama Gottloba Wernera." 🟡k
 Panel 2: Reuss u pramene, nabírá vzorek.
-BAŠTA (caption): "Kníže František Josef z Lobkovic ho najal jako lázeňského a městského lékaře. Reuss ale nedělal jen medicínu – chtěl vodě rozumět celé, od skály, ze které vytéká, až po to, jak léčí." 🟡k
+BAŠTA (caption): "Kníže František Josef z Lobkovic ho najal jako lázeňského a městského lékaře. F. A. Reuss ale nedělal jen medicínu – chtěl vodě rozumět celé, od skály, ze které vytéká, až po to, jak léčí." 🟡k
 Panel 3: Reussova pracovna v noci.
 CAPTION: "Nejdřív zkoumal, z čeho je voda složená. Pak se ptal dál – proč je tahle voda jiná než ta v potoce vedle." 💡
 Panel 4: Digitální Jirka u dnešní stáčírny.
-DIGITÁLNÍ JIRKA: [K2] "Reuss vlastně dělal to, co dneska děláme s daty – sbíral čísla, dokud mu nedala smysl." 💡
+DIGITÁLNÍ JIRKA: [K2] "F. A. Reuss vlastně dělal to, co dneska děláme s daty – sbíral čísla, dokud mu nedala smysl." 💡
 
 STRANA 16 — "Sopka, která možná není sopka"
 Panel 1 (velký): hora Bořeň nad Bílinou, ranní mlha.
-CAPTION: [K2] "Nad Bílinou se tyčí hora Bořeň. O tom, jak takové kopce vznikly, se v Reussově době vedly vědecké spory."
+CAPTION: [K2] "Nad Bílinou se tyčí hora Bořeň. O tom, jak takové kopce vznikly, se v době F. A. Reusse vedly vědecké spory."
 Panel 2: [K2] Reuss a cizí návštěvník na Bořni. [VIZ]
-CAPTION: [K2] "Traduje se, že v roce 1791 se s Reussem setkal mladý Alexander von Humboldt. Podrobnosti té návštěvy zatím nemáme ověřené." 🟡 (Humboldt 1791, společný výstup = 🟡)
+CAPTION: [K2] "Traduje se, že v roce 1791 se s Františkem Ambrožem Reussem setkal mladý Alexander von Humboldt. Podrobnosti té návštěvy zatím nemáme ověřené." 🟡 (Humboldt 1791, společný výstup = 🟡)
 Panel 3: [K2] Kdosi se dívá z vrcholu Bořně.
 BAŠTA (caption): [K2] "Otázka byla prostá, ale zásadní: vznikl čedič sopečnou činností, nebo něčím jiným? Tehdy se o tom vedla velká debata." 🟡k
 Panel 4: Reuss píše svůj závěr, pokorný výraz.
-CAPTION: [K2] "Co přesně si Reuss o Bořni tehdy myslel, ještě prověřujeme. Dnešní geologie vychází z jiných poznatků než doba, ve které žil. Dvě věci se nesmí míchat: co věděl on – a co víme my." 🟡 (audit P16: „freatomagmatický vulkanismus" oddělen od historického názoru; „Reuss se nemýlil o moc" = 🔴 odstraněno)
+CAPTION: [K2] "Co přesně si F. A. Reuss o Bořni tehdy myslel, ještě prověřujeme. Dnešní geologie vychází z jiných poznatků než doba, ve které žil. Dvě věci se nesmí míchat: co věděl on – a co víme my." 🟡 (audit P16: „freatomagmatický vulkanismus" oddělen od historického názoru; „Reuss se nemýlil o moc" = 🔴 odstraněno)
 Panel 5: Další kočár, Goethe vyhlíží ven.
 CAPTION: [K2] "Bořeň přitahoval pozornost dalších návštěvníků. V květnu 1813 přijíždí do Bíliny i Johann Wolfgang von Goethe." 🟢 (WA III 5)
 
@@ -200,12 +200,12 @@ CAPTION: "‚V roce 1822 studoval slavný chemik Berzelius Bílinskou kyselku…
 Panel 2: Bašta vystupuje z rámu.
 BAŠTA: [K2] "Tenhle příběh je hezký. Ale dobový pramen, který by dokládal Berzeliovu návštěvu Bíliny, neznáme. Berzelius roku 1822 skutečně projížděl Čechami, ale ve své práci Bílinu jako zastávku nezmiňuje. 🟢"
 Panel 3 (klíčový): Reuss v pracovně, dopis a kniha. **Berzelius fyzicky v obraze není.** [VIZ]
-CAPTION: [K2] "Co doložené je: Berzelius ve své práci z roku 1823 o karlovarských, teplických a kynžvartských vodách jmenuje ‚doktora Reusse z Bíliny' a do srovnávací tabulky zařadil bílinský pramen podle Reussova rozboru. Bílinskou vodu sám nerozebíral – převzal Reussova čísla. 🟢" (oprava R11-01: Bílina v práci JE, přes Reussův rozbor; Berzelius ji sám neanalyzoval)
-BAŠTA (caption): [K2] "Reuss zase později, v knize o Mariánských Lázních z roku 1818, počítal s Berzeliovými údaji. 🟢 Že by Berzeliovu metodu používal už v bílinských pracích z let 1788 až 1808, to doložené není." (R11-02: RED jen pro Bílinu; 1818 doloženo)
+CAPTION: [K2] "Co doložené je: Berzelius ve své práci z roku 1823 o karlovarských, teplických a kynžvartských vodách jmenuje ‚doktora Reusse z Bíliny' – podle data jde o Františka Ambrože Reusse – a do srovnávací tabulky zařadil bílinský pramen podle jeho rozboru. Bílinskou vodu sám nerozebíral – převzal Reussova čísla. 🟢" (oprava R11-01: Bílina v práci JE, přes Reussův rozbor; Berzelius ji sám neanalyzoval)
+BAŠTA (caption): [K2] "František Ambrož Reuss zase později, v knize o Mariánských Lázních z roku 1818, počítal s Berzeliovými údaji. 🟢 Že by Berzeliovu metodu používal už v bílinských pracích z let 1788 až 1808, to doložené není." (R11-02: RED jen pro Bílinu; 1818 doloženo)
 Panel 4: Kapka tekoucí od Stockholmu přes mapu Evropy k bílinskému prameni.
 KAPKA VODY: "Čísla cestují snadněji než člověk. Nepotřebují kočár. Nepotřebují ani jméno na dveřích – stačí, že sedí." 💡 (metafora)
 Panel 5: Digitální Jirka klidně vysvětluje.
-DIGITÁLNÍ JIRKA: [K2] "O tom, že by se ti dva někdy potkali u jednoho stolu, nic nevíme. Jméno Reusse ale u Berzelia najdeme. To stačí, aby ten příběh byl zajímavý i bez legendy." (K1: „Reuss uměl díky němu spočítat" = 🔴 odstraněno)
+DIGITÁLNÍ JIRKA: [K2] "O tom, že by se ti dva někdy potkali u jednoho stolu, nic nevíme. Jméno Františka Ambrože Reusse ale u Berzelia najdeme. To stačí, aby ten příběh byl zajímavý i bez legendy." (K1: „Reuss uměl díky němu spočítat" = 🔴 odstraněno)
 
 STRANA 19 — "Šest let ticha"
 Panel 1: Přelom století, silný déšť, prameny se plní kalnou vodou.
@@ -280,7 +280,7 @@ STRANA 24 — "Lež v prášku"
 Panel 1: Londýnská lékárna 1815, Thomas Field Savory míchá bílý prášek, výloha „Seidlitz Powders".
 CAPTION: [K2] "Kolem roku 1815 začal londýnský lékárník Thomas Field Savory prodávat ‚Seidlitz Powders' – prášek, který se tvářil jako náhrada pravé zaječické vody." 🟡 (Savory 1815 = 🟡 do primárního patentu / dobové reklamy)
 Panel 2: Reklamní leták – slib zázraku, drobným písmem složení.
-CAPTION: [K2] "Podle běžně uváděného složení šlo o směs jedlé sody, Rochellské soli a kyseliny vinné – tedy ne o zaječickou hořkou sůl. Přesné složení je nutné ověřit v dobové reklamě nebo patentu." 🟡
+CAPTION: [K2] "Podle běžně uváděného složení šlo o směs jinou směs než zaječickou hořkou sůl. Přesné složení je nutné ověřit v dobové reklamě nebo patentu." 🟡 (K2.1: konkrétní složky vypuštěny, RECOVERY-012 F-05; K1 uváděl jedlou sodu, vinný kámen a Rochellskou sůl – nekolacionováno)
 DIGITÁLNÍ JIRKA (inzert): "Jinak řečeno – prodáváno jako originál, uvnitř jiná chemie."
 Panel 3: Bašta klidně komentuje.
 BAŠTA: [K2] "Šlo o obchod se jménem, které už mělo dobrou pověst." 💡
@@ -290,24 +290,24 @@ Panel 5: [K2] Kniha o zaječické vodě, rok 1827, Praha. [VIZ]
 CAPTION: [K2] "1827. Vychází kniha o zaječické hořké vodě. Podle předmluvy ji vyvolaly objevy, které Berzelius udělal v pramenech Karlových Varů, Teplic a Kynžvartu. Kníže Ferdinand z Lobkowicz proto dal vodu znovu rozebrat. 🟢 Jestli měl na to vliv i Savory, prameny neříkají." 🟢 (R11-06: vazba Savory → 1827 nedoložena; v OCR 1827 „London", „Savory", „Seidlitz powders" nenalezeno; K1 „Reuss se rozhodl to jednou provždy změřit" = dramaturgie, vypuštěno)
 
 STRANA 25 — [K2] "Rozbor v číslech" (K1: „Odpověď v číslech" – „odpověď" navazovala na nedoloženou vazbu na Savoryho)
-Panel 1: [K2] Detail rukou profesora Steinmanna nad vahami a kapátky v pražské laboratoři. Vedle na stole kniha. [VIZ]
+Panel 1: [K2] Detail rukou profesora Steinmanna nad vahami a kapátky v laboratoři. Vedle na stole kniha. [VIZ]
 CAPTION: [K2] "Chemický rozbor provedl v Praze profesor Steinmann. František Ambrož Reuss ho zařadil do knihy a vyložil. 🟢 Podle Reusse z roku 1827 je voda z hlavního zaječického pramene ze všech tehdy známých minerálních vod nejbohatší na pevné složky. 🟢 Je to výrok z roku 1827, ne dnešní vědecký žebříček." 🟢 (R11-05; S-07; audit P25)
 Panel 2: Stránka ze zápisníku – tabulka složení.
 BAŠTA (caption): [K2] "Hlavní složkou byl síran hořečnatý – hořká sůl. 🟢"
-Panel 3: [K2] Reuss listuje hotovou knihou s knížecím správcem. **Scéna je rekonstrukce, ne doložená událost.** 💡 [VIZ]
+Panel 3: [K2] František Ambrož Reuss listuje hotovou knihou s knížecím správcem. **Scéna je rekonstrukce, ne doložená událost.** 💡 [VIZ]
 CAPTION: [K2] "Nešlo o to, čí voda je slavnější. Šlo o to, co je ve skutečnosti uvnitř láhve." 💡
 Panel 4: Digitální Jirka s moderní láhví, ukazuje na etiketu se složením.
 DIGITÁLNÍ JIRKA: [K2] "Složení na etiketě dnes bereme jako samozřejmost. Tehdy k tomu vedla dlouhá cesta." 💡
 
-STRANA 26 — [K2] "Lahve z Bíliny do Stockholmu" (KOMORNÍ VRCHOL KAPITOLY, N-029) (K1: „Dva muži, kteří se nikdy nepotkali" – „nikdy nepotkali" je neověřené, název změněn)
-Panel 1: Malá dřevěná bedýnka s velkými skleněnými lahvemi, na palubě lodi, žádní lidé v záběru.
+STRANA 26 — [K2] "Lahve do Stockholmu" (KOMORNÍ VRCHOL KAPITOLY, N-029) (K1: „Dva muži, kteří se nikdy nepotkali" – „nikdy nepotkali" je neověřené, název změněn)
+Panel 1: Malá dřevěná bedýnka s velkými skleněnými lahvemi, na cestě (dopravní prostředek neurčen), žádní lidé v záběru.
 CAPTION: [K2] "Velké lahve z bílého skla, zabroušené zátky, kousek odparku. Dlouhá cesta na sever. 🟢" (Berzelius 1840, s. 8)
 Panel 2: Stockholm, Berzeliova laboratoř, opatrně rozbaluje bedýnku.
-CAPTION: [K2] "Jöns Jacob Berzelius, jeden ze zakladatelů moderní chemie, dostal vodu zaslanou do Stockholmu. Rozbor provedl na žádost bílinské správy pramenů. Tu mu sdělil bílinský lázeňský lékař Dr. **August Emanuel Reuss**. 🟢 Že by v Zaječicích někdy osobně byl, prameny nedokládají – a nevylučují to." 🟢 (ZAJ-BERZELIUS-1840 GREEN; R11-07: „nikdy tam nebyl" = neověřeno)
+CAPTION: [K2] "Jöns Jacob Berzelius, jeden ze zakladatelů moderní chemie, dostal vodu zaslanou. Rozbor provedl na žádost bílinské správy pramenů. Tu mu sdělil bílinský lázeňský lékař Dr. **August Emanuel Reuss**. 🟢 Že by v Zaječicích někdy osobně byl, prameny nedokládají – a nevylučují to." 🟢 (ZAJ-BERZELIUS-1840 GREEN; R11-07: „nikdy tam nebyl" = neověřeno)
 Panel 3 (split kompozice): Berzelius ve Stockholmu / August Emanuel Reuss v Bílině, spojeni tenkou modrou linkou.
 KAPKA VODY: [K2] "Tentokrát nechodili lidé. Chodily lahve, dopisy a čísla." 💡
 Panel 4: Berzelius zapisuje výsledky, drobný úsměv.
-CAPTION: [K2] "Ke svému velkému údivu našel Berzelius v zaječické vodě i cín. Stopy mědi, jodu a bromu také. Žádné nové prvky – ale složky, které v té vodě nikdo nečekal. 🟢" (S-12; „objevil nové chemické prvky" = 🔴 odstraněno)
+CAPTION: [K2] "Ke svému velkému údivu našel Berzelius v zaječické vodě i cín. 🟢 Podle Augusta Emanuela Reusse v ní zjistil také jod a brom. 🟢 Stopy mědi zatím nemáme ověřené. 🟡 Žádné nové prvky – ale složky, které v té vodě nikdo nečekal." (S-12; „objevil nové chemické prvky" = 🔴 odstraněno)
 Panel 5: Prázdná otevřená lahvička, večerní světlo, laboratoř ztichlá.
 BAŠTA (caption): [K2] "Zaznamenat se dá tohle: Bílina zadá práci – lahve putují do Stockholmu – Berzelius rozebírá vodu – v roce 1840 vychází v Praze společná kniha, s poznámkami Augusta Emanuela Reusse o léčivých účincích. 🟢 Jestli si kdy napsali osobní dopis, nevíme." (audit P26: „tichá spolupráce" odstraněna; řetězec A. E. Reuss → požadavek správy → zaslaná voda → Berzelius → rozbor → publikace 1840)
 
@@ -319,7 +319,7 @@ BAŠTA (caption): [K2] "Napodobeniny přicházely a odcházely. Jméno Zaječice
 Panel 3: Kapka klidně tekoucí krajinou, bez dramatu.
 KAPKA VODY: "Nepotřebovala jsem sochu. Nepotřebovala jsem palác. Stačilo mi, že jsem zůstala pravdivá." 💡
 Panel 4: Digitální Jirka, tiše zamyšlený.
-DIGITÁLNÍ JIRKA: [K2] "Vlastně je zajímavé, že nejtišší kapitola celého příběhu skrývala jeden z nejlepších dokladů o tom, jak věda funguje – přes hranice, přes jazyky, na dálku, v lahvích a dopisech." 💡
+DIGITÁLNÍ JIRKA: [K2] "Vlastně je zajímavé, že nejtišší kapitola celého příběhu skrývala jeden z nejlepších dokladů o tom, jak věda funguje – přes hranice, přes jazyky, na dálku." 💡
 Panel 5 (velký, most k Epilogu): Ptačí pohled na celý kraj, tři místa propojená modrými liniemi. 💡 (linie = metafora, NE hydrogeologie) [VIZ]
 CAPTION: [K2] "Tři prameny. Jeden kraj. Tři různé příběhy vody." 💡
 KAPKA VODY (poslední replika kapitoly): "Teď, když jste poznali všechny tři, je čas ukázat vám, co z toho vzniklo dnes." 💡
@@ -353,7 +353,7 @@ BAŠTA: [K2] "Voda tu byla dřív než my. A to, co jste právě viděli v týhl
 Panel 4: Stáčírna vedle muzea, linka v provozu. **[AKTUÁLNÍ FAKT – OVĚŘIT PŘED TISKEM]** 🟡
 CAPTION: [K2] "Voda, o které je celá tahle kniha, teče dodneška." 🟡
 Panel 5: Kapka stékající po skleněné vitríně muzea zevnitř.
-KAPKA VODY: [K2] "Přežila jsem spory o to, čím jsem. Přežila jsem tucet jmen. Přežila jsem i chvíle, kdy mě lidé nemohli najít. Tohle taky přežiju." 💡
+KAPKA VODY: [K2] "Přežila jsem spory o to, čím jsem. Přežila jsem řadu jmen. Přežila jsem i chvíle, kdy mě lidé nemohli najít. Tohle taky přežiju." 💡
 
 STRANA 30 — "Pohádka, která se opravdu stala"
 Panel 1: Digitální Jirka venku před muzeem, dívá se přímo na čtenáře.
@@ -439,10 +439,10 @@ Strany 1–5 (Prolog) nejsou součástí tohoto souboru.
 | 46 | 25 | „Reuss potvrdil … nejvíc minerálů ze všech vod na světě" | „podle Reusse (1827) nejbohatší na pevné složky ze všech tehdy známých minerálních vod; ne dnešní žebříček" | audit P25; S-07 |
 | 47 | 25 | chemickou analýzu 1827 „změřil Reuss" | „rozbor provedl prof. Steinmann, Reuss ho vyložil" | **oprava R11-05** |
 | 48 | 25 | „síran hořečnatý – přesně to, co v prášku chybělo" | druhá polovina vypuštěna | závisí na 🟡 složení Savoryho prášku |
-| 49 | 26 | název „Dva muži, kteří se nikdy nepotkali"; „Nikdy v Zaječicích osobně nebyl 🟢" | název „Lahve z Bíliny do Stockholmu"; „osobní návštěva nedoložena a nevyloučena" | **R11-07** |
+| 49 | 26 | název „Dva muži, kteří se nikdy nepotkali"; „Nikdy v Zaječicích osobně nebyl 🟢" | název „Lahve do Stockholmu" (K2.1; původně „Lahve z Bíliny do Stockholmu"); „osobní návštěva nedoložena a nevyloučena" | **R11-07** |
 | 50 | 26 | „zásilka … přesné datum a okolnosti nedohledány – obecná ilustrace" | konkrétní zásilka: lahve po 1500 g, odparek; žádost správy sdělená A. E. Reussem; předmluva 14. 11. 1839 | audit P26; S-06; Berzelius 1840, s. 8 |
 | 51 | 26 | Reuss u zásilky (nespecifikován) | **August Emanuel Reuss** | audit P26; guardrail F. A. ≠ A. E. |
-| 52 | 26 | „objevil nové chemické prvky" | „cín, stopy mědi, jodu a bromu; žádné nové prvky" | audit P26 = 🔴; S-12 |
+| 52 | 26 | „objevil nové chemické prvky" | „cín 🟢, jod a brom 🟢 (A. E. Reuss), měď 🟡 (K2.1); žádné nové prvky" | audit P26 = 🔴; S-12 |
 | 53 | 26 | „tichá spolupráce" | konkrétní doložený řetězec (viz panel 5) | audit P26 |
 | 54 | 27 | „Tři prameny. Tři různé povahy. Jedna voda, jeden kraj." | „Tři prameny. Jeden kraj. Tři různé příběhy vody." | audit P27–28 |
 | 55 | 27 | „padělky přišly a odešly. Pravá voda tu je dodnes" | „napodobeniny…, jméno Zaječice zůstalo" | závisí na 🟡 Savory, aktuální fakt |
@@ -455,7 +455,7 @@ Strany 1–5 (Prolog) nejsou součástí tohoto souboru.
 | 58 | 28 | koláž „Reuss na Bořni" | „Goethe a Reuss na Bořni" | doloženo 28. 5. 1813 |
 | 59 | 29 | muzeum, Bašta, výroba = 🟢 | 🟡 „OVĚŘIT PŘED TISKEM" | audit P29 |
 | 60 | 29 | „není jednoduchá doba… výroba pokračuje" | reflexivní replika bez firemního kontextu | aktuální fakt neověřen; zachována mantinelová zásada „bez insolvence" |
-| 61 | 29 | „Přežila jsem sopky, které nebyly sopkami; padělatele" | „spory o to, čím jsem; tucet jmen; chvíle, kdy mě nenašli" | vazba na 🟡 Bořeň a 🟡 Savory |
+| 61 | 29 | „Přežila jsem sopky, které nebyly sopkami; padělatele" | „spory o to, čím jsem; řadu jmen (K2.1); chvíle, kdy mě nenašli" | vazba na 🟡 Bořeň a 🟡 Savory |
 
 ## B. TVRZENÍ, KTERÁ ZŮSTÁVAJÍ 🟡 OTEVŘENÁ
 
@@ -502,7 +502,7 @@ Strany 1–5 (Prolog) nejsou součástí tohoto souboru.
 
 ## D. DRAMATURGICKÉ ZMĚNY
 
-1. **Nové názvy stran:** str. 8 „Kámen a voda", str. 17 „Básník na Bořni", str. 18 „Čísla, která cestovala", str. 20 „Voda, která putovala", str. 25 „Rozbor v číslech", str. 26 „Lahve z Bíliny do Stockholmu". Důvod: původní názvy obsahovaly 🔴/🟡 tvrzení. Ostatní názvy kapitol i stran zachovány, včetně stránkování 6–30.
+1. **Nové názvy stran:** str. 8 „Kámen a voda", str. 17 „Básník na Bořni", str. 18 „Čísla, která cestovala", str. 20 „Voda, která putovala", str. 25 „Rozbor v číslech", str. 26 „Lahve do Stockholmu". Důvod: původní názvy obsahovaly 🔴/🟡 tvrzení. Ostatní názvy kapitol i stran zachovány, včetně stránkování 6–30.
 2. **Str. 8:** stránka už nemá jediného „zakladatele". Místo Volfa jsou dějinné vrstvy (1446, 1477, 1581), Volf je jen jedna z postav. Změní se i jádro Jirkovy repliky (vrstvy staletí místo „základ Volfa").
 3. **Str. 13:** vizuální těžiště se přesouvá z „vrtné soupravy a záchrany" na „hloubení šachty a úlevu". Emoce zůstává (tlumená úleva), obsah je přesnější.
 4. **Str. 17:** dvě časové vrstvy (1813 Reuss / 1812 flashback Goethe + Beethoven) oddělené rámem, paletou a popiskem. Kapka spojuje „jeden kraj".
@@ -547,3 +547,23 @@ Zdroj: `ARCHIVE/SOURCES/PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md`. Prompt
 - Claim Database jsem nečetl jako „autoritu nad kolací"; využil jsem ji pro GREEN/RED řádky (Teplice 1446/1477/1581, Pulkava, Vincentius, 1879, Volf, Hoffmann, Berzelius 1840).
 - **Nezapisováno:** `00_CORE/PRAMEN_MAPA.md` a `00_CORE/CHANGELOG.md`. Podle `CLAUDE.md` by měl nový soubor být promítnut do mapy i changelogu, ale zadání K2 výslovně říká „zapiš pouze nový pracovní soubor". Rozhodne Jirka.
 - Text výroku „Reuss (1827) nejbohatší z tehdy známých minerálních vod" je dokládán Reussem 1827, s. 53 (OCR, PRIMARY SEEN).
+
+## G. K2.1 – OPRAVY PO AUDITU RECOVERY-012 (2026-09-26)
+
+Opraveny jen věci, které byly chybou. Nic jiného se neměnilo. Číslování stran a kapitol zůstává.
+
+| Nález | Str. | Oprava |
+|---|---:|---|
+| F-01 | 12 | „doklady o pozdějších kontaktech existují": 🟢 → 🟡 (jen z auditu P12, kolace neověřila) |
+| F-02 | 26 | cín 🟢, jod a brom 🟢 (A. E. Reuss, s. 44), měď 🟡 (jen z auditu P26) |
+| F-03 | 15, 16, 18, 25 | doplněno „František Ambrož Reuss" / „F. A. Reuss" u všech výskytů bez jména; u Berzelia 1823 vysvětleno, že jde podle data o F. A. |
+| F-05 | 24 | složení Savoryho prášku: konkrétní složky vypuštěny (vlastní „kyselina vinná" z K2 i K1 „vinný kámen"), do doložení P5 |
+| F-06 | 26, 27 | název „Lahve do Stockholmu" (bez „z Bíliny"); „dopisy" vypuštěno z Jirkovy repliky na str. 27; „do Stockholmu" vypuštěno z captionu panelu 2 |
+| F-07 | 6 | „v pravěku" → „v době železné" (jako K1) |
+| F-08 | 25, 26 | „pražská laboratoř" → „laboratoř"; „na palubě lodi" → „na cestě (dopravní prostředek neurčen)" |
+| F-11 | 29 | Kapka: „tucet jmen" → „řadu jmen" |
+
+**Nezměněno (záměrně):**
+- F-04 (oddělení „čistého" textu od redakčních poznámek) – až před Production Lock.
+- F-09 (spárování promptů se stranami K2) – v cross-auditu.
+- Kapka na str. 26 dál říká „Chodily lahve, dopisy a čísla". Je to metafora (💡), na rozdíl od faktické repliky Jirky.
