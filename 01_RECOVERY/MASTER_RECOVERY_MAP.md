@@ -209,6 +209,7 @@ Stav všech chybějících originálů v §3 a §7 zůstává beze změny.
 |---|---|
 | `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md` | 🟢 A (fyzicky v repu) jako text; obsah 🟡 — doslovnost vůči původnímu chatu neověřena |
 | `01_RECOVERY/RECOVERY-010_SCENAR_STR6-30_ZISKAN.md` | 🟡 D — provenience + první kolace (rozpory S-01…S-13) |
+| `01_RECOVERY/RECOVERY-011_AUDIT_K1_STR6-30.md` | 🟡 D — audit K1 str. 6–30 (Řídící mozek 2) + kontrola proti primární kolaci (R11-01…07) |
 
 Text vydoloval Jirka z ChatGPT chatu (podle hlavičky „KOMPLETACE STRAN
 6–30") a vložil ho do Claude Code. Strany 6–30 jsou tím poprvé v repu.
