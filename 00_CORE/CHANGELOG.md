@@ -1,5 +1,34 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – MASTER CORE 2.0 · PAGE MASTER 1–30 · CHARACTER REGISTER (NÁVRHY)
+
+### Added
+- `00_CORE/PRAMEN_MASTER_CORE_2.0.md` — nové aktuální jádro projektu:
+  - identita, role, zásady;
+  - tabulka **zdrojů pravdy** a priorita při rozporu;
+  - stav vrstev projektu;
+  - **brána k Production Lock G1–G10**;
+  - otevřená rozhodnutí a známé rozpory.
+  Po schválení nahrazuje zastaralý `PRAMEN_MASTER.md` v1.0 (ten zůstává jako archiv).
+- `02_COMIKS/PAGE_MASTER_1-30.md` — stav všech 30 stran v pěti vrstvách (TEXT, HISTORIE, VIZUÁLNÍ ZADÁNÍ, OBRAZ, LOCK) + karta každé strany. Souhrn:
+  - text 25/30;
+  - historie 🟢 u 6 stran;
+  - vizuální zadání 🟢 u 2 stran;
+  - obraz 0/30 auditováno;
+  - Lock 0.
+- `02_COMIKS/CHARACTER_REGISTER.md` — všechny postavy (CH-001…029 + vyřazené CH-X01…X04). ID CH-001…004 z Content Registry zachována.
+
+### Nové body k rozhodnutí (jen zapsáno, nic neopraveno)
+- Loos: K3 „kolem 1770" × F. A. Reuss 1791, s. 7–8 („Matthias Loose", studny vykopány 1743, prodej 1780 odmítl) — nový nález Claude Code.
+- Souhlas Karla Bašty (žijící osoba) s použitím jména a podoby — brána G10.
+- Oběti 1879: Claim DB „2 v šachtě Nelson" × Gartenlaube „2 Italové v sousedních šachtách".
+
+### Status
+- Obrazový audit **odložen na úplný konec** (pokyn Jirky). Obrazy nejsou v repu ani na Google Drive (ověřeno).
+- Claim DB, K1, K2, K3, prompty, obrazy, DECISION_REGISTER beze změny. Production Lock nevytvořen, HB-057 🔴.
+
+---
+
 ## [2026-09-26] – UPRAVENÉ PROMPTY K3 (NÁVRH v0.1 + dodatek v0.2)
 
 ### Added
