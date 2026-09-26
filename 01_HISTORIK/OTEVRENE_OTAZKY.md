@@ -731,6 +731,7 @@ Zápis provedl Claude Code na pokyn Jirky. Do Claim Database se nic nepromítá 
 | OO-K3-04 | **Návrh upravených promptů hotov (`02_COMIKS/PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md`), panely opraveny dodatkem v0.2 podle K3; čeká na schválení.** Úprava popisů existujících promptů u str. K3 7, 8, 13, 15, 17, 18, 21, 23, 26, 28 (master mapa). Prompty 8, 13, 19 mají tvrdý historický konflikt. | 🟡 ROZPRACOVÁNO |
 | OO-K3-05 | Master mapa: **prompt 27** není přiřazen k žádné straně a chybí ve výčtu nepoužitých promptů. Rozhodnout jeho využití. | 🔴 NEZODPOVĚZENO |
 | OO-K3-06 | Vizuální audit K3: **audit vizuálního zadání hotov** (`02_COMIKS/AUDIT/PRAMEN_VIZUALNI_AUDIT_K3.md`: 2 strany v pořádku, 17 úprava, 6 nový prompt). **Hotové obrazy nikdo neauditoval** (nejsou v repozitáři). Zbývá určit, kdo a nad čím zkontroluje skutečné obrazy proti K3. | 🟡 ROZPRACOVÁNO |
+| OO-K3-07 | **Dopad K2.5 (nálezy N-01…N-17) na návrhy promptů — čeká na úpravu:** nový prompt str. 16, panel 2 (zobrazuje Reusse s Humboldtem; K3 nově: Humboldt a Freiesleben, Reuss v obraze není); nový prompt str. 19, panel 1 („poškozování od roku 1800"; K3 rok 1800 nepoužívá); upravený prompt str. 14, panel 4 (jímky) a str. 9, panel 3 (požár 1793) ověřit. Prompty se zatím nepřepisovaly. | 🔴 NEZODPOVĚZENO |
 
 ### B. Historické otázky z výzkumu P1–P10 (KOL-K2)
 
@@ -742,18 +743,20 @@ Mapování na starší návrhy KOL-01…05 z `PRIMARNI_KOLACE_VYSLEDEK.md`: KOL-
 | KOL-K2-02 | Kolacionovat Hoffmann, *Gründlicher Bericht* 1725/1738 (Sedlec, Zaječice, Epsom). | 🟡 ROZPRACOVÁNO |
 | KOL-K2-03 | Rozpor v Reussovi 1791: Hoffmann 1717, Sedlec, Zaječice, Kohl, rok 1721, „Ursprungsquelle". | 🔴 NEZODPOVĚZENO |
 | KOL-K2-04 | Goethův deník WA III 4, zápis 20. 7. 1812 — přesná strana (303 × 304) a okolní text. | 🟡 ROZPRACOVÁNO |
-| KOL-K2-05 | Goethův dopis Christiane 19. 8. 1812 (WA IV 23, s. 43) — originál. Datum zatím jen sekundárně (Goethe-Gesellschaft). | 🟡 ROZPRACOVÁNO |
+| KOL-K2-05 | Goethův dopis Christiane, Teplice, **19. 7. 1812** (WA IV 23, č. 6348; „Zusammengefaßter, energischer, inniger habe ich noch keinen Künstler gesehen"). **Datum opraveno z 19. 8. 1812** (rozhodnutí D-9; sekundární zdroj Goethe-Gesellschaft se mýlil). Primární text přečten v přepisu WA (zeno.org, N-01); tištěný svazek nečten. | 🟢 ZODPOVĚZENO |
 | KOL-K2-06 | Beethovenův dopis Goethovi 8. 2. 1823 — originál. | 🟡 ROZPRACOVÁNO |
 | KOL-K2-07 | Vincentiův latinský text — přesné místo a chronologické zařazení zápisu. | 🔴 NEZODPOVĚZENO |
 | KOL-K2-08 | Původ rozmezí 1156–1167 (Judita): primární datum × odborný odhad × turistická tradice. | 🔴 NEZODPOVĚZENO |
 | KOL-K2-09 | Primární text Mitise o teplických lázních a Volfovi z Vřesovic. | 🔴 NEZODPOVĚZENO |
 | KOL-K2-10 | Originál patentu Thomase Fielda Savoryho z 23. 8. 1815 (složení prášku zatím jen sekundárně). | 🔴 NEZODPOVĚZENO |
 | KOL-K2-11 | Reuss, *Orographie* 1790 — co píše o Bořni. | 🔴 NEZODPOVĚZENO |
-| KOL-K2-12 | Humboldtův primární doklad návštěvy Bíliny / Bořně 1791. | 🔴 NEZODPOVĚZENO |
+| KOL-K2-12 | Humboldtův primární doklad k Bořni. **Primární text nalezen (N-05, *Bergmännisches Journal* 1792):** Freiesleben a Humboldt popsali výstup na Bořeň, Humboldt je „unser erfahrener Begleiter", Reuss je jen citován („Hr. D. Reuß erwähnt"). **Zbývá:** rok samotné cesty (1791 × 1792) a zda byl Reuss při ní přítomen (text neříká). K3 str. 16 upraveno (D-3). | 🟡 ROZPRACOVÁNO |
 | KOL-K2-13 | Berzelius 1840: měď, cín, jod, brom. **Měď a jod/brom doloženy v OCR (RECOVERY-013, s. 14, 26, 27, 40); zbývá kolace nad skenem a přesná čísla stran.** | 🟡 ROZPRACOVÁNO |
 | KOL-K2-14 | Originální Eichlerova publikace 1821 (obnova pramenů po poškození 1800/1806). | 🔴 NEZODPOVĚZENO |
 | KOL-K2-15 | Titulní a dedikační list Reussovy knihy 1788 (věnování Lobkovicovi). | 🔴 NEZODPOVĚZENO |
-| KOL-K2-16 | Dobový pramen k odhalení pomníku Reussů 29. 5. 1898 (zatím jen muzeum). | 🟡 ROZPRACOVÁNO |
-| KOL-K2-17 | Který „Professor Dr. Reuß" varoval kolem 1867 před důlním neštěstím v Teplicích? | 🔴 NEZODPOVĚZENO |
+| KOL-K2-16 | Dobový pramen k odhalení pomníku Reussů. **Doloženo (N-14):** *Allgemeine Wiener medizinische Zeitung* 17. 5. 1898, s. 10 (oznámení „am Pfingstsonntag in Bilin") a *Prager Tagblatt* 2. 6. 1898, s. 3–4 (zpráva o odhalení); Svatodušní neděle 1898 = 29. 5. Claim `BIL-REUSS-DENKMAL-1898` 🟢. **Zbývá:** podoba pomníku, autor, čtení celých stránek ANNO. | 🟢 ZODPOVĚZENO (datum a pocta) |
+| KOL-K2-17 | Který „Professor Dr. Reuß" varoval kolem 1867 před důlním neštěstím v Teplicích? **Nález N-15** (*Teplitz-Schönauer Anzeiger* 22. 2. 1879, s. 8): „So warnte Prof. Dr. Reuß schon im Jahre 18?7" — rok v OCR nejistý (1807 × 1867), identita neuzavřena; **nepovyšovat** (D-8). | 🔴 NEZODPOVĚZENO |
 | KOL-K2-18 | „Prof. Rings" (1712) v Reussově výkladu 1827 — identita a zdroj. | 🔴 NEZODPOVĚZENO |
-| KOL-K2-19 | Pozdější kontakty Goethe–Beethoven: korespondence, umělecký kontakt, nebo osobní kontakt? | 🟡 ROZPRACOVÁNO |
+| KOL-K2-19 | Pozdější kontakty Goethe–Beethoven: korespondence, umělecký kontakt, nebo osobní kontakt? **Doloženo:** Goethe → Zelter, Karlovy Vary 2. 9. 1812 (WA IV 23, č. 6373, N-02): Goethe o Beethovenovi psal i po Teplicích. Beethovenův dopis 1823 viz KOL-K2-06 (N-17, SECONDARY QUOTED). | 🟡 ROZPRACOVÁNO |
+| OO-N-11 | **1589, Radislav Vchynský** dokončil velké lázně (Reuss 1823, s. 48, N-11): pozdní výklad, ne pramen z roku 1589. **Jen 🟡 badatelská stopa**, nepromítá se do K3 ani do Claim DB (rozhodnutí D-7). Možná stopa k otevřené otázce Volf (OO-HB051-02). | 🟡 STOPA |
+| OO-N-16 | Dopis „nesmrtelné milé": katalog Staatsbibliothek zu Berlin (Mus. ep. autogr. Beethoven 127) uvádí jen „6." a „7. Juli", **bez roku a místa** (N-16, CATALOG ONLY). Rok 1812 a Teplice jsou závěr badatelů. **Nepovyšovat** (D-8). K3 str. 10 zůstává 🟡k. | 🟡 OTEVŘENO |
