@@ -515,6 +515,8 @@ Strany 1–5 (Prolog) nejsou součástí tohoto souboru.
 
 ## E. POTENCIÁLNÍ KONFLIKTY S EXISTUJÍCÍMI OBRAZOVÝMI PROMPTY
 
+> ⚠️ **K2.3 – UPOZORNĚNÍ (RECOVERY-012 F-09, `02_COMIKS/AUDIT/PRAMEN_K2_PROMPT_PAROVANI.md`):** Sloupec „Str." v této tabulce je **číslo promptu („STRANA N" v promptech), ne strana scénáře K2**. Např. „str. 24 – Berzelius" = prompt 24 = K2 str. 26; „str. 26 – cameo" = prompt 26, který nemá odpovídající stranu K2. Tato tabulka je jen audit původního číslování promptů. **Platné párování je v `PRAMEN_K2_PROMPT_PAROVANI.md`.**
+
 Zdroj: `ARCHIVE/SOURCES/PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md`. Prompty jsou (podle jejich vlastní hlavičky) **rekonstruované z kontextu, ne z doslovného scénáře**. Číslování stran odpovídá „STRANA N" v promptech. **Nic se nepřepisuje.**
 
 | Str. | Prompt říká | K2 mění | Konflikt |
@@ -611,3 +613,13 @@ Zdroj: `01_RECOVERY/RECOVERY-013_NEZAVISLY_AUDIT_K2.md` (Řídící mozek 2, s k
 1. **K3-A:** čistá verze bez redakčních závorek („K3_CLEAN"). Zatím neprovedeno.
 2. Nový audit promptů proti K2 (čeká na výstup druhého agenta, F-09).
 3. Ověření aktuálních údajů na str. 29 (muzeum, Bašta, výroba).
+
+## J. K2.4 – PÁROVÁNÍ PROMPTŮ (2026-09-26)
+
+Zdroj: `02_COMIKS/AUDIT/PRAMEN_K2_PROMPT_PAROVANI.md` (druhý agent, s kontrolou Claude Code). Text scénáře se nemění, jen se upozorňuje na správné čtení sekce E.
+
+**Hlavní výsledek:** číslování „STRANA N" v promptech ≠ číslování stran scénáře. Sekce E je proto audit číslování promptů, ne párování.
+
+**Nepokryté strany K2 (žádný odpovídající prompt):** 7, 11, 12, 16, 19, 24, 25, 28. **Nepřiřazený prompt:** 26 (osobní příběh / cameo). **Prompt 24 = Berzelius = K2 str. 26.**
+**Tvrdý historický konflikt po K2:** prompty 8 (Volf), 13 („záchrana Pravřídla"), 18 (Reuss používal Berzeliovu metodu), 19 (Beethoven u pramene). **Střední:** 17, 24.
+**Další krok:** až po čisté verzi K3 vytvořit „K2/K3 → PROMPT MASTER MAP" (jedna strana = jeden vizuální slot nebo „PROMPT CHYBÍ"). Prompty ani obrazy se nepřepisují.

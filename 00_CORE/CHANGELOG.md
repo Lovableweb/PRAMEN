@@ -1,5 +1,25 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – K2.4: PÁROVÁNÍ PROMPTŮ SE STRANAMI K2
+
+### Added
+- `02_COMIKS/AUDIT/PRAMEN_K2_PROMPT_PAROVANI.md` — výstup druhého agenta (doslovně, tabulky přepsány do Markdownu) + kontrola Claude Code. Řeší RECOVERY-012 F-09.
+
+### Changed
+- `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k2_WORKING.md` — upozornění na začátku sekce E (sloupec „Str." = číslo promptu, ne strana K2) + příloha J. Text scénáře beze změny.
+- `00_CORE/PRAMEN_MAPA.md` — nový řádek, stav projektu.
+
+### Hlavní nálezy
+- Číslování „STRANA N" v promptech ≠ číslování scénáře. Prompt 24 = Berzelius = K2 str. 26; prompt 26 (cameo) nemá odpovídající stranu K2.
+- **Chyba v sekci E K2 (Claude Code):** tabulka byla psána podle čísel promptů a mohla vést k záměně. Opraveno upozorněním.
+- K2 strany bez promptu: 7, 11, 12, 16, 19, 24, 25, 28. Tvrdý konflikt: prompty 8, 13, 18, 19.
+- Kontrola: prompt 13 – skutečný konflikt je „záchrana Pravřídla" a naznačený vrt, ne jména Zsigmondy a Sueß (oba GREEN v Claim DB).
+
+### Status
+- Prompty, obrazy, K1, Claim DB beze změny. Žádný Production Lock. Další krok: čistá verze K3, pak „PROMPT MASTER MAP".
+
+---
+
 ## [2026-09-26] – RECOVERY-013: NEZÁVISLÝ AUDIT K2 ULOŽEN, K2.3
 
 ### Added
