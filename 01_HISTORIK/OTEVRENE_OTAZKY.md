@@ -730,7 +730,7 @@ Zápis provedl Claude Code na pokyn Jirky. Do Claim Database se nic nepromítá 
 | OO-K3-03 | Nové image prompty pro str. K3 **11, 12, 16, 19, 24, 25** (master mapa: PROMPT CHYBÍ). Možná i str. 8 (prompt 7 je použit dvakrát). Kdo je napíše a kdy. | 🔴 NEZODPOVĚZENO |
 | OO-K3-04 | Úprava popisů existujících promptů u str. K3 7, 8, 13, 15, 17, 18, 21, 23, 26, 28 (master mapa). Prompty 8, 13, 19 mají tvrdý historický konflikt. | 🔴 NEZODPOVĚZENO |
 | OO-K3-05 | Master mapa: **prompt 27** není přiřazen k žádné straně a chybí ve výčtu nepoužitých promptů. Rozhodnout jeho využití. | 🔴 NEZODPOVĚZENO |
-| OO-K3-06 | Vizuální audit K3 (text ↔ claim ↔ vizuál) — hotové obrazy nejsou v repozitáři, jen textové prompty. Určit, kdo a nad čím vizuály auditovat. | 🔴 NEZODPOVĚZENO |
+| OO-K3-06 | Vizuální audit K3: **audit vizuálního zadání hotov** (`02_COMIKS/AUDIT/PRAMEN_VIZUALNI_AUDIT_K3.md`: 2 strany v pořádku, 17 úprava, 6 nový prompt). **Hotové obrazy nikdo neauditoval** (nejsou v repozitáři). Zbývá určit, kdo a nad čím zkontroluje skutečné obrazy proti K3. | 🟡 ROZPRACOVÁNO |
 
 ### B. Historické otázky z výzkumu P1–P10 (KOL-K2)
 
