@@ -2,14 +2,14 @@
 
 > **PROVENIENCE (zapsal Claude Code, 2026-09-26):**
 > - **Původ:** výstup druhého agenta na zadání „NOVÉ PROMPTY K3" (šest promptů pro str. K3 11, 12, 16, 19, 24, 25). Jirka ho vložil do Claude Code. Sekce „TEXT NÁVRHU" níže je **doslovný přepis**, beze změny obsahu.
-> - **Stav: NÁVRH v0.1.** Není schválen. Není to Production Lock ani Vizuální Lock. Neruší ani nepřepisuje archivní prompty.
+> - **Stav: NÁVRH v0.2 (v0.1 + dodatek na konci souboru, který opravuje tři odchylky od K3).** Není schválen. Není to Production Lock ani Vizuální Lock. Neruší ani nepřepisuje archivní prompty.
 > - **Nezměněno:** archivní prompty, obrazy, K1, K2, K3, Claim DB.
 
 ## KONTROLA CLAUDE CODE PROTI K3 (2026-09-26)
 
 **Strojově ověřeno:** počet panelů v K3 a v návrhu se shoduje (str. 11, 12, 16, 19, 24 = 5 panelů, str. 25 = 4 panely). Zakázané motivy (Berzelius v Bílině/Zaječicích, Beethoven u bílinského pramene, vrtná souprava 1879, „záchrana Pravřídla", Volf jako stavitel, nové prvky) se v návrhu vyskytují jen v seznamech „CO NEZOBRAZOVAT". Značky stavu odpovídají K3.
 
-**Odchylky od popisů panelů v K3 (zadání chtělo „přesně podle K3"):**
+**Odchylky od popisů panelů v K3 (zadání chtělo „přesně podle K3"); VYŘEŠENO v dodatku v0.2 na konci souboru (prompt se přizpůsobil K3):**
 1. **Str. 16, panel 3:** K3 říká „Kdosi se dívá z vrcholu Bořně" (Bašta mluví o otázce, zda je čedič sopečný). Návrh místo toho popisuje „dobovou vědeckou scénu, F. A. Reuss s knihou z roku 1790". **Odchylka od K3.** Buď upravit prompt na pohled z vrcholu, nebo v K3 panel změnit (změna K3 jde přes K2).
 2. **Str. 11, panel 4:** K3 má jen „Kapka stéká po okenní tabuli". Návrh přidává Beethovena a Goetha jemně v pozadí. **Doplněk, který K3 nemá.**
 3. **Str. 12, panel 4:** K3 má „Goethe odjíždí kočárem, ohlíží se". Návrh přidává v pozadí „pozdější list/dopis" jako dokumentární motiv. **Doplněk, který K3 nemá** (dopis 1823 je jen v captionu, ne v popisu panelu).
@@ -310,3 +310,38 @@ Ostatní panely odpovídají K3.
 ---
 
 **STATUS:** NÁVRH v0.1 — šest nových promptů vypracováno podle K3. Dokument je pouze návrh pro kontrolu proti K3. Nebyl vytvořen Production Lock ani Vizuální Lock. K3, K2, archivní prompty, Claim Database ani jiné soubory nebyly měněny.
+
+---
+---
+
+# DODATEK v0.2 – OPRAVY ODCHYLEK OD K3 (Claude Code, 2026-09-26)
+
+**Pravidlo (rozhodl Jirka):** K3 je zdroj, prompt se mu přizpůsobí. Následující tři panely **nahrazují** stejně číslované panely v textu výše. Ostatní části promptů beze změny. Text agenta (v0.1) výše zůstává jako původní přepis.
+
+## K3 STR. 11 – panel 4 (nahrazuje panel 4 výše)
+
+**Panel 4:** Kapka vody stéká po okenní tabuli. Jen Kapka a okno, **žádné postavy**. Kapka je metaforická spojnice společného času Beethovena a Goetha.
+**Stav:** 💡 — Kapka není historický svědek ani důkaz.
+*(Odstraněno: Beethoven a Goethe v pozadí. K3 panel 4 je jen Kapka na okenní tabuli.)*
+
+## K3 STR. 12 – panel 4 (nahrazuje panel 4 výše)
+
+**Panel 4:** Goethe odjíždí kočárem z Teplic a ohlíží se. **Žádný list ani dopis v obraze.** Pozdější kontakty mezi oběma muži jsou pouze v captionu.
+**Stav:** 🟡 — pozdější kontakty (Beethovenův dopis Goethovi 1823) jsou doloženy sekundárně, originál nečten.
+*(Odstraněno: pozdější list/dopis v pozadí. K3 panel 4 je jen Goethe v kočáře.)*
+
+## K3 STR. 16 – panel 3 (nahrazuje panel 3 výše)
+
+**Panel 3:** Někdo se dívá z vrcholu Bořně. **Anonymní postava** v dobovém oděvu, například zády nebo v siluetě, s výhledem přes krajinu. Bez konkrétní identity (není to zobrazený Reuss ani Humboldt), bez knihy a bez rukopisu v obraze.
+**Stav:** 💡 — obraz sám nic historicky nedokládá. Caption k panelu (otázka „sopečný, nebo ne?" a Reussův spis z roku 1790) je 🟢 jen jako bibliografický údaj.
+*(Odstraněno: „dobová vědecká scéna, F. A. Reuss s rukopisem/knihou z roku 1790". K3 panel 3 je „Kdosi se dívá z vrcholu Bořně". Reussův spis a Reuss píšící svůj závěr zůstávají v panelu 4.)*
+
+## Kontrola po opravách
+
+| Strana | Panel | K3 popis panelu | Prompt v0.2 | Shoda |
+|---|---:|---|---|---|
+| 11 | 4 | Kapka stéká po okenní tabuli | Kapka stéká po okenní tabuli, žádné postavy | ano |
+| 12 | 4 | Goethe odjíždí kočárem, ohlíží se | Goethe odjíždí kočárem, ohlíží se, žádný list | ano |
+| 16 | 3 | Kdosi se dívá z vrcholu Bořně | Anonymní postava se dívá z vrcholu Bořně | ano |
+
+Odchylky od popisů panelů K3: **0.** Stav promptů: **NÁVRH v0.2, neschváleno**, není Vizuální Lock.

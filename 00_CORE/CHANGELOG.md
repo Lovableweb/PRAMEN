@@ -5,7 +5,10 @@
 ### Added
 - `02_COMIKS/PRAMEN_NOVE_PROMPTY_K3_v0.1.md` — návrh šesti nových image promptů pro str. K3 11, 12, 16, 19, 24, 25 (druhý agent, doslovně) + kontrola Claude Code. **NÁVRH, neschváleno, není Vizuální Lock.** Archivní prompty nepřepsány.
 
-### Kontrola proti K3
+### v0.2 – opravy odchylek (rozhodl Jirka: K3 je zdroj, prompt se přizpůsobí)
+- Dodatek na konci souboru opravuje tři odchylky: str. 11 panel 4 (jen Kapka, žádné postavy), str. 12 panel 4 (jen Goethe v kočáře, bez listu), str. 16 panel 3 (anonymní postava na vrcholu Bořně, bez knihy). Původní text agenta beze změny. Odchylky od K3: 0.
+
+### Kontrola proti K3 (v0.1)
 - Počty panelů sedí (5, 5, 5, 5, 5, 4). Zakázané motivy jsou jen v seznamech „nezobrazovat". Značky stavu odpovídají K3.
 - **Tři odchylky od popisů panelů v K3** (zadání chtělo „přesně podle K3"): str. 16 panel 3 (K3: „Kdosi se dívá z vrcholu Bořně", prompt: vědecká scéna s Reussem), str. 11 panel 4 (přidáni Beethoven a Goethe do pozadí), str. 12 panel 4 (přidán list/dopis v pozadí). K rozhodnutí: upravit prompt, nebo K3 přes K2.
 - Podoba osob není nikde doložena. Určí ji ilustrátor.
