@@ -1,5 +1,24 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – K3 CLEAN: ČISTÁ VERZE SCÉNÁŘE STRAN 6–30
+
+### Added
+- `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k3_CLEAN.md` — čistá kopie K2.4 bez redakčních poznámek (odkazy na K1, audity, RECOVERY, claimy, historie oprav). Splňuje **K3-A** z RECOVERY-013. **NENÍ Production Lock.**
+
+### Jak vznikla
+- Skriptem odstraněny poznámky v závorkách, značky [K2] a [VIZ], tučné písmo; značky stavu 🟢/🟡/🟡k/💡 sjednoceny na konec každé repliky (platí nejslabší stav). Zbylá místa opravena ručně.
+- **Ověřeno strojově:** všech 130 replik a captionů je textově shodných s K2.4. Rozdíly jsou jen tři: odstraněná poznámka uvnitř repliky (str. 12) a tučné písmo u jmen (str. 21, 26).
+- Kontrola zakázaných formulací (64 horníků, vysál, vrtná souprava, anglický lékař, první zděné lázně, 1156–1167, 762 a další): v textu scénáře žádná. Věta „Žádné nové prvky" na str. 26 je správné vyvrácení mýtu.
+
+### Changed
+- `00_CORE/PRAMEN_MAPA.md` — nový řádek, stav projektu.
+
+### Status
+- K2 zůstává zdrojem pravdy o důvodech změn. K3 je odvozená kopie: změny se dělají v K2 a K3 se přegeneruje. K1, Claim DB, prompty, vizuály beze změny. Production Lock nevytvořen, HB-057 dál 🔴.
+- Zbývá před Production Lock: ověření str. 29, PROMPT MASTER MAP, čtení originálů u 🟡 claimů, rozhodnutí Řídícího mozku 2 o K3.
+
+---
+
 ## [2026-09-26] – K2.4: PÁROVÁNÍ PROMPTŮ SE STRANAMI K2
 
 ### Added
