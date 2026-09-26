@@ -1,5 +1,23 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – RECOVERY-011: AUDIT K1 STRANY 6–30
+
+### Added
+- `01_RECOVERY/RECOVERY-011_AUDIT_K1_STR6-30.md` — doslovný zápis předání Řídícího mozku 2 „Kompletní historický audit scénáře K1, strany 6–30" (nad main 91944b9) + kontrola Claude Code proti `PRIMARNI_KOLACE_VYSLEDEK.md`.
+
+### Zjištěno při kontrole (R11-01…07, jen označeno, nic neopraveno)
+- P18: Bílina v Berzeliově práci 1823 **je** (Reussova bílinská analýza v tabulce) — audit uvádí opak.
+- P18: „spočítat díky Berzeliovi" doloženo pro Reusse 1818 (Mariánské Lázně), RED jen pro Bílinu.
+- P17: setkání Goethe × F. A. Reuss 1813 doloženo deníkem; otevřený je jen účel cesty.
+- P23: 1717 doloženo Hoffmannovým vlastním popisem + citacemi tisku z roku 1717 (Sedlec), nejen tiskem 1738.
+- P24: chemický rozbor 1827 provedl Steinmann, ne F. A. Reuss; vazba Savory → rozbor 1827 nedoložena (předmluva uvádí Berzeliovy objevy).
+- P26: „nikdy v Zaječicích nebyl" neověřeno; doloženo jen, že vodu pro rozbor 1840 dostal zaslanou.
+
+### Status
+- K1, `CLAIM_DATABASE.md`, HB-055, prompty, vizuály beze změny; K2 nevytvořena; HB-057 dál 🔴.
+
+---
+
 ## [2026-09-26] – PRIMÁRNÍ KOLACE S-01…S-13 PROVEDENA
 
 ### Added
