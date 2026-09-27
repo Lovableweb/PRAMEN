@@ -153,10 +153,10 @@ odborné literatuře, archivech, katalozích a dalších důvěryhodných zdroj�
 - OTÁZKA: Jaký konkrétní pramen dokládá pobyt Beethovena v Bílině roku 1812, co lze bezpečně tvrdit o jeho pobytu a co je pouze pozdější tradice?
 - TÉMA: Beethoven v Bílině 1812
 - PROČ JE OTÁZKA OTEVŘENÁ: Konkrétní primární doklad pobytu a hranice mezi dokladem a tradicí nebyly v předaném výzkumu doloženy.
-- DOSAVADNÍ STAV: 🟡 VYŽADUJE OVĚŘENÍ.
-- CO BY MĚLO BÝT DOHLEDÁNO: Konkrétní pramen, autora, název, rok, stranu nebo folio a případný digitalizát.
-- DŮLEŽITOST PRO KOMIKS: Beethovenův pobyt nesmí být použit nad rámec konkrétního důkazu.
-- STAV: 🔴 OTEVŘENO / 🟡 VYŽADUJE OVĚŘENÍ
+- DOSAVADNÍ STAV: 🟢 ZODPOVĚZENO (částečně) — doloženo primárně Goethovým deníkem, 20. 7. 1812: „Abends mit Beethoven nach Bilin zu gefahren." (WA III 4, s. 304). Claim `BIL-BEETHOVEN-1812`, status GREEN. Claim pokrývá **výhradně cestu/návštěvu**; nepotvrzuje pití kyselky, léčení, návštěvu konkrétního pramene ani setkání s Reussem — ty zůstávají samostatně 🟡. **Status pole zde nebylo dřív aktualizováno navzdory zodpovězení — opraveno v rámci konsolidačního auditu HB-068, 2026-09-27** (viz `AUDIT_REPOZITARE_2026-09-25.md` A2, kde byl tento nesoulad poprvé zaznamenán).
+- CO BY MĚLO BÝT DOHLEDÁNO: Nic dalšího k samotné cestě; případně další prameny k účelu návštěvy (mimo rozsah tohoto claimu).
+- DŮLEŽITOST PRO KOMIKS: Beethovenův pobyt nesmí být použit nad rámec konkrétního důkazu (cesta ano, vše ostatní ne).
+- STAV: 🟢 RESOLVED (cesta) / 🟡 ACTIVE (účel návštěvy, kontakt s Reussem)
 
 ### HIST-013
 - ID: HIST-013
