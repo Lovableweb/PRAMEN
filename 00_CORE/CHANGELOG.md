@@ -1,5 +1,101 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – HB-067: 20. STOLETÍ BÍLINA × ZAJEČICE (VLASTNICTVÍ/OKUPACE/ZNÁRODNĚNÍ)
+
+**Číslo ověřeno předem (HB-067/RECOVERY-019) — žádná kolize.**
+
+- Nový `01_RECOVERY/RECOVERY-019_HB067_20_STOLETI_BILINA_ZAJECICE.md`.
+- **Nový nález, dvakrát nezávisle potvrzený:** budova stáčírny zabavena na počátku 2. světové války Wehrmachtem jako majetek české šlechty (Lobkowiczů). Přesný právní mechanismus (dekret) nenalezen.
+- **Tvrzení o stáčení pro Rommelův Afrikakorps** nalezeno opakovaně ve vyhledávání, ale zdrojová stránka (pravděpodobně Radio Prague International) se nepodařilo přímo otevřít (HTTP 403) — status LEAD, ne potvrzený fakt.
+- **1945–1948:** potvrzeno (Český rozhlas), že 1948 vznikl n.p. Středočeská zřídla se **závodem v Zaječicích** — první konkrétní doklad, že Bílina a Zaječice sdílely poválečný podnik. Poslední soukromý vlastník Maximilian Erwin Lobkowicz odešel do amerického exilu. Václav Dašek navrhl akumulační nádrže (rozsah realizace nejistý).
+- Redtenbacher a Löschner **záměrně znovu nezkoušeni číst** — status beze změny (PRIMARY NOT SEEN — technický bloker).
+- Claim DB nedotčena — nová zjištění navržena k budoucímu zápisu až po rozhodnutí o rozsahu moderní historie v komiksu.
+- `HISTORICAL_MASTER_SOURCE_MAP.md` aktualizován (GAP-01, GAP-02, GAP-10).
+- Mapa a Master Recovery Map aktualizovány (nová sekce 2i).
+
+---
+
+## [2026-09-27] – HB-066: RESEARCH GAP AUDIT + HISTORICAL MASTER SOURCE MAP
+
+**Číslo ověřeno předem proti mapě a existujícím HB — poprvé v této sérii bez kolize.**
+
+- Nový centrální hub `00_CORE/HISTORICAL_MASTER_SOURCE_MAP.md` + procesní záznam `01_RECOVERY/RECOVERY-018_HB066_RESEARCH_GAP_AUDIT.md`.
+- **Žádný nový web-výzkum** — audit zmapoval existující stav (Claim DB, otevřené otázky, PRIMARNI_KOLACE_VYSLEDEK, čtyři reporty HB-062–065), doplněný strojovou kontrolou, že Teplice po 1879 nemají v repu žádnou historickou stopu.
+- **Gap matrix:** silné pokrytí 1717–1900 (obě vody), téměř nic 1900–1989 — u Bíliny, Zaječic i Teplic stejně.
+- **Top 10 gaps** identifikováno, prioritně: Bílina 1938–1945 (okupace, CRITICAL), 1945–1948 (znárodnění, HIGH), obsah Redtenbachera/Löschnera (HIGH), Cyvín 1977 plný text (HIGH).
+- **Cross-entity kontaminační audit:** žádná tichá záměna faktů mezi Bílinou/Zaječicemi/Teplicemi, F.A./A.E. Reussem, Josefovým pramenem/celou kyselkou, Venus/vydatností pramene nenalezena — projekt si hranice dosud hlídal dobře.
+- **Chemická genealogie:** čísla napříč staletími (1788→dnes) nejsou vzájemně srovnatelná — chybí systematická extrakce hodnot.
+- Claim DB beze změny.
+- Mapa a Master Recovery Map aktualizovány (nová sekce 2h).
+
+---
+
+## [2026-09-27] – HB-065: PRIMARY SOURCE RESOLUTION — REDTENBACHER 1845 (NEÚSPĚŠNÝ POKUS O ČTENÍ + NOVÝ POZNATEK)
+
+**Čísla tentokrát ověřena předem v repu — žádná kolize.**
+
+- Nový `01_RECOVERY/RECOVERY-017_HB065_PRIMARY_RESOLUTION_REDTENBACHER_1845.md`.
+- **Stažen skutečný PDF** Redtenbacherova textu ze Zenoda (DOI 10.1002/jlac.18450550210) — ukázal se jako čistě obrazový sken (CCITT fax), bez textové vrstvy. V tomto prostředí není k dispozici žádný nástroj na OCR ani renderování PDF (poppler/ghostscript/imagemagick chybí, instalace softwaru mimo rozsah kroku).
+- Löschner 1859 nalezen na Google Books (ID `Hds8AAAAcAAJ`, přes de.wikipedia zdroje) — titulní strana potvrzena, ale obsahové stránky jsou zobrazeny přes JS prohlížeč obrázků, který nejde přečíst nástrojem na statické čtení webu.
+- **Status obou zůstává PRIMARY NOT SEEN z technického důvodu**, ne proto, že by zdroj neexistoval — důležité rozlišení pro budoucí práci.
+- **Nový poznatek** (z bibliografie, ne z obsahu): Redtenbacherova práce 1845 je **spoluautorské dílo s Augustem Emanuelem Reussem** (chemie Redtenbacher, terapeutický popis A. E. Reuss) — stejný model jako Reuss/Steinmann 1827. Potvrzeno dvěma nezávislými sekundárními zdroji (Zenodo záznam + antikvariátní popis knihy).
+- Registrován 1 konflikt (forma publikace: časopisecký článek vs. samostatná kniha 52 stran).
+- Nic nejde do Claim DB. Master Recovery Map doplněna o novou sekci 2g (HB-062→HB-065 souhrnně).
+- Doporučení pro další krok: potřeba jiný nástroj (OCR/vizuální čtení) nebo lidský zásah, ne další zadání ve stejném prostředí.
+- Mapa aktualizována.
+
+---
+
+## [2026-09-27] – HB-064: ZAJEČICKÁ VODA/SEDLITZ (MAPOVACÍ REPORT — VĚTŠINA UŽ HOTOVA)
+
+**Přejmenováno z „HB-063"** — kolidovalo s číslem právě přiděleným v tomtéž sezení (`RECOVERY-015`). Třetí kolize číslování za sebou.
+
+- Nový `01_RECOVERY/RECOVERY-016_HB064_ZAJECICE_SAIDSCHUTZ.md`.
+- **Klíčové zjištění:** naprostá většina zadání (Hoffmann, rok 1717, Sedlec vs. Zaječice, Epsomská sůl, „vyčerpaná" sůl, Reuss 1791/1827) **už je hotová na úrovni PRIMARY SEEN** s doslovnými citacemi originálu v `01_HISTORIK/PRIMARNI_KOLACE_VYSLEDEK.md` §S-08 a `RECOVERY-005/006`. Nový web-výzkum by byl horší než existující kolace — proto se neprovedl, jen se zmapoval na existující odpovědi.
+- Otevřené zůstává: rozhodnutí o vnitřním rozporu v Reussovi 1791 (Zaječice vs. Sedlec, 1717 vs. 1721 — popsáno, nerozhodnuto), 20. století Zaječické vody (stejná díra jako u Bíliny v `RECOVERY-014`), tabulka historických jmen, číselná chemická genealogie v čase.
+- **Doporučení Řídícímu mozku 2:** příště zkontrolovat mapu před zadáním; spojit dohledávání 20. století Bíliny a Zaječic do jednoho úkolu.
+- Mapa aktualizována.
+
+---
+
+## [2026-09-27] – HB-063: VĚDECKÁ/CHEMICKÁ GENEALOGIE BÍLINSKÉ KYSELKY (VÝZKUMNÝ REPORT)
+
+**Přejmenováno z „HB-056"** — to v repu už existuje a znamená „Ověření dostupnosti scénáře P14–P24" (`RECOVERY-008` §8). Stejná chyba číslování jako u HB-053B/HB-062.
+
+- Nový `01_RECOVERY/RECOVERY-015_HB063_VEDECKA_GENEALOGIE_BILINA.md`.
+- **Zjištění č. 1:** velká část žádaného „kritického auditu" (Reuss×Berzelius metoda, osobní návštěva, F.A. vs A.E. Reuss, zakázané formulace) **už je hotová** v `00_CORE/REUSS_BERZELIUS_EVIDENCE.md` (uzavřeno). Nekopírováno, jen odkázáno.
+- **Nový nález:** Josef Redtenbacher, 1845, *„Der Sauerbrunnen in Bilin... chemisch untersucht"* — **reálný, stažitelný primární pramen** (Zenodo, DOI 10.1002/jlac.18450550210), zatím nepřečtený. Nejsilnější konkrétní lead z tohoto výzkumu.
+- Löschner 1853 (*Die Wirkungen des Saidschitzer Bitterwassers*) a 1859 (*Der Sauerbrunnen zu Bilin... therapeutisch geschildert*) — bibliograficky doloženo, obsah nečten.
+- Moderní chemická tabulka (Li/Na/K/Mg/Ca/F/Cl/SO₄/HCO₃, mineralizace 7276 mg/l) nalezena webem, ale **zdroj a datum nejisté — neschváleno k použití**.
+- Zjištěna velká mezera v chemické historii 1859–1977, časově se překrývající s průmyslovou mezerou z `RECOVERY-014`.
+- Mapa aktualizována.
+
+---
+
+## [2026-09-27] – HB-062: PRŮMYSLOVÁ HISTORIE BÍLINY 1895–1930 (VÝZKUMNÝ REPORT)
+
+**Přejmenováno z fabrikovaného „HB-053B".** Zadání Řídícího mozku 2 tvrdilo, že navazuje na existující HB-053 (1895–1914) a HB-054 (1914–1948) jako most mezi nimi — **oboje ale v repu skutečně existuje a je o úplně jiném tématu** (Reussovy spisy, resp. Bílina×Zaječice×Berzelius×Beethoven, `RECOVERY-008` §5–6). Přejmenováno na **HB-062** (další volné číslo), zpracováno jako nová samostatná etapa.
+
+- Nový `01_RECOVERY/RECOVERY-014_HB062_BILINA_PRUMYSL_1895-1930.md`: webový výzkum (SECONDARY, institucionální zdroje — muzeum Bílinské kyselky, bilinska.cz, de.wikipedia) k tématům stáčírna/technika, produkce, export, výstavy, vlastnictví, důlní vlivy.
+- **Klíčové nálezy:** 1895 elektrifikovaná oktagonální plnírna; 1898 nová budova (architekt A. Sáblík); 1903–1909 Arnold Scherrer (inženýr z Bad Emsu) rekonstruuje jímání, navazuje na dřívější práci inženýrů Gintla/Laubeho/Steinera z 1880. let; export USA 1883, Rio de Janeiro 1899; zlaté medaile 1873/1900/1911/1926; **1926 prodej firmě Heinrich Mattoni AG** (detaily transakce nejisté).
+- **Klíčový nesoulad se zadáním:** předpokládaný „Amelie III 1925" **nebyl potvrzen**. Doložená a muzeem samostatně popsaná událost je **průval na dole Venus, 1928** (770 l/min, bez vlivu na prameny).
+- Registrovány 4 konflikty mezi zdroji (produkce 1898 vs. 1900, rok stavby nové budovy, rok registrace ochranné známky v Rusku, Amelie III vs. Venus).
+- **Nic z tohoto reportu není v Claim DB** — vše SECONDARY, čeká na kontrolu Řídícího mozku 2 a rozhodnutí o dalším postupu (přímé čtení primárních pramenů).
+- Mapa aktualizována.
+
+---
+
+## [2026-09-27] – FINAL PROJECT AUDIT
+
+**Na návrh Řídícího mozku 2, po sloučení PR #33 a #34 (Prolog v0.2 + aktualizace G5).**
+
+- Nový `00_CORE/FINAL_PROJECT_AUDIT_2026-09-27.md`: přehled celého stavu — CORE, K3 str. 6–30 (🟢 lock), Prolog 1–5 (🟡 text bez locku), Claim DB (🟢 75 claimů, ověřeno strojově), prompty (🟡), obrazy (⚪ odloženo), originály Bible/Osa/storyboard (🔴 nenalezeny).
+- Rozlišeny tři úrovně otevřených bodů: co je uzavřeno (🟢), co čeká na lidské rozhodnutí (🟡: OO‑K3‑01 str. 29, Production Lock Prologu, dohledávat originály nebo ne, naplánovat obrazový audit), co je skutečný bloker bez Jirky (🔴: G10 souhlasy Bašty/Digitálního Jirky, chybějící originály).
+- Dokument nic nerozhoduje, jen shrnuje ověřený stav `main` k merge commitům #30–#34.
+- Mapa aktualizována (nový řádek souboru + stav v kostce).
+
+---
+
 ## [2026-09-27] – PR #33 SLOUČEN: PROLOG STR. 1–5 MÁ TEXT (NÁVRH v0.2), G5 AKTUALIZOVÁNO
 
 **Řídící mozek 2 schválil v0.2 k merge (🟢 APPROVE), Jirka potvrdil sloučením do `main`.**

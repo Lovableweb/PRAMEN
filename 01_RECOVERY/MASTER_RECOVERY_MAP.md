@@ -217,6 +217,48 @@ Stále chybí: Prolog 1–5, originální Komiksová Bible v1.0, Osa v1.1,
 storyboard, obrazy 1–30. Řádky „scénář" v §3 a §7 platí dál pro
 Prolog a pro ověření doslovnosti.
 
+────────────────────────────────────────
+2g. NOVÝ VÝZKUM — HB-062 → HB-065, PRŮMYSLOVÁ A VĚDECKÁ HISTORIE BÍLINY/ZAJEČIC (2026-09-27)
+────────────────────────────────────────
+
+| Cesta | Klasifikace |
+|---|---|
+| `01_RECOVERY/RECOVERY-014_HB062_BILINA_PRUMYSL_1895-1930.md` | 🟡 D — webový výzkum, SECONDARY zdroje. Nesloučeno, čeká na kontrolu Řídícího mozku 2 (PR #36) |
+| `01_RECOVERY/RECOVERY-015_HB063_VEDECKA_GENEALOGIE_BILINA.md` | 🟡 D — doplněk k už uzavřenému `REUSS_BERZELIUS_EVIDENCE.md`. Nesloučeno (PR #37) |
+| `01_RECOVERY/RECOVERY-016_HB064_ZAJECICE_SAIDSCHUTZ.md` | 🟡 D — mapovací report, většina otázek už zodpovězena v `PRIMARNI_KOLACE_VYSLEDEK.md`. Nesloučeno (PR #38) |
+| `01_RECOVERY/RECOVERY-017_HB065_PRIMARY_RESOLUTION_REDTENBACHER_1845.md` | 🟡 D — bibliografie vyřešena (Redtenbacher + A. E. Reuss, spoluautoři 1845), obsah pramenů NEPŘEČTEN (technické omezení: skenované PDF/Google Books bez OCR nástroje v prostředí). Nesloučeno |
+
+Čtyři HB čísla přidělená v tomto sezení kolidovala s existujícími čísly
+(HB-053, HB-054, HB-056 znamenají v repu něco jiného) — přejmenováno na
+HB-062, HB-063, HB-064, HB-065 (další volná čísla). Nic z těchto čtyř
+reportů není v Claim DB; všechny čekají na kontrolu Řídícího mozku 2.
+
+────────────────────────────────────────
+2h. NOVÝ HUB — HB-066: RESEARCH GAP AUDIT + HISTORICAL MASTER SOURCE MAP (2026-09-27)
+────────────────────────────────────────
+
+| Cesta | Klasifikace |
+|---|---|
+| `00_CORE/HISTORICAL_MASTER_SOURCE_MAP.md` | 🟡 D — nový centrální hub (gap matrix, top 10 gaps, unknown registr, cross-entity kontaminační audit, chemická genealogie). Ověřeno, že žádný podobný hub dřív neexistoval |
+| `01_RECOVERY/RECOVERY-018_HB066_RESEARCH_GAP_AUDIT.md` | 🟡 D — procesní záznam auditu, odkazuje na HUB výše |
+
+Číslo ověřeno předem proti mapě a existujícím HB (nejvyšší HB-065) —
+poprvé v této sérii bez kolize. Výsledek: silné pokrytí 1717–1900,
+téměř nic 1900–1989 u Bíliny, Zaječic i Teplic. Žádná kontaminace
+mezi entitami nenalezena. Claim DB nedotčena.
+
+────────────────────────────────────────
+2i. NOVÝ VÝZKUM — HB-067: 20. STOLETÍ BÍLINA × ZAJEČICE (2026-09-27)
+────────────────────────────────────────
+
+| Cesta | Klasifikace |
+|---|---|
+| `01_RECOVERY/RECOVERY-019_HB067_20_STOLETI_BILINA_ZAJECICE.md` | 🟡 D — webový výzkum, SECONDARY (dvakrát nezávisle potvrzené: zabavení Wehrmachtem 1938–45, znárodnění 1948). Nesloučeno, čeká na kontrolu Řídícího mozku 2 |
+
+Číslo ověřeno předem (nejvyšší HB-066, RECOVERY-018), žádná kolize.
+Doplnilo GAP-01, GAP-02, GAP-10 v `HISTORICAL_MASTER_SOURCE_MAP.md`.
+Redtenbacher/Löschner podle pokynu znovu nezkoušeno. Claim DB nedotčena.
+
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY
 ════════════════════════════════════════
