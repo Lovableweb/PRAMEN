@@ -2,6 +2,22 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-27] – PRAMEN 3.0 P0 UPGRADE (HB-069) — DODATEČNĚ PŘEPOČÍTÁNO NA ČESKÉ CESTY
+
+**PR #43 byl vytvořen před přejmenováním složek a po sloučení PR #44 (české názvy) by kolidoval se starými anglickými cestami.** Místo slepého mergování přepočítáno: soubory přesunuty na `00_JÁDRO/` a `SKRIPTY/`, všechny vnitřní odkazy opraveny, health check skript znovu otestován (🟢 OVERALL).
+
+- `00_JÁDRO/PRAMEN_OS.md` — bootloader (identita, autority, source of truth, current state, core rules, AI safety, workflow, blokery).
+- `00_JÁDRO/PROJECT_STATE.md` — živý přehled 13 oblastí projektu.
+- `00_JÁDRO/SOURCE_OF_TRUTH_REGISTRY.md` — registr autorit pro 14 entit.
+- `SKRIPTY/pramen_health_check.sh` — read-only diagnostika, znovu otestována po přesunu.
+- `00_JÁDRO/ID_STANDARD_PROPOSAL.md` — návrh, neimplementováno.
+- `00_JÁDRO/PRAMEN_3.0_IMPLEMENTATION_REPORT.md` — implementační report, 6 bodů DECISION REQUIRED beze změny.
+- Mapa doplněna o řádky pro všech 6 souborů (v PR #43 byly zapsané pod starými cestami, teď opraveno).
+- Žádný obsah se neměnil, jen umístění a odkazy — stejné jako u přejmenování složek.
+
+---
+
+
 ## [2026-09-27] – 5 DROBNÝCH VYLEPŠENÍ JÁDRA (na žádost Jirky, po zpětné kontrole)
 
 Po dokončení PRAMEN 3.0 a přejmenování složek jsem prošel projekt znovu a navrhl 5 levných, bezpečných vylepšení. Jirka schválil, provedeno:

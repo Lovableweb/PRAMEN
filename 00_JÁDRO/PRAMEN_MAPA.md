@@ -2,7 +2,7 @@
 
 **Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
 **Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
-**Poslední aktualizace:** 2026-09-27 · **5 drobných vylepšení jádra** (na žádost Jirky, po zpětné kontrole projektu): G1–G3 schváleny (DEC-007), `CHANGELOG.md` rozdělen na aktuální + `CHANGELOG_ARCHIV_2026-09.md`, nový `SOUHLASY.md` (sleduje G10), nová `01_HISTORIK/TERMINOLOGIE_NAZVY.md` (historické názvy Zaječice/Sedlec/Bílina/Teplice), `PRAMEN_MASTER.md` označen varováním jako zastaralý. Do `PRAMEN_AI_PROTOCOL.md` přidáno **PRAVIDLO PREVENCE** (nalezená chyba se opraví a zároveň zablokuje proti opakování). Před tím: **české názvy složek** (`00_CORE→00_JÁDRO`, `01_RECOVERY→01_OBNOVA`, `ARCHIVE/SOURCES→ARCHIV/PRAMENY`, `scripts→SKRIPTY`, `02_COMIKS/AUDIT→…/KONTROLA`, `02_COMIKS/VISUAL_AUDIT→…/VIZUÁLNÍ_KONTROLA`), Master Integration Audit (HB-068) a série historického výzkumu HB-062–067. **Plná historie je teď v `CHANGELOG.md` (aktuální) a `CHANGELOG_ARCHIV_2026-09.md` (starší) — tady se dál neduplikuje.**
+**Poslední aktualizace:** 2026-09-27 · **PRAMEN 3.0 P0 upgrade** (HB-069, dodatečně přepočítáno na nové české cesty po sloučení přejmenování): bootloader `PRAMEN_OS.md`, `PROJECT_STATE.md`, `SOURCE_OF_TRUTH_REGISTRY.md`, `ID_STANDARD_PROPOSAL.md` (návrh), `SKRIPTY/pramen_health_check.sh` (read-only, otestováno 🟢). Předtím: **5 drobných vylepšení jádra** (na žádost Jirky, po zpětné kontrole projektu): G1–G3 schváleny (DEC-007), `CHANGELOG.md` rozdělen na aktuální + `CHANGELOG_ARCHIV_2026-09.md`, nový `SOUHLASY.md` (sleduje G10), nová `01_HISTORIK/TERMINOLOGIE_NAZVY.md` (historické názvy Zaječice/Sedlec/Bílina/Teplice), `PRAMEN_MASTER.md` označen varováním jako zastaralý. Do `PRAMEN_AI_PROTOCOL.md` přidáno **PRAVIDLO PREVENCE** (nalezená chyba se opraví a zároveň zablokuje proti opakování). Před tím: **české názvy složek** (`00_CORE→00_JÁDRO`, `01_RECOVERY→01_OBNOVA`, `ARCHIVE/SOURCES→ARCHIV/PRAMENY`, `scripts→SKRIPTY`, `02_COMIKS/AUDIT→…/KONTROLA`, `02_COMIKS/VISUAL_AUDIT→…/VIZUÁLNÍ_KONTROLA`), Master Integration Audit (HB-068) a série historického výzkumu HB-062–067. **Plná historie je teď v `CHANGELOG.md` (aktuální) a `CHANGELOG_ARCHIV_2026-09.md` (starší) — tady se dál neduplikuje.**
 
 Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
 
@@ -68,6 +68,11 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | `SOURCE_REGISTRY_BILINA_EVIDENCE_CHECK.md` | 41 | 📦 | Kontrola: BK-001 a HT-BK-003 v repu nejsou |
 | `CHATGPT_WRITE_TEST.md` | 16 | 📦 | Technický test zápisu (nemazat) |
 | `AUDIT_REPOZITARE_2026-09-25.md` | – | 🔍 | Kompletní audit repa + návrhy zlepšení |
+| `PRAMEN_OS.md` | – | ⭐ | **Bootloader (PRAMEN 3.0, HB-069).** Identita, autority, source of truth, current state, core rules, AI safety, workflow, blokery — čti hned po této mapě. Nenahrazuje AI Protocol ani Claim DB |
+| `PROJECT_STATE.md` | – | ⭐ | **Živý přehled stavu (PRAMEN 3.0, HB-069).** Status/zdroj/naposledy ověřeno/další krok/bloker pro každou oblast projektu. Aktualizuje se průběžně |
+| `SOURCE_OF_TRUTH_REGISTRY.md` | – | ⭐ | **Registr autorit (PRAMEN 3.0, HB-069).** Pro každou entitu jeden jasný autoritativní soubor |
+| `ID_STANDARD_PROPOSAL.md` | – | 🔍 | **NÁVRH (neimplementováno).** Budoucí formát ID pro nové objekty; žádné existující ID nepřejmenováno |
+| `PRAMEN_3.0_IMPLEMENTATION_REPORT.md` | – | ⭐ | **HB-069 — implementační report PRAMEN 3.0.** Co implementováno (P0 + health check), co čeká na rozhodnutí Jirky (DATA/ yaml, CI, ID migrace, public/private) |
 | `PRAMEN_MASTER_INTEGRATION_AUDIT_2026-09-27.md` | – | ⭐ | **HB-068 — Master Integration Audit + Release Consolidation.** Kompletní kontrola: numbering, file inventory, Claim DB, entity/contamination/chronology audit, technická integrita. Nálezy: 2 drobné opravy (pořadí RECOVERY v mapě, HIST-012 status), 0 broken links, 0 duplicit. **RELEASE READY WITH OPEN HISTORICAL GAPS** |
 | `HISTORICAL_MASTER_SOURCE_MAP.md` | – | ⭐ | **Centrální HUB (HB-066, 2026-09-27, aktualizováno HB-067)** — gap matrix, top 10 mezer, „nevíme" registr, cross-entity kontaminační audit, chemická genealogie napříč staletími. GAP-01/02/10 doplněny: Bílina zabavena Wehrmachtem 1938–45 (majetek Lobkowiczů), 1948 znárodnění → n.p. Středočeská zřídla se závodem v Zaječicích. Nic v Claim DB se neměnilo |
 
@@ -130,6 +135,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | Soubor | ř. | ČÍST | Co to je |
 |---|---:|---|---|
 | `generate_k3_from_k2.sh` | 83 | 🔍 | **Generátor K3 CLEAN z K2**: odstraní redakční poznámky, přesune značky stavu na konec replik. Vypíše TĚLO K3 (hlavičku předřadit ručně). Ověřeno: přesně reprodukuje K3 z `main` i z K2.5. Postup ověření je v hlavičce skriptu. Potřebuje jen bash, sed, awk |
+| `pramen_health_check.sh` | – | 🔍 | **Health check (PRAMEN 3.0, HB-069)** — jen čte a hlásí (CORE, claims, duplicity HB/RECOVERY, broken links, prázdné soubory, reprodukovatelnost K3 skriptem). Nic automaticky neopravuje. Spustit: `bash SKRIPTY/pramen_health_check.sh` |
 
 ### `ARCHIV/PRAMENY/`
 | Soubor | ř. | ČÍST | Co to je |
