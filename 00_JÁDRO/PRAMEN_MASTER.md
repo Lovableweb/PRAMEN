@@ -1,5 +1,7 @@
 # PRAMEN MASTER
 
+> ⚠️ **ZASTARALÉ (od 2026-09-26).** Tento dokument tvrdí, že projekt nemá žádná fakta ani otázky — to už dávno neplatí (viz `01_HISTORIK/CLAIM_DATABASE.md`, 75 claimů). **Nepoužívat jako zdroj pravdy.** Nahrazuje ho `PRAMEN_MASTER_CORE_2.0.md` (schváleno Jirkou 2026-09-27, DEC-007). Ponecháno v repu jen jako historický záznam, viz `AUDIT_REPOZITARE_2026-09-25.md`.
+
 Verze: 1.0  
 Datum vytvoření: 2026-08-31  
 Schváleno: JIRKA (vlastník)  
