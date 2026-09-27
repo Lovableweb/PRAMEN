@@ -1,5 +1,18 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – HB-062: PRŮMYSLOVÁ HISTORIE BÍLINY 1895–1930 (VÝZKUMNÝ REPORT)
+
+**Přejmenováno z fabrikovaného „HB-053B".** Zadání Řídícího mozku 2 tvrdilo, že navazuje na existující HB-053 (1895–1914) a HB-054 (1914–1948) jako most mezi nimi — **oboje ale v repu skutečně existuje a je o úplně jiném tématu** (Reussovy spisy, resp. Bílina×Zaječice×Berzelius×Beethoven, `RECOVERY-008` §5–6). Přejmenováno na **HB-062** (další volné číslo), zpracováno jako nová samostatná etapa.
+
+- Nový `01_RECOVERY/RECOVERY-014_HB062_BILINA_PRUMYSL_1895-1930.md`: webový výzkum (SECONDARY, institucionální zdroje — muzeum Bílinské kyselky, bilinska.cz, de.wikipedia) k tématům stáčírna/technika, produkce, export, výstavy, vlastnictví, důlní vlivy.
+- **Klíčové nálezy:** 1895 elektrifikovaná oktagonální plnírna; 1898 nová budova (architekt A. Sáblík); 1903–1909 Arnold Scherrer (inženýr z Bad Emsu) rekonstruuje jímání, navazuje na dřívější práci inženýrů Gintla/Laubeho/Steinera z 1880. let; export USA 1883, Rio de Janeiro 1899; zlaté medaile 1873/1900/1911/1926; **1926 prodej firmě Heinrich Mattoni AG** (detaily transakce nejisté).
+- **Klíčový nesoulad se zadáním:** předpokládaný „Amelie III 1925" **nebyl potvrzen**. Doložená a muzeem samostatně popsaná událost je **průval na dole Venus, 1928** (770 l/min, bez vlivu na prameny).
+- Registrovány 4 konflikty mezi zdroji (produkce 1898 vs. 1900, rok stavby nové budovy, rok registrace ochranné známky v Rusku, Amelie III vs. Venus).
+- **Nic z tohoto reportu není v Claim DB** — vše SECONDARY, čeká na kontrolu Řídícího mozku 2 a rozhodnutí o dalším postupu (přímé čtení primárních pramenů).
+- Mapa aktualizována.
+
+---
+
 ## [2026-09-27] – FINAL PROJECT AUDIT
 
 **Na návrh Řídícího mozku 2, po sloučení PR #33 a #34 (Prolog v0.2 + aktualizace G5).**
