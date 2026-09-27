@@ -10,7 +10,7 @@
 > - co se o ní nesmí tvrdit ani kreslit;
 > - jak má vypadat.
 >
-> Navazuje na `00_CORE/CONTENT_REGISTRY.md` (registr postav CH-001…CH-004; ID zůstávají, jen se rozšiřují) a na datový model DEC-001 (SOURCE → CLAIM → PAGE → SCENE → VISUAL → **CHARACTER**).
+> Navazuje na `00_JÁDRO/CONTENT_REGISTRY.md` (registr postav CH-001…CH-004; ID zůstávají, jen se rozšiřují) a na datový model DEC-001 (SOURCE → CLAIM → PAGE → SCENE → VISUAL → **CHARACTER**).
 >
 > **Zdroje:** K3 CLEAN (text stran), `CLAIM_DATABASE.md`, `PRIMARNI_KOLACE_VYSLEDEK.md`, `PRAMEN_VIZUALNI_AUDIT_K3.md` (VA-xxx), `PRAMEN_VISUAL_ARTIFACT_AUDIT_v1.0.md` (R-031, Kapka), archivní prompty (vzhled Bašty a Jirky). Strany = K3 (6–30) a Prolog (1–5).
 >

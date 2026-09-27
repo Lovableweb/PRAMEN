@@ -42,7 +42,7 @@ Přesné pořadí a názvy nejsou v dostupném původním scénáři v repozitá
 - Teplice jsou součástí regionálního příběhu pramenů a lázeňského vývoje.
 - Pracovní materiál uvádí rané Teplice, teplé prameny, osídlení a klášter.
 - Nejstarší doložená zpráva o klášteru u teplých vod je v pracovním promptu uvedena v rozmezí 1156–1167 v souvislosti s Juditou Durynskou; konkrétní pramen a přesné scénářové použití vyžadují ověření.
-- **Aktualizace 2026-09-22 (integrační audit HB-026, viz `01_RECOVERY/RECOVERY-007...`):** 🟢 Nejpozději roku 1446 je v Teplicích písemně doložena lázeň (Prokop z Rabštejna: „chvátal do lázně do Teplice"). 🟢 Roku 1477 jiný písemný pramen (Ernst Saský → Johann Ilburk, 29. 8. 1477) výslovně uvádí „warmen badt" (teplá lázeň) a spojuje plánované využití Hansem Wickartem s „notdorft ... sines libes" (tělesnou potřebou) — 🔴 NEPOUŽÍVAT jako doklad léčby/nemoci/terapie, ani jako potvrzení, že cesta skutečně proběhla. 🟢 Roku 1581 je archeologicky doložena konkrétní zděná lázeňská stavba — 🔴 NEPOUŽÍVAT jako „první teplické lázně" (písemné doklady 1446 a 1477 jsou starší) a 🔴 NEPŘEDPOKLÁDAT, že jde o stejnou stavbu, ke které se vztahují doklady z 1446/1477. 1446 a 1477 jsou dva samostatné písemné doklady, ne důkaz nepřetržitého provozu 1446–1477.
+- **Aktualizace 2026-09-22 (integrační audit HB-026, viz `01_OBNOVA/RECOVERY-007...`):** 🟢 Nejpozději roku 1446 je v Teplicích písemně doložena lázeň (Prokop z Rabštejna: „chvátal do lázně do Teplice"). 🟢 Roku 1477 jiný písemný pramen (Ernst Saský → Johann Ilburk, 29. 8. 1477) výslovně uvádí „warmen badt" (teplá lázeň) a spojuje plánované využití Hansem Wickartem s „notdorft ... sines libes" (tělesnou potřebou) — 🔴 NEPOUŽÍVAT jako doklad léčby/nemoci/terapie, ani jako potvrzení, že cesta skutečně proběhla. 🟢 Roku 1581 je archeologicky doložena konkrétní zděná lázeňská stavba — 🔴 NEPOUŽÍVAT jako „první teplické lázně" (písemné doklady 1446 a 1477 jsou starší) a 🔴 NEPŘEDPOKLÁDAT, že jde o stejnou stavbu, ke které se vztahují doklady z 1446/1477. 1446 a 1477 jsou dva samostatné písemné doklady, ne důkaz nepřetržitého provozu 1446–1477.
 - Lázeňský rozvoj je v pracovní dramaturgii rozvíjen přes středověké, renesanční, barokní a 19. století.
 - Volf z Vřesovic je v promptu uveden u budování zděných lázní v 16. století; detailní důkaz zde není přiložen.
 - 19. století je pracovní vrchol lázeňského společenského života.
@@ -187,21 +187,21 @@ Mezi existující tematické okruhy patří:
 
 Obsah byl převzat a konsolidován z těchto existujících repo dokumentů:
 
-- `01_RECOVERY/HISTORICKA_A_PRIBEHOVA_OSA_RECOVERY_STATUS.md`;
-- `01_RECOVERY/KOMIKSOVA_BIBLE_RECOVERY_STATUS.md`;
-- `01_RECOVERY/PRAMEN_CENTRALNI_RECOVERY_SYNTHESE.md`;
-- `01_RECOVERY/MASTER_RECOVERY_MAP.md`;
-- `01_RECOVERY/HISTORICKY_VYZKUM_BILINSKE_KYSELKY_RECOVERY_STATUS.md`;
-- `00_CORE/PRAMEN_MASTER.md`;
-- `00_CORE/PRAMEN_AI_PROTOCOL.md`;
-- `00_CORE/REUSS_BERZELIUS_EVIDENCE.md`;
-- `00_CORE/SOURCE_REGISTRY_BILINA_EVIDENCE.md`;
-- `00_CORE/SOURCE_REGISTRY_BILINA_EVIDENCE_CHECK.md`;
-- `00_CORE/SOURCE_REGISTRY.md`;
-- `00_CORE/CONTENT_REGISTRY.md`;
+- `01_OBNOVA/HISTORICKA_A_PRIBEHOVA_OSA_RECOVERY_STATUS.md`;
+- `01_OBNOVA/KOMIKSOVA_BIBLE_RECOVERY_STATUS.md`;
+- `01_OBNOVA/PRAMEN_CENTRALNI_RECOVERY_SYNTHESE.md`;
+- `01_OBNOVA/MASTER_RECOVERY_MAP.md`;
+- `01_OBNOVA/HISTORICKY_VYZKUM_BILINSKE_KYSELKY_RECOVERY_STATUS.md`;
+- `00_JÁDRO/PRAMEN_MASTER.md`;
+- `00_JÁDRO/PRAMEN_AI_PROTOCOL.md`;
+- `00_JÁDRO/REUSS_BERZELIUS_EVIDENCE.md`;
+- `00_JÁDRO/SOURCE_REGISTRY_BILINA_EVIDENCE.md`;
+- `00_JÁDRO/SOURCE_REGISTRY_BILINA_EVIDENCE_CHECK.md`;
+- `00_JÁDRO/SOURCE_REGISTRY.md`;
+- `00_JÁDRO/CONTENT_REGISTRY.md`;
 - `01_HISTORIK/OTEVRENE_OTAZKY.md`;
-- `ARCHIVE/SOURCES/PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md`;
-- `README.md` a `00_CORE/CHANGELOG.md`.
+- `ARCHIV/PRAMENY/PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md`;
+- `README.md` a `00_JÁDRO/CHANGELOG.md`.
 
 ## ZÁVĚREČNÉ OZNAČENÍ
 

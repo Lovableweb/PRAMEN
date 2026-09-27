@@ -659,7 +659,7 @@ Odpověď historika se nejprve eviduje zde jako pracovní výsledek.
 
 Teprve po ověření Řídícím mozkem může být potvrzený výsledek převeden do:
 
-00_CORE
+00_JÁDRO
 
 a případně do dalších historických databází projektu.
 
@@ -708,7 +708,7 @@ Zdroj: [[RECOVERY-008_PREDANI_HB044-HB061]]. Nejde o tvrzení historických skut
 | OO-HB053-01 | Reuss 1801 — rozsah stran 316 vs. 376 (rozpor v katalozích) vyžaduje fyzickou kolaci. | 🔴 NEZODPOVĚZENO |
 | OO-HB054-01 | Reuss × Berzelius — seznámení s Berzeliovými pracemi a metodologická souvislost; bez konkrétního důkazu neuzavírat. | 🔴 NEZODPOVĚZENO |
 | OO-HB054-02 | Zaječice 1717 — primární dokument z roku 1717 nenalezen; dosud jen Hoffmannovo pozdější tvrzení. | 🔴 NEZODPOVĚZENO |
-| OO-HB056-01 | Doslovný schválený scénář P14–P24 (chat „PRAMEN – KOMIKS A SCÉNÁŘ – KOMPLETACE STRAN 6–30") — nezískán. Po získání vést jako samostatný zdroj s proveniencí a provést SCÉNÁŘ × HISTORIE × PROMPTY. **Stav 2026-09-25: získán text scénáře stran 6–30 (k1)** → `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md`, kolace `RECOVERY-010`; doslovnost neověřena, rozpory S-01…S-13. | 🟡 ROZPRACOVÁNO |
+| OO-HB056-01 | Doslovný schválený scénář P14–P24 (chat „PRAMEN – KOMIKS A SCÉNÁŘ – KOMPLETACE STRAN 6–30") — nezískán. Po získání vést jako samostatný zdroj s proveniencí a provést SCÉNÁŘ × HISTORIE × PROMPTY. **Stav 2026-09-25: získán text scénáře stran 6–30 (k1)** → `ARCHIV/PRAMENY/PRAMEN_SCENAR_STR6-30_k1.md`, kolace `RECOVERY-010`; doslovnost neověřena, rozpory S-01…S-13. | 🟡 ROZPRACOVÁNO |
 | OO-HB055-01 | Historické prostředí stran P15, P20, P22, P23 (nádoby, oděvy, stavby, stáčení, lahve, povozy, podoba studny) — co je doloženo a co musí zůstat označeno jako rekonstrukce. (RECOVERY-009 §7) | 🔴 NEZODPOVĚZENO |
 | OO-HB060-01 | Originální Komiksová Bible v1.0 a originální storyboard — nenalezeny v GitHubu (celá historie) ani na Google Drivu (recovery search 2026-09-25, RECOVERY-009 §6). Nerekonstruovat z recovered working verze ani z Cross-Auditu. | 🔴 NEZODPOVĚZENO |
 | OO-SC-01 | Prolog, strany 1–5 — scénář k1 je neobsahuje (podle textu nebyl v chatu „KOMPLETACE STRAN 6–30"). Dohledat v jiném chatu. (RECOVERY-010 §1) | 🔴 NEZODPOVĚZENO |
@@ -719,7 +719,7 @@ Zdroj: [[RECOVERY-008_PREDANI_HB044-HB061]]. Nejde o tvrzení historických skut
 
 ## DOPLNĚNO 2026-09-26 — OTEVŘENÉ BODY Z K2 / K3 (výzkum P1–P10, audity RECOVERY-012/013, master mapa)
 
-Zápis provedl Claude Code na pokyn Jirky. Do Claim Database se nic nepromítá (samostatný krok se souhlasem Jirky). Zdroje: `01_HISTORIK/PRIMARNI_KOLACE_K2_VYZKUM.md`, `01_RECOVERY/RECOVERY-013_NEZAVISLY_AUDIT_K2.md`, `02_COMIKS/AUDIT/PRAMEN_PROMPT_MASTER_MAP.md`.
+Zápis provedl Claude Code na pokyn Jirky. Do Claim Database se nic nepromítá (samostatný krok se souhlasem Jirky). Zdroje: `01_HISTORIK/PRIMARNI_KOLACE_K2_VYZKUM.md`, `01_OBNOVA/RECOVERY-013_NEZAVISLY_AUDIT_K2.md`, `02_COMIKS/KONTROLA/PRAMEN_PROMPT_MASTER_MAP.md`.
 
 ### A. Produkční a provozní body (K3 / komiks)
 
@@ -730,7 +730,7 @@ Zápis provedl Claude Code na pokyn Jirky. Do Claim Database se nic nepromítá 
 | OO-K3-03 | Nové image prompty pro str. K3 **11, 12, 16, 19, 24, 25**. **Vyřešeno D-4 (2026-09-26):** v0.2 + dodatek D-4 schváleno jako pracovní produkční sada vázaná na K3 (`02_COMIKS/PRAMEN_NOVE_PROMPTY_K3_v0.1.md`). Str. 8 dál sdílí prompt 7 (vědomý kompromis). | 🟢 VYŘEŠENO (D-4) |
 | OO-K3-04 | Úprava popisů existujících promptů u str. K3 7, 8, 13, 15, 17, 18, 21, 23, 26, 28. **Vyřešeno D-4 (2026-09-26):** v0.2 schváleno (`02_COMIKS/PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md`); archivní verze promptů 12, 18, 24 s tvrdým konfliktem se nepoužívají. | 🟢 VYŘEŠENO (D-4) |
 | OO-K3-05 | Master mapa: **prompt 27** není přiřazen k žádné straně. **Vyřešeno D-4 (2026-09-26):** vyřazen z produkční sady, archivován (nesmazán). | 🟢 VYŘEŠENO (D-4) |
-| OO-K3-06 | Vizuální audit K3: audit vizuálního zadání hotov (`02_COMIKS/AUDIT/PRAMEN_VIZUALNI_AUDIT_K3.md`). **Hotové obrazy nikdo neauditoval** (nejsou v repozitáři). **D-6 (2026-09-26):** lock textu bez obrazového auditu; obrazy nejsou prohlášeny za finální. Audit obrazů odložen na konec, mimo lock. | ⚪ ODLOŽENO (D-6) |
+| OO-K3-06 | Vizuální audit K3: audit vizuálního zadání hotov (`02_COMIKS/KONTROLA/PRAMEN_VIZUALNI_AUDIT_K3.md`). **Hotové obrazy nikdo neauditoval** (nejsou v repozitáři). **D-6 (2026-09-26):** lock textu bez obrazového auditu; obrazy nejsou prohlášeny za finální. Audit obrazů odložen na konec, mimo lock. | ⚪ ODLOŽENO (D-6) |
 | OO-K3-07 | Dopad K2.5 na návrhy promptů: str. 16 panel 2 (Reuss s Humboldtem) a str. 19 panel 1 („od roku 1800"). **Vyřešeno D-4 (2026-09-26):** opraveno dodatkem D-4 podle K3 (+ značka str. 12 panel 2 podle D-2). Upravené archivní prompty str. 9 p3 a str. 14 p4 nejsou v sadě v0.2; platí pravidlo D-4 „K3 > prompt" (při rozporu se řídit K3). | 🟢 VYŘEŠENO (D-4) |
 
 ### B. Historické otázky z výzkumu P1–P10 (KOL-K2)

@@ -35,7 +35,7 @@ Porovnáno panel po panelu s popisy panelů v K3. Počty panelů sedí u všech 
 
 # PRAMEN – UPRAVENÉ PROMPTY K3 (NÁVRH v0.1)
 
-**Čteno:** K3 `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k3_CLEAN.md`, archivní prompty `ARCHIVE/SOURCES/PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md`, `02_COMIKS/AUDIT/PRAMEN_PROMPT_MASTER_MAP.md`, `02_COMIKS/AUDIT/PRAMEN_VIZUALNI_AUDIT_K3.md`, `02_COMIKS/PRAMEN_NOVE_PROMPTY_K3_v0.1.md` včetně dodatku v0.2, `02_COMIKS/VISUAL_AUDIT/PRAMEN_VISUAL_ARTIFACT_AUDIT_v1.0.md` a `01_HISTORIK/CLAIM_DATABASE.md`. Základním pravidlem je, že K3 je závazný scénář a prompt se mu přizpůsobuje.
+**Čteno:** K3 `ARCHIV/PRAMENY/PRAMEN_SCENAR_STR6-30_k3_CLEAN.md`, archivní prompty `ARCHIV/PRAMENY/PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md`, `02_COMIKS/KONTROLA/PRAMEN_PROMPT_MASTER_MAP.md`, `02_COMIKS/KONTROLA/PRAMEN_VIZUALNI_AUDIT_K3.md`, `02_COMIKS/PRAMEN_NOVE_PROMPTY_K3_v0.1.md` včetně dodatku v0.2, `02_COMIKS/VIZUÁLNÍ_KONTROLA/PRAMEN_VISUAL_ARTIFACT_AUDIT_v1.0.md` a `01_HISTORIK/CLAIM_DATABASE.md`. Základním pravidlem je, že K3 je závazný scénář a prompt se mu přizpůsobuje.
 
 ---
 

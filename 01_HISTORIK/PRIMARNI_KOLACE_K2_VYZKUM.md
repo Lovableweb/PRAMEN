@@ -3,7 +3,7 @@
 > **PROVENIENCE (zapsal Claude Code, 2026-09-26):**
 > - **Původ:** výstup Řídícího mozku 2 na zadání „VÝZKUM-K2" (P1–P10). Jirka ho vložil do Claude Code. Sekce „TEXT VÝZKUMU" níže je **doslovný přepis**, s jedinou úpravou: odstraněny technické značky citací `:contentReference[oaicite:N]{index=N}`, které v původním textu neměly žádnou adresu (URL). Jinak beze změny.
 > - **Důsledek:** konkrétní webové zdroje, o které se výzkum opírá, se z textu nedají zpětně dohledat. Všechny nálezy z webu proto berte jako **SECONDARY QUOTED / CATALOG ONLY**, dokud je někdo nepřečte v originále. „PRIMARY SEEN" v textu níže znamená tvrzení bota, ne ověření Claude Code.
-> - **Nezměněno:** K1, K2 (změny viz `K2.2` v příloze H souboru K2), `CLAIM_DATABASE.md`, prompty, vizuály. Do `00_CORE` ani Claim DB se nic nepovyšuje.
+> - **Nezměněno:** K1, K2 (změny viz `K2.2` v příloze H souboru K2), `CLAIM_DATABASE.md`, prompty, vizuály. Do `00_JÁDRO` ani Claim DB se nic nepovyšuje.
 
 ## KONTROLA CLAUDE CODE PROTI DOSAVADNÍ EVIDENCI (2026-09-26)
 

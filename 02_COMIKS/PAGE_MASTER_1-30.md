@@ -1,14 +1,14 @@
 # PRAMEN – PAGE MASTER 1–30
 
-> **Verze:** 1.2 (2026-09-26 aktualizováno po K2.5: strany 7, 9, 11, 12, 14, 16, 19, 21; **1.2: uzavření textu K3 str. 6–30 podle rozhodnutí Řídícího mozku 2 D-1…D-7**) · **Založil:** Claude Code, 2026-09-26 · **🔒 Production Lock platí jen pro TEXT str. 6–30** (`00_CORE/PRODUCTION_LOCK_K3_STR6-30.md`); obrazy, Prolog a lidská schválení mimo lock.
+> **Verze:** 1.2 (2026-09-26 aktualizováno po K2.5: strany 7, 9, 11, 12, 14, 16, 19, 21; **1.2: uzavření textu K3 str. 6–30 podle rozhodnutí Řídícího mozku 2 D-1…D-7**) · **Založil:** Claude Code, 2026-09-26 · **🔒 Production Lock platí jen pro TEXT str. 6–30** (`00_JÁDRO/PRODUCTION_LOCK_K3_STR6-30.md`); obrazy, Prolog a lidská schválení mimo lock.
 >
 > **Účel:** Jedna řádka = jedna strana komiksu. Kdo chce vědět, v jakém stavu je kterákoli strana, najde to tady. Nemusí přitom procházet scénáře, audity a prompty.
 >
 > **Page Master nic nerozhoduje.** Jen shrnuje a odkazuje:
-> - **Text strany:** `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k3_CLEAN.md` (K3). Důvody změn jsou v K2.
+> - **Text strany:** `ARCHIV/PRAMENY/PRAMEN_SCENAR_STR6-30_k3_CLEAN.md` (K3). Důvody změn jsou v K2.
 > - **Historie:** `01_HISTORIK/CLAIM_DATABASE.md` a značky v K3.
-> - **Vizuální slot:** `02_COMIKS/AUDIT/PRAMEN_PROMPT_MASTER_MAP.md`.
-> - **Verdikt vizuálního zadání:** `02_COMIKS/AUDIT/PRAMEN_VIZUALNI_AUDIT_K3.md`.
+> - **Vizuální slot:** `02_COMIKS/KONTROLA/PRAMEN_PROMPT_MASTER_MAP.md`.
+> - **Verdikt vizuálního zadání:** `02_COMIKS/KONTROLA/PRAMEN_VIZUALNI_AUDIT_K3.md`.
 > - **Návrhy promptů:** `02_COMIKS/PRAMEN_NOVE_PROMPTY_K3_v0.1.md`, `02_COMIKS/PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md`.
 > - **Postavy:** `02_COMIKS/CHARACTER_REGISTER.md`.
 >
@@ -155,4 +155,4 @@ Formát karty: **postavy** (ID z Character Registeru) · **historické jádro** 
 5. Postavy odpovídají Character Registeru (hlavně F. A. × A. E. Reuss).
 6. Lock zapíše Jirka do tohoto souboru a do `DECISION_REGISTER.md`.
 
-**Stav 2026-09-26 (D-5 / D-6 / D-7):** pro str. 6–30 je uzamčen **jen TEXT** (body 1–2 a 5). Bod 3 platí pro schválenou sadu v0.2; bod 4 (obrazy) je vědomě mimo lock. Zápis: `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md`, `DEC-006`.
+**Stav 2026-09-26 (D-5 / D-6 / D-7):** pro str. 6–30 je uzamčen **jen TEXT** (body 1–2 a 5). Bod 3 platí pro schválenou sadu v0.2; bod 4 (obrazy) je vědomě mimo lock. Zápis: `00_JÁDRO/PRODUCTION_LOCK_K3_STR6-30.md`, `DEC-006`.
