@@ -7,7 +7,7 @@
 
 **Proč:** Síťová politika cloudového prostředí Claude Code zamítá spojení na digitální knihovny (odpověď 403 „policy denial"). Ověřeno 2026-09-25: archive.org, zenodo.org, books.google.com, de.wikisource.org, zeno.org, digitale-sammlungen.de, deutsche-digitale-bibliothek.de, digital.slub-dresden.de, e-rara.ch, anno.onb.ac.at, kramerius5.nkp.cz, digitalniknihovna.cz, hathitrust.org, gallica.bnf.fr, europeana.eu, wikipedia.org. Google Books API je dostupné, ale vyčerpaná denní kvóta (429). Funguje jen webové vyhledávání (souhrny, ne texty).
 
-**Proto platí:** Závěry auditu `02_COMIKS/AUDIT/PRAMEN_AUDIT_SCENAR_K1_S01-S13.md` zůstávají **pracovní** (sekundární souhrny + repo). **Nic se nepotvrdilo ani nezměnilo primárním pramenem.** K1, K2, Claim DB, HB-055, prompty a obrázky jsou beze změny. HB-057 🔴.
+**Proto platí:** Závěry auditu `02_COMIKS/KONTROLA/PRAMEN_AUDIT_SCENAR_K1_S01-S13.md` zůstávají **pracovní** (sekundární souhrny + repo). **Nic se nepotvrdilo ani nezměnilo primárním pramenem.** K1, K2, Claim DB, HB-055, prompty a obrázky jsou beze změny. HB-057 🔴.
 
 ---
 

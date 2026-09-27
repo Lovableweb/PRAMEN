@@ -2,7 +2,7 @@
 
 **Zadání:** „PRAMEN – PRIMÁRNÍ KOLACE (převzetí z předchozí session)", Jirka 2026-09-26, podle `01_HISTORIK/PRIMARNI_KOLACE_PLAN.md` (priority P1–P5).
 **Provedl:** Claude Code, 2026-09-26.
-**Nezměněno:** scénář K1 (`ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md`), `CLAIM_DATABASE.md`, HB-055, prompty. K2 nevytvořena. HB-057 zůstává 🔴 (neuzavírá se).
+**Nezměněno:** scénář K1 (`ARCHIV/PRAMENY/PRAMEN_SCENAR_STR6-30_k1.md`), `CLAIM_DATABASE.md`, HB-055, prompty. K2 nevytvořena. HB-057 zůstává 🔴 (neuzavírá se).
 **Zásada:** HISTORIE PŘED FIKCÍ. **F. A. Reuss (Franz Ambrosius, 1761–1830) ≠ A. E. Reuss (August Emanuel, 1811–1873).** Nic se nepředpokládá nad rámec toho, co pramen přímo říká. Kde je závěr jen odvozený (např. chronologicky), je to výslovně uvedeno.
 
 ### Úrovně důkazu (DEC-005)

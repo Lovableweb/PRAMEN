@@ -156,16 +156,16 @@ V dostupných repo materiálech nebyl pro Teplice předložen kompletní přímo
 
 ### Sekundární a pracovní zdroje
 
-- `00_CORE/CONTENT_REGISTRY.md` – pracovní registr historické databáze Teplic.
-- `00_CORE/SOURCE_REGISTRY.md` – položka `SR-011: HISTORICKÁ DATABÁZE TEPLIC`.
+- `00_JÁDRO/CONTENT_REGISTRY.md` – pracovní registr historické databáze Teplic.
+- `00_JÁDRO/SOURCE_REGISTRY.md` – položka `SR-011: HISTORICKÁ DATABÁZE TEPLIC`.
 - `02_COMIKS/KOMIKSOVA_BIBLE/PRAMEN_HISTORICKA_A_PRIBEHOVA_OSA_RECOVERED_WORKING_v1.1.md` – recovered pracovní osa.
 - archivní textový přepis image promptů – pracovní vizuální a dramaturgický podklad.
 
 ### Katalog / evidence / pracovní reference
 
-- `01_RECOVERY/PRAMEN_CENTRALNI_RECOVERY_SYNTHESE.md` – recovery evidence.
+- `01_OBNOVA/PRAMEN_CENTRALNI_RECOVERY_SYNTHESE.md` – recovery evidence.
 - `01_HISTORIK/OTEVRENE_OTAZKY.md` – otevřené historické otázky a pravidlo neověřené = otevřené.
-- `00_CORE/PRAMEN_MASTER.md` a `00_CORE/PRAMEN_AI_PROTOCOL.md` – procesní a historické mantinely.
+- `00_JÁDRO/PRAMEN_MASTER.md` a `00_JÁDRO/PRAMEN_AI_PROTOCOL.md` – procesní a historické mantinely.
 
 ### Neověřené reference
 
@@ -261,16 +261,16 @@ Tento soubor není náhradním originálem HT-001.
 
 Obsah byl konsolidován pouze z těchto existujících repo dokumentů:
 
-- `00_CORE/PRAMEN_MASTER.md`;
-- `00_CORE/PRAMEN_AI_PROTOCOL.md`;
-- `00_CORE/SOURCE_REGISTRY.md`;
-- `00_CORE/CONTENT_REGISTRY.md`;
+- `00_JÁDRO/PRAMEN_MASTER.md`;
+- `00_JÁDRO/PRAMEN_AI_PROTOCOL.md`;
+- `00_JÁDRO/SOURCE_REGISTRY.md`;
+- `00_JÁDRO/CONTENT_REGISTRY.md`;
 - `01_HISTORIK/OTEVRENE_OTAZKY.md`;
-- `01_RECOVERY/PRAMEN_CENTRALNI_RECOVERY_SYNTHESE.md`;
-- `01_RECOVERY/HISTORICKA_A_PRIBEHOVA_OSA_RECOVERY_STATUS.md`;
+- `01_OBNOVA/PRAMEN_CENTRALNI_RECOVERY_SYNTHESE.md`;
+- `01_OBNOVA/HISTORICKA_A_PRIBEHOVA_OSA_RECOVERY_STATUS.md`;
 - `02_COMIKS/KOMIKSOVA_BIBLE/PRAMEN_HISTORICKA_A_PRIBEHOVA_OSA_RECOVERED_WORKING_v1.1.md`;
 - `02_COMIKS/KOMIKSOVA_BIBLE/PRAMEN_KOMIKSOVA_BIBLE_RECOVERED_WORKING_v1.0.md`;
-- `ARCHIVE/SOURCES/PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md`.
+- `ARCHIV/PRAMENY/PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md`.
 
 Nebyl proveden nový historický ani webový výzkum. Nebyly doplněny bibliografické údaje, které nejsou v existujících materiálech.
 

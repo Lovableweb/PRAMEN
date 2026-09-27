@@ -1,6 +1,6 @@
 # PRAMEN – STOPY K CITACÍM HB-044 (TEPLICE 1879)
 
-**Účel:** Evidence dohledaných stop k otevřenému bodu **OO-HB044-01** (chybějící citace pramenů HB-044). Zapsáno Claude Code 2026-09-25 podle priority 4 předávacího bloku HB-058 → HB-061 (viz [RECOVERY-009](../01_RECOVERY/RECOVERY-009_PREDANI_HB058-HB061.md)).
+**Účel:** Evidence dohledaných stop k otevřenému bodu **OO-HB044-01** (chybějící citace pramenů HB-044). Zapsáno Claude Code 2026-09-25 podle priority 4 předávacího bloku HB-058 → HB-061 (viz [RECOVERY-009](../01_OBNOVA/RECOVERY-009_PREDANI_HB058-HB061.md)).
 
 **⚠️ DŮLEŽITÉ:** Nic z tohoto souboru není ověřená citace. Samotné stránky zdrojů nebyly přečteny. Síťová politika cloudového prostředí zablokovala přístup na `de.wikisource.org` i další weby, fungovalo jen webové vyhledávání. Údaje níže proto pocházejí ze **souhrnů výsledků vyhledávače**. Neslouží jako důkaz, jen jako stopa, kde hledat. **Žádný claim v `CLAIM_DATABASE.md` nebyl kvůli nim změněn.**
 

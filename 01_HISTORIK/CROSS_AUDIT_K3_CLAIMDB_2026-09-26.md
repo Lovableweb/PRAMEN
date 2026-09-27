@@ -99,7 +99,7 @@ Zvlášť upozorňuji na **mezeru 3 (str. 12, „Incident = pozdější sporná 
 **Závěrečná kontrola (strojově, na stavu této větve):**
 - Replik a captionů s 🟢 v těle K3: **34** (str. 7: 1 · 8: 1 · 9: 1 · 10: 1 · 11: 3 · 13: 6 · 14: 2 · 16: 3 · 17: 2 · 18: 3 · 19: 1 · 21: 3 · 24: 1 · 25: 2 · 26: 4). Str. 12 už 🟢 nemá (D-2). Každá z nich je v tabulce sekce 2 navázána na claim; po sekci 5 **žádná 🟢 bez claimu**.
 - Všechna claim ID citovaná v K2, K3-souvisejících promptech (dodatek D-4), Page Masteru, Character Registeru a v tomto dokumentu **existují** v `CLAIM_DATABASE.md` (0 chybějících).
-- K3 tělo = výstup `scripts/generate_k3_from_k2.sh` z K2 (diff prázdný).
+- K3 tělo = výstup `SKRIPTY/generate_k3_from_k2.sh` z K2 (diff prázdný).
 - Claim DB: **75 claimů** (strojově; dřívější „45/60" byla chyba součtu o 1).
 - RED claimy `TEP-1879-DRAINED`, `TEP-1879-SUESS-DRILL`, `TEP-1879-RESCUE`, `BIL-761`, `TEP-762`, `TEP-FIRST-BATHS-1581` zůstávají RED.
 - 🟡 / 🟡k v K3 zůstávají (lock je nepovyšuje).
