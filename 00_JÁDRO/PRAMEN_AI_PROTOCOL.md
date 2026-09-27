@@ -155,8 +155,25 @@ Doporučené řešení:
 [jak to vyřešit]
 
 Status:
-[čeká se na schválen�� / vyřešeno / pokud se na tom pracuje]
+[čeká se na schválení / vyřešeno / pokud se na tom pracuje]
 ```
+
+---
+
+## PRAVIDLO PREVENCE (od 2026-09-27)
+
+### KAŽDÁ NALEZENÁ CHYBA SE NEJEN OPRAVÍ, ALE I ZABLOKUJE PROTI OPAKOVÁNÍ
+
+Když Claude Code (nebo kdokoli jiný) v projektu najde chybu, mezeru, nekonzistenci nebo rozbitý proces (rozbitý odkaz, kolize čísel HB/RECOVERY, zastaralý status, chybějící soubor v mapě...), **oprava samotné instance nestačí.** Musí proběhnout i:
+
+1. **Root cause** — proč k tomu vůbec došlo (ne jen co je špatně).
+2. **Pojistka** — konkrétní mechanismus, který stejné chybě zabrání příště (pravidlo do tohoto protokolu, řádek do health checku, kontrola v šabloně nového dokumentu, apod.) — ne jen slib „příště na to dát pozor".
+3. **Zápis** — kam přesně se pojistka zapsala (tento protokol, `SKRIPTY/pramen_health_check.sh`, mapa...), ať je dohledatelná.
+4. **Ověření** — že pojistka skutečně funguje (např. spustit health check a vidět, že by chybu odhalil).
+
+**Příklad z praxe (2026-09-27):** opakovaná kolize čísel HB (HB-053B, HB-056, HB-063 kolidovaly s existujícími HB) vedla k pravidlu „ověřit číslo v mapě PŘED přidělením", které se od té doby dodržuje a funguje (HB-065 dál žádná kolize nebyla).
+
+Tohle pravidlo se **netýká** historických faktů (tam platí PRAVIDLO HISTORIE — otevřenou otázku nezavírat odhadem) — týká se **procesních a technických** chyb projektu samotného.
 
 ---
 

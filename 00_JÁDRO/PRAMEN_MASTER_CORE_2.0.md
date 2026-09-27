@@ -94,9 +94,9 @@ Production Lock smí vyhlásit **jen Jirka** a zapíše se do `DECISION_REGISTER
 
 | # | Podmínka | Stav |
 |---|---|---|
-| G1 | **Master Core 2.0** schválen | 🟡 tento návrh |
-| G2 | **Page Master 1–30** schválen a aktuální | 🟡 návrh |
-| G3 | **Character Register** schválen | 🟡 návrh |
+| G1 | **Master Core 2.0** schválen | 🟢 schváleno Jirkou 2026-09-27 (DEC-007) |
+| G2 | **Page Master 1–30** schválen a aktuální | 🟢 schváleno Jirkou 2026-09-27 (DEC-007) |
+| G3 | **Character Register** schválen | 🟢 schváleno Jirkou 2026-09-27 (DEC-007) |
 | G4 | **Scénář 6–30**: K3 schválen Řídícím mozkem 2 a Jirkou | 🟢 D-7 (text str. 6–30) |
 | G5 | **Prolog 1–5**: text existuje, nebo Jirka rozhodne jinak (např. Lock jen pro 6–30) | 🟢 pro lock 6–30 (D-5: Prolog mimo lock) · Prolog sám 🟡 text existuje (NÁVRH v0.2, schváleno PR #33), Production Lock Prologu zatím nevyhlášen |
 | G6 | **Historie**: žádné 🔴 ve scénáři; ke každému 🟡 / 🟡k rozhodnutí „ověřit / ponechat opatrně / vypustit"; nálezy kolace promítnuty do Claim DB | 🟢 pro text 6–30: každé 🟢 má claim (D-8b), 🟡/🟡k ponechány jako opatrné formulace (D-7) |
@@ -113,7 +113,7 @@ Pořadí podle Jirky (2026-09-26):
 5. teprve potom Production Lock.
 
 ## 7. HLAVNÍ OTEVŘENÁ ROZHODNUTÍ (pro Jirku / Řídící mozek 2)
-1. **Schválit** Master Core 2.0, Page Master a Character Register (G1–G3).
+1. ~~**Schválit** Master Core 2.0, Page Master a Character Register (G1–G3).~~ **Schváleno Jirkou 2026-09-27 (DEC-007).**
 2. ~~**K3:** schválit, nebo zadat úpravy.~~ **Rozhodnuto D-7 (2026-09-26):** text K3 str. 6–30 uzamčen.
 3. ~~**Prolog 1–5:** …~~ **Rozhodnuto D-5:** lock jen pro 6–30, na Prolog se nečeká. Prolog sám zůstává otevřený (chybí text).
 4. ~~**Prompty v0.2** (16 stran)…~~ **Rozhodnuto D-4:** v0.2 schváleno jako pracovní produkční sada vázaná na K3 (opraveny str. 12 p2, 16 p2, 19 p1); prompt 27 vyřazen, archivován.
