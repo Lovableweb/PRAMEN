@@ -1,5 +1,17 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – PR #33 SLOUČEN: PROLOG STR. 1–5 MÁ TEXT (NÁVRH v0.2), G5 AKTUALIZOVÁNO
+
+**Řídící mozek 2 schválil v0.2 k merge (🟢 APPROVE), Jirka potvrdil sloučením do `main`.**
+
+- PR #33 sloučen. Ověřeno v `main`: oba soubory Prologu (`PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.1.md` archiv, `…_v0.2.md` aktuální) jsou přítomné; K3 str. 6–30 beze změny (skript reprodukuje K3 přesně, Production Lock D-7 nedotčen).
+- **G5 v Master Core 2.0 aktualizováno:** z „🔴 chybí" na „🟡 text existuje (NÁVRH v0.2, schváleno PR #33), Production Lock Prologu zatím nevyhlášen". Stejně upraven řádek „Scénář 1–5 (Prolog)" ve stavové tabulce.
+- Mapa aktualizována na třech místech (stav v kostce, popis Production Locku, seznam otevřených bodů) — Prolog už není „text chybí", ale „text existuje jako NÁVRH v0.2, bez vlastního locku".
+- **Neprovedeno (podle pokynu Řídícího mozku 2):** obrazový audit, žádná nová historická badatelská větev, Production Lock str. 6–30 zůstal beze změny.
+- **Zbývající otevřené lidské úkoly (beze změny):** ověření str. 29 (OO-K3-01), souhlasy Karla Bašty a podoby Digitálního Jirky (G10), případné formální schválení Prologu jako vlastního Production Locku (další krok, ne součást tohoto PR), originální Komiksová Bible/Osa/storyboard (🔴, nehledáno v tomto kroku).
+
+---
+
 ## [2026-09-27] – PROLOG STR. 1–5: NÁVRH v0.2 (PO PŘIPOMÍNKÁCH ŘÍDÍCÍHO MOZKU 2 K PR #33)
 
 **Stále neschváleno. Merge se neprovádí, obrazový audit se neprovádí.**
