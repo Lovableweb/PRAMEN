@@ -63,12 +63,42 @@ Jirka sám prošel ASGI databázi (hledal „Cyvín", 1977) a našel **přesný 
 
 **Závěr:** zpráva **není dostupná online** — potvrzuje se, že jediná cesta k obsahu je fyzická návštěva studovny Geofond, **Kostelní [26], Praha** (přesná adresa depozitu potvrzena přímo záznamem: „Praha - Kostelní"). Status pramene zůstává **CATALOG ONLY** (teď s kompletními a přesnými metadaty), obsah stále PRIMARY NOT SEEN.
 
-**Prášil 1982 zatím nevyhledán stejným způsobem — doporučeno jako další krok, pokud bude zájem.**
+## 4c. DOPLNĚK — SIGNATURA PRÁŠILA 1982 NALEZENA (JIRKA, TÉHOŽ DNE)
+
+| Pole | Hodnota |
+|---|---|
+| Hlavní signatura | **GF P038956** |
+| Depozit | Praha — Kostelní |
+| Název | **Závěrečná zpráva o hydrogeologickém průzkumu pro stanovení ochranných pásem přírodních léčivých zdrojů lázní Bílina, okres Teplice v Čechách** |
+| Autor | **PRÁŠIL, Jan** |
+| Rok vydání | 1982 |
+| Řešitelská org. | Stavební geologie Praha, podnikové ředitelství |
+| Lokalita | Bílina |
+| Okres | Most; Teplice |
+| Počet stran | **137** |
+| Přílohy volné/vevázané | 46 / 0 |
+| Číslo úkolu | N0378001213KH |
+| **Online** | **Ano** |
+| El. příloha | Ne |
+| Č. ASG (MFN) | 103767 |
+
+**Rozsahem výrazně větší než Cyvín** (137 stran + 46 příloh vs. 51 stran + 17 příloh) — je to **závěrečná zpráva**, zatímco Cyvín byla „jen" rešeršní studie. Pravděpodobně obsahuje vlastní nová měření/analýzu, ne jen rešerši starších pramenů.
+
+## 4d. DOPLNĚK — POKUS O ONLINE PŘÍSTUP (Prášil, „Online: Ano")
+
+„Online: Ano" u Prášila **neznamená veřejně volně dostupné** — odkaz „Prohlížet zprávu" vede na `docview.geology.cz`, což vyžaduje přihlášení (HTTP autentizace). Zjištěno, jak se přihlášení dá získat:
+
+- **ČGS od 1. 10. 2021 nabízí dálkový přístup ke všem digitalizovaným archivním dokumentům Geofondu** (48 000+ zpráv, 4+ mil. stran) **registrovaným badatelům za roční paušál 1000 Kč.**
+- Nákup/registrace: e-shop **https://eshop.geology.cz/data/** — dřív papírový formulář, dnes zjednodušeno na online nákup a platbu.
+- **Jirka se rozhodl teď tuto placenou cestu nevyužít** (finanční důvody) — legitimní, žádný tlak na to nebyl.
+
+**Bezplatná alternativa zůstává v platnosti pro obě zprávy:** osobní návštěva studovny Geofond, **Kostelní 26, Praha 7**, bez nutnosti předchozí objednávky (dle manuálu ČGS pro GF signatury) — zdarma.
 
 ## 5. CO ZŮSTÁVÁ OTEVŘENÉ
 
-- **Signatura Cyvína teď známá (GF P025701/1) — vyřešeno.** Zůstává: signatura Prášila 1982.
-- Celý obsah zprávy (51 stran + 17 příloh) — vyžaduje fyzickou návštěvu, „Online: Ne".
+- **Obě signatury teď známé a ověřené:** Cyvín 1977 = GF P025701/1; Prášil 1982 = GF P038956.
+- Celý obsah obou zpráv — přístup buď (a) zdarma osobní návštěvou studovny Geofond, Kostelní 26, Praha 7, nebo (b) placeně (1000 Kč/rok) přes `docview.geology.cz` po registraci na `eshop.geology.cz/data/`.
+- **Žádná z těchto cest zatím nebyla využita** — status obou zpráv zůstává CATALOG ONLY / PRIMARY NOT SEEN, ale teď s kompletní, přesnou proveniencí a jasnou cestou k přístupu, kdykoli bude vhodná příležitost (cesta do Prahy nebo volné prostředky).
 
 ## 6. CLAIM DB DOPAD
 

@@ -2,6 +2,19 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-27] – HB-072 DOPLNĚK 2: PRÁŠIL 1982 NALEZEN + PŘÍSTUPOVÁ CESTA K ARCHIVU ZJIŠTĚNA
+
+**Jirka dohledal i signaturu Prášila 1982 a společně jsme zjistili, jak se dá k oběma zprávám vůbec dostat.**
+
+- **Prášil 1982: signatura GF P038956.** „Závěrečná zpráva o hydrogeologickém průzkumu pro stanovení ochranných pásem přírodních léčivých zdrojů lázní Bílina, okres Teplice v Čechách" — **137 stran + 46 příloh** (výrazně obsáhlejší než Cyvín; je to závěrečná zpráva s vlastním měřením, ne jen rešerše).
+- **„Online: Ano" u Prášila neznamená volně dostupné** — vede na `docview.geology.cz`, který vyžaduje přihlášení.
+- **Zjištěna oficiální cesta k přihlášení:** ČGS od 2021 nabízí dálkový přístup ke všem digitalizovaným archivům (48 000+ zpráv) registrovaným badatelům za **1000 Kč/rok** přes e-shop `eshop.geology.cz/data/`.
+- **Jirka se rozhodl tuto placenou cestu teď nevyužít** (finanční důvody) — žádný nátlak, legitimní rozhodnutí.
+- **Bezplatná alternativa potvrzena a zůstává v platnosti pro obě zprávy:** osobní návštěva studovny Geofond, Kostelní 26, Praha 7, bez objednávky předem.
+- Obě signatury (Cyvín GF P025701/1, Prášil GF P038956) teď kompletně zdokumentované v `RECOVERY-022`. Status obou zůstává CATALOG ONLY / PRIMARY NOT SEEN — ale s plnou proveniencí a jasnou cestou k přístupu, kdykoli bude vhodná příležitost.
+
+---
+
 ## [2026-09-27] – HB-072 DOPLNĚK: JIRKA SÁM DOHLEDAL SIGNATURU CYVÍNA V ASGI
 
 **Jirka prošel databázi ASGI (https://app.geology.cz/asgi) přímo v prohlížeči a našel přesný záznam** — potvrzeno screenshotem.
