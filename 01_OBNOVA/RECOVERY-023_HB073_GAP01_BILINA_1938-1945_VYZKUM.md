@@ -27,14 +27,16 @@ Přesná signatura/inventární číslo fondu se nepodařilo zjistit — badatel
 
 ## 2. ZDROJ B — ARCHIVNÍ FOND (nová stopa, dosud nezmíněná v projektu)
 
+> ⚠️ **OPRAVA DŮVĚRYHODNOSTI (2026-09-28, archivní follow-up po PR #54):** Při pokusu dohledat signaturu fondu se zjistilo, že stránka SOA Litoměřice, ze které fond/datace pocházejí, dnes **zobrazuje jen placeholder „Připravujeme nové webové stránky"** — přímým čtením (WebFetch) se nepotvrdilo nic o fondu. Název fondu a rozmezí (1753)1784–1957 pochází **výhradně ze syntetizované odpovědi vyhledávacího nástroje** (konzistentně napříč 4 různými dotazy), ne z přímo přečteného textu instituce. Wayback Machine není v tomto prostředí dostupná pro nezávislé ověření staré verze stránky. **Status snížen z „ARCHIVAL LEAD s popisem instituce" na „ARCHIVAL LEAD — název a rozmezí NEOVĚŘENO přímým čtením zdroje", dokud to nepotvrdí přímý kontakt s archivem.** Signatura/inventární číslo se dohledat nepodařilo žádnou cestou (badatelna za bot-ochranou, oficiální web bez obsahu, Monasterium.net 403, Wayback nedostupná). **Poučení pro příště (PRAVIDLO PREVENCE):** odpověď z WebSearch nástroje se nesmí brát jako přímo přečtený zdroj — vždy ověřit přímým WebFetch skutečné stránky, než se detail zapíše jako potvrzený.
+
 **Instituce:** Státní oblastní archiv v Litoměřicích (soalitomerice.cz)
 **Fond:** „Ústřední kancelář lobkovických statků Roudnice nad Labem, Bílina"
 **Časové rozmezí:** (1753) 1784–1957 — **pokrývá i roky 1938–1945**
 **Kontext:** Archiv převzal fondy roudnických Lobkowiczů v roce 1948, včetně registratur ústřední kanceláře a účtárny a záznamů z jednotlivých lobkowiczských velkostatků a stavebně-technických kanceláří.
-**Signatura/inv. číslo:** **NEZJIŠTĚNO** — badatelna (`digi.soalitomerice.cz/digitalnibadatelna/`) je chráněná bot-ověřením, nelze projít automatizovaně (stejný typ technického blokeru jako u jiných JS/ochráněných databází v projektu, viz ASGI Geofond).
-**Kontakt pro další krok:** badatelna@soalitomerice.cz, tel. 737 796 002.
+**Signatura/inv. číslo:** **NEZJIŠTĚNO** — vyčerpány všechny dostupné cesty: badatelna (`digi.soalitomerice.cz/digitalnibadatelna/`) je za bot-ověřením, oficiální web SOA Litoměřice dnes obsahuje jen placeholder (žádný seznam fondů), Monasterium.net vrací 403, Wayback Machine není z tohoto prostředí dostupná.
+**Kontakt pro další krok:** badatelna@soalitomerice.cz, tel. 737 796 002 — **jediná zbývající cesta k ověření, jestli fond vůbec pod tímto názvem existuje.**
 
-**Klasifikace:** 🟡 `ARCHIVAL LEAD — NOT YET VERIFIED`. Toto je přesně ten typ nálezu, který zadání (§7) předpokládá u nedostupných fondů — instituce, fond a časové rozmezí zapsány, obsah nepřečten, nevymýšlen.
+**Klasifikace:** 🟡 `ARCHIVAL LEAD — NOT YET VERIFIED` **a navíc NEOVĚŘENO přímým čtením zdroje** (viz oprava výše) — nižší jistota, než původní zápis v tomto dokumentu naznačoval.
 
 **Proč je to lepší stopa než dosavadní:** fond je **jmenovitě vázaný na Bílinu** (ne na celý rod přes 15 panství jako fideikomis obecně), takže cokoliv uvnitř by mělo být přímo relevantní pro Bílinu, ne jen obecně pro Lobkowicze.
 
@@ -76,10 +78,12 @@ Přesná signatura/inventární číslo fondu se nepodařilo zjistit — badatel
 
 **ODKUD:** Claude Code / HB-073 (RECOVERY-023), autonomní úkol Mozku 3
 
-**STAV:** GAP-01 NOT RESOLVED — evidence insufficient. Dva dílčí posuny: potvrzený zdroj (Radio Prague, přímo přečteno) + nová konkrétní archivní stopa (fond SOA Litoměřice, jmenovitě k Bílině).
+**STAV:** GAP-01 NOT RESOLVED — evidence insufficient. Jeden pevný posun: zdroj Radio Prague přímo přečten. Druhý posun (archivní fond SOA Litoměřice) **downgradován** archivním follow-upem 2026-09-28 — název/rozmezí fondu pochází jen ze syntetizované odpovědi vyhledávače, ne z přímo přečtené stránky instituce (ta dnes zobrazuje placeholder). Signatura se nepodařilo zjistit žádnou dostupnou cestou.
 
-**HUMAN ACTION REQUIRED:** kontakt s badatelnou SOA Litoměřice (badatelna@soalitomerice.cz, 737 796 002) kvůli signatuře fondu a možnosti nahlédnutí/objednání kopie; případně osobní návštěva.
+**HUMAN ACTION REQUIRED:** kontakt s badatelnou SOA Litoměřice (badatelna@soalitomerice.cz, 737 796 002) — teď je to jediná cesta i k ověření, jestli fond pod tímto názvem vůbec existuje, natož k signatuře a možnosti nahlédnutí.
 
-**TECHNICKÝ BLOKER (beze změny):** žádný OCR/PDF nástroj v prostředí (56str. práce stále nečitelná); bot-ochrana badatelny `digi.soalitomerice.cz` (nový, stejný typ jako ASGI Geofond).
+**TECHNICKÝ BLOKER (rozšířeno):** žádný OCR/PDF nástroj v prostředí (56str. práce stále nečitelná); bot-ochrana badatelny `digi.soalitomerice.cz`; oficiální web SOA Litoměřice bez obsahu (přestavba); Monasterium.net 403; Wayback Machine nedostupná z tohoto prostředí.
+
+**METODICKÉ POUČENÍ (PRAVIDLO PREVENCE):** syntetizovaná odpověď z WebSearch nástroje se nesmí zapisovat jako potvrzený fakt, dokud není ověřena přímým WebFetch skutečné stránky — i při shodě napříč více dotazy může jít o stejný jeden zastaralý indexovaný snippet.
 
 **DALŠÍ KROK:** čeká na Jirku/Mozek 3 — buď kontakt s archivem, nebo přesun pozornosti jinam (GAP-03, GAP-07, Prolog, obrazový audit).

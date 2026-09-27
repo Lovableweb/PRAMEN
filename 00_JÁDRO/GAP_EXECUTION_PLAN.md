@@ -12,11 +12,11 @@
 
 **Proč to chybí:** existující nález (`RECOVERY-021`) je LEAD úrovně — nucená správa fideikomisu a zbavení protektorátního občanství M. E. Lobkowicze 3. 10. 1939 je doložené obecně pro celý rod, ne specificky pro bilínský podnik. K dispozici je 56stránková akademická práce o Lobkowiczích, kterou nelze v tomto prostředí přečíst (chybí OCR/PDF nástroj — zdokumentovaný technický bloker).
 
-**Aktualizace `RECOVERY-023` (2026-09-28):** nalezen konkrétnější cíl — fond **„Ústřední kancelář lobkovických statků Roudnice n. L., Bílina"** (1753)1784–1957, **Státní oblastní archiv v Litoměřicích**, jmenovitě vázaný na Bílinu (ne na celý fideikomis). Signatura/inventární číslo nezjištěno — badatelna `digi.soalitomerice.cz` je za bot-ochranou, nelze projít automatizovaně. Zároveň přímo ověřen zdroj k tvrzení o Afrikakorpsu (Radio Prague International, Petr Lukeš, 21.8.2024) — SECONDARY, ale teď s jistou citací místo dřívějšího 403.
+**Aktualizace `RECOVERY-023` (2026-09-28):** přímo ověřen zdroj k tvrzení o Afrikakorpsu (Radio Prague International, Petr Lukeš, 21.8.2024) — SECONDARY, ale teď s jistou citací místo dřívějšího 403. Domnělý cíl — fond „Ústřední kancelář lobkovických statků Roudnice n. L., Bílina" (1753)1784–1957, Státní oblastní archiv v Litoměřicích — byl v archivním follow-upu **downgradován**: pocházel jen z odpovědi vyhledávacího nástroje, ne z přímo přečtené stránky (ta dnes zobrazuje jen placeholder „Připravujeme nové webové stránky"). Signatura ani samotná existence fondu pod tímto názvem nejsou potvrzeny žádnou dostupnou cestou (badatelna za bot-ochranou, Monasterium.net 403, Wayback nedostupná).
 
-**Jaký pramen to může vyřešit:** obsah fondu SOA Litoměřice (výše), dobový tisk (1938–1945), případně přímý přístup Jirky ke zdroji.
+**Jaký pramen to může vyřešit:** přímé potvrzení fondu telefonicky/e-mailem u SOA Litoměřice, dobový tisk (1938–1945), případně přímý přístup Jirky ke zdroji.
 
-**Kde je:** Státní oblastní archiv v Litoměřicích — badatelna@soalitomerice.cz, tel. 737 796 002.
+**Kde je:** Státní oblastní archiv v Litoměřicích — badatelna@soalitomerice.cz, tel. 737 796 002 (jediná zbývající cesta i k ověření, jestli fond vůbec existuje).
 
 **Kdo to může získat:** Jirka (kontakt s archivem / fyzická návštěva) nebo budoucí agent s OCR nástrojem (přečtení už staženého PDF akademické práce).
 
@@ -24,7 +24,7 @@
 
 **Co nesmí předstírat:** že obecný osud Lobkowiczů = osud Bíliny. Nesmí povýšit LEAD na claim bez přímého dokladu.
 
-**Stav:** 🟡 OPEN — konkrétnější archivní cíl znám, čeká na kontakt s SOA Litoměřice (`ARCHIVAL LEAD — NOT YET VERIFIED`).
+**Stav:** 🟡 OPEN — domnělý archivní cíl downgradován (nepotvrzen přímým čtením zdroje), čeká na přímý kontakt s SOA Litoměřice, který jako jediný může potvrdit, zda fond vůbec existuje.
 
 ---
 
@@ -125,7 +125,7 @@ Lokalizace je hotová (`RECOVERY-022`) — signatury, instituce i přístupová 
 
 | GAP | Co může Claude | Co musí Jirka / vyžaduje archiv |
 |---|---|---|
-| GAP-01 | rešerše bibliografie, sekundární stopy — hotovo (`RECOVERY-023`: fond SOA Litoměřice lokalizován) | kontakt s SOA Litoměřice / archivní návštěva, případně OCR nástroj |
+| GAP-01 | rešerše bibliografie, sekundární stopy — hotovo (`RECOVERY-023`: Radio Prague ověřen; domnělý fond SOA Litoměřice downgradován) | kontakt s SOA Litoměřice (i k ověření existence fondu) / archivní návštěva, případně OCR nástroj |
 | GAP-03 | dohledání citací a jednotek | firemní/archivní pramen |
 | GAP-07 | web rešerše k jednotlivým intervalům | podnikový/státní archiv (z velké části neznámý) |
 | GAP-04 | porovnání důkazní úrovně | archiv OBÚ / dobový tisk |
