@@ -4,12 +4,12 @@
 >
 > - **Vznik:** 2026-09-26, Claude Code. Odvozeno z `PRAMEN_SCENAR_STR6-30_k2_WORKING.md` (stav K2.5) odstraněním redakčních poznámek (odkazy na K1, audity, RECOVERY, claimy, historii oprav) podle RECOVERY-013 K3-A.
 > - **Text replik a captionů odpovídá K2.5 (poslední změna: integrace nálezů N-01…N-17, viz K2 příloha K).** Výjimky: odstraněna jedna poznámka uvnitř repliky (str. 12) a tučné písmo u jmen. Ověřeno strojovým porovnáním všech 130 replik.
-> - **Značky stavu** jsou sjednoceny na konec každé repliky (platí nejslabší stav v celé replice): 🟢 doloženo · 🟡 otevřené / neověřené · 🟡k převzato z K1, nekolacionováno · 💡 dramaturgie / metafora (ne historické tvrzení). U str. 29 je navíc [OVĚŘIT PŘED TISKEM].
+> - **Značky stavu** jsou sjednoceny na konec každé repliky (platí nejslabší stav v celé replice): 🟢 doloženo · 🟡 otevřené / neověřené · 🟡k převzato z K1, nekolacionováno · 💡 dramaturgie / metafora (ne historické tvrzení).
 > - **Důvody změn, zdroje a historie oprav** jsou v K2 (přílohy A–J) a v `RECOVERY-011`, `-012`, `-013`. K3 je odvozená čistá kopie, **zdroj pravdy o důvodech zůstává K2**. Když se text mění, upravuje se K2 a K3 se z něj znovu vygeneruje.
 > - **Chybí:** strany 1–5 (Prolog).
-> - **Co lock NEuzavírá (zůstává otevřené):** ověření str. 29 (muzeum, Bašta, výroba; úkol Jirky), souhlasy Karla Bašty a Digitálního Jirky (úkol Jirky), Prolog 1–5, audit obrazů. Značky 🟡 / 🟡k v textu platí dál — lock je nepovyšuje.
+> - **Co lock NEuzavírá (zůstává otevřené):** souhlasy Karla Bašty a Digitálního Jirky (`00_JÁDRO/SOUHLASY.md`, úkol Jirky), Prolog 1–5, audit obrazů. Str. 29 (muzeum, Bašta, výroba) věcně ověřena 2026-09-27 (claimy `BIL-MUZEUM-2026`, `BIL-BASTA-PRUVODCE-2026`, `BIL-VYROBA-2026`) — **ověření faktů ≠ právní souhlas s podobou/jménem**, ten zůstává samostatně otevřený. Značky 🟡 / 🟡k v textu platí dál — lock je nepovyšuje.
 > - **Změna textu po locku** jen výslovným rozhodnutím Řídícího mozku 2 / Jirky: upraví se K2 a K3 se znovu vygeneruje skriptem `SKRIPTY/generate_k3_from_k2.sh`.
-> - **Poslední změna textu (D-2, 2026-09-26):** str. 12, replika Bašty o „pozdější sporné tradici" 🟢 → 🟡 (claim `TEP-INCIDENT-1812-TRADICE`).
+> - **Poslední změna textu (2026-09-27, na pokyn Jirky):** str. 29 — ověřeny aktuální fakta (muzeum otevřeno 16. 6. 2026, Karel Bašta jako skutečný průvodce, výroba pokračuje), značky 🟡→🟢, odstraněny závorky „OVĚŘIT PŘED TISKEM". Předtím (D-2, 2026-09-26): str. 12, replika Bašty o „pozdější sporné tradici" 🟢 → 🟡 (claim `TEP-INCIDENT-1812-TRADICE`).
 
 ---
 
@@ -338,13 +338,13 @@ CAPTION: "A ta historie pokračuje i dnes."
 
 STRANA 29 — "Muzeum, ve kterém to všechno bydlí"
 Panel 1: Interiér skutečného muzea Bílinské kyselky, vitríny, dobové fotografie.
-CAPTION: "V roce 2026 se v Bílině otevřelo muzeum věnované historii kyselky i zaječické vody." 🟡 [AKTUÁLNÍ FAKT – OVĚŘIT PŘED TISKEM]
+CAPTION: "V roce 2026 se v Bílině otevřelo muzeum věnované historii kyselky i zaječické vody." 🟢
 Panel 2: Karel Bašta provází návštěvníky.
-CAPTION: "Průvodcem je Karel Bašta – týž muž, který vám celou tuhle knihou vyprávěl, co se skutečně stalo." 🟡 [OVĚŘIT PŘED TISKEM – konkrétní role]
+CAPTION: "Průvodcem je Karel Bašta – týž muž, který vám celou tuhle knihou vyprávěl, co se skutečně stalo." 🟢
 Panel 3: Bašta mluví přímo k návštěvníkům.
 BAŠTA: "Voda tu byla dřív než my. A to, co jste právě viděli v týhle knize, žije dál i tady, ve skutečném muzeu."
-Panel 4: Stáčírna vedle muzea, linka v provozu. [AKTUÁLNÍ FAKT – OVĚŘIT PŘED TISKEM] 🟡
-CAPTION: "Voda, o které je celá tahle kniha, teče dodneška." 🟡
+Panel 4: Stáčírna vedle muzea, linka v provozu.
+CAPTION: "Voda, o které je celá tahle kniha, teče dodneška." 🟢
 Panel 5: Kapka stékající po skleněné vitríně muzea zevnitř.
 KAPKA VODY: "Přežila jsem spory o to, čím jsem. Přežila jsem řadu jmen. Přežila jsem i chvíle, kdy mě lidé nemohli najít. Tohle taky přežiju." 💡
 

@@ -345,13 +345,13 @@ CAPTION: "A ta historie pokračuje i dnes."
 
 STRANA 29 — "Muzeum, ve kterém to všechno bydlí"
 Panel 1: Interiér skutečného muzea Bílinské kyselky, vitríny, dobové fotografie.
-CAPTION: [K2] "V roce 2026 se v Bílině otevřelo muzeum věnované historii kyselky i zaječické vody." 🟡 **[AKTUÁLNÍ FAKT – OVĚŘIT PŘED TISKEM]** (K1: 🟢 – nekolacionováno, status snížen na „ověřit")
+CAPTION: [K2] "V roce 2026 se v Bílině otevřelo muzeum věnované historii kyselky i zaječické vody." 🟢 (ověřeno 2026-09-27: slavnostní otevření 16. 6. 2026, claim `BIL-MUZEUM-2026`, dva nezávislé dobové zdroje — OO-K3-01/G9 vyřešeno pro tento panel)
 Panel 2: Karel Bašta provází návštěvníky.
-CAPTION: [K2] "Průvodcem je Karel Bašta – týž muž, který vám celou tuhle knihou vyprávěl, co se skutečně stalo." 🟡 **[OVĚŘIT PŘED TISKEM – konkrétní role]**
+CAPTION: [K2] "Průvodcem je Karel Bašta – týž muž, který vám celou tuhle knihou vyprávěl, co se skutečně stalo." 🟢 (ověřeno 2026-09-27: Karel Bašta je reálný manažer marketingu a osobně provádí exkurze, claim `BIL-BASTA-PRUVODCE-2026` — OO-K3-01/G9 vyřešeno pro tento panel; **souhlas s použitím jména/podoby zůstává samostatně řešen v `SOUHLASY.md`, tohle je jen ověření faktu, ne právní souhlas**)
 Panel 3: Bašta mluví přímo k návštěvníkům.
 BAŠTA: [K2] "Voda tu byla dřív než my. A to, co jste právě viděli v týhle knize, žije dál i tady, ve skutečném muzeu." (K1 „není jednoduchá doba… výroba pokračuje" – aktuální fakt neověřen a narážka na firemní kontext; nahrazeno čistě reflexivní replikou)
-Panel 4: Stáčírna vedle muzea, linka v provozu. **[AKTUÁLNÍ FAKT – OVĚŘIT PŘED TISKEM]** 🟡
-CAPTION: [K2] "Voda, o které je celá tahle kniha, teče dodneška." 🟡
+Panel 4: Stáčírna vedle muzea, linka v provozu.
+CAPTION: [K2] "Voda, o které je celá tahle kniha, teče dodneška." 🟢 (viz claim `BIL-VYROBA-2026` výše)
 Panel 5: Kapka stékající po skleněné vitríně muzea zevnitř.
 KAPKA VODY: [K2] "Přežila jsem spory o to, čím jsem. Přežila jsem řadu jmen. Přežila jsem i chvíle, kdy mě lidé nemohli najít. Tohle taky přežiju." 💡
 
