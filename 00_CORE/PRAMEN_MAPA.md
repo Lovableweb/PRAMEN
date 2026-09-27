@@ -2,7 +2,7 @@
 
 **Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
 **Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
-**Poslední aktualizace:** 2026-09-26 · 🔒 uzavření textu K3 str. 6–30 (rozhodnutí Řídícího mozku 2 D-1…D-7): +16 claimů D-8b (Claim DB 75), Incident str. 12 → 🟡, prompty v0.2 schváleny (D-4), prompt 27 vyřazen, `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md`, DEC-006. Předtím: K2.5 po auditu PR #30 + skript `scripts/generate_k3_from_k2.sh`.
+**Poslední aktualizace:** 2026-09-27 · **Prolog str. 1–5: NÁVRH v0.2** (Claude Code) po připomínkách Řídícího mozku 2 k v0.1 (PR #33, 🟡 REQUEST CHANGES): 3 panely/stranu, str. 5 formulace bez i nepřímého věcného tvrzení, zjednodušené pravidlo Prologu. Neschváleno, nemění status G5 v Master Core ("🔴 chybí"). Předtím (2026-09-26): 🔒 uzavření textu K3 str. 6–30 (rozhodnutí Řídícího mozku 2 D-1…D-7): +16 claimů D-8b (Claim DB 75), Incident str. 12 → 🟡, prompty v0.2 schváleny (D-4), prompt 27 vyřazen, `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md`, DEC-006. Předtím: K2.5 po auditu PR #30 + skript `scripts/generate_k3_from_k2.sh`.
 
 Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
 
@@ -127,6 +127,8 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | `PRAMEN_SCENAR_STR6-30_k2_WORKING.md` | 667 | ⭐ | **Scénář stran 6–30, verze K2** — historicky korigovaná pracovní verze (K1 + audit RECOVERY-011 + primární kolace); zdroj důvodů změn pro uzamčený K3 — mění se jen výslovným rozhodnutím. Na konci přílohy A–F: změny K1→K2, otevřené 🟡, další výzkum, dramaturgie, konflikty s prompty. Značky: 🟢 doloženo · 🟡 otevřené · 🟡k převzato z K1 nekolacionováno · 💡 dramaturgie |
 | `PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md` | 426 | 📦 | Textový přepis PDF s image prompty 1–30 (PDF samo mimo repo). PROMPT ≠ SCÉNÁŘ |
 | `PRAMEN_image_prompty_str1-30_REPORT.md` | 108 | 📦 | Shrnutí promptů po kapitolách + mantinely |
+| `PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.1.md` | – | 📦 | Prolog str. 1–5, první návrh (2026-09-27). ⚠️ Nahrazeno v0.2 po připomínkách Řídícího mozku 2 (PR #33), ponecháno jen jako archiv |
+| `PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.2.md` | – | ⭐ | **Prolog str. 1–5 — NÁVRH v0.2** (Claude Code, 2026-09-27, po připomínkách Řídícího mozku 2 k v0.1: 3 panely/stranu, str. 5 formulace bez i nepřímého věcného tvrzení). Jen Kapka vody, žádné historické claimy (vše 💡). Neschváleno, čeká na Jirku a Řídící mozek 2. Nemění status G5 v Master Core ("chybí") |
 
 ## 4. ZNAČKY A ID (rychlý slovník)
 
