@@ -2,6 +2,18 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-27] – HB-070: MODERNÍ HISTORIE BÍLINY 2025–2026 (KROK 1/3)
+
+**První ze tří dohodnutých kroků s Jirkou (moderní kapitola → okupace 1938–45 → Cyvín 1977).**
+
+- Nový `01_OBNOVA/RECOVERY-020_HB070_MODERNI_HISTORIE_BILINA_2025-2026.md`.
+- **Poprvé solidní materiál pro moderní éru** (dosud úplná mezera GAP-07/08): BHMW podal insolvenční návrh červen 2025 (dluh ~500 mil. Kč, ~600 věřitelů, příčiny — export a energie), 90 % věřitelů odmítlo reorganizaci, konkurz vyhlášen říjen 2025. Insolvenční správce prodal podnik mimo dražbu European Healing Waters (Kofola 90 % + Invest Gate 10 %) za 440,5 mil. Kč, dokončeno konec srpna 2026.
+- Muzeum otevřelo 16. 6. 2026 **ještě v době konkurzu**, před dokončením prodeje — zajímavý detail pro budoucí vyprávění.
+- Podnik zahrnuje i Zaječickou hořkou, Rudolfův pramen, Excelsior (Mariánské Lázně).
+- Přidány claimy `BIL-INSOLVENCE-2025`, `BIL-KONKURZ-2025-10`, `BIL-PRODEJ-EHW-2026` (SECONDARY, více nezávislých redakcí se shoduje).
+- **Není součástí Production Locku** — jde o materiál pro budoucí zvážení (Epilog/dodatek), ne automatickou změnu K3.
+- Mapa aktualizována.
+
 ## [2026-09-27] – STR. 29 OVĚŘENA A UPRAVENA (DEC-008) + SOUHLASY.md AKTUALIZOVÁN (DEC-009)
 
 **Na výslovný pokyn Jirky v chatu.**

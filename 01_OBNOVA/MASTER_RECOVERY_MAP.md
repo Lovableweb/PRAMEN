@@ -289,6 +289,19 @@ složek na české názvy (PR #44) — po sloučení #44 přepočítáno na nov�
 cesty (`00_JÁDRO/`, `SKRIPTY/`), obsah beze změny.** Testy A–H všechny
 🟢, backward compatibility 🟢, integrita historických dat 🟢.
 
+────────────────────────────────────────
+2l. MODERNÍ HISTORIE BÍLINY 2025–2026 — HB-070 (2026-09-27)
+────────────────────────────────────────
+
+| Cesta | Klasifikace |
+|---|---|
+| `01_OBNOVA/RECOVERY-020_HB070_MODERNI_HISTORIE_BILINA_2025-2026.md` | 🟡 D — webový výzkum, SECONDARY (více nezávislých redakcí se shoduje). Krok 1 ze 3 dohodnutého plánu s Jirkou |
+
+Insolvence BHMW (červen 2025) → konkurz (říjen 2025) → prodej European
+Healing Waters/Kofola+Invest Gate za 440,5 mil. Kč (konec srpna 2026).
+3 nové claimy v Claim DB. Poprvé solidní materiál pro dosud prázdnou
+moderní kapitolu (GAP-07/08). Není součástí Production Locku.
+
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY
 ════════════════════════════════════════
