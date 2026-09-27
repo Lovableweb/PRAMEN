@@ -31,7 +31,8 @@ b=$(grep -n '^# PŘÍLOHY' "$f" | cut -d: -f1)
 sed -n "${a},$((b-3))p" "$f" > "$T/a.txt"
 
 # RUČNÍ OPRAVA 1: poznámka uvnitř repliky (str. 12) – musí pryč před obecnými pravidly
-sed -i -E 's/ 🟢 \(K2\.3: RECOVERY-013 K3-G; původně „které historici považují za sporné"\)"$/" 🟢/' "$T/a.txt"
+# (od D-2 2026-09-26 nese replika 🟡 a poznámka má dovětek; regex přijme 🟢 i 🟡 a jakýkoli dovětek)
+sed -i -E 's/ (🟢|🟡) \(K2\.3: RECOVERY-013 K3-G;[^)]*\)"$/" \1/' "$T/a.txt"
 
 sed -E -i \
  -e 's/\[K2\] ?//g' \

@@ -2,7 +2,7 @@
 
 > **PROVENIENCE (zapsal Claude Code, 2026-09-26):**
 > - **Původ:** výstup druhého agenta na zadání „NOVÉ PROMPTY K3" (šest promptů pro str. K3 11, 12, 16, 19, 24, 25). Jirka ho vložil do Claude Code. Sekce „TEXT NÁVRHU" níže je **doslovný přepis**, beze změny obsahu.
-> - **Stav: NÁVRH v0.2 (v0.1 + dodatek na konci souboru, který opravuje tři odchylky od K3).** Není schválen. Není to Production Lock ani Vizuální Lock. Neruší ani nepřepisuje archivní prompty.
+> - **Stav: v0.2 SCHVÁLENO (D-4, 2026-09-26) jako pracovní produkční sada promptů vázaná na K3** — platí text v0.1 + dodatek v0.2 + dodatek D-4 na konci souboru (opravy str. 12 p2, 16 p2, 19 p1). **K3 je zdroj pravdy; starší prompt nesmí přebít K3.** Není to Vizuální Lock ani schválení obrazů. Neruší ani nepřepisuje archivní prompty.
 > - **Nezměněno:** archivní prompty, obrazy, K1, K2, K3, Claim DB.
 
 ## KONTROLA CLAUDE CODE PROTI K3 (2026-09-26)
@@ -345,3 +345,44 @@ Ostatní panely odpovídají K3.
 | 16 | 3 | Kdosi se dívá z vrcholu Bořně | Anonymní postava se dívá z vrcholu Bořně | ano |
 
 Odchylky od popisů panelů K3: **0.** Stav promptů: **NÁVRH v0.2, neschváleno**, není Vizuální Lock.
+
+---
+---
+
+# DODATEK D-4 – OPRAVY PODLE AKTUÁLNÍHO K3 A SCHVÁLENÍ (Claude Code, 2026-09-26)
+
+**Rozhodnutí Řídícího mozku 2 D-4 (2026-09-26):** prompty v0.2 jsou schválené jako **pracovní produkční sada promptů vázaná na K3**. Před schválením se opravují panely, které neodpovídají aktuálnímu K3 (str. 16 panel 2, str. 19 panel 1; OO-K3-07). **Závazné pravidlo: K3 je zdroj pravdy pro produkční image prompty. Starší prompt nesmí přebít K3.** Při rozporu platí K3 a prompt se opraví.
+
+Následující panely **nahrazují** stejně číslované panely v textu výše i v dodatku v0.2. Text agenta (v0.1) zůstává jako původní přepis.
+
+## K3 STR. 12 – panel 2, jen značka stavu (důsledek D-2)
+
+**Panel 2:** beze změny (Karel Bašta „vystupuje" z rámu obrazu, pozdější obraz zůstává za ním jako artefakt).
+**Stav:** 🟡 — replika Bašty „Jde o pozdější spornou tradici" je v K3 od D-2 🟡 (claim `TEP-INCIDENT-1812-TRADICE`, YELLOW). Obraz Bašty sám nic nedokládá.
+*(Změněno jen: 🟢 → 🟡, aby značka odpovídala K3.)*
+
+## K3 STR. 16 – panel 2 (nahrazuje panel 2 výše)
+
+**Panel 2:** Alexander von Humboldt a Freiesleben na Bořni, dobový oděv, opatrná historická rekonstrukce bez portrétního tvrzení. **František Ambrož Reuss v obraze NENÍ.** Žádné gesto, které by naznačovalo, že je s nimi někdo další.
+**Stav:** 🟢 — K3: „V roce 1792 vyšel v odborném časopise popis výstupu na Bořeň, připisovaný Freieslebenovi a Alexanderu von Humboldtovi. František Ambrož Reuss je v něm zmíněn jen jako autor, na kterého odkazují." (claim `HUM-BORSEN-1792`). Obraz je rekonstrukce, ne dokument konkrétního okamžiku.
+*(Odstraněno: „F. A. Reuss a mladý Alexander von Humboldt na Bořni", „společný výstup roku 1791". K3 panel 2 = „Humboldt a Freiesleben na Bořni; Reuss v obraze není".)*
+
+**Oprava části „CO NEZOBRAZOVAT" a „ZNAČKY STAVU" u str. 16:** místo „Humboldta a Reusse jako definitivně doloženou společnou expedici" platí **„Reusse s Humboldtem nebo Freieslebenem na Bořni vůbec nezobrazovat (společný výstup nedoložen)"**. Místo „🟡 Humboldt × Reuss" platí **„🟢 Humboldt a Freiesleben (popis 1792) · 🟡 přesný Reussův názor na Bořeň"**.
+
+## K3 STR. 19 – panel 1 (nahrazuje panel 1 výše)
+
+**Panel 1:** Silný déšť, mokrá zima nad bílinskou krajinou, prameny se plní kalnou vodou. Žádné moderní technické prvky, žádná dramatická povodeň.
+**Stav:** 🟢 — K3: „Roku 1789 se poškození pramenů podařilo jen zčásti napravit. Po zanedbání a mokrých zimách se minerální voda mísila s dešťovou, takže roku 1806 muselo být rozesílání bílinské vody úplně zastaveno." (claim `BIL-REUSS-1808-1806`). Přesná podoba jímek není doložena, obraz ji nesmí tvrdit.
+*(Odstraněno: „přelom 18. a 19. století", „poškozování od roku 1800" a značka 🟡. K3 rok 1800 nepoužívá.)*
+
+**Oprava poznámky č. 6 výše:** místo „v letech 1800–1806" platí „v letech 1789–1806".
+
+## Kontrola po opravách D-4
+
+| Strana | Panel | K3 popis panelu | Prompt po D-4 | Shoda |
+|---|---:|---|---|---|
+| 12 | 2 | Bašta „vystupuje" z rámu (replika 🟡) | Bašta vystupuje z rámu, značka 🟡 | ano |
+| 16 | 2 | Humboldt a Freiesleben na Bořni; Reuss v obraze není | Humboldt a Freiesleben, Reuss není | ano |
+| 19 | 1 | Silný déšť, mokrá zima, prameny se plní kalnou vodou (1789/1806 🟢) | totéž, bez roku 1800 | ano |
+
+Odchylky panelů od K3 po D-4: **0** (str. 11, 12, 16, 19, 24, 25). **Stav: SCHVÁLENO (D-4) jako pracovní produkční sada promptů vázaná na K3.** Není to Vizuální Lock ani schválení hotových obrazů (obrazy nebyly auditovány, D-6).

@@ -78,32 +78,32 @@ Postup: **předání → zápis do repa (RECOVERY-0xx nebo pracovní soubor) →
 
 | Vrstva | Stav | Detail |
 |---|---|---|
-| **Historie** | 🟡 | Claim DB 60 claimů (45 původních + 15 z 2026-09-26 podle rozhodnutí D-8 a auditu PR #30). Primární kolace: 13 pramenů PRIMARY SEEN (Gartenlaube 1879, Reuss 1791–1827, Berzelius 1823/1840, Hoffmann, Goethe WA, Vincentius) + výzkum P1–P10 pro K2. Každé 🟢 tvrzení z nálezů použité v K3 (N-01, N-02, N-04…N-10, N-12…N-14) má vlastní claim; N-03 (v K3 nepoužito), N-11 (1589, stopa), N-15 (OCR nejisté), N-16 (jen katalog), N-17 (sekundární) se do Claim DB **nepromítají**. |
-| **Scénář 6–30** | 🟡 | K1 → K2 (K2.1–K2.5, audity RECOVERY-011/012/013) → **K3 CLEAN**. Čeká na rozhodnutí Řídícího mozku 2 a Jirky. |
+| **Historie** | 🟡 | Claim DB **75 claimů** (44 původních + 15 z D-8 / auditu PR #30 + 16 z D-8b; dřívější „45/60" byla chyba součtu o 1). Primární kolace: 13 pramenů PRIMARY SEEN (Gartenlaube 1879, Reuss 1791–1827, Berzelius 1823/1840, Hoffmann, Goethe WA, Vincentius) + výzkum P1–P10 pro K2. Každé 🟢 tvrzení z nálezů použité v K3 (N-01, N-02, N-04…N-10, N-12…N-14) má vlastní claim; N-03 (v K3 nepoužito), N-11 (1589, stopa), N-15 (OCR nejisté), N-16 (jen katalog), N-17 (sekundární) se do Claim DB **nepromítají**. |
+| **Scénář 6–30** | 🔒 | K1 → K2 (K2.1–K2.5, audity RECOVERY-011/012/013) → **K3 CLEAN**. **🔒 PRODUCTION LOCK — TEXT K3 STR. 6–30** (D-7, 2026-09-26; `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md`). |
 | **Scénář 1–5 (Prolog)** | 🔴 | chybí |
-| **Page Master** | 🟡 návrh | text 25/30 · historie 🟢 8 stran · 17 🟡 · vizuální zadání 🟢 2 stran · obraz 0/30 auditováno · Lock 0 |
+| **Page Master** | 🟡 návrh | text 25/30 · historie 🟢 8 stran · 17 🟡 · vizuální zadání 🟢 18 stran · obraz 0/30 auditováno · Lock: text str. 6–30 |
 | **Postavy** | 🟡 návrh | Character Register: 3 průvodci, 25 historických postav a zmínek, anonymní postavy, 4 vyřazené/odložené |
-| **Prompty** | 🟡 | archivní 1–30. Návrhy: 6 nových (str. 11, 12, 16, 19, 24, 25) a 10 upravených (7, 8, 13, 15, 17, 18, 21, 23, 26, 28), v0.2, **neschváleno**. Prompty 8, 11, 13, 15, 19, 26, 27 nepoužity. |
+| **Prompty** | 🟡 | archivní 1–30. 6 nových (str. 11, 12, 16, 19, 24, 25) a 10 upravených (7, 8, 13, 15, 17, 18, 21, 23, 26, 28), v0.2 + dodatek D-4, **schváleno D-4 jako pracovní produkční sada vázaná na K3** (K3 > prompt). Prompty 8, 11, 13, 15, 19, 26, 27 mimo produkční sadu, archivovány (27 vyřazen D-4). |
 | **Obrazy** | ⚪ | 30 obrazů podle Content Registry existuje, ale mimo repo. **Obrazový audit odložen na úplný konec** (pokyn Jirky 2026-09-26). |
 | **Originály** | 🔴 | Komiksová Bible v1.0, Osa v1.1, storyboard: nenalezeny. Máme jen recovered working verze. |
-| **HB-057 Production Lock** | 🔴 | blokován (DEC-003) |
+| **HB-057 Production Lock** | 🔒 / 🔴 | **str. 6–30 TEXT: 🔒 uzamčen (D-7, DEC-006)**; str. 1–5, obrazy, publikace, lidská schválení: dál 🔴 / ⚪ (DEC-003 platí pro zbytek) |
 
 ## 6. BRÁNA K PRODUCTION LOCK (checklist)
 
-Production Lock smí vyhlásit **jen Jirka** a zapíše se do `DECISION_REGISTER.md`. Podmínky:
+Production Lock smí vyhlásit **jen Jirka** a zapíše se do `DECISION_REGISTER.md`. **2026-09-26: Řídící mozek 2 rozhodl (D-5, D-6, D-7) zamknout jen TEXT K3 str. 6–30 bez Prologu a bez obrazového auditu; Jirka lock potvrzuje sloučením PR do `main`.** Podmínky (stav pro celý komiks):
 
 | # | Podmínka | Stav |
 |---|---|---|
 | G1 | **Master Core 2.0** schválen | 🟡 tento návrh |
 | G2 | **Page Master 1–30** schválen a aktuální | 🟡 návrh |
 | G3 | **Character Register** schválen | 🟡 návrh |
-| G4 | **Scénář 6–30**: K3 schválen Řídícím mozkem 2 a Jirkou | 🟡 |
-| G5 | **Prolog 1–5**: text existuje, nebo Jirka rozhodne jinak (např. Lock jen pro 6–30) | 🔴 |
-| G6 | **Historie**: žádné 🔴 ve scénáři; ke každému 🟡 / 🟡k rozhodnutí „ověřit / ponechat opatrně / vypustit"; nálezy kolace promítnuty do Claim DB | 🟡 |
-| G7 | **Prompty**: každá strana má schválený prompt bez odchylek od K3 | 🟡 (návrhy v0.2) |
-| G8 | **Obrazy**: 30 obrazů v repu nebo na Drive, audit proti K3, Page Masteru a Character Registeru | ⚪ odloženo na konec |
-| G9 | **Str. 29**: aktuální fakta ověřena (OO-K3-01) | 🟡 odloženo |
-| G10 | **Souhlasy**: Karel Bašta (jméno, podoba), podoba Digitálního Jirky | 🔴 nezapsáno |
+| G4 | **Scénář 6–30**: K3 schválen Řídícím mozkem 2 a Jirkou | 🟢 D-7 (text str. 6–30) |
+| G5 | **Prolog 1–5**: text existuje, nebo Jirka rozhodne jinak (např. Lock jen pro 6–30) | 🟢 pro lock 6–30 (D-5: Prolog mimo lock) · Prolog sám 🔴 chybí |
+| G6 | **Historie**: žádné 🔴 ve scénáři; ke každému 🟡 / 🟡k rozhodnutí „ověřit / ponechat opatrně / vypustit"; nálezy kolace promítnuty do Claim DB | 🟢 pro text 6–30: každé 🟢 má claim (D-8b), 🟡/🟡k ponechány jako opatrné formulace (D-7) |
+| G7 | **Prompty**: každá strana má schválený prompt bez odchylek od K3 | 🟢 v0.2 schváleno (D-4) pro 16 stran + 29, 30; 🟡 7 archivních (6, 9, 10, 14, 20, 22, 27) pod pravidlem K3 > prompt |
+| G8 | **Obrazy**: 30 obrazů v repu nebo na Drive, audit proti K3, Page Masteru a Character Registeru | ⚪ odloženo na konec; mimo lock (D-6), obrazy nejsou finální |
+| G9 | **Str. 29**: aktuální fakta ověřena (OO-K3-01) | 🟡 úkol Jirky (mimo lock textu) |
+| G10 | **Souhlasy**: Karel Bašta (jméno, podoba), podoba Digitálního Jirky | 🔴 úkol Jirky, nezapsáno (mimo lock textu) |
 
 Pořadí podle Jirky (2026-09-26):
 1. Master Core 2.0;
@@ -114,19 +114,19 @@ Pořadí podle Jirky (2026-09-26):
 
 ## 7. HLAVNÍ OTEVŘENÁ ROZHODNUTÍ (pro Jirku / Řídící mozek 2)
 1. **Schválit** Master Core 2.0, Page Master a Character Register (G1–G3).
-2. **K3:** schválit, nebo zadat úpravy.
-3. **Prolog 1–5:** hledat originál, napsat nově (jako K-verzi s audity), nebo omezit Lock na strany 6–30.
-4. **Prompty v0.2** (16 stran): schválit, nebo upravit. Prompt 27: využít, nebo vyřadit (OO-K3-05).
-5. **Claim DB:** promítnout nálezy kolace (Goethe × Reuss 1813, Berzelius 1823/1840, Hoffmann 1717, Gartenlaube 1879, Loos 1743, Jarloch o Juditě a další).
+2. ~~**K3:** schválit, nebo zadat úpravy.~~ **Rozhodnuto D-7 (2026-09-26):** text K3 str. 6–30 uzamčen.
+3. ~~**Prolog 1–5:** …~~ **Rozhodnuto D-5:** lock jen pro 6–30, na Prolog se nečeká. Prolog sám zůstává otevřený (chybí text).
+4. ~~**Prompty v0.2** (16 stran)…~~ **Rozhodnuto D-4:** v0.2 schváleno jako pracovní produkční sada vázaná na K3 (opraveny str. 12 p2, 16 p2, 19 p1); prompt 27 vyřazen, archivován.
+5. ~~**Claim DB:** promítnout nálezy kolace…~~ **Hotovo:** D-8 (15 claimů) + D-8b (16 claimů); každé 🟢 v K3 má claim.
 6. **Loos:** K3 „kolem 1770" × Reuss 1791 „studny vykopal 1743" (nový nález, viz Character Register CH-018).
-7. **Souhlas Karla Bašty** a ověření str. 29 (načasovat před tiskem).
+7. **Souhlas Karla Bašty** a ověření str. 29 (načasovat před tiskem) — **úkoly Jirky, AI je neoznačuje za splněné** (G9, G10).
 
 ## 8. ZNÁMÉ ROZPORY (otevřené, nerozhodnuté)
 - **Loos:** K3 (tradice kolem 1770) × Reuss 1791 (studny 1743, spor o „první pramen").
 - **Oběti 1879:** Claim DB (`TEP-1879-VICTIMS`: 2 oběti v šachtě Nelson) × Gartenlaube 1879 (2 Italové v „sousedních šachtách", bez jména).
 - **Reuss 1788:** věnování vydání 1788 nečteno; vydání 1801 věnováno knížeti Augustu Josefovi, K3 str. 15 uvádí Františka Josefa (najmutí).
-- **Prompt Master Map:** prompt 7 použit dvakrát (str. 7 a 8), prompt 27 nepřiřazen.
+- **Prompt Master Map:** prompt 7 použit dvakrát (str. 7 a 8). (Prompt 27 vyřazen z produkční sady, D-4.)
 - **Starší dokumenty jsou v částech zastaralé:** `PRAMEN_MASTER.md` v1.0, recovered Teplice/Bílina, Komiksová Bible (tabulka stran podle promptů, ne K3), Cross-audit v1.0 (jiné rozložení stran). **Při rozporu platí §4.**
 
 ## 9. CO SE TÍMTO DOKUMENTEM NEMĚNÍ
-Claim DB, K1, K2, K3, prompty, obrazy, rozhodnutí DEC-001…005, AI protokol. HB-057 zůstává 🔴.
+Claim DB, K1, K2, K3, prompty, obrazy, rozhodnutí DEC-001…006, AI protokol. (Stav HB-057 zapisuje DEC-006 a `PRODUCTION_LOCK_K3_STR6-30.md`, ne tento dokument.)

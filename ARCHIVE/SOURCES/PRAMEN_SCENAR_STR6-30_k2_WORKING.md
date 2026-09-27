@@ -1,6 +1,6 @@
 # PRAMEN – SCÉNÁŘ STRAN 6–30 (verze K2, WORKING)
 
-> **K2 = historicky korigovaná pracovní verze. NENÍ Production Lock.**
+> **K2 = historicky korigovaná pracovní verze (zdroj pravdy o důvodech změn). Uzamčený produkční text je K3 str. 6–30 — viz `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md` (D-7, 2026-09-26). Změna K2 po locku jen výslovným rozhodnutím Řídícího mozku 2 / Jirky. D-2: str. 12 „sporná tradice" 🟢 → 🟡.**
 >
 > - **Vznik:** 2026-09-26, Claude Code, na zadání Jirky (krok K2).
 > - **Vstup:** `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k1.md` (dramaturgická základna, NE historická autorita), `01_RECOVERY/RECOVERY-011_AUDIT_K1_STR6-30.md` (závazný audit + kontrola R11-01…07), `01_HISTORIK/CLAIM_DATABASE.md`, `01_HISTORIK/PRIMARNI_KOLACE_VYSLEDEK.md`, `00_CORE`.
@@ -112,7 +112,7 @@ STRANA 12 — "Legenda z promenády"
 Panel 1 (rám jako dobová litografie): Beethoven razí si cestu davem, Goethe se klaní, císařovna s doprovodem.
 CAPTION: "‚Incident v Teplicích', 1887 – obraz namalovaný 75 let po události." 🟡k
 Panel 2: Bašta „vystupuje" z rámu.
-BAŠTA: [K2] "Tenhle obraz zná celá Evropa. Jenže vznikl o 75 let později, podle pozdějšího vyprávění. Jde o pozdější spornou tradici. 🟢 (K2.3: RECOVERY-013 K3-G; původně „které historici považují za sporné")"
+BAŠTA: [K2] "Tenhle obraz zná celá Evropa. Jenže vznikl o 75 let později, podle pozdějšího vyprávění. Jde o pozdější spornou tradici. 🟡 (K2.3: RECOVERY-013 K3-G; původně „které historici považují za sporné"; D-2 2026-09-26: 🟢 → 🟡, claim `TEP-INCIDENT-1812-TRADICE`)"
 Panel 3 (rozdělený): legenda vlevo, klidnější realističtější verze vpravo.
 BAŠTA (caption): [K2] "Co se stalo doopravdy, přesně nevíme. Deník máme, takže víme, že spolu jeli k Bílině a že se navštěvovali. Legenda je barvitější než doklady."
 Panel 4: Goethe odjíždí kočárem, ohlíží se.

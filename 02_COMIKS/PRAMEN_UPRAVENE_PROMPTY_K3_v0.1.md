@@ -2,7 +2,7 @@
 
 > **PROVENIENCE (zapsal Claude Code, 2026-09-26):**
 > - **Původ:** výstup druhého agenta na zadání „ÚPRAVA PROMPTŮ K3" (deset stran: 7, 8, 13, 15, 17, 18, 21, 23, 26, 28). Jirka ho vložil do Claude Code. Sekce „TEXT NÁVRHU (v0.1)" níže je **doslovný přepis**, beze změny obsahu.
-> - **Stav: NÁVRH.** Není schválen. Není to Production Lock ani Vizuální Lock. Neruší ani nepřepisuje archivní prompty.
+> - **Stav: v0.2 SCHVÁLENO (D-4, 2026-09-26) jako pracovní produkční sada promptů vázaná na K3** — platí text v0.1 s KOMPOZICÍ nahrazenou dodatkem v0.2. **K3 je zdroj pravdy; starší prompt nesmí přebít K3.** Není to Vizuální Lock ani schválení obrazů. Neruší ani nepřepisuje archivní prompty.
 > - **DŮLEŽITÉ: tvrzení agenta „popisy panelů přesně podle K3 = ano" platí jen u 2 stran z 10. Části KOMPOZICE u ostatních stran nesedí s K3 a jsou nahrazeny dodatkem v0.2 na konci souboru.**
 > - **Nezměněno:** archivní prompty, obrazy, K1, K2, K3, Claim DB.
 
@@ -679,6 +679,6 @@ Souhrnný, klidný, současný. Ne další historická epizoda, ale mapa celého
 | 26 | 5 | 5 | ano | ano |
 | 28 | 4 | beze změny | ano | ano |
 
-Odchylky panelů od K3 po dodatku: **0.** Stav promptů: **NÁVRH v0.2, neschváleno**, není Vizuální Lock.
+Odchylky panelů od K3 po dodatku: **0.** Stav promptů: **v0.2 SCHVÁLENO (D-4, 2026-09-26)** jako pracovní produkční sada vázaná na K3; není Vizuální Lock. *(Původně: „NÁVRH v0.2, neschváleno".)*
 
 **Poznámka ke kontrole (strojové porovnání textu):** popisy panelů v dodatku jsou z K3 převzaty slovo od slova, s těmito drobnými úpravami: (a) velké/malé počáteční písmeno, (b) u F. A. Reusse doplněno křestní jméno „František Ambrož" a u str. 21 roky 1761–1830 a 1811–1873 podle pravidla rozlišení obou Reussů, (c) u str. 26 panel 2 doplněno podmětu „Berzelius". Žádný nový předmět, osoba ani děj se nepřidal.

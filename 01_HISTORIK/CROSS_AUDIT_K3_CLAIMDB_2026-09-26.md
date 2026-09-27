@@ -3,6 +3,7 @@
 > **Zapsal:** Claude Code, 2026-09-26, na základě auditu PR #30 (Řídící mozek 2: „udělat cross-audit K2 → K3 → Claim DB → Page Master → Character Register").
 > **Účel:** ke každému 🟢 tvrzení v K3 uvést claim v `CLAIM_DATABASE.md`. Pravidlo: **Claim DB = centrální evidence historických tvrzení**; K3 nesmí mít 🟢 tvrzení bez claimu.
 > **Stav K3:** K2.5 / K3 z PR #30 (po opravách).
+> **Dodatek 2026-09-26 (uzavření, D-2 / D-7):** mezery ⚠️1–16 jsou doplněny claimy D-8b, viz **sekce 5**. Po doplnění: **0 mezer**. Sekce 1–4 zůstávají jako záznam stavu před doplněním.
 > **Nic se tímto dokumentem neměnilo.** Je to zpráva. Rozhodnutí o mezerách (sekce 3) patří Řídícímu mozku 2 (rozhodnutí D-8 dovoluje jen vyjmenované claimy).
 
 ## 1. VÝSLEDEK V KOSTCE
@@ -72,3 +73,33 @@ Zvlášť upozorňuji na **mezeru 3 (str. 12, „Incident = pozdější sporná 
 - **Stará verze tvrzení:** v Character Register, Page Master a Master Core už nezůstalo „Humboldt × Reuss 1791", „o několik týdnů později", „19. 8. 1812", „od roku 1800", „1712" jako platné tvrzení (zbývá jen „Reuss 1791" jako název knihy a Loos, které nesouvisí).
 - **`BIL-761` / `TEP-762` zůstávají RED** (jako datum objevu). Nové claimy `BIL-REUSS-1801-HAJEK-761` a `TEP-REUSS-1823-762` jsou jiná tvrzení (Reuss cituje tradici) a mají výslovnou poznámku, že RED claimy nepovyšují.
 - **N-17 (Beethovenův dopis 1823)** zůstává 🟡 (SECONDARY QUOTED). K3 str. 12 ho uvádí jen jako „pozdější kontakt dokládá i…", obsah dopisu se netvrdí.
+
+
+## 5. DOPLNĚNÍ D-8b A ZÁVĚREČNÁ KONTROLA (2026-09-26, rozhodnutí Řídícího mozku 2 D-2 = varianta A)
+
+| Mezera | Str. | Nový claim | Status | Pozn. |
+|---:|---:|---|---|---|
+| ⚠️1 | 11 | `TEP-GOETHE-BEETHOVEN-1907-1812` | GREEN | Goethe WA III 4 |
+| ⚠️2 | 11 | `TEP-GOETHE-BEETHOVEN-2107-1812` | GREEN | Goethe WA III 4 |
+| ⚠️3 | 12 | `TEP-INCIDENT-1812-TRADICE` | **YELLOW** | D-2: jen audit/K1, sporná tradice → **K3 str. 12 změněno 🟢 → 🟡** |
+| ⚠️4 | 13 | `TEP-1879-DOLLINGER-ANBRUCH` | GREEN | Gartenlaube 1879/10, s. 165 |
+| ⚠️5 | 13 | `TEP-1879-SPRING-STOP-1213` | GREEN | s. 164–165; `TEP-1879-DRAINED` zůstává RED |
+| ⚠️6 | 13 | `TEP-1879-KOMISE-SUESS` | GREEN | s. 165–166; `TEP-1879-SUESS-DRILL` zůstává RED |
+| ⚠️7 | 13 | `TEP-1879-GERETTET-PRESS` | GREEN | jen dobové hodnocení tisku; `TEP-1879-RESCUE` zůstává RED |
+| ⚠️8 | 16 | `BIL-REUSS-1790-BASALT` | GREEN | BIBLIOGRAPHIC, jen existence a titul |
+| ⚠️9 | 18 | `BIL-BERZELIUS-1822-TRAVEL` | GREEN | negativní nález v OCR |
+| ⚠️10 | 18 | `BIL-REUSS-1818-BERZELIUS-DATA` | GREEN | Reuss 1818, s. 56, 102, 103 |
+| ⚠️11 | 21 | `BIL-AE-REUSS-BORN-1811` | GREEN | D-2: přesný biografický údaj |
+| ⚠️12 | 21 | `BIL-FA-REUSS-DEATH-1830` | GREEN | D-2 |
+| ⚠️13 | 24 | `ZAJ-REUSS-1827-MOTIV` | GREEN | předmluva 1827 |
+| ⚠️14 | 25 | `ZAJ-STEINMANN-1827` | GREEN | titulní list 1827 |
+| ⚠️15 | 25 | `ZAJ-REUSS-1827-NEJBOHATSI` | GREEN | jen jako Reussův výrok 1827 |
+| ⚠️16 | 25 | `ZAJ-MGSO4-1827` | GREEN | RECOVERY-011 + Reuss/Steinmann 1827 |
+
+**Závěrečná kontrola (strojově, na stavu této větve):**
+- Replik a captionů s 🟢 v těle K3: **34** (str. 7: 1 · 8: 1 · 9: 1 · 10: 1 · 11: 3 · 13: 6 · 14: 2 · 16: 3 · 17: 2 · 18: 3 · 19: 1 · 21: 3 · 24: 1 · 25: 2 · 26: 4). Str. 12 už 🟢 nemá (D-2). Každá z nich je v tabulce sekce 2 navázána na claim; po sekci 5 **žádná 🟢 bez claimu**.
+- Všechna claim ID citovaná v K2, K3-souvisejících promptech (dodatek D-4), Page Masteru, Character Registeru a v tomto dokumentu **existují** v `CLAIM_DATABASE.md` (0 chybějících).
+- K3 tělo = výstup `scripts/generate_k3_from_k2.sh` z K2 (diff prázdný).
+- Claim DB: **75 claimů** (strojově; dřívější „45/60" byla chyba součtu o 1).
+- RED claimy `TEP-1879-DRAINED`, `TEP-1879-SUESS-DRILL`, `TEP-1879-RESCUE`, `BIL-761`, `TEP-762`, `TEP-FIRST-BATHS-1581` zůstávají RED.
+- 🟡 / 🟡k v K3 zůstávají (lock je nepovyšuje).

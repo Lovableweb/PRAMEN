@@ -22,6 +22,14 @@
 
 ---
 
+## ROZHODNUTÍ D-4 (Řídící mozek 2, 2026-09-26)
+
+- **Prompt 27** („Zaječice – uzavření kapitoly / přechod k epilogu") nemá jasnou vazbu na žádnou stranu K3 → **VYŘAZEN z produkční sady promptů. Zůstává archivován** (historie se nemaže; text promptu v archivním přepisu beze změny). Uzavírá OO-K3-05.
+- **Produkční sada promptů = prompty přiřazené v této mapě k K3 str. 6–30** + nové a upravené prompty v0.2 (`02_COMIKS/PRAMEN_NOVE_PROMPTY_K3_v0.1.md`, `02_COMIKS/PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md`), **schválené D-4 jako pracovní produkční sada vázaná na K3**.
+- **Závazné pravidlo:** K3 je zdroj pravdy pro produkční image prompty. Starší (archivní) prompt nesmí přebít K3; při rozporu platí K3.
+- Mimo produkční sadu (nepoužité, archivované): prompty **8, 11, 13, 15, 19, 26, 27** (a 1–5 = Prolog, mimo lock).
+- Obrazy nebyly auditovány a nejsou tímto schváleny (D-6).
+
 ## TEXT MASTER MAP (doslovný přepis)
 
 PRAMEN – PROMPT MASTER MAP

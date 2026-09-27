@@ -1,6 +1,6 @@
 # PRAMEN – PAGE MASTER 1–30
 
-> **Verze:** 1.1 (NÁVRH ke schválení Jirkou; 2026-09-26 aktualizováno po K2.5: strany 7, 9, 11, 12, 14, 16, 19, 21) · **Založil:** Claude Code, 2026-09-26 · **Není Production Lock.**
+> **Verze:** 1.2 (2026-09-26 aktualizováno po K2.5: strany 7, 9, 11, 12, 14, 16, 19, 21; **1.2: uzavření textu K3 str. 6–30 podle rozhodnutí Řídícího mozku 2 D-1…D-7**) · **Založil:** Claude Code, 2026-09-26 · **🔒 Production Lock platí jen pro TEXT str. 6–30** (`00_CORE/PRODUCTION_LOCK_K3_STR6-30.md`); obrazy, Prolog a lidská schválení mimo lock.
 >
 > **Účel:** Jedna řádka = jedna strana komiksu. Kdo chce vědět, v jakém stavu je kterákoli strana, najde to tady. Nemusí přitom procházet scénáře, audity a prompty.
 >
@@ -28,7 +28,7 @@ Každá strana má pět vrstev. Strana je „připravená na Production Lock" a�
 | **HISTORIE** | všechna historická tvrzení na straně 🟢 (💡 nevadí) | na straně je aspoň jedno 🟡 / 🟡k | na straně je tvrzení 🔴 | — |
 | **VIZUÁLNÍ ZADÁNÍ** | prompt schválený a v souladu s K3 | prompt existuje, ale potřebuje úpravu, nebo je jen neschválený návrh | prompt chybí nebo je v tvrdém konfliktu | — |
 | **OBRAZ** | hotový obraz zkontrolován proti K3 | obraz zkontrolován, nutná úprava | obraz v rozporu, nutno nahradit | **neauditováno** (obrazy zatím nejsou v repozitáři; audit odložen na konec, pokyn Jirky 2026-09-26) |
-| **LOCK** | stranu uzamkl Jirka | — | není uzamčeno | — |
+| **LOCK** | stranu uzamkl Jirka | 🔒 text — uzamčen jen TEXT strany (D-7), obraz a lidská schválení ne | není uzamčeno | — |
 
 Značky historie přebírá Page Master z K3:
 - 🟢 doloženo;
@@ -49,44 +49,43 @@ Počty v závorce = kolikrát se značka na straně vyskytuje.
 | 3 | Prolog | — | 🔴 | ⚪ | 🟡 prompt 3 | ⚪ | 🔴 |
 | 4 | Prolog | — | 🔴 | ⚪ | 🟡 prompt 4 | ⚪ | 🔴 |
 | 5 | Prolog → Teplice | — | 🔴 | ⚪ | 🟡 prompt 5 | ⚪ | 🔴 |
-| 6 | Teplice | Voda, která tu byla dřív než my | 🟢 | 🟡 (🟡k 2, 🟡 1) | 🟡 prompt 6, úprava | ⚪ | 🔴 |
-| 7 | Teplice | Pohádka, nebo pravda? | 🟢 | 🟡 (🟢 1, 🟡 2) | 🟡 prompt 7, úprava (návrh v0.2) | ⚪ | 🔴 |
-| 8 | Teplice | Kámen a voda | 🟢 | 🟡 (🟢 1, 🟡 1) | 🟡 prompt 7 (sdílený se str. 7), úprava (návrh v0.2) | ⚪ | 🔴 |
-| 9 | Teplice | Malá Paříž | 🟢 | 🟡 (🟢 1, 🟡k 3) | 🟡 prompt 9, úprava | ⚪ | 🔴 |
-| 10 | Teplice | Skladatel, který neslyší ticho | 🟢 | 🟡 (🟢 1, 🟡k 3) | 🟡 prompt 10, úprava | ⚪ | 🔴 |
-| 11 | Teplice | Dva velikáni | 🟢 | 🟢 (🟢 3) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
-| 12 | Teplice | Legenda z promenády | 🟢 | 🟡 (🟢 1, 🟡k 1, 🟡 1) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
-| 13 | Teplice | Den, kdy Teplice ztratily hlas | 🟢 | 🟢 (🟢 6) | 🔴 prompt 12 – tvrdý konflikt v archivní verzi (záchranáři, vrt); úprava v návrhu v0.2 | ⚪ | 🔴 |
-| 14 | Bílina | Ta samá pohádka, jiné město | 🟢 | 🟡 (🟢 2, 🟡k 1, 🟡 1) | 🟡 prompt 14, úprava | ⚪ | 🔴 |
-| 15 | Bílina | Muž, který se ptal proč | 🟢 | 🟡 (🟡k 2) | 🟡 prompt 16, úprava (návrh v0.2) | ⚪ | 🔴 |
-| 16 | Bílina | Sopka, která možná není sopka | 🟢 | 🟡 (🟢 3, 🟡 1) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
-| 17 | Bílina | Básník na Bořni | 🟢 | 🟡 (🟢 2, 🟡k 1) | 🟡 prompt 17, úprava (návrh v0.2) | ⚪ | 🔴 |
-| 18 | Bílina | Čísla, která cestovala | 🟢 | 🟢 (🟢 3) | 🔴 prompt 18 – starší tvrzení o Berzeliově metodě; úprava v návrhu v0.2 | ⚪ | 🔴 |
-| 19 | Bílina | Léta ticha | 🟢 | 🟡 (🟢 1, 🟡 1) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
-| 20 | Bílina | Voda, která putovala | 🟢 | 🟡 (🟡 3) | 🟡 prompt 20, úprava | ⚪ | 🔴 |
-| 21 | Bílina → Zaječice | Otec, syn a most k jinému prameni | 🟢 | 🟢 (🟢 3) | 🟡 prompt 21, úprava (návrh v0.2) | ⚪ | 🔴 |
-| 22 | Zaječice | Muž, který kopal na vlastním poli | 🟢 | 🟡 (🟡 3) | 🟡 prompt 22, úprava | ⚪ | 🔴 |
-| 23 | Zaječice | Jméno, které mělo tucet tváří | 🟢 | 🟡 (🟡k 2, 🟡 1) | 🟡 prompt 23, úprava (návrh v0.2) | ⚪ | 🔴 |
-| 24 | Zaječice | Lež v prášku | 🟢 | 🟡 (🟢 1, 🟡 2) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
-| 25 | Zaječice | Rozbor v číslech | 🟢 | 🟢 (🟢 2) | 🟡 NOVÝ prompt – návrh v0.2 | ⚪ | 🔴 |
-| 26 | Zaječice | Lahve do Stockholmu (komorní vrchol) | 🟢 | 🟢 (🟢 4) | 🔴 prompt 24 – archivní text „doložená přímá spolupráce"; úprava v návrhu v0.2 | ⚪ | 🔴 |
-| 27 | Zaječice → Epilog | Tichá voda, hlasitý svět | 🟢 | 🟡 (🟡k 1) | 🟡 prompt 25, úprava | ⚪ | 🔴 |
-| 28 | Epilog | Tři vody, jedna mapa | 🟢 | 🟢 (jen 💡) | 🟡 prompt 28, úprava (návrh v0.2) | ⚪ | 🔴 |
-| 29 | Epilog | Muzeum, ve kterém to všechno bydlí | 🟢 | 🟡 (🟡 4) – **OVĚŘIT PŘED TISKEM** (OO-K3-01, odloženo) | 🟢 prompt 29, v pořádku (s ověřením) | ⚪ | 🔴 |
-| 30 | Epilog | Pohádka, která se opravdu stala | 🟢 | 🟢 (jen 💡) | 🟢 prompt 30, v pořádku | ⚪ | 🔴 |
+| 6 | Teplice | Voda, která tu byla dřív než my | 🟢 | 🟡 (🟡k 2, 🟡 1) | 🟡 prompt 6, úprava | ⚪ | 🔒 text |
+| 7 | Teplice | Pohádka, nebo pravda? | 🟢 | 🟡 (🟢 1, 🟡 2) | 🟢 prompt 7, upravený v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 8 | Teplice | Kámen a voda | 🟢 | 🟡 (🟢 1, 🟡 1) | 🟢 prompt 7 (sdílený se str. 7), upravený v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 9 | Teplice | Malá Paříž | 🟢 | 🟡 (🟢 1, 🟡k 3) | 🟡 prompt 9, úprava | ⚪ | 🔒 text |
+| 10 | Teplice | Skladatel, který neslyší ticho | 🟢 | 🟡 (🟢 1, 🟡k 3) | 🟡 prompt 10, úprava | ⚪ | 🔒 text |
+| 11 | Teplice | Dva velikáni | 🟢 | 🟢 (🟢 3) | 🟢 NOVÝ prompt v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 12 | Teplice | Legenda z promenády | 🟢 | 🟡 (🟡k 1, 🟡 2) | 🟢 NOVÝ prompt v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 13 | Teplice | Den, kdy Teplice ztratily hlas | 🟢 | 🟢 (🟢 6) | 🟢 prompt 12 upravený v0.2 – schváleno (D-4); archivní verze (tvrdý konflikt: záchranáři, vrt) se nepoužívá | ⚪ | 🔒 text |
+| 14 | Bílina | Ta samá pohádka, jiné město | 🟢 | 🟡 (🟢 2, 🟡k 1, 🟡 1) | 🟡 prompt 14, úprava | ⚪ | 🔒 text |
+| 15 | Bílina | Muž, který se ptal proč | 🟢 | 🟡 (🟡k 2) | 🟢 prompt 16, upravený v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 16 | Bílina | Sopka, která možná není sopka | 🟢 | 🟡 (🟢 3, 🟡 1) | 🟢 NOVÝ prompt v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 17 | Bílina | Básník na Bořni | 🟢 | 🟡 (🟢 2, 🟡k 1) | 🟢 prompt 17, upravený v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 18 | Bílina | Čísla, která cestovala | 🟢 | 🟢 (🟢 3) | 🟢 prompt 18 upravený v0.2 – schváleno (D-4); archivní verze (starší tvrzení o Berzeliově metodě) se nepoužívá | ⚪ | 🔒 text |
+| 19 | Bílina | Léta ticha | 🟢 | 🟡 (🟢 1, 🟡 1) | 🟢 NOVÝ prompt v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 20 | Bílina | Voda, která putovala | 🟢 | 🟡 (🟡 3) | 🟡 prompt 20, úprava | ⚪ | 🔒 text |
+| 21 | Bílina → Zaječice | Otec, syn a most k jinému prameni | 🟢 | 🟢 (🟢 3) | 🟢 prompt 21, upravený v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 22 | Zaječice | Muž, který kopal na vlastním poli | 🟢 | 🟡 (🟡 3) | 🟡 prompt 22, úprava | ⚪ | 🔒 text |
+| 23 | Zaječice | Jméno, které mělo tucet tváří | 🟢 | 🟡 (🟡k 2, 🟡 1) | 🟢 prompt 23, upravený v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 24 | Zaječice | Lež v prášku | 🟢 | 🟡 (🟢 1, 🟡 2) | 🟢 NOVÝ prompt v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 25 | Zaječice | Rozbor v číslech | 🟢 | 🟢 (🟢 2) | 🟢 NOVÝ prompt v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 26 | Zaječice | Lahve do Stockholmu (komorní vrchol) | 🟢 | 🟢 (🟢 4) | 🟢 prompt 24 upravený v0.2 – schváleno (D-4); archivní verze („doložená přímá spolupráce") se nepoužívá | ⚪ | 🔒 text |
+| 27 | Zaječice → Epilog | Tichá voda, hlasitý svět | 🟢 | 🟡 (🟡k 1) | 🟡 prompt 25, úprava | ⚪ | 🔒 text |
+| 28 | Epilog | Tři vody, jedna mapa | 🟢 | 🟢 (jen 💡) | 🟢 prompt 28, upravený v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
+| 29 | Epilog | Muzeum, ve kterém to všechno bydlí | 🟢 | 🟡 (🟡 4) – **OVĚŘIT PŘED TISKEM** (OO-K3-01, odloženo) | 🟢 prompt 29, v pořádku (s ověřením) | ⚪ | 🔒 text |
+| 30 | Epilog | Pohádka, která se opravdu stala | 🟢 | 🟢 (jen 💡) | 🟢 prompt 30, v pořádku | ⚪ | 🔒 text |
 
-**Souhrn (2026-09-26):**
+**Souhrn (2026-09-26, po uzavření D-1…D-7):**
 - **TEXT:** 25 🟢 (str. 6–30) · 5 🔴 (Prolog 1–5).
-- **HISTORIE:** 8 🟢 (11, 13, 18, 21, 25, 26, 28, 30) · 17 🟡 · Prolog nelze hodnotit. (K2.5: strany 11 a 21 nově 🟢, viz K2 příloha K)
+- **HISTORIE:** 8 🟢 (11, 13, 18, 21, 25, 26, 28, 30) · 17 🟡 · Prolog nelze hodnotit. (K2.5: strany 11 a 21 nově 🟢; D-2: str. 12 „sporná tradice" 🟢 → 🟡, strana zůstává 🟡.) Každé 🟢 tvrzení v K3 má claim (`01_HISTORIK/CROSS_AUDIT_K3_CLAIMDB_2026-09-26.md` §5).
 - **VIZUÁLNÍ ZADÁNÍ:**
-  - 2 🟢 (29, 30);
-  - 3 🔴 v archivní verzi (13, 18, 26 — návrh úpravy existuje, neschválen);
-  - 6 stran s novým promptem (návrh v0.2, neschválen);
-  - Prolog jen archivní prompty bez scénáře.
-- **OBRAZ:** 30 ⚪ neauditováno.
-- **LOCK:** 0 stran.
+  - 🟢 18 stran: 29, 30 + 6 nových promptů v0.2 (11, 12, 16, 19, 24, 25) + 10 upravených v0.2 (7, 8, 13, 15, 17, 18, 21, 23, 26, 28) — **schváleno D-4 jako pracovní produkční sada vázaná na K3**;
+  - 🟡 7 stran s archivním promptem, který mapa vede jako použitelný / s drobnou úpravou (6, 9, 10, 14, 20, 22, 27); **platí pravidlo D-4: K3 je zdroj pravdy, archivní prompt nesmí přebít K3**;
+  - Prolog jen archivní prompty bez scénáře (mimo lock).
+- **OBRAZ:** 30 ⚪ neauditováno (D-6: obrazy nejsou prohlášeny za finální).
+- **LOCK:** 🔒 **text str. 6–30** (D-7; platí po sloučení do `main`). Str. 1–5, obrazy, publikace, ověření str. 29 a souhlasy (G10) mimo lock.
 
-Nepoužité archivní prompty: 8, 11, 13, 15, 19, 26 (cameo, odloženo), 27 (nepřiřazen, OO-K3-05).
+Nepoužité archivní prompty (mimo produkční sadu, archivované): 8, 11, 13, 15, 19, 26 (cameo, odloženo), 27 (vyřazen z produkční sady rozhodnutím D-4, archivován).
 
 ---
 
@@ -114,7 +113,7 @@ Formát karty: **postavy** (ID z Character Registeru) · **historické jádro** 
 | 9 | CH-001, CH-002, CH-014, CH-007 (silueta) | Clary, Malá Paříž 🟡k, požár 1793 🟢 (jen dílčí doklad, Reuss 1823; claim `TEP-REUSS-1823-FIRE-1793`), Beethoven 1811 🟡k | P9 | 3× 🟡k |
 | 10 | CH-002, CH-003, CH-007, CH-008 | Beethoven 1811/12 🟡k, dopis nesmrtelné milé 🟡k, Goethe v Teplicích 7/1812 🟢 | P10; nejmenovat adresátku; samota jen jako tradice | 3× 🟡k |
 | 11 | CH-001, CH-002, CH-007, CH-008, CH-028 (zmínka) | setkání 19. 7. 1812, hra 21. 7. 🟢; dopis Christiane Teplice 19. 7. 1812 🟢 (WA IV 23, č. 6348; claim `TEP-GOETHE-CHRISTIANE-1812`) | NOVÝ (návrh v0.2); panel 4 jen Kapka; žádná císařská scéna jako fakt | prompt neschválen |
-| 12 | CH-002, CH-003, CH-007, CH-008 | obraz 1887 🟡k; pozdější sporná tradice 🟢; kontakty po 1812: Goethe → Zelter 2. 9. 1812 🟢 (claim `TEP-GOETHE-ZELTER-1812`), Beethovenův dopis 1823 🟡 | NOVÝ (návrh v0.2); legenda vizuálně odlišena rámem; panel 4 jen Goethe v kočáře | 🟡k obraz, 🟡 dopis 1823 |
+| 12 | CH-002, CH-003, CH-007, CH-008 | obraz 1887 🟡k; pozdější sporná tradice 🟡 (D-2; claim `TEP-INCIDENT-1812-TRADICE`); kontakty po 1812: Goethe → Zelter 2. 9. 1812 🟢 (claim `TEP-GOETHE-ZELTER-1812`), Beethovenův dopis 1823 🟡 | NOVÝ (návrh v0.2); legenda vizuálně odlišena rámem; panel 4 jen Goethe v kočáře | 🟡k obraz, 🟡 sporná tradice, 🟡 dopis 1823 |
 | 13 | CH-001, CH-024, CH-025, CH-026, CH-027, CH-029 (horníci) | 10. 2. 1879, 21 + 2 oběti, pramen ustal 12./13. 2., komise, hloubení 22. 2., voda 3. 3. v ~13 m 🟢 | P12 → úprava; **zakázáno:** vrtná souprava, hrdinský „zachránce" (Zsigmondy, Sueß, Mahler, Uherr), 64 horníků, „vysál", grafické násilí | vizuální zadání (tvrdý konflikt archivní verze) |
 
 ### KAPITOLA BÍLINA (str. 14–21) — větev tyrkys `#2E8C8C` + ochrová
@@ -122,10 +121,10 @@ Formát karty: **postavy** (ID z Character Registeru) · **historické jádro** 
 |---:|---|---|---|---|
 | 14 | CH-001, CH-002, CH-004 (mladý), CH-011 (zmínka), Lobkovicové (CH-023 obecně) | 761 tradice o SLANÉM prameni 🟢 (Reuss 1801 cituje Hájka; nespojovat s kyselkou; claim `BIL-REUSS-1801-HAJEK-761`, `BIL-761` zůstává 🔴); Hájek 1541 🟡; Eleonora, 1761 obezdění, 1781 dům pro balení 🟢 (Reuss 1801; claim `BIL-REUSS-1801-EARLY-HISTORY`; rok 1712 NEPOUŽÍVAT); příchod F. A. Reusse 🟡k | P14; 761 ne jako datum objevu kyselky; 770 l/min nepoužívat; mladý Reuss = F. A.; panel 4 jímky obložené kamenem a obezděné | 🟡 × 1, 🟡k |
 | 15 | CH-002, CH-003, CH-004, CH-016 (Werner), CH-023 | studium, Freiberg, najmutí 🟡k | P16; úprava v0.2 | 2× 🟡k |
-| 16 | CH-002, CH-004, CH-015, CH-008 (příjezd 1813) | Humboldt a Freiesleben, popis výstupu na Bořeň (článek 1792) 🟢 — Reuss v něm jen citován, rok cesty neuzavřen (claim `HUM-BORSEN-1792`); Reussův spis 1790 🟢; Reussův názor 🟡; Goethe 5/1813 🟢 | NOVÝ (v0.2); panel 3 anonymní postava na vrcholu; **panel 2 v K3: Reuss v obraze není** (K2.5 D-3); prompt v0.2 panel 2 zobrazuje Reusse s Humboldtem a **čeká na úpravu** | 🟡 Reussův názor; prompt panel 2 neodpovídá K3 |
+| 16 | CH-002, CH-004, CH-015, CH-008 (příjezd 1813) | Humboldt a Freiesleben, popis výstupu na Bořeň (článek 1792) 🟢 — Reuss v něm jen citován, rok cesty neuzavřen (claim `HUM-BORSEN-1792`); Reussův spis 1790 🟢; Reussův názor 🟡; Goethe 5/1813 🟢 | NOVÝ (v0.2); panel 3 anonymní postava na vrcholu; **panel 2 v K3: Reuss v obraze není** (K2.5 D-3); prompt panel 2 opraven dodatkem D-4 (Humboldt a Freiesleben, Reuss není) | 🟡 Reussův názor; spis 1790 claim `BIL-REUSS-1790-BASALT` |
 | 17 | CH-001, CH-002, CH-003, CH-008, CH-004, CH-007 | Goethe × F. A. Reuss 12. a 28. 5. 1813 🟢; cesta s Beethovenem 20. 7. 1812 🟢; Goethe sběratel 🟡k | P17 (úprava v0.2); panel 3 jiná časová vrstva; Beethoven ne u pramene, ne s Reussem | 🟡k |
 | 18 | CH-001, CH-002, CH-003, CH-004, CH-006 | Berzelius 1823 cituje Reusse 🟢; Reuss 1818 počítá s Berzeliem 🟢; návštěva Bíliny nedoložena | P18 → úprava; **žádné** setkání, **žádná** „Berzeliova metoda" v bílinských pracích (VA-035/037) | vizuální zadání (archivní text) |
-| 19 | CH-001, CH-002, CH-004, CH-017 | 1789 částečná náprava, 1806 zastavení rozesílání 🟢 (Reuss 1808; claim `BIL-REUSS-1808-1806`); Eichler 1821 🟡 | NOVÝ (v0.2); **prompt panel 1 uvádí „od roku 1800", K3 rok 1800 nepoužívá — čeká na úpravu** | 1× 🟡 (Eichler); prompt panel 1 |
+| 19 | CH-001, CH-002, CH-004, CH-017 | 1789 částečná náprava, 1806 zastavení rozesílání 🟢 (Reuss 1808; claim `BIL-REUSS-1808-1806`); Eichler 1821 🟡 | NOVÝ (v0.2); prompt panel 1 opraven dodatkem D-4 (1789/1806, bez roku 1800) | 1× 🟡 (Eichler) |
 | 20 | CH-002, CH-003, CH-004 (starší) | obchod 🟡; knihy 1788/1801/1808; přezdívka „otec" = pozdější 🟡 | P20 | 3× 🟡 |
 | 21 | CH-001, CH-002, CH-004, CH-005 | A. E. nar. 1811 🟢; F. A. † 1830 🟢; pomník 29. 5. 1898 🟢 (dobový tisk, N-14; claim `BIL-REUSS-DENKMAL-1898`; A. E. = pozdější profesor mineralogie) | P21 (úprava v0.2); F. A. × A. E. rozlišit věkem a popiskem (VA-044); pomník bez jisté podoby (VA-045: podoba a autor nejsou doloženy) | — |
 
@@ -155,3 +154,5 @@ Formát karty: **postavy** (ID z Character Registeru) · **historické jádro** 
 4. OBRAZ 🟢: hotový obraz zkontrolovaný proti K3 a guardrailům (**odloženo na konec**).
 5. Postavy odpovídají Character Registeru (hlavně F. A. × A. E. Reuss).
 6. Lock zapíše Jirka do tohoto souboru a do `DECISION_REGISTER.md`.
+
+**Stav 2026-09-26 (D-5 / D-6 / D-7):** pro str. 6–30 je uzamčen **jen TEXT** (body 1–2 a 5). Bod 3 platí pro schválenou sadu v0.2; bod 4 (obrazy) je vědomě mimo lock. Zápis: `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md`, `DEC-006`.
