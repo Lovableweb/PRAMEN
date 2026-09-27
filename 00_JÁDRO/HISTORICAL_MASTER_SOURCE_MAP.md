@@ -128,15 +128,15 @@ Kontrola, zda se v existujících dokumentech nepřelévají údaje mezi entitam
 
 **CONTAMINATION AUDIT:** viz §4 — **žádná tichá kontaminace nenalezena**, projekt si hranice mezi entitami dosud hlídal dobře
 
-**BÍLINA 1926–1948:** GAP-01, GAP-02 — okupace a znárodnění prakticky nedoloženy
+**BÍLINA 1926–1948:** GAP-01, GAP-02 — doplněno `RECOVERY-021` (nucená správa, zbavení občanství 3.10.1939, LEAD) a `RECOVERY-020` (moderní 2025–26); vlastní specifický dokument ke konfiskaci Bíliny stále chybí
 
-**ZAJEČICE 20. STOLETÍ:** GAP-10 — prázdné
+**ZAJEČICE 20. STOLETÍ:** GAP-10 — částečně doplněno (závod n.p. Středočeská zřídla po 1948, `RECOVERY-019`)
 
-**TEPLICE:** GAP-09 — celá poválečná historie mimo dosavadní rozsah projektu
+**TEPLICE:** GAP-09 — celá poválečná historie mimo dosavadní rozsah projektu, beze změny
 
-**CYVÍN 1977:** GAP-06 — pořád jen CATALOG ONLY, nepřečteno
+**CYVÍN 1977 / PRÁŠIL 1982:** GAP-06 — **signatury nalezeny a ověřeny** (GF P025701/1, GF P038956), přístupová cesta zjištěná (zdarma studovna Geofond, nebo 1000 Kč/rok online), obsah stále PRIMARY NOT SEEN
 
-**REDTENBACHER:** GAP-05 — nezopakován audit, jen zařazen do mezery (viz `RECOVERY-017`)
+**REDTENBACHER:** GAP-05 — nezopakován audit, jen zařazen do mezery (viz `RECOVERY-017`), beze změny
 
 **CHEMICAL LINEAGE:** viz §5 — čísla napříč staletími **nejsou vzájemně srovnatelná**
 
@@ -146,7 +146,7 @@ Kontrola, zda se v existujících dokumentech nepřelévají údaje mezi entitam
 
 **CO SE NESMÍ PŘENÉST DO KOMIKSU:** vše označené 🔴 DO NOT USE v §7
 
-**DOPORUČENÝ DALŠÍ PRIMÁRNÍ VÝZKUM:** podle priority CRITICAL/HIGH v §2 — GAP-01 (okupace) a GAP-06 (Cyvín 1977) jsou nejcennější příští kroky, ale oba vyžadují archivní přístup, ne další web-výzkum
+**DOPORUČENÝ DALŠÍ PRIMÁRNÍ VÝZKUM (aktualizováno 2026-09-27):** GAP-06 (Cyvín/Prášil) je teď „jen" otázka příležitosti (fyzická cesta nebo peníze), ne dalšího výzkumu. Zbývá GAP-01 (specifický dokument ke konfiskaci Bíliny), GAP-03 (konflikt produkce 1898/1900), GAP-04 (Amelie III vs. Venus) a GAP-07 (socialistická éra 1948–1989, pořád úplná díra).
 
 **NEPOTVRZENÉ:** viz §3
 

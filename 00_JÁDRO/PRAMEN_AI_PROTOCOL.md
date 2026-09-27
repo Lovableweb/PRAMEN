@@ -260,6 +260,7 @@ Schváleno Jirkou 2026-09-25. Platí i v dalších session.
 - Pokud push selže (např. chybí přístup Claude GitHub App k repozitáři), Claude Code NEHLÁSÍ „hotovo v GitHubu", řekne přesně, co selhalo, a pošle zálohu commitů (bundle / patch).
 - Když je předchozí pull request už sloučený, nová práce začíná od aktuálního `main` a jde do nového pull requestu.
 - Po sloučení si lokální počítač změny stáhne přes `git pull`.
+- **Živé přehledové dokumenty se aktualizují ve stejném commitu jako změna, kterou popisují** — ne jen `CHANGELOG.md` a `PRAMEN_MAPA.md`, ale i `PROJECT_STATE.md` (mění-li se stav nějaké oblasti projektu) a `SOUHLASY.md` (týká-li se to souhlasů/podoby osob). Přidáno 2026-09-27 (PRAVIDLO PREVENCE) poté, co `PROJECT_STATE.md` zaostal za skutečným stavem hned v den svého vzniku.
 
 ---
 

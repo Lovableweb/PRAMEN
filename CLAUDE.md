@@ -28,4 +28,5 @@ Podrobně v `PRAMEN_AI_PROTOCOL.md`, sekce „UKLÁDÁNÍ NA GITHUB". Stručně:
 - Commit → push do větve `claude/...` → pull request do `main` → pošli Jirkovi odkaz, sloučí tlačítkem Merge. Do `main` nikdy přímo.
 - Každou změnu zapiš do `00_JÁDRO/CHANGELOG.md`.
 - **Každý nový, přejmenovaný, přesunutý nebo výrazně změněný soubor promítni do `00_JÁDRO/PRAMEN_MAPA.md` ve stejném commitu.**
+- **Pokud změna mění stav nějaké oblasti projektu (nový HB, nové rozhodnutí, nový lock, vyřešená otázka), aktualizuj ve stejném commitu i `00_JÁDRO/PROJECT_STATE.md`** (živý přehled — nesmí zaostávat, to je celý jeho smysl). Pokud se týká souhlasů/podob osob, aktualizuj i `00_JÁDRO/SOUHLASY.md`.
 - Když push selže, nehlas „hotovo" — řekni přesně, co selhalo, a pošli zálohu commitů.

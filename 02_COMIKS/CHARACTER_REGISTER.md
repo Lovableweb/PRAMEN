@@ -1,6 +1,6 @@
 # PRAMEN – CHARACTER REGISTER
 
-> **Verze:** 1.0 (NÁVRH ke schválení Jirkou) · **Založil:** Claude Code, 2026-09-26 · **Není Production Lock ani Vizuální Lock.**
+> **Verze:** 1.0 (🟢 schváleno Jirkou 2026-09-27, DEC-007) · **Založil:** Claude Code, 2026-09-26 · **Není Production Lock ani Vizuální Lock** — schválení je pracovní stav, ne zámek proti změnám, věcná oprava jde normálně.
 >
 > **Účel:** jeden seznam všech postav komiksu. U každé postavy je uvedeno:
 > - kdo to je;
