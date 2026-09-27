@@ -15,7 +15,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 - **Co je PRAMEN:** historický komiks (30 stran) o Teplicích, Bílinské kyselce a Zaječické hořké vodě + historická databáze pod ním. Motto „Pohádka, která se opravdu stala." Zásada **HISTORIE PŘED FIKCÍ**.
 - **Kapitoly komiksu (pracovně):** Prolog 1–5 · Teplice 6–13 · Bílina 14–21 · Zaječice 22–27 · Epilog 28–30.
 - **Komiks** je podle Content Registry hotový (30 obrazů, mimo repo, neauditováno). **Scénář str. 6–30:** K1 (reference, neměnit) → K2 (pracovní, zdroj důvodů změn) → **K3 CLEAN (uzamčený text)**. **Scénář str. 1–5 (Prolog):** NÁVRH v0.2 existuje a je schválený jako pracovní verze (PR #33), bez vlastního Production Locku. **Chybí:** obrazy v repu, originální Komiksová Bible, Osa v1.1, storyboard (🔴).
-- **Historie:** **75 claimů** v `CLAIM_DATABASE.md` (🟢/🟡/🔴; 44 původních + 15 D-8 + 16 D-8b; dřívější „45/60" byla chyba součtu o 1). Každé 🟢 v K3 má claim (`01_HISTORIK/CROSS_AUDIT_K3_CLAIMDB_2026-09-26.md` §5). Zdroje detailů: RECOVERY-005, -007, -008, `PRIMARNI_KOLACE_VYSLEDEK.md`.
+- **Historie:** **81 claimů** v `CLAIM_DATABASE.md` (🟢/🟡/🔴; 75 k 2026-09-26 + 6 z HB-070/071/072 moderní historie). Každé 🟢 v K3 má claim (`01_HISTORIK/CROSS_AUDIT_K3_CLAIMDB_2026-09-26.md` §5). Zdroje detailů: RECOVERY-005, -007, -008, `PRIMARNI_KOLACE_VYSLEDEK.md`.
 - **Stav HB:** **HB-057 Production Lock: 🔒 text str. 6–30 (DEC-006)**; pro str. 1–5, obrazy a publikaci dál 🔴 (DEC-003). HB-058 🟡 · HB-059 🟢 · HB-060 🔴 blokováno (Bible nenalezena) · HB-061 🟡 (DEC-005).
 - **Primární kolace (2026-09-26):** 13 pramenů PRIMARY SEEN (Gartenlaube 1879, Reuss 1791/1801/1808/1818/1827, Berzelius 1823/1840, Hoffmann, Goethe WA, Vincentius FRB II). Nálezy promítnuty do K2/K3 a Claim DB (D-8, D-8b).
 - **Audit K1 str. 6–30 (RECOVERY-011, 2026-09-26):** K1 = pracovní dramaturgický scénář, není historicky uzavřen. 7 rozporů auditu s primární kolací (R11-01…07) řešeno v K2 podle kolace.
@@ -75,11 +75,13 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | `PRAMEN_3.0_IMPLEMENTATION_REPORT.md` | – | ⭐ | **HB-069 — implementační report PRAMEN 3.0.** Co implementováno (P0 + health check), co čeká na rozhodnutí Jirky (DATA/ yaml, CI, ID migrace, public/private) |
 | `PRAMEN_MASTER_INTEGRATION_AUDIT_2026-09-27.md` | – | ⭐ | **HB-068 — Master Integration Audit + Release Consolidation.** Kompletní kontrola: numbering, file inventory, Claim DB, entity/contamination/chronology audit, technická integrita. Nálezy: 2 drobné opravy (pořadí RECOVERY v mapě, HIST-012 status), 0 broken links, 0 duplicit. **RELEASE READY WITH OPEN HISTORICAL GAPS** |
 | `HISTORICAL_MASTER_SOURCE_MAP.md` | – | ⭐ | **Centrální HUB (HB-066, 2026-09-27, aktualizováno HB-067)** — gap matrix, top 10 mezer, „nevíme" registr, cross-entity kontaminační audit, chemická genealogie napříč staletími. GAP-01/02/10 doplněny: Bílina zabavena Wehrmachtem 1938–45 (majetek Lobkowiczů), 1948 znárodnění → n.p. Středočeská zřídla se závodem v Zaječicích. Nic v Claim DB se neměnilo |
+| `GAP_EXECUTION_PLAN.md` | – | 🔍 | **PRAMEN 3.1 (2026-09-27).** Pro GAP-01, GAP-03, GAP-07 přesný badatelský cíl (co chybí, kde je, kdo to může získat); pro GAP-04/08/09 jen scope definition. Nerozšiřuje gap matrix, jen ji rozpracovává |
+| `WORK_ALREADY_DONE_MAP.md` | – | 🔍 | **PRAMEN 3.1 (2026-09-27).** Rychlý „už hotovo, nesahat" filtr — co je uzavřené a nemá se opakovat. Kontrolovat PŘED zadáním nového HB/RECOVERY/CLAIM (reakce na opakované zadávání uzavřených úkolů) |
 
 ### `01_HISTORIK/` — historická evidence
 | Soubor | ř. | ČÍST | Co to je / stav |
 |---|---:|---|---|
-| `CLAIM_DATABASE.md` | 104 | ⭐ | **75 claimů** (z toho 15 D-8 a 16 D-8b z 2026-09-26): CLAIM / PRAMEN / TYP / STATUS / POZNÁMKA. Hlavní zdroj pravdy o faktech |
+| `CLAIM_DATABASE.md` | 104 | ⭐ | **81 claimů** (75 k 2026-09-26 + 6 z HB-070/071/072): CLAIM / PRAMEN / TYP / STATUS / POZNÁMKA. Hlavní zdroj pravdy o faktech |
 | `OTEVRENE_OTAZKY.md` | 762 | 🔍 | HIST-001…013, HIST-RM-001…050 (téměř vše Bílina), OO-HB044…OO-HB060, OO-SC-01…03 z 2026-09-25, **OO-K3-01…07 a KOL-K2-01…19 z 2026-09-26** (OO-K3-01 str. 29 a OO-K3-02 cameo odloženo, OO-K3-03/04/05/07 vyřešeno D-4, OO-K3-06 obrazy odloženo D-6; výzkum P1–P10). HIST-012 (Beethoven) opraveno 2026-09-27 (HB-068) — status teď odpovídá claimu |
 | `TERMINOLOGIE_NAZVY.md` | – | 🔍 | **Historické názvy Zaječice/Sedlec/Saidschütz/Bílina/Teplice** — jedna tabulka, ať se nepletou. Kompilace z už přečtených pramenů, žádný nový výzkum |
 | `BILINA/…RECOVERED_WORKING_v1.0.md` | 265 | 🔍 | Pracovní souhrn Bíliny. ⚠️ zastaralý: Beethoven 🟡, Reuss 1808 🔵 (Claim DB má 🟢) |

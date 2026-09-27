@@ -2,6 +2,27 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-27] – PRAMEN 3.1: INTEGRITY, GAP CONTROL & KNOWLEDGE CONSOLIDATION (Průchod 1 — audit + bezpečné opravy)
+
+**Zadání Mozku 3 přes Jirku.** Cíl: žádná nová architektura, jen integrita, anti-duplikace a přesné zacílení skutečných mezer. Anti-duplication audit proveden nejdřív (viz `WORK_ALREADY_DONE_MAP.md`) — nic uzavřeného se neopakovalo.
+
+**Ověřeno beze změny (souhlasí se stavem předání):**
+- HB-072 / RECOVERY-022 (nejvyšší čísla) — potvrzeno skutečným stavem repa
+- Health check OVERALL 🟢, Claim DB 81 claimů / 0 duplicit / žádný GREEN bez pramene / žádný RED claim citovaný jako fakt v K3
+- GAP-01…GAP-10 matice v `HISTORICAL_MASTER_SOURCE_MAP.md` — beze změny, odpovídá realitě
+- Production Lock K3 str. 6–30 reprodukovatelný ze skriptu
+
+**Opraveno (skutečné chyby, kategorie A/B):**
+1. **`SKRIPTY/pramen_health_check.sh`** — proměnná `dup_hb` se počítala, ale nikdy se nepoužila ve vyhodnocení (přesně bug popsaný v zadání). Přidán řádek „HB NUMBERING" se skutečným vyhodnocením; zpřesněna detekce, aby nehlásila falešnou duplicitu u „předávacích" souborů s rozsahem (`PREDANI_HB044-HB061.md`).
+2. **`PRAMEN_AI_PROTOCOL.md`** — tvrdil, že „hlavní projektová paměť zůstává `PRAMEN_MASTER.md`", ačkoli ten je od 2026-09-26 zastaralý. Opraveno na `PRAMEN_MASTER_CORE_2.0.md` (DEC-007).
+3. **`PRAMEN_MAPA.md`, `PRAMEN_MASTER_CORE_2.0.md`, `PRAMEN_OS.md`** — uváděly staré číslo „75 claimů" místo aktuálních 81. Opraveno na všech třech místech.
+
+**Nově vytvořeno (P1, bezpečné a additivní, funkce nikde jinde nepokryta):**
+- `00_JÁDRO/GAP_EXECUTION_PLAN.md` — pro GAP-01/03/07 přesný badatelský cíl, pro GAP-04/08/09 scope definition
+- `00_JÁDRO/WORK_ALREADY_DONE_MAP.md` — filtr „už hotovo, nesahat" před zadáním nového HB/RECOVERY/CLAIM
+
+**Neimplementováno (záměrně, mimo rozsah bez dalšího rozhodnutí):** YAML datová vrstva, CI, ID migrace, GitHub šablony, public/private split — vše, co zadání výslovně vyjmenovalo jako zakázané.
+
 ## [2026-09-27] – ZPĚTNÁ KONTROLA PROJEKTU (PRAVIDLO PREVENCE V AKCI)
 
 **Na žádost Jirky: projít celý projekt, najít zastaralá/nedokončená místa, opravit a zajistit, aby se to neopakovalo.**

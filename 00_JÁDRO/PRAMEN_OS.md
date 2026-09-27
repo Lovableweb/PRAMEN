@@ -26,7 +26,7 @@ Plná tabulka: `00_JÁDRO/SOURCE_OF_TRUTH_REGISTRY.md`. Zkráceně:
 
 ## CURRENT STATE (k 2026-09-27)
 
-🟢 K3 str. 6–30 Production Lock · 🟡 Prolog 1–5 (text existuje, bez locku) · 🟢 75 claimů v Claim DB · 🟡 mezera 1900–1989 v historii (viz `HISTORICAL_MASTER_SOURCE_MAP.md`) · 🔴 G10 souhlasy Karla Bašty a Digitálního Jirky nevyřešeny. Detail: `00_JÁDRO/PROJECT_STATE.md`.
+🟢 K3 str. 6–30 Production Lock · 🟡 Prolog 1–5 (text existuje, bez locku) · 🟢 81 claimů v Claim DB · 🟡 mezera 1948–1989 v historii (viz `HISTORICAL_MASTER_SOURCE_MAP.md`) · 🔴 G10 souhlasy Karla Bašty a Digitálního Jirky nevyřešeny (Digitální Jirka 🟢, Bašta 🟡 — viz `SOUHLASY.md`). Detail: `00_JÁDRO/PROJECT_STATE.md`.
 
 ## CORE RULES
 
