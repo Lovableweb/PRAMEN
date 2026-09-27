@@ -33,8 +33,8 @@
 
 | GAP-ID | Období | Téma | Proč důležité | Co víme | Co nevíme | Nejlepší zdroj | Priorita |
 |---|---|---|---|---|---|---|---|
-| GAP-01 | 1938–1945 | Bílina za okupace | Citlivé historicky, riziko chybné formulace („Wehrmacht" apod.) | Jen nedoložená věta z firemního webu | Skutečný právní stav podniku, produkce, vlastnictví | dobový tisk, archiv | CRITICAL |
-| GAP-02 | 1945–1948 | Znárodnění/národní správa | Přechod na n.p. Středočeská zřídla — právně zásadní bod | Jen jméno budoucího podniku | Kdo spravoval, kdy přesně, role Ing. V. Daška | archiv, Sbírka zákonů, podnikový archiv | HIGH |
+| GAP-01 | 1938–1945 | Bílina za okupace | Citlivé historicky, riziko chybné formulace („Wehrmacht" apod.) | **Aktualizováno `RECOVERY-019`:** budova zabavena Wehrmachtem jako majetek Lobkowiczů (dvakrát nezávisle SECONDARY); Afrikakorps/Rommel jen LEAD (zdroj 403, nepotvrzeno) | Přesný právní dokument o konfiskaci, ověření Afrikakorps tvrzení | dobový tisk, archiv, Radio Prague (zkusit znovu) | CRITICAL |
+| GAP-02 | 1945–1948 | Znárodnění/národní správa | Přechod na n.p. Středočeská zřídla — právně zásadní bod | **Aktualizováno `RECOVERY-019`:** 1948 přechod na n.p., M. E. Lobkowicz do exilu, Václav Dašek navrhl akumulační nádrže (SECONDARY, Český rozhlas) | Přesné datum, právní dokument, rozsah realizace Daškova návrhu | archiv, Sbírka zákonů, podnikový archiv | HIGH |
 | GAP-03 | 1900–1918 | Produkce/export konflikt | „5 mil. lahví 1898" vs. „4 315 307 džbánů 1900" | Obě čísla, oba zdroje SECONDARY | Který je přesný, jednotka | firemní almanach, výroční zpráva | HIGH |
 | GAP-04 | 1925 vs. 1928 | Amelie III vs. Venus | Zadání HB-062 předpokládalo nedoložený fakt | Venus 1928 doloženo (muzeum) | Existuje vůbec Amelie III 1925? | archiv OBÚ, dobový tisk | MEDIUM |
 | GAP-05 | 1845 | Redtenbacher/A.E.Reuss obsah | Jediný reálně stažený primární pramen v projektu | Bibliografie, spoluautorství | Celý obsah (technicky nepřečteno) | OCR nástroj / lidské čtení | HIGH |
@@ -42,7 +42,7 @@
 | GAP-07 | 1948–1989 | Socialistická éra obou pramenů | 40 let bez jediného záznamu | Nic | Vše | podnikové/státní archivy | MEDIUM |
 | GAP-08 | dnes | Provenience moderní chemické tabulky | Používáno opakovaně, nikdy nepotvrzeno | Čísla samotná (ze SECONDARY webů) | Datum, laboratoř, oficiálnost | BHMW přímo, etiketa lahve | MEDIUM |
 | GAP-09 | 1879–1989 | Teplice po Döllingeru | Celá kapitola projektu (Teplice) končí historicky u 1879 | Nic po tomto datu | Vše | archiv Teplice, lázeňská správa | LOW (mimo aktuální rozsah K3) |
-| GAP-10 | 1918–1938 | Zaječická voda samostatně | Zaječice nemají vlastní 20. století vůbec | Nic konkrétního (jen že skončila pod Mattoni jako Bílina) | Vlastní obchodní osud Zaječic ve 20. stol. | firemní archiv, katalogy | LOW |
+| GAP-10 | 1918–1938 | Zaječická voda samostatně | Zaječice nemají vlastní 20. století vůbec | **Aktualizováno `RECOVERY-019`:** Zaječice byly po 1948 závodem n.p. Středočeská zřídla (sdílely osud s Bílinou) | Vlastní obchodní osud Zaječic 1900–1948, detail poválečného provozu | firemní archiv, katalogy | LOW |
 
 ## 3. „NEVÍME" REGISTR
 

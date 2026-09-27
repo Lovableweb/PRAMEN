@@ -247,6 +247,18 @@ poprvé v této sérii bez kolize. Výsledek: silné pokrytí 1717–1900,
 téměř nic 1900–1989 u Bíliny, Zaječic i Teplic. Žádná kontaminace
 mezi entitami nenalezena. Claim DB nedotčena.
 
+────────────────────────────────────────
+2i. NOVÝ VÝZKUM — HB-067: 20. STOLETÍ BÍLINA × ZAJEČICE (2026-09-27)
+────────────────────────────────────────
+
+| Cesta | Klasifikace |
+|---|---|
+| `01_RECOVERY/RECOVERY-019_HB067_20_STOLETI_BILINA_ZAJECICE.md` | 🟡 D — webový výzkum, SECONDARY (dvakrát nezávisle potvrzené: zabavení Wehrmachtem 1938–45, znárodnění 1948). Nesloučeno, čeká na kontrolu Řídícího mozku 2 |
+
+Číslo ověřeno předem (nejvyšší HB-066, RECOVERY-018), žádná kolize.
+Doplnilo GAP-01, GAP-02, GAP-10 v `HISTORICAL_MASTER_SOURCE_MAP.md`.
+Redtenbacher/Löschner podle pokynu znovu nezkoušeno. Claim DB nedotčena.
+
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY
 ════════════════════════════════════════

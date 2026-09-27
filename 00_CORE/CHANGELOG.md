@@ -1,5 +1,20 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – HB-067: 20. STOLETÍ BÍLINA × ZAJEČICE (VLASTNICTVÍ/OKUPACE/ZNÁRODNĚNÍ)
+
+**Číslo ověřeno předem (HB-067/RECOVERY-019) — žádná kolize.**
+
+- Nový `01_RECOVERY/RECOVERY-019_HB067_20_STOLETI_BILINA_ZAJECICE.md`.
+- **Nový nález, dvakrát nezávisle potvrzený:** budova stáčírny zabavena na počátku 2. světové války Wehrmachtem jako majetek české šlechty (Lobkowiczů). Přesný právní mechanismus (dekret) nenalezen.
+- **Tvrzení o stáčení pro Rommelův Afrikakorps** nalezeno opakovaně ve vyhledávání, ale zdrojová stránka (pravděpodobně Radio Prague International) se nepodařilo přímo otevřít (HTTP 403) — status LEAD, ne potvrzený fakt.
+- **1945–1948:** potvrzeno (Český rozhlas), že 1948 vznikl n.p. Středočeská zřídla se **závodem v Zaječicích** — první konkrétní doklad, že Bílina a Zaječice sdílely poválečný podnik. Poslední soukromý vlastník Maximilian Erwin Lobkowicz odešel do amerického exilu. Václav Dašek navrhl akumulační nádrže (rozsah realizace nejistý).
+- Redtenbacher a Löschner **záměrně znovu nezkoušeni číst** — status beze změny (PRIMARY NOT SEEN — technický bloker).
+- Claim DB nedotčena — nová zjištění navržena k budoucímu zápisu až po rozhodnutí o rozsahu moderní historie v komiksu.
+- `HISTORICAL_MASTER_SOURCE_MAP.md` aktualizován (GAP-01, GAP-02, GAP-10).
+- Mapa a Master Recovery Map aktualizovány (nová sekce 2i).
+
+---
+
 ## [2026-09-27] – HB-066: RESEARCH GAP AUDIT + HISTORICAL MASTER SOURCE MAP
 
 **Číslo ověřeno předem proti mapě a existujícím HB — poprvé v této sérii bez kolize.**
