@@ -2,6 +2,18 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-27] – HB-072 DOPLNĚK: JIRKA SÁM DOHLEDAL SIGNATURU CYVÍNA V ASGI
+
+**Jirka prošel databázi ASGI (https://app.geology.cz/asgi) přímo v prohlížeči a našel přesný záznam** — potvrzeno screenshotem.
+
+- **Signatura: GF P025701/1.** Autor: **Vladimír Cyvín** (celé jméno). Název: „Lázně Bílina — rešeršní studie minerálních pramenů". Rok 1977, řešitel Stavební geologie Praha, 51 stran + 17 volných příloh.
+- **Anotace odhalila důležitý detail:** zpráva ve skutečnosti obsahuje **dvě rešeršní studie spojené dohromady** — z roku 1976 i 1977.
+- Úkol J7617713-GH potvrzuje dřívější „76 177 13 GH".
+- **Online: Ne, El. příloha: Ne** — potvrzeno, že obsah vyžaduje fyzickou návštěvu studovny Geofond (Praha — Kostelní).
+- `RECOVERY-022` a mapa doplněny o kompletní metadata. Signatura Prášila 1982 zůstává zatím nedohledaná.
+
+---
+
 ## [2026-09-27] – HB-072: CYVÍN 1977 LOKALIZOVÁN (KROK 3/3 — PLÁN DOKONČEN)
 
 **Poslední ze tří dohodnutých kroků.**

@@ -39,11 +39,36 @@ Při hledání se objevila **další, dosud v žádném RECOVERY dokumentu nezm�
 
 Tohle je **novější posudek na totéž téma**, o 5 let mladší než Cyvín. Může buď potvrzovat, nebo aktualizovat Cyvínovy závěry — **nevíme, dokud se nepřečte**. Stojí za to ho hledat ve stejné databázi ASGI zároveň s Cyvínem.
 
+## 4b. DOPLNĚK 2026-09-27 (POZDĚJI TÉHOŽ DNE) — JIRKA OSOBNĚ VYHLEDAL PŘESNOU SIGNATURU
+
+Jirka sám prošel ASGI databázi (hledal „Cyvín", 1977) a našel **přesný záznam**, ověřeno screenshotem:
+
+| Pole | Hodnota |
+|---|---|
+| Hlavní signatura | **GF P025701/1** |
+| Depozit | Praha — Kostelní |
+| Název | **Lázně Bílina — rešeršní studie minerálních pramenů** |
+| Autor | **CYVÍN, Vladimír** (celé jméno, dřív jsme znali jen iniciálu „V.") |
+| Rok vydání | 1977 |
+| Řešitelská org. | Stavební geologie, Praha |
+| Lokalita | Bílina |
+| Okres | Teplice |
+| Anotace | „2 rešeršní studie z r. 1976 a 1977" — **zpráva ve skutečnosti obsahuje dvě studie spojené dohromady, ne jednu** |
+| Počet stran | 51 |
+| Přílohy volné/vevázané | 17/0 |
+| Číslo úkolu | J7617713-GH (odpovídá dříve zjištěnému „76 177 13 GH") |
+| **Online** | **Ne** |
+| El. příloha | Ne |
+| Č. ASG (MFN) | 143342 |
+
+**Závěr:** zpráva **není dostupná online** — potvrzuje se, že jediná cesta k obsahu je fyzická návštěva studovny Geofond, **Kostelní [26], Praha** (přesná adresa depozitu potvrzena přímo záznamem: „Praha - Kostelní"). Status pramene zůstává **CATALOG ONLY** (teď s kompletními a přesnými metadaty), obsah stále PRIMARY NOT SEEN.
+
+**Prášil 1982 zatím nevyhledán stejným způsobem — doporučeno jako další krok, pokud bude zájem.**
+
 ## 5. CO ZŮSTÁVÁ OTEVŘENÉ
 
-- Přesná signatura obou zpráv (Cyvín 1977, Prášil 1982).
-- Jestli existuje online scan (aplikace ASGI to podle manuálu umí zobrazit).
-- Celý obsah obou zpráv.
+- **Signatura Cyvína teď známá (GF P025701/1) — vyřešeno.** Zůstává: signatura Prášila 1982.
+- Celý obsah zprávy (51 stran + 17 příloh) — vyžaduje fyzickou návštěvu, „Online: Ne".
 
 ## 6. CLAIM DB DOPAD
 
@@ -59,7 +84,7 @@ Tohle je **novější posudek na totéž téma**, o 5 let mladší než Cyvín. 
 
 **KROK 2 (HB-071):** okupace 1938–45 — nový detail (nucená správa, datum zbavení občanství), zůstává LEAD ne claim. Afrikakorps nepotvrzeno. ✅ HOTOVO (v mezích možností)
 
-**KROK 3 (HB-072, tento dokument):** Cyvín 1977 lokalizován v archivu Geofond/ASGI, **konkrétní postup jak se k němu dostat** + nalezena druhá neznámá zpráva (Prášil 1982). ✅ HOTOVO — **další postup vyžaduje fyzický/lidský krok, ne web-výzkum**
+**KROK 3 (HB-072, tento dokument):** Cyvín 1977 lokalizován v archivu Geofond/ASGI — **Jirka osobně dohledal přesnou signaturu (GF P025701/1), celé jméno autora (Vladimír Cyvín), přesný název a potvrdil „Online: Ne"** — + nalezena druhá neznámá zpráva (Prášil 1982, signatura zatím nedohledána). ✅ HOTOVO — obsah samotný vyžaduje fyzickou návštěvu studovny Geofond, Praha
 
 **CO ZTROSKOTALO NA TECHNICKÉM OMEZENÍ:** čtení Redtenbachera 1845, Löschnera 1859, 56stránkové akademické práce o Lobkowiczích — všechno stejný problém (žádný OCR/PDF-render nástroj v tomto prostředí).
 
