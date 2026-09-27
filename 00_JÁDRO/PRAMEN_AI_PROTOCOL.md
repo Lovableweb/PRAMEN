@@ -173,6 +173,8 @@ Když Claude Code (nebo kdokoli jiný) v projektu najde chybu, mezeru, nekonzist
 
 **Příklad z praxe (2026-09-27):** opakovaná kolize čísel HB (HB-053B, HB-056, HB-063 kolidovaly s existujícími HB) vedla k pravidlu „ověřit číslo v mapě PŘED přidělením", které se od té doby dodržuje a funguje (HB-065 dál žádná kolize nebyla).
 
+**Příklad z praxe (2026-09-28, GAP-01 archivní follow-up):** konkrétní název a datace archivního fondu SOA Litoměřice byly zapsány do `RECOVERY-023` na základě syntetizované odpovědi WebSearch nástroje, konzistentní napříč 4 dotazy — ale přímé WebFetch čtení stránky instituce ukázalo, že žádný takový obsah dnes neexistuje (web je jen placeholder). **Pojistka:** odpověď z WebSearch (souhrnný text, ne samotné odkazy) se nikdy nezapisuje jako potvrzený fakt o obsahu konkrétní stránky — vždy se musí ověřit přímým WebFetch té stránky, než se detail (název, datum, číslo) zapíše s vyšší jistotou než „nepotvrzeno". Shoda napříč více vyhledávacími dotazy **není** totéž co nezávislé potvrzení — může jít o týž jeden zastaralý indexovaný snippet.
+
 Tohle pravidlo se **netýká** historických faktů (tam platí PRAVIDLO HISTORIE — otevřenou otázku nezavírat odhadem) — týká se **procesních a technických** chyb projektu samotného.
 
 ---

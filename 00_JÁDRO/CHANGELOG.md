@@ -2,6 +2,18 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-28] – GAP-01 ARCHIVNÍ FOLLOW-UP: OPRAVA DŮVĚRYHODNOSTI (PRAVIDLO PREVENCE)
+
+**Zadání Mozku 3 po sloučení PR #54:** dohledat signaturu/inventární číslo fondu SOA Litoměřice zmíněného v `RECOVERY-023`, ne další obecnou web rešerši.
+
+**Zjištění:** signaturu se nepodařilo dohledat žádnou cestou (badatelna za bot-ochranou, oficiální web SOA Litoměřice dnes jen placeholder „Připravujeme nové webové stránky", Monasterium.net 403, Wayback Machine z tohoto prostředí nedostupná). Při pokusu o přímé ověření se navíc zjistilo, že **samotný název a datace fondu** („Ústřední kancelář lobkovických statků Roudnice n. L., Bílina", (1753)1784–1957) pocházely **jen ze syntetizované odpovědi WebSearch nástroje**, ne z přímo přečtené stránky instituce — ta žádný takový obsah dnes nemá.
+
+**Oprava (PRAVIDLO PREVENCE — chyba nalezena a zdokumentována, ne zamlčena):** nález v `RECOVERY-023` downgradován z „konkrétní archivní fond nalezen" na „domnělý fond, neověřen přímým čtením zdroje". Promítnuto do `HISTORICAL_MASTER_SOURCE_MAP.md`, `GAP_EXECUTION_PLAN.md`, `WORK_ALREADY_DONE_MAP.md`, `PROJECT_STATE.md`. Radio Prague zdroj (přímo přečtený WebFetchem) zůstává potvrzený beze změny — ten rozpor nemá.
+
+**Nové metodické pravidlo (doplněno do `PRAMEN_AI_PROTOCOL.md`):** odpověď z WebSearch nástroje se nesmí zapisovat jako potvrzený fakt o obsahu konkrétní stránky, dokud není ověřena přímým WebFetch té stránky — i shoda napříč více dotazy může být týž jeden zastaralý indexovaný snippet.
+
+**Claim DB, K3, G9/G10: nedotčeno.** Žádný nový HB/RECOVERY (jde o opravu `RECOVERY-023`, ne nový výzkum).
+
 ## [2026-09-28] – HB-073 (RECOVERY-023): AUTONOMNÍ ÚKOL MOZKU 3 — GAP-01 BÍLINA 1938–1945
 
 **Zadání Mozku 3 (autonomní výzkum, PR se neslučuje bez kontroly).** Anti-duplication audit proveden nejdřív (`WORK_ALREADY_DONE_MAP.md`, `GAP_EXECUTION_PLAN.md`) — nic z `RECOVERY-019`/`021` se neopakovalo. Číslování ověřeno (HB-072/RECOVERY-022 → nové HB-073/RECOVERY-023).
