@@ -1,5 +1,19 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – HB-063: VĚDECKÁ/CHEMICKÁ GENEALOGIE BÍLINSKÉ KYSELKY (VÝZKUMNÝ REPORT)
+
+**Přejmenováno z „HB-056"** — to v repu už existuje a znamená „Ověření dostupnosti scénáře P14–P24" (`RECOVERY-008` §8). Stejná chyba číslování jako u HB-053B/HB-062.
+
+- Nový `01_RECOVERY/RECOVERY-015_HB063_VEDECKA_GENEALOGIE_BILINA.md`.
+- **Zjištění č. 1:** velká část žádaného „kritického auditu" (Reuss×Berzelius metoda, osobní návštěva, F.A. vs A.E. Reuss, zakázané formulace) **už je hotová** v `00_CORE/REUSS_BERZELIUS_EVIDENCE.md` (uzavřeno). Nekopírováno, jen odkázáno.
+- **Nový nález:** Josef Redtenbacher, 1845, *„Der Sauerbrunnen in Bilin... chemisch untersucht"* — **reálný, stažitelný primární pramen** (Zenodo, DOI 10.1002/jlac.18450550210), zatím nepřečtený. Nejsilnější konkrétní lead z tohoto výzkumu.
+- Löschner 1853 (*Die Wirkungen des Saidschitzer Bitterwassers*) a 1859 (*Der Sauerbrunnen zu Bilin... therapeutisch geschildert*) — bibliograficky doloženo, obsah nečten.
+- Moderní chemická tabulka (Li/Na/K/Mg/Ca/F/Cl/SO₄/HCO₃, mineralizace 7276 mg/l) nalezena webem, ale **zdroj a datum nejisté — neschváleno k použití**.
+- Zjištěna velká mezera v chemické historii 1859–1977, časově se překrývající s průmyslovou mezerou z `RECOVERY-014`.
+- Mapa aktualizována.
+
+---
+
 ## [2026-09-27] – HB-062: PRŮMYSLOVÁ HISTORIE BÍLINY 1895–1930 (VÝZKUMNÝ REPORT)
 
 **Přejmenováno z fabrikovaného „HB-053B".** Zadání Řídícího mozku 2 tvrdilo, že navazuje na existující HB-053 (1895–1914) a HB-054 (1914–1948) jako most mezi nimi — **oboje ale v repu skutečně existuje a je o úplně jiném tématu** (Reussovy spisy, resp. Bílina×Zaječice×Berzelius×Beethoven, `RECOVERY-008` §5–6). Přejmenováno na **HB-062** (další volné číslo), zpracováno jako nová samostatná etapa.
