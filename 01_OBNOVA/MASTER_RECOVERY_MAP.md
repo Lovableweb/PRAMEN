@@ -316,6 +316,20 @@ ne specificky pro Bílinu. 56stránková akademická práce technicky
 nečitelná (OCR bloker, stejný jako u Redtenbachera). Afrikakorps
 stále nepotvrzeno (zdroj 403, 2. pokus).
 
+────────────────────────────────────────
+2n. CYVÍN 1977 — LOKALIZACE V ARCHIVU — HB-072 (2026-09-27)
+────────────────────────────────────────
+
+| Cesta | Klasifikace |
+|---|---|
+| `01_OBNOVA/RECOVERY-022_HB072_CYVIN_1977_ARCHIV_LOKALIZACE.md` | 🟡 E — lokalizační krok, ne přečtený obsah. Krok 3 ze 3, poslední dohodnutého plánu |
+
+Cyvínova zpráva 1977 lokalizována v Geofondu/ASGI (ČGS), zjištěn postup
+přístupu (studovna Praha, nebo online scan). Nová druhá zpráva
+nalezena: J. Prášil 1982, totéž téma. Databáze ASGI je interaktivní,
+další krok vyžaduje fyzickou/lidskou akci nebo jiný nástroj.
+**Tímto dokončen třídílný plán (HB-070/071/072).**
+
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY
 ════════════════════════════════════════

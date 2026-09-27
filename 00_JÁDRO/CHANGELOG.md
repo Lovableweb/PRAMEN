@@ -2,6 +2,19 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-27] – HB-072: CYVÍN 1977 LOKALIZOVÁN (KROK 3/3 — PLÁN DOKONČEN)
+
+**Poslední ze tří dohodnutých kroků.**
+
+- Nový `01_OBNOVA/RECOVERY-022_HB072_CYVIN_1977_ARCHIV_LOKALIZACE.md`.
+- Cyvínova zpráva (1977, „Bílina — ochranné zóny", úkol 76 177 13 GH) je katalogizovaná v archivu **Geofond** (Česká geologická služba), databáze **ASGI**. Zjištěn konkrétní postup přístupu: studovna Kostelní 26, Praha 7 (GF zprávy bez objednávky), nebo případný online scan přes aplikaci ASGI (https://cgs.gov.cz/mapy-a-data/aplikace).
+- **Nový nález:** druhá, dosud v projektu neznámá zpráva na totéž téma — **J. Prášil, „Bílina — ochranná pásma", 1982**, také v Geofondu.
+- Databázová aplikace ASGI je interaktivní, nejde prohledat jednoduchým web fetchem — **další krok vyžaduje buď Jirku osobně, nebo jiný nástroj (prohlížeč)**.
+- `HISTORICAL_MASTER_SOURCE_MAP.md` GAP-06 aktualizován.
+- Žádný nový claim (lokalizační krok, ne historický fakt).
+
+**Shrnutí celého třídílného plánu:** krok 1 (moderní historie 2025–26) přinesl 3 nové claimy; krok 2 (okupace) přinesl 1 nový LEAD; krok 3 (Cyvín) přinesl konkrétní cestu k archivu + druhou neznámou zprávu. Dva z technických pokusů (Redtenbacher, Löschner, akademická práce o Lobkowiczích, tento Cyvín) narazily na stejné omezení prostředí — chybí OCR/PDF-render nástroj — což teď dokumentuje `PRAMEN_AI_PROTOCOL.md` PRAVIDLO PREVENCE jako opakující se, pojmenovaný bloker.
+
 ## [2026-09-27] – HB-071: OKUPACE BÍLINA 1938–1945 (KROK 2/3)
 
 **Druhý ze tří dohodnutých kroků.**
