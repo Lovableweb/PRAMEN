@@ -1,5 +1,17 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – HB-064: ZAJEČICKÁ VODA/SEDLITZ (MAPOVACÍ REPORT — VĚTŠINA UŽ HOTOVA)
+
+**Přejmenováno z „HB-063"** — kolidovalo s číslem právě přiděleným v tomtéž sezení (`RECOVERY-015`). Třetí kolize číslování za sebou.
+
+- Nový `01_RECOVERY/RECOVERY-016_HB064_ZAJECICE_SAIDSCHUTZ.md`.
+- **Klíčové zjištění:** naprostá většina zadání (Hoffmann, rok 1717, Sedlec vs. Zaječice, Epsomská sůl, „vyčerpaná" sůl, Reuss 1791/1827) **už je hotová na úrovni PRIMARY SEEN** s doslovnými citacemi originálu v `01_HISTORIK/PRIMARNI_KOLACE_VYSLEDEK.md` §S-08 a `RECOVERY-005/006`. Nový web-výzkum by byl horší než existující kolace — proto se neprovedl, jen se zmapoval na existující odpovědi.
+- Otevřené zůstává: rozhodnutí o vnitřním rozporu v Reussovi 1791 (Zaječice vs. Sedlec, 1717 vs. 1721 — popsáno, nerozhodnuto), 20. století Zaječické vody (stejná díra jako u Bíliny v `RECOVERY-014`), tabulka historických jmen, číselná chemická genealogie v čase.
+- **Doporučení Řídícímu mozku 2:** příště zkontrolovat mapu před zadáním; spojit dohledávání 20. století Bíliny a Zaječic do jednoho úkolu.
+- Mapa aktualizována.
+
+---
+
 ## [2026-09-27] – HB-063: VĚDECKÁ/CHEMICKÁ GENEALOGIE BÍLINSKÉ KYSELKY (VÝZKUMNÝ REPORT)
 
 **Přejmenováno z „HB-056"** — to v repu už existuje a znamená „Ověření dostupnosti scénáře P14–P24" (`RECOVERY-008` §8). Stejná chyba číslování jako u HB-053B/HB-062.
