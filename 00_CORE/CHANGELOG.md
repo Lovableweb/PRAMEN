@@ -1,5 +1,59 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-26] – K2.5 PO AUDITU PR #30 (REQUEST CHANGES): OPRAVY
+
+**Audit Řídícího mozku 2 vrátil PR #30 s výhradami. Opraveno v téže větvi. PR čeká na opakovaný audit, není schválený merge.**
+
+### Opraveno
+- **CH-015 Humboldt** (Character Register): stará „Bořeň 1791 s F. A. Reussem" nahrazena podle D-3 a N-05 (článek 1792, Freiesleben + Humboldt, Reuss jen citován, společný výstup nedoložen, rok cesty 🟡). Souvisí opravy CH-004 (F. A. Reuss), CH-008 (Goethe: dopis Christiane 19. 7. 1812 nově 🟢 + dopis Zelterovi), CH-028 (Christiane 🟢), CH-011 (Hájek: 761/762 jen jako tradice).
+- **Claim DB: +8 claimů** (celkem 15 nových v této dávce), aby **každé nové 🟢 v K3 mělo claim**: `TEP-GOETHE-CHRISTIANE-1812` (N-01, N-04), `TEP-GOETHE-ZELTER-1812` (N-02), `HUM-BORSEN-1792` (N-05), `BIL-REUSS-1801-HAJEK-761` (N-06), `BIL-REUSS-1801-EARLY-HISTORY` (N-07), `BIL-REUSS-1808-1806` (N-08), `TEP-REUSS-1823-762` (N-09), `TEP-REUSS-1823-FIRE-1793` (N-10). **`BIL-761` a `TEP-762` zůstávají RED** (jako datum objevu); nové claimy jsou jiná tvrzení (Reuss cituje tradici) a mají v poznámce výslovný zákaz povyšovat RED claimy.
+- **Page Master:** karty stran 7, 9, 11, 12, 14, 16, 19, 21 odkazují na konkrétní claimy.
+- **Master Core 2.0:** počet claimů (60), stav Page Master (8 🟢 / 17 🟡), K2.5.
+- **K2 příloha K.1:** vazba změn K2.5 na claimy.
+
+### Cross-audit (nový soubor `01_HISTORIK/CROSS_AUDIT_K3_CLAIMDB_2026-09-26.md`)
+- Všechna 🟢, která přinesl PR #30, mají claim. **16 starších 🟢 v K3 (z K2.1–K2.4, ne z PR #30) claim nemá** (str. 11 deník, 12 Incident, 13 Gartenlaube a noviny ×4, 16 spis 1790, 18 Berzelius 1822 a Reuss 1818, 21 A. E. 1811 a F. A. †1830, 24 kniha 1827, 25 Steinmann a Reuss 1827 ×3). Podle D-8 nezapsáno, **k rozhodnutí Řídícího mozku 2**: zapsat jako dávku D-8b, nebo u nich snížit značku na 🟡. Zvlášť str. 12 „Incident = pozdější sporná tradice" 🟢 je jen z auditu.
+- **Strojově ověřeno:** všechna claim ID v Page Master, Character Register, K2 a cross-auditu existují v Claim DB; K3 přesně odpovídá K2 (skript); žádná stará tvrzení („Humboldt × Reuss 1791", „o několik týdnů později", „19. 8. 1812", „od roku 1800", „1712") v živých dokumentech.
+
+### Neprovedeno (podle pokynu)
+- Production Lock, prompty (OO-K3-07 čeká), obrazy. PR #31 (skript) zatím ignorován.
+
+---
+
+## [2026-09-26] – K2.5: INTEGRACE NÁLEZŮ N-01…N-17 (rozhodnutí Řídícího mozku 2 D-1…D-10)
+
+**PR čeká na audit Řídícího mozku 2. Není to schválený merge. Nic se nepovažuje za hotové v CORE, dokud není ověřený merge.**
+
+### Changed
+- **K2** (`ARCHIVE/SOURCES/PRAMEN_SCENAR_STR6-30_k2_WORKING.md`, příloha K):
+  - **D-1 (str. 11):** „Týž den, 19. července 1812, napsal Goethe z Teplic manželce Christiane…" 🟢 (N-01, WA IV 23, č. 6348). Opravuje „o několik týdnů později" a datum 19. 8. 1812 z K2.2 (sekundární zdroj Goethe-Gesellschaft se mýlil).
+  - **D-2 (str. 12):** doplněn Goethe → Zelter 2. 9. 1812 (N-02); Beethovenův dopis 1823 zůstává 🟡.
+  - **D-3 (str. 16):** Humboldt a Freiesleben popsali výstup na Bořeň (1792), Reuss je jen citován, panel 2 „Reuss v obraze není"; rok cesty neuzavřen (N-05).
+  - **D-4 (str. 14):** 761 = tradice o **slaném** prameni (Reuss cituje Hájka, N-06); Eleonora, 1761 obezdění, 1781 dům pro balení (Reuss 1801, N-07); **rok 1712 vypuštěn**.
+  - **D-5 (str. 19):** 1789 částečná náprava, 1806 zastavení rozesílání (Reuss 1808, N-08); rok 1800 vypuštěn.
+  - **D-6 (str. 7, 9):** 762 = tradice (Reuss 1823, N-09); „1793. Velký požár." 🟢 (N-10, bez „zasáhne obytné domy i lázně").
+  - **D-8 č. 3 (str. 21):** pomník odhalen na Svatodušní neděli 29. 5. 1898 🟢 (N-14).
+- **K3 CLEAN** přegenerován z K2.5 (skript reprodukoval předchozí K3 přesně; změnilo se právě těch 10 míst). Bez zakázaných frází, bez roků 1712 a 1791.
+- **Claim DB:** +7 claimů (`TEP-1879-NELSON-2`, `TEP-1879-WATER-0303-PRESS`, `BIL-REUSS-DENKMAL-1898`, `BIL-GOETHE-REUSS-1813`, `BIL-BERZELIUS-1823-CITACE`, `ZAJ-BERZELIUS-1840-DETAIL`, `ZAJ-HOFFMANN-SEDLEC-1717`), každý samostatně s pramenem, stranou a rozsahem důkazu. **Stávající claimy nepřepsány ani povýšeny.**
+- **Character Register:** CH-005 doplněn (A. E. Reuss = pozdější profesor mineralogie v Praze a ve Vídni, N-14).
+- **Page Master** 1.1: strany 9, 11, 14, 16, 19, 21 přepočteny z nového K3; 11 a 21 nově 🟢; souhrn HISTORIE 8 🟢 / 17 🟡. Karty stran 7, 9, 11, 12, 14, 16, 19, 21.
+- **Otevřené otázky:** KOL-K2-05 opraveno na 19. 7. 1812 (🟢 zodpovězeno); KOL-K2-12 → 🟡 rozpracováno; KOL-K2-16 → 🟢 zodpovězeno; KOL-K2-17 (poznámka N-15) a KOL-K2-19 (N-02) doplněny; nové OO-K3-07, OO-N-11, OO-N-16.
+
+### Nepovýšeno / neprovedeno (podle rozhodnutí)
+- **D-7:** 1589 a Radislav Vchynský (N-11) = jen 🟡 stopa (OO-N-11), do K3 ani Claim DB se nepromítá.
+- **N-15** (OCR „18?7", identita Reusse), **N-16** (jen katalog), **N-17** (sekundární): nepovýšeny na 🟢.
+- **Loos, Jarloch/Judita:** žádný nový claim (platí stávající `ZAJ-SOAL-1780`, `TEP-VINCENTIUS-12C`, `TEP-JUDITA-1156-1167`).
+- Bez Production Locku, bez obrazového auditu, bez přepisu promptů a bez mazání K1.
+
+### Dopad, který čeká (OO-K3-07)
+- Nový prompt str. 16, panel 2 (Reuss s Humboldtem) a str. 19, panel 1 („od roku 1800") už neodpovídají K3. Upravený prompt str. 14 (jímky) a str. 9 (požár) ověřit.
+
+### Poznámky
+- Nálezy zapsala jiná session Claude Code (`NALEZY_WEB_2026-09-26.md`, PR #29). Já jsem je promítl podle rozhodnutí Řídícího mozku 2.
+- Do Claim DB jsem nezapsal claimy pro N-05 až N-10 (Reuss 1801/1808/1823, Humboldt 1792), protože je D-8 výslovně nevyjmenoval. K2/K3 je používají s 🟢 na základě `NALEZY_WEB`. Doporučuji je zapsat v další dávce.
+
+---
+
 ## [2026-09-26] – NOVÉ NÁLEZY Z DIGITÁLNÍCH KNIHOVEN (N-01…N-17)
 
 ### Added
