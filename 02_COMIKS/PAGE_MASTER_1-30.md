@@ -1,6 +1,6 @@
 # PRAMEN – PAGE MASTER 1–30
 
-> **Verze:** 1.2 (2026-09-26 aktualizováno po K2.5: strany 7, 9, 11, 12, 14, 16, 19, 21; **1.2: uzavření textu K3 str. 6–30 podle rozhodnutí Řídícího mozku 2 D-1…D-7**) · **Založil:** Claude Code, 2026-09-26 · **🔒 Production Lock platí jen pro TEXT str. 6–30** (`00_JÁDRO/PRODUCTION_LOCK_K3_STR6-30.md`); obrazy, Prolog a lidská schválení mimo lock.
+> **Verze:** 1.2 (2026-09-26 aktualizováno po K2.5: strany 7, 9, 11, 12, 14, 16, 19, 21; **1.2: uzavření textu K3 str. 6–30 podle rozhodnutí Řídícího mozku 2 D-1…D-7**) · **Založil:** Claude Code, 2026-09-26 · **🟢 schváleno Jirkou 2026-09-27 (DEC-007)** · **🔒 Production Lock platí jen pro TEXT str. 6–30** (`00_JÁDRO/PRODUCTION_LOCK_K3_STR6-30.md`); obrazy, Prolog a lidská schválení mimo lock.
 >
 > **Účel:** Jedna řádka = jedna strana komiksu. Kdo chce vědět, v jakém stavu je kterákoli strana, najde to tady. Nemusí přitom procházet scénáře, audity a prompty.
 >

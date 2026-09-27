@@ -2,6 +2,19 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-27] – ZPĚTNÁ KONTROLA PROJEKTU (PRAVIDLO PREVENCE V AKCI)
+
+**Na žádost Jirky: projít celý projekt, najít zastaralá/nedokončená místa, opravit a zajistit, aby se to neopakovalo.**
+
+**Nalezeno a opraveno:**
+1. **`PROJECT_STATE.md` byl zastaralý** — od svého vzniku dnes ráno (HB-069) se neaktualizoval, přestože se stalo hodně (G1–G3 schváleny, str. 29 vyřešena, 81 claimů místo 75, RECOVERY až -022, nová řada moderní historie). Opraveno kompletně, přidán řádek „Moderní historie 2025–2026".
+2. **Root cause:** checklist „co vždy aktualizovat" v `CLAUDE.md` a `PRAMEN_AI_PROTOCOL.md` zmiňoval jen `CHANGELOG.md` a `PRAMEN_MAPA.md` — nikdy nebyl rozšířen o `PROJECT_STATE.md` a `SOUHLASY.md`, když vznikly. **Pojistka:** checklist v obou souborech doplněn.
+3. **`CHARACTER_REGISTER.md` a `PAGE_MASTER_1-30.md`** měly v hlavičce pořád „NÁVRH ke schválení", i když G1–G3 už byly schváleny (DEC-007) — opraveno na 🟢 v obou souborech i v `PRAMEN_MAPA.md` (3 místa: stav v kostce, oba řádky v tabulce souborů).
+4. **`HISTORICAL_MASTER_SOURCE_MAP.md`** — předávací blok z HB-066 měl zastaralé shrnutí (GAP-01, GAP-06 popsané jako nedotčené, i když je RECOVERY-020/021/022 mezitím doplnily). Opraveno, doporučení pro další výzkum aktualizováno na skutečně zbývající GAP-y.
+5. **`PRAMEN_MAPA.md`** — řádek „Poslední aktualizace" znovu narostl na 2414 znaků (stejný problém jako dřív u CHANGELOGu). Zkrácen, ukazuje na CHANGELOG pro plnou historii.
+
+**Co zůstává jako záměrně otevřené (ne chyba, jen čekající úkol):** G10 (souhlas Karla Bašty), obrazový audit, obsah Cyvína/Prášila/Redtenbachera (přístup znám, čeká na příležitost), GAP-03/04/07 v historickém hubu.
+
 ## [2026-09-27] – HB-072 DOPLNĚK 2: PRÁŠIL 1982 NALEZEN + PŘÍSTUPOVÁ CESTA K ARCHIVU ZJIŠTĚNA
 
 **Jirka dohledal i signaturu Prášila 1982 a společně jsme zjistili, jak se dá k oběma zprávám vůbec dostat.**
