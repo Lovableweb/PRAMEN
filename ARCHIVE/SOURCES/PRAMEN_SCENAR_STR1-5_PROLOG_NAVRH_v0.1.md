@@ -1,5 +1,7 @@
 # PRAMEN – SCÉNÁŘ STRAN 1–5 (PROLOG) – NÁVRH v0.1
 
+> ⚠️ **NAHRAZENO:** po připomínkách Řídícího mozku 2 k PR #33 (2026-09-27, 🟡 REQUEST CHANGES) vznikl `PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.2.md`. Tento soubor zůstává v archivu jako historie návrhu, ale **aktuální je v0.2**.
+
 > **Toto je PRVNÍ PRACOVNÍ NÁVRH, napsaný Claude Code, 2026-09-27. NENÍ K1, NENÍ scénář, NENÍ schválený text.**
 > Na rozdíl od stran 6–30 pro Prolog neexistoval žádný recovered scénář (viz `01_RECOVERY/MASTER_RECOVERY_MAP.md`, `00_CORE/PRAMEN_MASTER_CORE_2.0.md` G5: „chybí"). Tenhle soubor tu mezeru poprvé zaplňuje pracovním textem, aby bylo od čeho se odrazit — ne proto, že by byl hotový.
 >

@@ -1,5 +1,21 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – PROLOG STR. 1–5: NÁVRH v0.2 (PO PŘIPOMÍNKÁCH ŘÍDÍCÍHO MOZKU 2 K PR #33)
+
+**Stále neschváleno. Merge se neprovádí, obrazový audit se neprovádí.**
+
+- Řídící mozek 2 vrátil PR #33 s 🟡 REQUEST CHANGES. Nový `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.2.md` zapracovává:
+  - Digitální Jirka v Prologu potvrzeno, že nebude (ve v0.1 už nebyl).
+  - Výchozí standard 3 panely na stranu (ne Production Lock layoutu).
+  - Muzeum Bílinské kyselky potvrzeno, že se v Prologu nezmiňuje (ve v0.1 nebylo).
+  - Str. 5, Panel 1: replika „Tahle voda byla teplá dávno předtím, než jí někdo dal jméno." (i nepřímé věcné tvrzení) nahrazena čistě dramaturgickou formulací „Teď pojďme tam, kde se příběh vody setkal s lidmi."
+  - Metodická poznámka zjednodušena na jedno pravidlo: „Prolog je dramaturgický rámec. Neobsahuje historické claimy ani data. Repliky Kapky jsou metaforické."
+- `PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.1.md` ponechán v archivu, označen jako nahrazený.
+- Mapa aktualizována (v0.1 → 📦 archiv, v0.2 → ⭐ aktuální návrh).
+- Stav G5 v Master Core 2.0 beze změny: „chybí" / neschváleno.
+
+---
+
 ## [2026-09-27] – PROLOG STR. 1–5: PRVNÍ PRACOVNÍ NÁVRH v0.1
 
 **Nový soubor, ne oprava existujícího. Neschváleno, jde ke kontrole Řídícímu mozku 2 a Jirkovi.**
