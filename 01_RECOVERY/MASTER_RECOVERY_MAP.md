@@ -259,6 +259,20 @@ mezi entitami nenalezena. Claim DB nedotčena.
 Doplnilo GAP-01, GAP-02, GAP-10 v `HISTORICAL_MASTER_SOURCE_MAP.md`.
 Redtenbacher/Löschner podle pokynu znovu nezkoušeno. Claim DB nedotčena.
 
+────────────────────────────────────────
+2j. MASTER INTEGRATION AUDIT — HB-068 (2026-09-27)
+────────────────────────────────────────
+
+| Cesta | Klasifikace |
+|---|---|
+| `00_CORE/PRAMEN_MASTER_INTEGRATION_AUDIT_2026-09-27.md` | ⭐ A — kompletní audit celého projektu po sérii HB-062–067: numbering, file inventory, Claim DB, entity/chronology/contamination, technická integrita |
+
+Číslo ověřeno předem (nejvyšší HB-067, RECOVERY-019), žádná kolize.
+Nalezeny a opraveny 2 drobné technické věci (pořadí RECOVERY-014–019
+v `PRAMEN_MAPA.md`, neaktualizovaný status HIST-012). Žádná ztráta dat,
+žádná kontaminace, 0 broken links, 0 duplicitních ID. **RELEASE READY
+WITH OPEN HISTORICAL GAPS.** Claim DB nedotčena mimo status HIST-012.
+
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY
 ════════════════════════════════════════
