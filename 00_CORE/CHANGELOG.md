@@ -1,5 +1,16 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – HB-069: PRAMEN 3.0 — P0 UPGRADE (BOOTLOADER + PROJECT STATE + SOURCE OF TRUTH)
+
+**Reakce na zadání „PRAMEN 3.0" od Mozku 3. Implementováno jen P0 + 1 bezpečný P1 prvek, zbytek DESIGNED ONLY nebo DECISION REQUIRED — přesně podle zásady „co funguje, to se nebourá".**
+
+- Nové: `00_CORE/PRAMEN_OS.md` (bootloader), `00_CORE/PROJECT_STATE.md` (živý přehled 13 oblastí), `00_CORE/SOURCE_OF_TRUTH_REGISTRY.md` (registr autorit pro 14 entit), `scripts/pramen_health_check.sh` (read-only diagnostika, otestováno 🟢 OVERALL), `00_CORE/ID_STANDARD_PROPOSAL.md` (návrh, neimplementováno), `00_CORE/PRAMEN_3.0_IMPLEMENTATION_REPORT.md`.
+- **Nic z existujícího nebylo smazáno, přejmenováno ani obsahově změněno.** Testy A–H (repository integrity, links, Claim DB, Production Lock, Page Master, K3 reprodukovatelnost, existující soubory) všechny 🟢.
+- **6 bodů označeno DECISION REQUIRED** (DATA/ yaml vrstva, CI workflows, GitHub šablony, ID migrace, public/private split, Visual Asset Registry a další P2/P3 rozšíření) — vyžadují rozhodnutí Jirky/Mozku 3, neimplementováno bez něj.
+- Mapa aktualizována (5 nových řádků).
+
+---
+
 ## [2026-09-27] – HB-068: MASTER INTEGRATION AUDIT + RELEASE CONSOLIDATION
 
 **Číslo ověřeno předem (HB-068/RECOVERY-020) — žádná kolize.** Kompletní kontrola projektu po sérii HB-062–067 (READ → INVENTORY → CROSS-CHECK → AUDIT → CLASSIFY → RESOLVE ONLY PROVEN TECHNICAL ERRORS → INTEGRATE → VALIDATE).

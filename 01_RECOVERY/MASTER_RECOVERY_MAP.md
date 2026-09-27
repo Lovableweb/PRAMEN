@@ -273,6 +273,22 @@ v `PRAMEN_MAPA.md`, neaktualizovaný status HIST-012). Žádná ztráta dat,
 žádná kontaminace, 0 broken links, 0 duplicitních ID. **RELEASE READY
 WITH OPEN HISTORICAL GAPS.** Claim DB nedotčena mimo status HIST-012.
 
+────────────────────────────────────────
+2k. PRAMEN 3.0 — P0 UPGRADE — HB-069 (2026-09-27)
+────────────────────────────────────────
+
+| Cesta | Klasifikace |
+|---|---|
+| `00_CORE/PRAMEN_OS.md`, `PROJECT_STATE.md`, `SOURCE_OF_TRUTH_REGISTRY.md` | ⭐ A — nové navigační/bootstrap vrstvy, nenahrazují žádnou existující autoritu |
+| `scripts/pramen_health_check.sh` | ⭐ A — read-only diagnostika, otestováno 🟢 |
+| `ID_STANDARD_PROPOSAL.md` | 🔍 D — návrh, neimplementováno, žádné ID nepřejmenováno |
+| `PRAMEN_3.0_IMPLEMENTATION_REPORT.md` | ⭐ A — implementační report, 6 bodů označeno DECISION REQUIRED |
+
+Reakce na zadání „PRAMEN 3.0" od Mozku 3. Implementováno jen P0 +
+1 bezpečný P1 prvek. Testy A–H všechny 🟢, backward compatibility 🟢,
+integrita historických dat 🟢. Nic existujícího nesmazáno ani
+nepřejmenováno.
+
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY
 ════════════════════════════════════════
