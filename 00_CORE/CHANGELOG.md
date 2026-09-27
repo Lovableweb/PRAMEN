@@ -1,5 +1,23 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – HB-068: MASTER INTEGRATION AUDIT + RELEASE CONSOLIDATION
+
+**Číslo ověřeno předem (HB-068/RECOVERY-020) — žádná kolize.** Kompletní kontrola projektu po sérii HB-062–067 (READ → INVENTORY → CROSS-CHECK → AUDIT → CLASSIFY → RESOLVE ONLY PROVEN TECHNICAL ERRORS → INTEGRATE → VALIDATE).
+
+- Nový `00_CORE/PRAMEN_MASTER_INTEGRATION_AUDIT_2026-09-27.md`.
+- **Repository state:** main HEAD `1bc700d`, žádné otevřené PR, PR #30–41 všechny sloučené — žádná visící práce.
+- **Numbering audit:** HB 026–067 a RECOVERY 005–019 bez duplicit. Legacy RECOVERY-001…004 (jen v commit zprávách) beze změny — už dřív rozhodnuto nepřejmenovávat.
+- **File inventory:** 68 .md souborů, 2 orphany nalezeny a opraveny (RECOVERY-018/019 chyběly v tabulce mapy), pořadí RECOVERY-014–019 opraveno (vloženo mimo chronologii, teď napraveno). 0 prázdných souborů, 0 duplicitních názvů.
+- **Claim DB audit:** 75 řádků, 0 duplicitních ID, žádný GREEN bez pramene, žádný RED claim ID citovaný přímo v K3.
+- **Reuss×Berzelius guardrail, entity audit, cross-entity kontaminace, chronologie:** vše čisto, žádné nové porušení nenalezeno.
+- **Technická integrita:** 0 broken links (wikilinky i markdown), 0 duplicitních ID napříč celým repem.
+- **Opravena 1 věcná nesrovnalost:** `OTEVRENE_OTAZKY.md` HIST-012 (Beethoven) měl status „otevřeno", ačkoli otázka (cesta do Bíliny) je dávno zodpovězena claimem `BIL-BEETHOVEN-1812` — status pole aktualizováno s odkazem na claim, text otázky nezměněn.
+- **Redtenbacher/Löschner:** status beze změny, nepovýšeno.
+- **Release gate: 🟢 RELEASE READY WITH OPEN HISTORICAL GAPS.**
+- Mapa a Master Recovery Map aktualizovány (nová sekce 2j).
+
+---
+
 ## [2026-09-27] – HB-067: 20. STOLETÍ BÍLINA × ZAJEČICE (VLASTNICTVÍ/OKUPACE/ZNÁRODNĚNÍ)
 
 **Číslo ověřeno předem (HB-067/RECOVERY-019) — žádná kolize.**
