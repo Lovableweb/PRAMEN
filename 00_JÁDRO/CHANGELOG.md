@@ -2,6 +2,56 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-27] – HB-072 DOPLNĚK: JIRKA SÁM DOHLEDAL SIGNATURU CYVÍNA V ASGI
+
+**Jirka prošel databázi ASGI (https://app.geology.cz/asgi) přímo v prohlížeči a našel přesný záznam** — potvrzeno screenshotem.
+
+- **Signatura: GF P025701/1.** Autor: **Vladimír Cyvín** (celé jméno). Název: „Lázně Bílina — rešeršní studie minerálních pramenů". Rok 1977, řešitel Stavební geologie Praha, 51 stran + 17 volných příloh.
+- **Anotace odhalila důležitý detail:** zpráva ve skutečnosti obsahuje **dvě rešeršní studie spojené dohromady** — z roku 1976 i 1977.
+- Úkol J7617713-GH potvrzuje dřívější „76 177 13 GH".
+- **Online: Ne, El. příloha: Ne** — potvrzeno, že obsah vyžaduje fyzickou návštěvu studovny Geofond (Praha — Kostelní).
+- `RECOVERY-022` a mapa doplněny o kompletní metadata. Signatura Prášila 1982 zůstává zatím nedohledaná.
+
+---
+
+## [2026-09-27] – HB-072: CYVÍN 1977 LOKALIZOVÁN (KROK 3/3 — PLÁN DOKONČEN)
+
+**Poslední ze tří dohodnutých kroků.**
+
+- Nový `01_OBNOVA/RECOVERY-022_HB072_CYVIN_1977_ARCHIV_LOKALIZACE.md`.
+- Cyvínova zpráva (1977, „Bílina — ochranné zóny", úkol 76 177 13 GH) je katalogizovaná v archivu **Geofond** (Česká geologická služba), databáze **ASGI**. Zjištěn konkrétní postup přístupu: studovna Kostelní 26, Praha 7 (GF zprávy bez objednávky), nebo případný online scan přes aplikaci ASGI (https://cgs.gov.cz/mapy-a-data/aplikace).
+- **Nový nález:** druhá, dosud v projektu neznámá zpráva na totéž téma — **J. Prášil, „Bílina — ochranná pásma", 1982**, také v Geofondu.
+- Databázová aplikace ASGI je interaktivní, nejde prohledat jednoduchým web fetchem — **další krok vyžaduje buď Jirku osobně, nebo jiný nástroj (prohlížeč)**.
+- `HISTORICAL_MASTER_SOURCE_MAP.md` GAP-06 aktualizován.
+- Žádný nový claim (lokalizační krok, ne historický fakt).
+
+**Shrnutí celého třídílného plánu:** krok 1 (moderní historie 2025–26) přinesl 3 nové claimy; krok 2 (okupace) přinesl 1 nový LEAD; krok 3 (Cyvín) přinesl konkrétní cestu k archivu + druhou neznámou zprávu. Dva z technických pokusů (Redtenbacher, Löschner, akademická práce o Lobkowiczích, tento Cyvín) narazily na stejné omezení prostředí — chybí OCR/PDF-render nástroj — což teď dokumentuje `PRAMEN_AI_PROTOCOL.md` PRAVIDLO PREVENCE jako opakující se, pojmenovaný bloker.
+
+## [2026-09-27] – HB-071: OKUPACE BÍLINA 1938–1945 (KROK 2/3)
+
+**Druhý ze tří dohodnutých kroků.**
+
+- Nový `01_OBNOVA/RECOVERY-021_HB071_OKUPACE_BILINA_1938-1945.md`.
+- Zabavení budovy Wehrmachtem (z `RECOVERY-019`) zůstává beze změny — dvakrát nezávisle potvrzeno.
+- **Nový detail** (přes vyhledávací index akademické bakalářské práce o M. Lobkowiczovi, UK Praha): lobkowiczský fideikomis (vč. Bíliny) byl pod **nucenou správou**, Maxmilián Ervín Lobkowicz zbaven protektorátního občanství 3. 10. 1939 rozhodnutím Říšského ministerstva vnitra. **Pozor:** tohle je obecné zjištění o celém rodu (11 panství), ne specificky doložené pro Bílinu — status LEAD, ne claim.
+- **Rozlišeno**: „zabavení" (budova stáčírny) a „nucená správa" (celý fideikomis) jsou různé právní mechanismy, nesluč overat do jedné věty.
+- **Pokus přečíst plný text 56stránkové akademické práce selhal** — stejný technický bloker jako u Redtenbachera (žádný OCR nástroj v prostředí).
+- Afrikakorps/Rommel — druhý pokus o přístup ke zdroji opět selhal (403). Stále jen LEAD.
+- `HISTORICAL_MASTER_SOURCE_MAP.md` GAP-01 aktualizován.
+- Žádný nový claim (nedostatečná jistota/specifičnost pro Bílinu).
+
+## [2026-09-27] – HB-070: MODERNÍ HISTORIE BÍLINY 2025–2026 (KROK 1/3)
+
+**První ze tří dohodnutých kroků s Jirkou (moderní kapitola → okupace 1938–45 → Cyvín 1977).**
+
+- Nový `01_OBNOVA/RECOVERY-020_HB070_MODERNI_HISTORIE_BILINA_2025-2026.md`.
+- **Poprvé solidní materiál pro moderní éru** (dosud úplná mezera GAP-07/08): BHMW podal insolvenční návrh červen 2025 (dluh ~500 mil. Kč, ~600 věřitelů, příčiny — export a energie), 90 % věřitelů odmítlo reorganizaci, konkurz vyhlášen říjen 2025. Insolvenční správce prodal podnik mimo dražbu European Healing Waters (Kofola 90 % + Invest Gate 10 %) za 440,5 mil. Kč, dokončeno konec srpna 2026.
+- Muzeum otevřelo 16. 6. 2026 **ještě v době konkurzu**, před dokončením prodeje — zajímavý detail pro budoucí vyprávění.
+- Podnik zahrnuje i Zaječickou hořkou, Rudolfův pramen, Excelsior (Mariánské Lázně).
+- Přidány claimy `BIL-INSOLVENCE-2025`, `BIL-KONKURZ-2025-10`, `BIL-PRODEJ-EHW-2026` (SECONDARY, více nezávislých redakcí se shoduje).
+- **Není součástí Production Locku** — jde o materiál pro budoucí zvážení (Epilog/dodatek), ne automatickou změnu K3.
+- Mapa aktualizována.
+
 ## [2026-09-27] – STR. 29 OVĚŘENA A UPRAVENA (DEC-008) + SOUHLASY.md AKTUALIZOVÁN (DEC-009)
 
 **Na výslovný pokyn Jirky v chatu.**
