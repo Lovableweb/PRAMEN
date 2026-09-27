@@ -1,5 +1,17 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – PROLOG STR. 1–5: PRVNÍ PRACOVNÍ NÁVRH v0.1
+
+**Nový soubor, ne oprava existujícího. Neschváleno, jde ke kontrole Řídícímu mozku 2 a Jirkovi.**
+
+- Nový `ARCHIVE/SOURCES/PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.1.md`: první text pro Prolog (str. 1–5), který v repu dosud vůbec neexistoval (na rozdíl od str. 6–30 nebylo ani K1). Napsal Claude Code na výslovnou žádost Jirky.
+- Obsah: jen Kapka vody (podle Character Registeru CH-001 se Bašta a Digitální Jirka v Prologu neobjevují); formát a tón podle K3 (tabulka hlasů, emoční oblouk, STRANA/Panel/replika); vizuální inspirace z `PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md` (ne jako zdroj textu — ten soubor sám říká, že není z doslovného scénáře).
+- **Žádné historické tvrzení jako fakt** — všechny repliky Kapky jsou 💡 (metafora, pravidlo CH-001), motto „Pohádka, která se opravdu stala" a „Historie před fikcí" jsou existující formulace projektu, ne nové výmysly.
+- **Nemění stav G5 v Master Core 2.0** („Prolog 1–5: chybí") ani `PRODUCTION_LOCK_K3_STR6-30.md` (ten se textu Prologu netýká, D-5). Status zůstává 🔴/NÁVRH, dokud ho někdo neschválí.
+- Aktualizována mapa (nový řádek u `ARCHIVE/SOURCES/`).
+
+---
+
 ## [2026-09-26] – 🔒 UZAVŘENÍ TEXTU K3 STR. 6–30 (ROZHODNUTÍ ŘÍDÍCÍHO MOZKU 2 D-1…D-7)
 
 **Lock platí až po sloučení PR #30 → #31 → tohoto PR do `main` a ověření v `main`.** Claude nemerguje.
