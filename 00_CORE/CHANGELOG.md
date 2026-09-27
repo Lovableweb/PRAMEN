@@ -1,5 +1,20 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – HB-066: RESEARCH GAP AUDIT + HISTORICAL MASTER SOURCE MAP
+
+**Číslo ověřeno předem proti mapě a existujícím HB — poprvé v této sérii bez kolize.**
+
+- Nový centrální hub `00_CORE/HISTORICAL_MASTER_SOURCE_MAP.md` + procesní záznam `01_RECOVERY/RECOVERY-018_HB066_RESEARCH_GAP_AUDIT.md`.
+- **Žádný nový web-výzkum** — audit zmapoval existující stav (Claim DB, otevřené otázky, PRIMARNI_KOLACE_VYSLEDEK, čtyři reporty HB-062–065), doplněný strojovou kontrolou, že Teplice po 1879 nemají v repu žádnou historickou stopu.
+- **Gap matrix:** silné pokrytí 1717–1900 (obě vody), téměř nic 1900–1989 — u Bíliny, Zaječic i Teplic stejně.
+- **Top 10 gaps** identifikováno, prioritně: Bílina 1938–1945 (okupace, CRITICAL), 1945–1948 (znárodnění, HIGH), obsah Redtenbachera/Löschnera (HIGH), Cyvín 1977 plný text (HIGH).
+- **Cross-entity kontaminační audit:** žádná tichá záměna faktů mezi Bílinou/Zaječicemi/Teplicemi, F.A./A.E. Reussem, Josefovým pramenem/celou kyselkou, Venus/vydatností pramene nenalezena — projekt si hranice dosud hlídal dobře.
+- **Chemická genealogie:** čísla napříč staletími (1788→dnes) nejsou vzájemně srovnatelná — chybí systematická extrakce hodnot.
+- Claim DB beze změny.
+- Mapa a Master Recovery Map aktualizovány (nová sekce 2h).
+
+---
+
 ## [2026-09-27] – HB-065: PRIMARY SOURCE RESOLUTION — REDTENBACHER 1845 (NEÚSPĚŠNÝ POKUS O ČTENÍ + NOVÝ POZNATEK)
 
 **Čísla tentokrát ověřena předem v repu — žádná kolize.**

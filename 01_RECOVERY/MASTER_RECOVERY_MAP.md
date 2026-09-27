@@ -233,6 +233,20 @@ Prolog a pro ověření doslovnosti.
 HB-062, HB-063, HB-064, HB-065 (další volná čísla). Nic z těchto čtyř
 reportů není v Claim DB; všechny čekají na kontrolu Řídícího mozku 2.
 
+────────────────────────────────────────
+2h. NOVÝ HUB — HB-066: RESEARCH GAP AUDIT + HISTORICAL MASTER SOURCE MAP (2026-09-27)
+────────────────────────────────────────
+
+| Cesta | Klasifikace |
+|---|---|
+| `00_CORE/HISTORICAL_MASTER_SOURCE_MAP.md` | 🟡 D — nový centrální hub (gap matrix, top 10 gaps, unknown registr, cross-entity kontaminační audit, chemická genealogie). Ověřeno, že žádný podobný hub dřív neexistoval |
+| `01_RECOVERY/RECOVERY-018_HB066_RESEARCH_GAP_AUDIT.md` | 🟡 D — procesní záznam auditu, odkazuje na HUB výše |
+
+Číslo ověřeno předem proti mapě a existujícím HB (nejvyšší HB-065) —
+poprvé v této sérii bez kolize. Výsledek: silné pokrytí 1717–1900,
+téměř nic 1900–1989 u Bíliny, Zaječic i Teplic. Žádná kontaminace
+mezi entitami nenalezena. Claim DB nedotčena.
+
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY
 ════════════════════════════════════════
