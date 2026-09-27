@@ -2,7 +2,7 @@
 
 **Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
 **Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
-**Poslední aktualizace:** 2026-09-27 · **Prolog str. 1–5: text existuje** — NÁVRH v0.2 schválen Řídícím mozkem 2 a sloučen (PR #33). G5 v Master Core → 🟡 (text existuje jako pracovní verze, **Production Lock Prologu zatím nevyhlášen**). Předtím (2026-09-26): 🔒 uzavření textu K3 str. 6–30 (rozhodnutí Řídícího mozku 2 D-1…D-7): +16 claimů D-8b (Claim DB 75), Incident str. 12 → 🟡, prompty v0.2 schváleny (D-4), prompt 27 vyřazen, `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md`, DEC-006. Předtím: K2.5 po auditu PR #30 + skript `scripts/generate_k3_from_k2.sh`.
+**Poslední aktualizace:** 2026-09-27 · **`FINAL_PROJECT_AUDIT_2026-09-27.md`** — přehled celého stavu projektu (🟢 uzavřeno / 🟡 zbývá člověk / 🔴 bloker), na návrh Řídícího mozku 2 po sloučení PR #33+#34. Prolog str. 1–5: text existuje — NÁVRH v0.2 schválen Řídícím mozkem 2 a sloučen (PR #33). G5 v Master Core → 🟡 (text existuje jako pracovní verze, **Production Lock Prologu zatím nevyhlášen**). Předtím (2026-09-26): 🔒 uzavření textu K3 str. 6–30 (rozhodnutí Řídícího mozku 2 D-1…D-7): +16 claimů D-8b (Claim DB 75), Incident str. 12 → 🟡, prompty v0.2 schváleny (D-4), prompt 27 vyřazen, `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md`, DEC-006. Předtím: K2.5 po auditu PR #30 + skript `scripts/generate_k3_from_k2.sh`.
 
 Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
 
@@ -53,6 +53,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | `PRAMEN_MAPA.md` | – | ⭐ | Tato mapa |
 | `PRAMEN_MASTER_CORE_2.0.md` | 132 | ⭐ | **Master Core 2.0 (NÁVRH; stav a brána G1–G10 aktualizovány po D-7)**: identita, role, zásady, **zdroje pravdy** (který soubor platí pro co), stav projektu, **brána k Production Lock G1–G10**, otevřená rozhodnutí, známé rozpory. Po schválení nahrazuje `PRAMEN_MASTER.md` |
 | `PRODUCTION_LOCK_K3_STR6-30.md` | 47 | ⭐ | **🔒 Production Lock — text K3 str. 6–30** (D-7, DEC-006): co je uzamčeno (jen text), co ne (Prolog, obrazy, publikace, str. 29, souhlasy), podmínky D-7 a jejich splnění, postup změny po locku, zákaz rozšiřování |
+| `FINAL_PROJECT_AUDIT_2026-09-27.md` | – | ⭐ | **Finální audit celého projektu** (Claude Code, na návrh Řídícího mozku 2): jeden přehled CORE→K3→Prolog→Claim DB→Lock→otevřené úkoly, stav 🟢/🟡/🔴. Nic nerozhoduje, jen shrnuje ověřený stav main |
 | `PRAMEN_AI_PROTOCOL.md` | 301 | ⭐ | Hierarchie, pravidla změn/duplicit/rozporů, Předávací režim, ukládání na GitHub (v1.2) |
 | `CHANGELOG.md` | 278 | ⭐ (jen začátek) | Historie změn, nejnovější nahoře. ⚠️ neobsahuje záznamy ke ~20 starším commitům (viz audit) |
 | `DECISION_REGISTER.md` | 20 | ⭐ | DEC-001 architektura · DEC-002 PROMPT≠SCÉNÁŘ · DEC-003 Production Lock blokován · DEC-004 HB-058 odložen · DEC-005 stav HB-058…061 · **DEC-006 🔒 lock textu K3 str. 6–30 (D-1…D-7)** |

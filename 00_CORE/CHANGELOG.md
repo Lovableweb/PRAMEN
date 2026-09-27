@@ -1,5 +1,16 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – FINAL PROJECT AUDIT
+
+**Na návrh Řídícího mozku 2, po sloučení PR #33 a #34 (Prolog v0.2 + aktualizace G5).**
+
+- Nový `00_CORE/FINAL_PROJECT_AUDIT_2026-09-27.md`: přehled celého stavu — CORE, K3 str. 6–30 (🟢 lock), Prolog 1–5 (🟡 text bez locku), Claim DB (🟢 75 claimů, ověřeno strojově), prompty (🟡), obrazy (⚪ odloženo), originály Bible/Osa/storyboard (🔴 nenalezeny).
+- Rozlišeny tři úrovně otevřených bodů: co je uzavřeno (🟢), co čeká na lidské rozhodnutí (🟡: OO‑K3‑01 str. 29, Production Lock Prologu, dohledávat originály nebo ne, naplánovat obrazový audit), co je skutečný bloker bez Jirky (🔴: G10 souhlasy Bašty/Digitálního Jirky, chybějící originály).
+- Dokument nic nerozhoduje, jen shrnuje ověřený stav `main` k merge commitům #30–#34.
+- Mapa aktualizována (nový řádek souboru + stav v kostce).
+
+---
+
 ## [2026-09-27] – PR #33 SLOUČEN: PROLOG STR. 1–5 MÁ TEXT (NÁVRH v0.2), G5 AKTUALIZOVÁNO
 
 **Řídící mozek 2 schválil v0.2 k merge (🟢 APPROVE), Jirka potvrdil sloučením do `main`.**
