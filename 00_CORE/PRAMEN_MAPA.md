@@ -2,7 +2,7 @@
 
 **Účel:** Rychlá orientace v repozitáři bez čtení všech souborů (šetří tokeny). **Čti jako PRVNÍ**, pak otevři jen soubor, který úkol potřebuje.
 **Pravidlo:** Kdo přidá, přejmenuje, přesune nebo výrazně změní soubor, **aktualizuje tuto mapu ve stejném commitu** (řádek souboru + „Stav projektu v kostce", pokud se mění). Schváleno Jirkou 2026-09-25.
-**Poslední aktualizace:** 2026-09-26 · K2.5 po auditu PR #30: +8 claimů (celkem 15 nových), CH-015 opraven, cross-audit K3 ↔ Claim DB. PR čeká na opakovaný audit.
+**Poslední aktualizace:** 2026-09-26 · K2.5 po auditu PR #30 (+8 claimů, CH-015, cross-audit K3 ↔ Claim DB) + skript pro generování K3 z K2 uložen do repa (`scripts/generate_k3_from_k2.sh`).
 
 Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu · 📦 archiv / jen na dotaz. Číslo = počet řádků (orientačně cena načtení).
 
@@ -111,6 +111,11 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | `VISUAL_AUDIT/…VISUAL_ARTIFACT_AUDIT_v1.0.md` | 100 | 🔍 | R-031, 16:9 / 3840×2160, paleta, Kapka (varianta B), guardraily §7, §7b |
 | `KOMIKSOVA_BIBLE/…KOMIKSOVA_BIBLE_RECOVERED_WORKING_v1.0.md` | 166 | 🔍 | Pracovní Bible: postavy, kapitoly, tabulka stran 1–30 (NENÍ originál) |
 | `KOMIKSOVA_BIBLE/…OSA_RECOVERED_WORKING_v1.1.md` | 208 | 🔍 | Pracovní osa. ⚠️ Beethoven stále 🟡 (Claim DB 🟢) |
+
+### `scripts/` — pomocné skripty
+| Soubor | ř. | ČÍST | Co to je |
+|---|---:|---|---|
+| `generate_k3_from_k2.sh` | 82 | 🔍 | **Generátor K3 CLEAN z K2**: odstraní redakční poznámky, přesune značky stavu na konec replik. Vypíše TĚLO K3 (hlavičku předřadit ručně). Ověřeno: přesně reprodukuje K3 z `main` i z K2.5. Postup ověření je v hlavičce skriptu. Potřebuje jen bash, sed, awk |
 
 ### `ARCHIVE/SOURCES/`
 | Soubor | ř. | ČÍST | Co to je |
