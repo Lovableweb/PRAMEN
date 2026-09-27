@@ -80,7 +80,7 @@ Postup: **předání → zápis do repa (RECOVERY-0xx nebo pracovní soubor) →
 |---|---|---|
 | **Historie** | 🟡 | Claim DB **75 claimů** (44 původních + 15 z D-8 / auditu PR #30 + 16 z D-8b; dřívější „45/60" byla chyba součtu o 1). Primární kolace: 13 pramenů PRIMARY SEEN (Gartenlaube 1879, Reuss 1791–1827, Berzelius 1823/1840, Hoffmann, Goethe WA, Vincentius) + výzkum P1–P10 pro K2. Každé 🟢 tvrzení z nálezů použité v K3 (N-01, N-02, N-04…N-10, N-12…N-14) má vlastní claim; N-03 (v K3 nepoužito), N-11 (1589, stopa), N-15 (OCR nejisté), N-16 (jen katalog), N-17 (sekundární) se do Claim DB **nepromítají**. |
 | **Scénář 6–30** | 🔒 | K1 → K2 (K2.1–K2.5, audity RECOVERY-011/012/013) → **K3 CLEAN**. **🔒 PRODUCTION LOCK — TEXT K3 STR. 6–30** (D-7, 2026-09-26; `00_CORE/PRODUCTION_LOCK_K3_STR6-30.md`). |
-| **Scénář 1–5 (Prolog)** | 🔴 | chybí |
+| **Scénář 1–5 (Prolog)** | 🟡 | text existuje jako schválený pracovní NÁVRH v0.2 (`ARCHIVE/SOURCES/PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.2.md`, PR #33, schváleno Řídícím mozkem 2 a Jirkou mergem 2026-09-27). **Není Production Lock** — žádné D-rozhodnutí o zamčení Prologu zatím nepadlo. |
 | **Page Master** | 🟡 návrh | text 25/30 · historie 🟢 8 stran · 17 🟡 · vizuální zadání 🟢 18 stran · obraz 0/30 auditováno · Lock: text str. 6–30 |
 | **Postavy** | 🟡 návrh | Character Register: 3 průvodci, 25 historických postav a zmínek, anonymní postavy, 4 vyřazené/odložené |
 | **Prompty** | 🟡 | archivní 1–30. 6 nových (str. 11, 12, 16, 19, 24, 25) a 10 upravených (7, 8, 13, 15, 17, 18, 21, 23, 26, 28), v0.2 + dodatek D-4, **schváleno D-4 jako pracovní produkční sada vázaná na K3** (K3 > prompt). Prompty 8, 11, 13, 15, 19, 26, 27 mimo produkční sadu, archivovány (27 vyřazen D-4). |
@@ -98,7 +98,7 @@ Production Lock smí vyhlásit **jen Jirka** a zapíše se do `DECISION_REGISTER
 | G2 | **Page Master 1–30** schválen a aktuální | 🟡 návrh |
 | G3 | **Character Register** schválen | 🟡 návrh |
 | G4 | **Scénář 6–30**: K3 schválen Řídícím mozkem 2 a Jirkou | 🟢 D-7 (text str. 6–30) |
-| G5 | **Prolog 1–5**: text existuje, nebo Jirka rozhodne jinak (např. Lock jen pro 6–30) | 🟢 pro lock 6–30 (D-5: Prolog mimo lock) · Prolog sám 🔴 chybí |
+| G5 | **Prolog 1–5**: text existuje, nebo Jirka rozhodne jinak (např. Lock jen pro 6–30) | 🟢 pro lock 6–30 (D-5: Prolog mimo lock) · Prolog sám 🟡 text existuje (NÁVRH v0.2, schváleno PR #33), Production Lock Prologu zatím nevyhlášen |
 | G6 | **Historie**: žádné 🔴 ve scénáři; ke každému 🟡 / 🟡k rozhodnutí „ověřit / ponechat opatrně / vypustit"; nálezy kolace promítnuty do Claim DB | 🟢 pro text 6–30: každé 🟢 má claim (D-8b), 🟡/🟡k ponechány jako opatrné formulace (D-7) |
 | G7 | **Prompty**: každá strana má schválený prompt bez odchylek od K3 | 🟢 v0.2 schváleno (D-4) pro 16 stran + 29, 30; 🟡 7 archivních (6, 9, 10, 14, 20, 22, 27) pod pravidlem K3 > prompt |
 | G8 | **Obrazy**: 30 obrazů v repu nebo na Drive, audit proti K3, Page Masteru a Character Registeru | ⚪ odloženo na konec; mimo lock (D-6), obrazy nejsou finální |
