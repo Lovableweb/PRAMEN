@@ -2,6 +2,22 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-28] – HB-073 (RECOVERY-023): AUTONOMNÍ ÚKOL MOZKU 3 — GAP-01 BÍLINA 1938–1945
+
+**Zadání Mozku 3 (autonomní výzkum, PR se neslučuje bez kontroly).** Anti-duplication audit proveden nejdřív (`WORK_ALREADY_DONE_MAP.md`, `GAP_EXECUTION_PLAN.md`) — nic z `RECOVERY-019`/`021` se neopakovalo. Číslování ověřeno (HB-072/RECOVERY-022 → nové HB-073/RECOVERY-023).
+
+**Výsledek: GAP-01 NOT RESOLVED — evidence insufficient** pro konkrétní právní dokument k Bílině. Dva reálné dílčí posuny:
+1. **Zdroj přímo přečten** (dřív 403): Radio Prague International, Petr Lukeš, 21.8.2024 — přesná citace k Afrikakorpsu teď existuje, SECONDARY s ověřenou citací místo dřívějšího nepotvrzeného LEAD.
+2. **Nový archivní fond nalezen**: „Ústřední kancelář lobkovických statků Roudnice n. L., Bílina" (1753)1784–1957, Státní oblastní archiv v Litoměřicích — jmenovitě k Bílině (ne k celému fideikomisu). Signatura nezjištěna (badatelna `digi.soalitomerice.cz` za bot-ochranou — nový technický bloker stejného typu jako ASGI Geofond).
+
+**Claim DB: BEZE ZMĚNY** — žádný nový claim (oba nálezy zůstávají `HISTORICAL FINDING — NOT YET ASSIGNED TO COMIC PAGE`, bez primárního dokladu a bez vazby na stránku K3).
+
+**K3, Production Lock, G9, G10, Character Register, Page Master: nedotčeno.**
+
+**Aktualizováno:** `HISTORICAL_MASTER_SOURCE_MAP.md` (GAP-01 řádek), `GAP_EXECUTION_PLAN.md` (GAP-01 sekce), `PROJECT_STATE.md`, `WORK_ALREADY_DONE_MAP.md`, `PRAMEN_MAPA.md` — nová stopa zapsána, priorita/stav GAP-01 beze změny (CRITICAL/OPEN).
+
+**Human action required:** kontakt s SOA Litoměřice (badatelna@soalitomerice.cz, 737 796 002) kvůli signatuře fondu.
+
 ## [2026-09-27] – PRAMEN 3.2: SOURCE-OF-TRUTH / STALE DOCUMENT / TRACEABILITY AUDIT
 
 **Zadání Mozku 3, navazuje na PR #52.** Malý P2 dokumentační audit — žádná nová architektura, žádný historický výzkum, K3 nedotčen.
