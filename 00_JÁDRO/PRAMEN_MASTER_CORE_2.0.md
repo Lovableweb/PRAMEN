@@ -78,7 +78,7 @@ Postup: **předání → zápis do repa (RECOVERY-0xx nebo pracovní soubor) →
 
 | Vrstva | Stav | Detail |
 |---|---|---|
-| **Historie** | 🟡 | Claim DB **75 claimů** (44 původních + 15 z D-8 / auditu PR #30 + 16 z D-8b; dřívější „45/60" byla chyba součtu o 1). Primární kolace: 13 pramenů PRIMARY SEEN (Gartenlaube 1879, Reuss 1791–1827, Berzelius 1823/1840, Hoffmann, Goethe WA, Vincentius) + výzkum P1–P10 pro K2. Každé 🟢 tvrzení z nálezů použité v K3 (N-01, N-02, N-04…N-10, N-12…N-14) má vlastní claim; N-03 (v K3 nepoužito), N-11 (1589, stopa), N-15 (OCR nejisté), N-16 (jen katalog), N-17 (sekundární) se do Claim DB **nepromítají**. |
+| **Historie** | 🟢 | Claim DB **81 claimů** (75 k 2026-09-26 + 6 z HB-070/071/072 moderní historie a okupace). Primární kolace: 13 pramenů PRIMARY SEEN (Gartenlaube 1879, Reuss 1791–1827, Berzelius 1823/1840, Hoffmann, Goethe WA, Vincentius) + výzkum P1–P10 pro K2. Každé 🟢 tvrzení z nálezů použité v K3 (N-01, N-02, N-04…N-10, N-12…N-14) má vlastní claim; N-03 (v K3 nepoužito), N-11 (1589, stopa), N-15 (OCR nejisté), N-16 (jen katalog), N-17 (sekundární) se do Claim DB **nepromítají**. |
 | **Scénář 6–30** | 🔒 | K1 → K2 (K2.1–K2.5, audity RECOVERY-011/012/013) → **K3 CLEAN**. **🔒 PRODUCTION LOCK — TEXT K3 STR. 6–30** (D-7, 2026-09-26; `00_JÁDRO/PRODUCTION_LOCK_K3_STR6-30.md`). |
 | **Scénář 1–5 (Prolog)** | 🟡 | text existuje jako schválený pracovní NÁVRH v0.2 (`ARCHIV/PRAMENY/PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.2.md`, PR #33, schváleno Řídícím mozkem 2 a Jirkou mergem 2026-09-27). **Není Production Lock** — žádné D-rozhodnutí o zamčení Prologu zatím nepadlo. |
 | **Page Master** | 🟡 návrh | text 25/30 · historie 🟢 8 stran · 17 🟡 · vizuální zadání 🟢 18 stran · obraz 0/30 auditováno · Lock: text str. 6–30 |

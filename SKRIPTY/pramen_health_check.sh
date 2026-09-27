@@ -31,7 +31,13 @@ if [ "$dup_claims" -eq 0 ]; then claims_s="$status_ok"; else claims_s="$status_w
 printf "CLAIMS .............. %s (%d duplicitnich ID)\n" "$claims_s" "$dup_claims"
 
 # --- Duplicate HB / RECOVERY numbers ---
-dup_hb=$(grep -rohE "HB-0[0-9]{2,3}" --include="*.md" . 2>/dev/null | sort | uniq -c | awk '$1>0{print $2}' | sort | uniq -d | wc -l)
+# HB cislo se povazuje za "vlastni" tomu RECOVERY souboru, ktery ho ma primo v nazvu (_HBxxx_).
+# Duplicita = stejne HB cislo prirazene jako vlastni ve dvou ruznych RECOVERY souborech.
+# pouze "_HBxxx_" (vlastni oznaceni souboru), ne rozsahy typu "PREDANI_HB044-HB061.md"
+dup_hb=$(ls 01_OBNOVA/RECOVERY-*.md 2>/dev/null | grep -oE "_HB0[0-9]{2,3}_" | tr -d '_' | sort | uniq -d | wc -l)
+if [ "$dup_hb" -eq 0 ]; then hb_s="$status_ok"; else hb_s="$status_warn"; warn; fi
+printf "HB NUMBERING ........ %s (%d HB cislo prirazeno jako vlastni dvema ruznym RECOVERY souborum)\n" "$hb_s" "$dup_hb"
+
 dup_recovery_files=$(ls 01_OBNOVA/RECOVERY-*.md 2>/dev/null | grep -oE "RECOVERY-[0-9]{3}" | sort | uniq -d | wc -l)
 if [ "$dup_recovery_files" -eq 0 ]; then rec_s="$status_ok"; else rec_s="$status_warn"; warn; fi
 printf "RECOVERY NUMBERING .. %s (%d duplicitnich RECOVERY souboru)\n" "$rec_s" "$dup_recovery_files"

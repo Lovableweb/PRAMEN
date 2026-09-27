@@ -291,7 +291,7 @@ Z = Opravy a drobné aktualizace
 
 - Tento dokument je **PROTOKOL** – pracovní pravidla
 - Není to obsah projektu, ale pracovní manuál
-- Hlavní projektová paměť zůstává: `00_JÁDRO/PRAMEN_MASTER.md`
+- Hlavní projektová paměť je `00_JÁDRO/PRAMEN_MASTER_CORE_2.0.md` (schváleno Jirkou 2026-09-27, DEC-007). `PRAMEN_MASTER.md` je od 2026-09-26 zastaralý, viz `AUDIT_REPOZITARE_2026-09-25.md`.
 - Protokol se může vyvíjet, ale jen se schválením
 - Každá verze se commituje jako samostatná změna
 
