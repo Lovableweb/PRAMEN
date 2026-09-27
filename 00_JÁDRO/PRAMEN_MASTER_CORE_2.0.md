@@ -102,7 +102,7 @@ Production Lock smí vyhlásit **jen Jirka** a zapíše se do `DECISION_REGISTER
 | G6 | **Historie**: žádné 🔴 ve scénáři; ke každému 🟡 / 🟡k rozhodnutí „ověřit / ponechat opatrně / vypustit"; nálezy kolace promítnuty do Claim DB | 🟢 pro text 6–30: každé 🟢 má claim (D-8b), 🟡/🟡k ponechány jako opatrné formulace (D-7) |
 | G7 | **Prompty**: každá strana má schválený prompt bez odchylek od K3 | 🟢 v0.2 schváleno (D-4) pro 16 stran + 29, 30; 🟡 7 archivních (6, 9, 10, 14, 20, 22, 27) pod pravidlem K3 > prompt |
 | G8 | **Obrazy**: 30 obrazů v repu nebo na Drive, audit proti K3, Page Masteru a Character Registeru | ⚪ odloženo na konec; mimo lock (D-6), obrazy nejsou finální |
-| G9 | **Str. 29**: aktuální fakta ověřena (OO-K3-01) | 🟡 úkol Jirky (mimo lock textu) |
+| G9 | **Str. 29**: aktuální fakta ověřena (OO-K3-01) | 🟢 vyřešeno 2026-09-27 |
 | G10 | **Souhlasy**: Karel Bašta (jméno, podoba), podoba Digitálního Jirky | 🔴 úkol Jirky, nezapsáno (mimo lock textu) |
 
 Pořadí podle Jirky (2026-09-26):
@@ -119,7 +119,7 @@ Pořadí podle Jirky (2026-09-26):
 4. ~~**Prompty v0.2** (16 stran)…~~ **Rozhodnuto D-4:** v0.2 schváleno jako pracovní produkční sada vázaná na K3 (opraveny str. 12 p2, 16 p2, 19 p1); prompt 27 vyřazen, archivován.
 5. ~~**Claim DB:** promítnout nálezy kolace…~~ **Hotovo:** D-8 (15 claimů) + D-8b (16 claimů); každé 🟢 v K3 má claim.
 6. **Loos:** K3 „kolem 1770" × Reuss 1791 „studny vykopal 1743" (nový nález, viz Character Register CH-018).
-7. **Souhlas Karla Bašty** a ověření str. 29 (načasovat před tiskem) — **úkoly Jirky, AI je neoznačuje za splněné** (G9, G10).
+7. ~~Ověření str. 29~~ **Hotovo 2026-09-27 (G9).** **Souhlas Karla Bašty** (G10) zůstává — Jirka autorizoval pokračování projektu, ale doložený souhlas samotného Bašty ještě nemáme (`00_JÁDRO/SOUHLASY.md`), plánováno jako osobní schůzka po dokončení projektu.
 
 ## 8. ZNÁMÉ ROZPORY (otevřené, nerozhodnuté)
 - **Loos:** K3 (tradice kolem 1770) × Reuss 1791 (studny 1743, spor o „první pramen").

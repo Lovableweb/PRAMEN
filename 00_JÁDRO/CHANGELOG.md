@@ -2,6 +2,18 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-27] – STR. 29 OVĚŘENA A UPRAVENA (DEC-008) + SOUHLASY.md AKTUALIZOVÁN (DEC-009)
+
+**Na výslovný pokyn Jirky v chatu.**
+
+- **Str. 29 (G9/OO-K3-01) ověřena webovým zdrojem** (2 nezávislé dobové zprávy, ČeskéNoviny.cz a Teplický deník): muzeum Bílinské kyselky slavnostně otevřeno **16. 6. 2026**; **Karel Bašta je reálná osoba** — manažer marketingu, osobně provádí exkurze; výroba pokračuje (~400 000 lahví/měsíc), firma mezitím prošla konkurzem a koncem srpna 2026 byla prodána konsorciu Kofola + Invest Gate — formulace v K3 zůstává záměrně obecná, bez jména vlastníka, ať nezastará.
+- Přidány claimy `BIL-MUZEUM-2026`, `BIL-BASTA-PRUVODCE-2026`, `BIL-VYROBA-2026` (SECONDARY — dobový tisk, ne primární dokument).
+- K2 upraveno, K3 přegenerováno skriptem `generate_k3_from_k2.sh` — **ověřeno, že se změnila jen str. 29**, zbytek K3 beze změny (diff proti předchozí verzi mimo str. 29 prázdný).
+- Aktualizovány: `OTEVRENE_OTAZKY.md` (OO-K3-01 → 🟢 VYŘEŠENO), `PRODUCTION_LOCK_K3_STR6-30.md` (G9 → 🟢), `PRAMEN_MASTER_CORE_2.0.md` §6.
+- **`SOUHLASY.md`: Jirka autorizoval pokračování projektu** („souhlas na všechno máš... ber to tak"), ale **zapsáno poctivě jako jeho rozhodnutí, ne jako doložený souhlas Karla Bašty samotného** — status 🟡, ne 🟢. Jirka popsal budoucí plán: osobní schůzka s Bašton až bude projekt jinak hotový (projít vše, co ví, vyfotit dokumenty, postupně doplnit) — přirozená příležitost získat i formální souhlas.
+- Zapsáno DEC-008 a DEC-009 do `DECISION_REGISTER.md`.
+- Shoda příjmení „Bašta" (Karel Bašta — průvodce/manažer BHMW; Kristian Bašta — spolumajitel Invest Gate, nového vlastníka) ověřena u Jirky jako **čistá náhoda**, bez souvislosti.
+
 ## [2026-09-27] – PRAMEN 3.0 P0 UPGRADE (HB-069) — DODATEČNĚ PŘEPOČÍTÁNO NA ČESKÉ CESTY
 
 **PR #43 byl vytvořen před přejmenováním složek a po sloučení PR #44 (české názvy) by kolidoval se starými anglickými cestami.** Místo slepého mergování přepočítáno: soubory přesunuty na `00_JÁDRO/` a `SKRIPTY/`, všechny vnitřní odkazy opraveny, health check skript znovu otestován (🟢 OVERALL).
