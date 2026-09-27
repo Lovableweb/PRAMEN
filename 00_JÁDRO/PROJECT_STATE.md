@@ -5,7 +5,7 @@
 | Oblast | Status | Autoritativní zdroj | Naposledy ověřeno | Další krok | Bloker |
 |---|---|---|---|---|---|
 | CORE (Master Core, AI Protocol) | 🟢 schváleno (DEC-007) | `PRAMEN_MASTER_CORE_2.0.md`, `PRAMEN_AI_PROTOCOL.md` | 2026-09-27 | — | — |
-| Historie / Claim DB | 🟢 | `CLAIM_DATABASE.md` (81 claimů, 0 duplicit) | 2026-09-27 (HB-070) | GAP-02…08 podle priority (GAP-01, GAP-06 z velké části vyřešeny) | archivní přístup / peníze (Prášil online) |
+| Historie / Claim DB | 🟢 | `CLAIM_DATABASE.md` (81 claimů, 0 duplicit) | 2026-09-27 (HB-070) | GAP-02…08 podle priority (viz `GAP_EXECUTION_PLAN.md`: GAP-01 stále CRITICAL/OPEN, GAP-06 vyřešeno jen **lokalizačně**, obsah OPEN) | archivní přístup / peníze (Prášil online) |
 | Prameny (Source Registry) | 🟡 | `SOURCE_REGISTRY.md` + `HISTORICAL_MASTER_SOURCE_MAP.md` | 2026-09-27 (HB-072) | Cyvín/Prášil obsah (signatury známé, GF P025701/1 a GF P038956) | fyzická návštěva Geofondu nebo 1000 Kč/rok |
 | Scénář K3 str. 6–30 | 🟢 Production Lock | `ARCHIV/PRAMENY/PRAMEN_SCENAR_STR6-30_k3_CLEAN.md` | 2026-09-27 (skript ověřen) | — | — |
 | Prolog str. 1–5 | 🟡 text existuje, bez locku | `PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.2.md` | 2026-09-27 | rozhodnout o Production Locku | Jirka |

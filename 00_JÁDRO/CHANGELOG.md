@@ -2,6 +2,21 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-27] – PRAMEN 3.2: SOURCE-OF-TRUTH / STALE DOCUMENT / TRACEABILITY AUDIT
+
+**Zadání Mozku 3, navazuje na PR #52.** Malý P2 dokumentační audit — žádná nová architektura, žádný historický výzkum, K3 nedotčen.
+
+**CONFLICT DETECTED a opraveno (kategorie A/B):**
+1. `PROJECT_STATE.md` tvrdil „GAP-01, GAP-06 z velké části vyřešeny" — v rozporu s autoritativním `HISTORICAL_MASTER_SOURCE_MAP.md`/`GAP_EXECUTION_PLAN.md`, kde GAP-01 zůstává CRITICAL/OPEN (jen obecný nález k rodu Lobkowiczů, ne konkrétní doklad k Bílině) a GAP-06 je vyřešeno jen **lokalizačně** (obsah stále PRIMARY NOT SEEN). Opraveno.
+2. `CLAIM_DATABASE.md` hlavička odkazovala metodicky na zastaralý `[[PRAMEN_MASTER]]`. Opraveno na `[[PRAMEN_MASTER_CORE_2.0]]`, obsah claimů nedotčen.
+3. `SOURCE_OF_TRUTH_REGISTRY.md` — doplněna poznámka o nalezeném a opraveném konfliktu (dřívější tvrzení „žádný konflikt" už neplatilo).
+
+**Ověřeno beze změny (žádný další skutečný konflikt):** Source-of-Truth tabulka (autority odpovídají realitě), G9 (str. 29, DEC-008 potvrzeno), G10 (Jirkova autorizace ≠ Baštův souhlas, `SOUHLASY.md` konzistentní), Prolog (v0.2 pracovní návrh, bez locku — správně), `WORK_ALREADY_DONE_MAP.md` konzistentní s ostatními dokumenty, HB-072/RECOVERY-022 potvrzeny přímo v souborech, Claim DB 81 claimů skutečně (0 duplicit).
+
+**Traceability audit K3 (read-only, bez zásahu):** SOURCE → CLAIM → PAGE 🟢 (Page Master u každého 🟢 tvrzení uvádí claim ID), PAGE → PROMPT 🟢/🟡 (většina stran má prompt referenci, str. 11 explicitně `prompt neschválen`). Žádná chyba v řetězci nebyla opravována automaticky.
+
+**Neimplementováno (záměrně):** nový systém ID, YAML, CI, změna Production Locku, nový historický výzkum.
+
 ## [2026-09-27] – PRAMEN 3.1: INTEGRITY, GAP CONTROL & KNOWLEDGE CONSOLIDATION (Průchod 1 — audit + bezpečné opravy)
 
 **Zadání Mozku 3 přes Jirku.** Cíl: žádná nová architektura, jen integrita, anti-duplikace a přesné zacílení skutečných mezer. Anti-duplication audit proveden nejdřív (viz `WORK_ALREADY_DONE_MAP.md`) — nic uzavřeného se neopakovalo.

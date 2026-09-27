@@ -25,4 +25,4 @@ Pokud dva soubory z tabulky tvrdí něco jiného o téže věci: **⚠️ CONFLI
 
 ## STAV K 2026-09-27
 
-Žádný konflikt mezi zdroji pravdy nebyl při sestavení této tabulky nalezen (ověřeno v `PRAMEN_MASTER_INTEGRATION_AUDIT_2026-09-27.md`).
+Při sestavení tabulky nebyl nalezen konflikt (ověřeno v `PRAMEN_MASTER_INTEGRATION_AUDIT_2026-09-27.md`). **Aktualizace (PRAMEN 3.2):** nalezen a opraven 1 konflikt — `PROJECT_STATE.md` tvrdil „GAP-01, GAP-06 z velké části vyřešeny", zatímco autoritativní `HISTORICAL_MASTER_SOURCE_MAP.md`/`GAP_EXECUTION_PLAN.md` uvádí GAP-01 stále CRITICAL/OPEN a GAP-06 vyřešeno jen lokalizačně. Opraveno v `PROJECT_STATE.md`.

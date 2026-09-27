@@ -2,7 +2,7 @@
 
 **Účel:** Centrální databáze historických tvrzení projektu PRAMEN.
 **Zdroj dat:** výhradně [[RECOVERY-005_HISTORICKA_BADATELNA_CHECKPOINT_1]], [[RECOVERY-006_ZAJECICE_CHECKPOINT_2]] [[RECOVERY-007_TEPLICE_INTEGRACNI_AUDIT_HB026]] a [[RECOVERY-008_PREDANI_HB044-HB061]] (konsolidované checkpointy/audity z PRAMEN – HISTORICKÁ BADATELNA), doplněno o `01_HISTORIK/OTEVRENE_OTAZKY.md` tam, kde je relevantní.
-**Metodika:** viz [[PRAMEN_MASTER]] a [[PRAMEN_AI_PROTOCOL]] — HISTORIE PŘED FIKCÍ.
+**Metodika:** viz [[PRAMEN_MASTER_CORE_2.0]] a [[PRAMEN_AI_PROTOCOL]] — HISTORIE PŘED FIKCÍ. (`PRAMEN_MASTER.md` je od 2026-09-26 zastaralý, viz `AUDIT_REPOZITARE_2026-09-25.md`.)
 
 Žádný nový claim nebyl vymyšlen. Žádný status nebyl zvýšen oproti zdrojovým checkpointům jen proto, že se tvrzení opakuje. Tabulka obsahuje minimální požadovanou sadu claimů dle zadání Kroku 03.
 
