@@ -1,5 +1,21 @@
 # PRAMEN – CHANGELOG
 
+## [2026-09-27] – HB-065: PRIMARY SOURCE RESOLUTION — REDTENBACHER 1845 (NEÚSPĚŠNÝ POKUS O ČTENÍ + NOVÝ POZNATEK)
+
+**Čísla tentokrát ověřena předem v repu — žádná kolize.**
+
+- Nový `01_RECOVERY/RECOVERY-017_HB065_PRIMARY_RESOLUTION_REDTENBACHER_1845.md`.
+- **Stažen skutečný PDF** Redtenbacherova textu ze Zenoda (DOI 10.1002/jlac.18450550210) — ukázal se jako čistě obrazový sken (CCITT fax), bez textové vrstvy. V tomto prostředí není k dispozici žádný nástroj na OCR ani renderování PDF (poppler/ghostscript/imagemagick chybí, instalace softwaru mimo rozsah kroku).
+- Löschner 1859 nalezen na Google Books (ID `Hds8AAAAcAAJ`, přes de.wikipedia zdroje) — titulní strana potvrzena, ale obsahové stránky jsou zobrazeny přes JS prohlížeč obrázků, který nejde přečíst nástrojem na statické čtení webu.
+- **Status obou zůstává PRIMARY NOT SEEN z technického důvodu**, ne proto, že by zdroj neexistoval — důležité rozlišení pro budoucí práci.
+- **Nový poznatek** (z bibliografie, ne z obsahu): Redtenbacherova práce 1845 je **spoluautorské dílo s Augustem Emanuelem Reussem** (chemie Redtenbacher, terapeutický popis A. E. Reuss) — stejný model jako Reuss/Steinmann 1827. Potvrzeno dvěma nezávislými sekundárními zdroji (Zenodo záznam + antikvariátní popis knihy).
+- Registrován 1 konflikt (forma publikace: časopisecký článek vs. samostatná kniha 52 stran).
+- Nic nejde do Claim DB. Master Recovery Map doplněna o novou sekci 2g (HB-062→HB-065 souhrnně).
+- Doporučení pro další krok: potřeba jiný nástroj (OCR/vizuální čtení) nebo lidský zásah, ne další zadání ve stejném prostředí.
+- Mapa aktualizována.
+
+---
+
 ## [2026-09-27] – HB-064: ZAJEČICKÁ VODA/SEDLITZ (MAPOVACÍ REPORT — VĚTŠINA UŽ HOTOVA)
 
 **Přejmenováno z „HB-063"** — kolidovalo s číslem právě přiděleným v tomtéž sezení (`RECOVERY-015`). Třetí kolize číslování za sebou.
