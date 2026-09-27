@@ -2,6 +2,19 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-27] – HB-071: OKUPACE BÍLINA 1938–1945 (KROK 2/3)
+
+**Druhý ze tří dohodnutých kroků.**
+
+- Nový `01_OBNOVA/RECOVERY-021_HB071_OKUPACE_BILINA_1938-1945.md`.
+- Zabavení budovy Wehrmachtem (z `RECOVERY-019`) zůstává beze změny — dvakrát nezávisle potvrzeno.
+- **Nový detail** (přes vyhledávací index akademické bakalářské práce o M. Lobkowiczovi, UK Praha): lobkowiczský fideikomis (vč. Bíliny) byl pod **nucenou správou**, Maxmilián Ervín Lobkowicz zbaven protektorátního občanství 3. 10. 1939 rozhodnutím Říšského ministerstva vnitra. **Pozor:** tohle je obecné zjištění o celém rodu (11 panství), ne specificky doložené pro Bílinu — status LEAD, ne claim.
+- **Rozlišeno**: „zabavení" (budova stáčírny) a „nucená správa" (celý fideikomis) jsou různé právní mechanismy, nesluč overat do jedné věty.
+- **Pokus přečíst plný text 56stránkové akademické práce selhal** — stejný technický bloker jako u Redtenbachera (žádný OCR nástroj v prostředí).
+- Afrikakorps/Rommel — druhý pokus o přístup ke zdroji opět selhal (403). Stále jen LEAD.
+- `HISTORICAL_MASTER_SOURCE_MAP.md` GAP-01 aktualizován.
+- Žádný nový claim (nedostatečná jistota/specifičnost pro Bílinu).
+
 ## [2026-09-27] – HB-070: MODERNÍ HISTORIE BÍLINY 2025–2026 (KROK 1/3)
 
 **První ze tří dohodnutých kroků s Jirkou (moderní kapitola → okupace 1938–45 → Cyvín 1977).**

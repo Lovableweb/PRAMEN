@@ -302,6 +302,20 @@ Healing Waters/Kofola+Invest Gate za 440,5 mil. Kč (konec srpna 2026).
 3 nové claimy v Claim DB. Poprvé solidní materiál pro dosud prázdnou
 moderní kapitolu (GAP-07/08). Není součástí Production Locku.
 
+────────────────────────────────────────
+2m. OKUPACE BÍLINA 1938–1945 — HB-071 (2026-09-27)
+────────────────────────────────────────
+
+| Cesta | Klasifikace |
+|---|---|
+| `01_OBNOVA/RECOVERY-021_HB071_OKUPACE_BILINA_1938-1945.md` | 🟡 D — doplněk k RECOVERY-019. Krok 2 ze 3 dohodnutého plánu |
+
+Nový detail (LEAD, ne claim): lobkowiczský fideikomis pod nucenou
+správou, M. E. Lobkowicz zbaven občanství 3.10.1939 — obecně pro rod,
+ne specificky pro Bílinu. 56stránková akademická práce technicky
+nečitelná (OCR bloker, stejný jako u Redtenbachera). Afrikakorps
+stále nepotvrzeno (zdroj 403, 2. pokus).
+
 ════════════════════════════════════════
 3. CHYBĚJÍCÍ HLAVNÍ MATERIÁLY
 ════════════════════════════════════════
