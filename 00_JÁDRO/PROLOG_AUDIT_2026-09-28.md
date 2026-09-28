@@ -37,13 +37,13 @@ Tedy K3 začíná **prázdnou pravěkou krajinou bez jediného člověka nebo st
 
 **Klasifikace:** 🟡 NEEDS VERIFICATION — nejde o historickou chybu (Prolog netvrdí žádné datum ani fakt), ale o **dramaturgickou/vizuální nekonzistenci** v přechodu mezi Prologem a K3.
 
-**Akce:** REWRITE LATER — text/vizuální popis Prologu se neupravuje v tomto auditu (mimo rozsah Work Package 04, vyžaduje dramaturgické rozhodnutí, ne jen faktickou opravu). Doporučuje se při příštím kole schvalování Prologu buď (a) změnit popis panelu 5.1 na neutrálnější/méně konkrétní vizuál (v souladu s panely 5.2–5.3, které jsou čistě přechodové), nebo (b) explicitně zdůvodnit, proč je skok přijatelný (např. „mlhavá vzpomínka předznamenávající budoucnost, ne doslovná časová osa").
+**Akce:** ~~REWRITE LATER~~ **OPRAVENO 2026-09-28.** Jirka Prolog v0.2 schválil (DEC-011) a rovnou požádal o dořešení tohoto nálezu. Panel 5.1 a 5.2 upraveny na variantu (a) — neutrálnější, beze-staveb vizuál kotliny/mlhy, v souladu s panelem 5.3 a s prázdnou pravěkou krajinou na Straně 6, Panelu 1 v K3. Viz `PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.2.md` str. 5.
 
 ## Ostatní zjištění
 
 - Žádné jiné porušení pravidla „žádné claimy/data v Prologu" nenalezeno.
 - Motta (str. 1, str. 4) jsou správně doslovně převzatá z existujících projektových zdrojů, ne nové výmysly — potvrzeno.
-- G5 (Prolog) zůstává 🔴 „chybí" v Master Core dokud neproběhne formální schválení — tento audit stav neposouvá, jen ho podkládá.
+- **2026-09-28 dodatek:** Jirka Prolog v0.2 formálně schválil (DEC-011). G5 v Master Core aktualizováno na 🟢. Nález výše (str. 5) opraven ve stejném kroku.
 
 ## Shrnutí pro traceability
 

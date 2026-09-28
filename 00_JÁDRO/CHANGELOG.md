@@ -2,6 +2,23 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-28] – PROLOG SCHVÁLEN (DEC-011) + ARCHIVNÍ PRÁCE ODLOŽENA NA KONEC (DEC-012)
+
+**Na pokyn Jirky v chatu:** „U toho prologu... schvaluji. Můžeme to dodělat." + „[GAP-01/archivní práce] se bude dělat až na konci a řešit si to všechno přes toho historika... najednou."
+
+**Prolog (DEC-011):**
+- Jirka formálně schválil `PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.2.md` jako pracovní text (G5).
+- Ve stejném kroku opraven jediný nález z `PROLOG_AUDIT_2026-09-28.md` — str. 5 panel 1/2 upraveny z „renesanční město s lázeňskými věžemi" na neutrální mlhavou kotlinu bez staveb, ať sedí s prázdnou pravěkou krajinou na Straně 6, Panelu 1 v K3.
+- Production Lock Prologu jako layoutu/textu se **nevyhlašuje** — to je samostatné budoucí rozhodnutí.
+- Aktualizováno: hlavička Prologu, `PROLOG_AUDIT_2026-09-28.md`, `PRAMEN_MASTER_CORE_2.0.md` (G5), `PRODUCTION_LOCK_K3_STR6-30.md`, `PROJECT_STATE.md`, `PRAMEN_MAPA.md`.
+
+**Archivní práce odložena (DEC-012):**
+- GAP-01 (SOA Litoměřice), GAP-03 (fyzický archiv), GAP-06 (obsah Cyvín/Prášil) se **záměrně odkládají na úplný konec projektu** a budou řešeny hromadně přes historika, ne postupně.
+- Tyto GAPy zůstávají formálně OPEN/BLOCKED, ale **nemají se dál připomínat ani otevírat** jako „další krok", dokud Jirka sám neřekne, že je čas.
+- Aktualizováno: `GAP_EXECUTION_PLAN.md`, `PROJECT_STATE.md`, `WORK_ALREADY_DONE_MAP.md`.
+
+**Beze změny:** K3, Claim DB, Character Register, Page Master, G9, G10. Žádný nový HB/RECOVERY (administrativní zápis rozhodnutí, ne výzkum).
+
 ## [2026-09-28] – OBRAZOVÝ AUDIT: PŘIPRAVEN RÁMEC (na žádost Jirky)
 
 **Zjištění:** obrazy 1–30 nejsou v tomto prostředí dostupné — `CONTENT_REGISTRY.md`/`PROJECT_STATE.md` je označují jako „mimo repo, neauditováno", žádná cesta/Drive odkaz v repu. Jirka zvolil: připravit auditní rámec teď, obrazy dodat později.

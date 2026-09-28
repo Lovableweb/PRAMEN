@@ -25,7 +25,8 @@
 | Přejmenování složek na české názvy | 🟢 CLOSED | `CHANGELOG.md` (2026-09-27) | Provedeno, 0 rozbitých odkazů | neopakovat |
 | Produkce 1898 vs. 1900 (GAP-03) | 🔴 BLOCKED — NEOPAKOVAT STEJNOU WEB REŠERŠI | `RECOVERY-024`, GAP-03 | Oba zdroje přímo ověřeny a downgradovány (bez citace/data); katalog Paříž 1900 pro Německou říši nalezen, ale nerelevantní | další web hledání nemá smysl, dokud se neobjeví jiný typ zdroje (archiv); jen Jirka fyzicky v archivu |
 | Socialistická éra 1948–1989 (GAP-07) | 🟡 PARTIAL — NEOPAKOVAT STEJNOU WEB REŠERŠI | `RECOVERY-024`, GAP-07 | Muzeum přineslo dataci 1948/1950/1952–55/1958/1960–63 | neopakovat stejné vyhledávání muzejních stránek; další krok je přímý podnikový/státní archiv |
-| Prolog audit 1–5 | 🟢 CLOSED (jako audit, ne jako schválení textu) | `PROLOG_AUDIT_2026-09-28.md` | Zkontrolováno panel po panelu — vše SYMBOLIC podle designu; 1 vizuální nesoulad nalezen (str.5→K3 str.6) | neopakovat celý audit; jen řešit nalezený nesoulad při přepracování Prologu |
+| Prolog v0.2 — text + audit + schválení | 🟢 CLOSED | `PROLOG_AUDIT_2026-09-28.md`, DEC-011 | Zkontrolováno panel po panelu, 1 vizuální nesoulad nalezen a **opraven** (str. 5 panel 1/2), Jirka text formálně schválil 2026-09-28 | neopakovat audit ani schvalování; zbývá jen případné budoucí rozhodnutí o Production Locku layoutu |
+| GAP-01/GAP-03(fyzický archiv)/GAP-06(obsah) | 🟡 ZÁMĚRNĚ ODLOŽENO NA KONEC — NEPŘIPOMÍNAT | DEC-012 | Jirka rozhodl řešit veškerou zbylou archivní práci hromadně přes historika až na konci projektu, ne postupně | nezakládat další HB/RECOVERY na tato témata, nenabízet je jako "další krok", dokud Jirka sám neřekne, že je čas |
 
 ## PRAVIDLO POUŽITÍ
 
