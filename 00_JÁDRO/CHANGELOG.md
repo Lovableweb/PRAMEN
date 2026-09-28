@@ -2,6 +2,19 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-28] – ZPĚTNÁ KONTROLA PROJEKTU #2 (PRAVIDLO PREVENCE)
+
+**Na žádost Jirky: „Projeď si celý projekt a udělej znovu kontrolu."** Health check OVERALL 🟢 na startu i na konci; žádný zásah do K3/Claim DB/Prolog textu/Character Registeru.
+
+**Nalezeno a opraveno:**
+1. **`PRAMEN_MASTER_CORE_2.0.md`** — hlavička pořád tvrdila „🟡 NÁVRH – platí po schválení Jirkou", ačkoli DEC-007 dokument schválilo už 2026-09-27. Opraveno na „🟢 SCHVÁLENO". Stejná stará formulace opravena i v `PRAMEN_MAPA.md`.
+2. **Recidivující chyba „Prolog — text chybí"** (kořen: když vznikl Prolog NÁVRH v0.2 dne 2026-09-27, ne všechny odkazy na starší stav „scénář 1–5 nebyl získán" byly tehdy promítnuty). Nalezeno na **4 místech**: `PRAMEN_MASTER_CORE_2.0.md` §7 bod 3, `PRODUCTION_LOCK_K3_STR6-30.md` §2, a v **schváleném** `PAGE_MASTER_1-30.md` (souhrnný řádek TEXT, karta Prologu, tabulka stran 1–5 se statusem 🔴 misto 🟡, chybějící názvy stran). Všechna 4 místa opravena na 🟡 „text existuje jako NÁVRH v0.2, čeká na schválení", s odkazem na nový `PROLOG_AUDIT_2026-09-28.md`.
+3. **`SOUHLASY.md` popis v mapě** stále tvrdil, že G10 je „jediný skutečný bloker... oba 🔴 nezapsáno" — zastaralé po uzavření G10 (DEC-010). Opraveno.
+4. **`HISTORICAL_MASTER_SOURCE_MAP.md` popis v mapě** neodrážel nejnovější stav GAP-01 (downgrade), GAP-03 (BLOCKED) a GAP-07 (partial) z `RECOVERY-023`/`024`. Opraveno.
+5. **Production Lock „mimo lock"** seznam pořád řadil souhlasy Karla Bašty mezi otevřené úkoly Jirky — po DEC-010 už neplatí. Opraveno v `PRAMEN_MAPA.md`.
+
+**Poučení (root cause společné pro nálezy 1–2):** když se dokument formálně schválí nebo získá nový text, staré fráze popisující předchozí stav ("NÁVRH", "text chybí") se často nepromítnou do všech míst, která na něj odkazují — jen do toho jednoho souboru, který se zrovna měnil. **Pojistka:** při schválení/vzniku textu vždy provést `grep` na starou klíčovou frázi napříč `00_JÁDRO/` a `02_COMIKS/`, ne jen upravit soubor, kde ke změně došlo.
+
 ## [2026-09-28] – G10 UZAVŘENO (DEC-010)
 
 - Mozek 3 předal zprávu, že mu Jirka potvrdil obdržení osobního souhlasu Karla Bašty. Claude Code na tuto zprostředkovanou citaci **nespoléhal** a místo toho se přímo zeptal Jirky v tomto chatu.

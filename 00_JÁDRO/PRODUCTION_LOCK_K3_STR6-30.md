@@ -14,7 +14,7 @@
 
 | Oblast | Stav | Proč |
 |---|---|---|
-| Strany 1–5 (Prolog) | 🔴 text chybí | D-5: na Prolog se nečeká, lock se ho netýká |
+| Strany 1–5 (Prolog) | 🟡 text existuje (NÁVRH v0.2, auditováno `PROLOG_AUDIT_2026-09-28.md`), bez vlastního locku | D-5: na Prolog se nečeká, lock se ho netýká |
 | Obrazy 1–30 | ⚪ neauditováno | D-6: lock textu bez obrazového auditu; současné obrazy **nejsou** prohlášeny za finální ani schválené |
 | Publikace / tisk | — | lock textu není souhlas s vydáním |
 | Ověření str. 29 (muzeum 2026, role Karla Bašty, výroba; OO-K3-01, G9) | 🟢 | **vyřešeno 2026-09-27** — ověřeno (claimy `BIL-MUZEUM-2026`, `BIL-BASTA-PRUVODCE-2026`, `BIL-VYROBA-2026`), K2/K3 upraveno na pokyn Jirky |
