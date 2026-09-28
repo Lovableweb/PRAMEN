@@ -1,6 +1,6 @@
 # PRAMEN – SCÉNÁŘ STRAN 1–5 (PROLOG) – NÁVRH v0.2
 
-> **Toto je pracovní NÁVRH, ne schválený text.** Nahrazuje `PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.1.md` (ten zůstává v archivu, nemazán) po připomínkách Řídícího mozku 2 k PR #33 (2026-09-27, 🟡 REQUEST CHANGES).
+> **🟢 SCHVÁLENO Jirkou 2026-09-28 (DEC-011).** Nahrazuje `PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.1.md` (ten zůstává v archivu, nemazán) po připomínkách Řídícího mozku 2 k PR #33 (2026-09-27, 🟡 REQUEST CHANGES).
 >
 > **Zapracované připomínky Řídícího mozku 2:**
 > 1. Digitální Jirka v Prologu nebude (potvrzeno, ve v0.1 už nebyl).
@@ -9,7 +9,9 @@
 > 4. Strana 5, Panel 1: replika nahrazena bezpečnější, čistě dramaturgickou formulací bez i nepřímého věcného tvrzení.
 > 5. Metodická poznámka zjednodušena na jedno jasné pravidlo (viz níže), místo složitější formulace z v0.1.
 >
-> **Status:** 🔴 G5 v Master Core zůstává „chybí" / otevřený. PR čeká na v0.2 (tento soubor), merge se zatím neprovádí, obrazový audit se zatím neprovádí.
+> **Oprava 2026-09-28 (`PROLOG_AUDIT_2026-09-28.md`):** Strana 5, Panel 1 a 2 upraveny — vizuál „renesanční město s lázeňskými věžemi" nahrazen mlhavou, beze-staveb kotlinou, ať sedí s prázdnou pravěkou krajinou na Straně 6, Panelu 1 v K3.
+>
+> **Status:** 🟢 SCHVÁLENO Jirkou (DEC-011). G5 v Master Core aktualizováno. Production Lock Prologu (layoutu/textu jako uzamčeného) zatím nevyhlášen — to je samostatné rozhodnutí, viz `PRODUCTION_LOCK_K3_STR6-30.md`.
 >
 > **Zdroje / inspirace** (beze změny oproti v0.1): tón a struktura K3 (`PRAMEN_SCENAR_STR6-30_k3_CLEAN.md`), archivní image prompty str. 1–5 (`PRAMEN_image_prompty_str1-30_ARCHIVNI_PREPIS.md`, jen jako vizuální inspirace, ne zdroj textu), Character Register CH-001 (Kapka vody).
 >
@@ -57,9 +59,9 @@ Panel 3: starý dokument/rukopis jako symbol důkazu, bez nutnosti čitelného t
 CAPTION (motto): "Historie před fikcí." 💡
 
 STRANA 5 — "Cesta do Teplic"
-Panel 1: Kapka vody plyne z klidné krajiny Prologu směrem k obrysu renesančního/raně novověkého města s náznakem lázeňských věží – první vizuální náznak Teplic.
+Panel 1: Kapka vody plyne z klidné krajiny Prologu směrem k mlhavé kotlině mezi horami, kde mlha teprve stoupá z pramenů – žádná zřetelná stavba ani věž, jen náznak krajiny, která bude Teplicemi (opraveno 2026-09-28 dle `PROLOG_AUDIT_2026-09-28.md` — původní vizuál „renesanční město s lázeňskými věžemi" neladil s prázdnou pravěkou krajinou na Straně 6, Panelu 1 v K3).
 KAPKA VODY: "Teď pojďme tam, kde se příběh vody setkal s lidmi." 💡
-Panel 2: barva scény se plynule mění z modrošedé do zlatavé, mlha řídne, obrysy města se zaostřují.
+Panel 2: barva scény se plynule mění z modrošedé do zlatavé, mlha řídne – krajina se otevírá, zatím beze stop lidí, přesně jak ji uvidíme na Straně 6.
 KAPKA VODY: "Tak. Jdeme tam, kde to všechno vlastně začíná." 💡
 Panel 3: Kapka mizí do páry stoupající z pramene – stejný typ mlhy/páry jako na Straně 6, Panelu 1 v K3.
 CAPTION: (beze slov – přímý vizuální přechod na STRANU 6)

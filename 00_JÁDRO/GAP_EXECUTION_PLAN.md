@@ -24,7 +24,7 @@
 
 **Co nesmí předstírat:** že obecný osud Lobkowiczů = osud Bíliny. Nesmí povýšit LEAD na claim bez přímého dokladu.
 
-**Stav:** 🟡 OPEN — domnělý archivní cíl downgradován (nepotvrzen přímým čtením zdroje), čeká na přímý kontakt s SOA Litoměřice, který jako jediný může potvrdit, zda fond vůbec existuje.
+**Stav:** 🟡 OPEN — **záměrně odloženo na konec projektu (DEC-012, 2026-09-28)**, Jirka bude řešit hromadně přes historika. Domnělý archivní cíl downgradován (nepotvrzen přímým čtením zdroje); kontakt s SOA Litoměřice počká na tuto fázi, ne dřív.
 
 ---
 
@@ -46,7 +46,7 @@
 
 **Co nesmí předstírat:** vybrat „vítěze" bez primárního pramene. Pokud primární pramen chybí, stav zůstává OPEN.
 
-**Stav:** 🔴 BLOCKED — vyčerpány dostupné online zdroje, potřeba fyzický archiv.
+**Stav:** 🔴 BLOCKED — vyčerpány dostupné online zdroje, potřeba fyzický archiv. **Záměrně odloženo na konec projektu (DEC-012, 2026-09-28)** — nepokoušet se o žádnou další cestu, dokud Jirka neřekne, že je čas.
 
 ---
 
@@ -116,7 +116,7 @@
 
 ## GAP-06 — Cyvín/Prášil — NENÍ součástí tohoto plánu jako otevřený úkol
 
-Lokalizace je hotová (`RECOVERY-022`) — signatury, instituce i přístupová cesta jsou známé. Zbývá jen **HUMAN ACTION REQUIRED**: fyzická návštěva Geofondu (Kostelní 26, Praha 7, zdarma) nebo platba 1000 Kč/rok. Toto už není výzkumný úkol pro Claude Code.
+Lokalizace je hotová (`RECOVERY-022`) — signatury, instituce i přístupová cesta jsou známé. Zbývá jen **HUMAN ACTION REQUIRED**: fyzická návštěva Geofondu (Kostelní 26, Praha 7, zdarma) nebo platba 1000 Kč/rok. Toto už není výzkumný úkol pro Claude Code. **Záměrně odloženo na konec projektu (DEC-012, 2026-09-28)** — spolu s GAP-01 a GAP-03 přes historika, ne dřív.
 
 ---
 

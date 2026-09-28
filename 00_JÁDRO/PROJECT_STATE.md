@@ -5,10 +5,10 @@
 | Oblast | Status | Autoritativní zdroj | Naposledy ověřeno | Další krok | Bloker |
 |---|---|---|---|---|---|
 | CORE (Master Core, AI Protocol) | 🟢 schváleno (DEC-007) | `PRAMEN_MASTER_CORE_2.0.md`, `PRAMEN_AI_PROTOCOL.md` | 2026-09-27 | — | — |
-| Historie / Claim DB | 🟢 | `CLAIM_DATABASE.md` (81 claimů, 0 duplicit) | 2026-09-28 (HB-074) | GAP-03 BLOCKED (vyčerpány online zdroje), GAP-07 PARTIALLY RESOLVED (datace 1948–1963 z muzea), GAP-01 CRITICAL/OPEN, GAP-06 jen lokalizačně | archivní přístup / peníze (Prášil online) |
-| Prameny (Source Registry) | 🟡 | `SOURCE_REGISTRY.md` + `HISTORICAL_MASTER_SOURCE_MAP.md` | 2026-09-27 (HB-072) | Cyvín/Prášil obsah (signatury známé, GF P025701/1 a GF P038956) | fyzická návštěva Geofondu nebo 1000 Kč/rok |
+| Historie / Claim DB | 🟢 | `CLAIM_DATABASE.md` (81 claimů, 0 duplicit) | 2026-09-28 (HB-074) | **GAP-01/03/06(obsah) odloženy na konec projektu, řeší se hromadně přes historika (DEC-012) — nepřipomínat.** GAP-07 PARTIALLY RESOLVED (datace 1948–1963 z muzea) | Jirka rozhodne, kdy nastal „konec projektu" |
+| Prameny (Source Registry) | 🟡 | `SOURCE_REGISTRY.md` + `HISTORICAL_MASTER_SOURCE_MAP.md` | 2026-09-27 (HB-072) | odloženo na konec projektu (DEC-012) — signatury Cyvín/Prášil známé (GF P025701/1, GF P038956), obsah čeká | Jirka — hromadně přes historika na konci |
 | Scénář K3 str. 6–30 | 🟢 Production Lock | `ARCHIV/PRAMENY/PRAMEN_SCENAR_STR6-30_k3_CLEAN.md` | 2026-09-27 (skript ověřen) | — | — |
-| Prolog str. 1–5 | 🟡 text existuje, bez locku, auditován | `PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.2.md` + `PROLOG_AUDIT_2026-09-28.md` | 2026-09-28 | rozhodnout o Production Locku; vyřešit vizuální nesoulad str.5→K3 str.6 | Jirka |
+| Prolog str. 1–5 | 🟢 schváleno Jirkou (DEC-011) jako pracovní text | `PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.2.md` + `PROLOG_AUDIT_2026-09-28.md` | 2026-09-28 | případný Production Lock (samostatné budoucí rozhodnutí) | — |
 | Page Master | 🟢 schváleno (DEC-007) | `PAGE_MASTER_1-30.md` | 2026-09-27 | — | — |
 | Character Register | 🟢 schváleno (DEC-007) | `CHARACTER_REGISTER.md` | 2026-09-27 | — | — |
 | Prompty | 🟡 pracovní produkční sada | `PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md` + `..._NOVE_...` | 2026-09-26 | — | — |
@@ -21,7 +21,7 @@
 
 ## SOUHRNNÉ ČÍSLO
 
-**PROJECT HEALTH: 🟢/🟡** — historická vrstva (6–30) je stabilní a uzamčená, str. 29 ověřena, G1–G3 schváleny, G10 uzavřeno (souhlas Karla Bašty obdržen, DEC-010). Zbývá: obrazový audit, plný obsah Cyvína/Prášila/Redtenbachera (přístup znám, čeká na příležitost), GAP-01/03/07 (archivní přístup). Žádný technický problém nebrání dalšímu postupu (viz `PRAMEN_MASTER_INTEGRATION_AUDIT_2026-09-27.md`: RELEASE READY WITH OPEN HISTORICAL GAPS).
+**PROJECT HEALTH: 🟢** — historická vrstva (6–30) je stabilní a uzamčená, str. 29 ověřena, G1–G3 schváleny, G10 uzavřeno (DEC-010), **Prolog schválen (DEC-011)**. Zbývá: obrazový audit (čeká na přístup k obrazům), archivní práce GAP-01/03/06 — **záměrně odloženo na konec projektu přes historika (DEC-012), nepřipomínat průběžně**. Žádný technický problém nebrání dalšímu postupu (viz `PRAMEN_MASTER_INTEGRATION_AUDIT_2026-09-27.md`: RELEASE READY WITH OPEN HISTORICAL GAPS).
 
 ## AKTUALIZACE
 
