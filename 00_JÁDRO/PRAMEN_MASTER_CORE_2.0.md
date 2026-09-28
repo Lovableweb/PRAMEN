@@ -1,7 +1,7 @@
 # PRAMEN – MASTER CORE 2.0
 
 > **Verze:** 2.0 · **Datum:** 2026-09-26 · **Připravil:** Claude Code na pokyn Jirky
-> **Status:** 🟡 **NÁVRH – platí po schválení Jirkou.**
+> **Status:** 🟢 **SCHVÁLENO Jirkou 2026-09-27 (DEC-007).**
 > - Po schválení nahrazuje zastaralý `00_JÁDRO/PRAMEN_MASTER.md` (v1.0 z 2026-08-31). Ten tvrdil, že v projektu nejsou žádná fakta, postavy ani otázky. Zůstává v repu jako archiv.
 > - Pravidla práce AI dál určuje `00_JÁDRO/PRAMEN_AI_PROTOCOL.md` (v1.2). Master Core je nemění, jen na ně odkazuje.
 >
@@ -115,7 +115,7 @@ Pořadí podle Jirky (2026-09-26):
 ## 7. HLAVNÍ OTEVŘENÁ ROZHODNUTÍ (pro Jirku / Řídící mozek 2)
 1. ~~**Schválit** Master Core 2.0, Page Master a Character Register (G1–G3).~~ **Schváleno Jirkou 2026-09-27 (DEC-007).**
 2. ~~**K3:** schválit, nebo zadat úpravy.~~ **Rozhodnuto D-7 (2026-09-26):** text K3 str. 6–30 uzamčen.
-3. ~~**Prolog 1–5:** …~~ **Rozhodnuto D-5:** lock jen pro 6–30, na Prolog se nečeká. Prolog sám zůstává otevřený (chybí text).
+3. ~~**Prolog 1–5:** …~~ **Rozhodnuto D-5:** lock jen pro 6–30, na Prolog se nečeká. Prolog sám zůstává otevřený — text v0.2 existuje a je auditován (`PROLOG_AUDIT_2026-09-28.md`), ale čeká na formální schválení a případný Production Lock.
 4. ~~**Prompty v0.2** (16 stran)…~~ **Rozhodnuto D-4:** v0.2 schváleno jako pracovní produkční sada vázaná na K3 (opraveny str. 12 p2, 16 p2, 19 p1); prompt 27 vyřazen, archivován.
 5. ~~**Claim DB:** promítnout nálezy kolace…~~ **Hotovo:** D-8 (15 claimů) + D-8b (16 claimů); každé 🟢 v K3 má claim.
 6. **Loos:** K3 „kolem 1770" × Reuss 1791 „studny vykopal 1743" (nový nález, viz Character Register CH-018).

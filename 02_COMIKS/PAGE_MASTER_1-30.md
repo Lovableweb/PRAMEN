@@ -44,11 +44,11 @@ Počty v závorce = kolikrát se značka na straně vyskytuje.
 
 | Str. | Kapitola | Název (K3) | TEXT | HISTORIE | VIZUÁLNÍ ZADÁNÍ | OBRAZ | LOCK |
 |---:|---|---|---|---|---|---|---|
-| 1 | Prolog | — (text chybí) | 🔴 | ⚪ nelze hodnotit | 🟡 prompt 1 (archivní) | ⚪ | 🔴 |
-| 2 | Prolog | — | 🔴 | ⚪ | 🟡 prompt 2 | ⚪ | 🔴 |
-| 3 | Prolog | — | 🔴 | ⚪ | 🟡 prompt 3 | ⚪ | 🔴 |
-| 4 | Prolog | — | 🔴 | ⚪ | 🟡 prompt 4 | ⚪ | 🔴 |
-| 5 | Prolog → Teplice | — | 🔴 | ⚪ | 🟡 prompt 5 | ⚪ | 🔴 |
+| 1 | Prolog | Než začal příběh (NÁVRH v0.2) | 🟡 | ⚪ nehodnotit (SYMBOLIC, žádné claimy) | 🟡 prompt 1 (archivní) | ⚪ | 🔴 |
+| 2 | Prolog | Kapka se představuje (NÁVRH v0.2) | 🟡 | ⚪ | 🟡 prompt 2 | ⚪ | 🔴 |
+| 3 | Prolog | Tichá síla (NÁVRH v0.2) | 🟡 | ⚪ | 🟡 prompt 3 | ⚪ | 🔴 |
+| 4 | Prolog | Pohádka, nebo pravda? (NÁVRH v0.2) | 🟡 | ⚪ | 🟡 prompt 4 | ⚪ | 🔴 |
+| 5 | Prolog → Teplice | Cesta do Teplic (NÁVRH v0.2) | 🟡 | ⚪ | 🟡 prompt 5 | ⚪ | 🔴 |
 | 6 | Teplice | Voda, která tu byla dřív než my | 🟢 | 🟡 (🟡k 2, 🟡 1) | 🟡 prompt 6, úprava | ⚪ | 🔒 text |
 | 7 | Teplice | Pohádka, nebo pravda? | 🟢 | 🟡 (🟢 1, 🟡 2) | 🟢 prompt 7, upravený v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
 | 8 | Teplice | Kámen a voda | 🟢 | 🟡 (🟢 1, 🟡 1) | 🟢 prompt 7 (sdílený se str. 7), upravený v0.2 – schváleno (D-4) | ⚪ | 🔒 text |
@@ -76,7 +76,7 @@ Počty v závorce = kolikrát se značka na straně vyskytuje.
 | 30 | Epilog | Pohádka, která se opravdu stala | 🟢 | 🟢 (jen 💡) | 🟢 prompt 30, v pořádku | ⚪ | 🔒 text |
 
 **Souhrn (2026-09-26, po uzavření D-1…D-7):**
-- **TEXT:** 25 🟢 (str. 6–30) · 5 🔴 (Prolog 1–5).
+- **TEXT:** 25 🟢 (str. 6–30) · 5 🟡 (Prolog 1–5, NÁVRH v0.2, neschváleno).
 - **HISTORIE:** 8 🟢 (11, 13, 18, 21, 25, 26, 28, 30) · 17 🟡 · Prolog nelze hodnotit. (K2.5: strany 11 a 21 nově 🟢; D-2: str. 12 „sporná tradice" 🟢 → 🟡, strana zůstává 🟡.) Každé 🟢 tvrzení v K3 má claim (`01_HISTORIK/CROSS_AUDIT_K3_CLAIMDB_2026-09-26.md` §5).
 - **VIZUÁLNÍ ZADÁNÍ:**
   - 🟢 18 stran: 29, 30 + 6 nových promptů v0.2 (11, 12, 16, 19, 24, 25) + 10 upravených v0.2 (7, 8, 13, 15, 17, 18, 21, 23, 26, 28) — **schváleno D-4 jako pracovní produkční sada vázaná na K3**;
@@ -94,7 +94,7 @@ Nepoužité archivní prompty (mimo produkční sadu, archivované): 8, 11, 13, 
 Formát karty: **postavy** (ID z Character Registeru) · **historické jádro** · **vizuální slot a hlavní guardraily** · **co blokuje**.
 
 ### PROLOG (str. 1–5) — větev modrošedá `#4A6670`
-- **Text:** 🔴 chybí. Scénář stran 1–5 nebyl získán (OO-SC-01). Podle provenience K1 v chatu „KOMPLETACE STRAN 6–30" nikdy nebyl.
+- **Text:** 🟡 existuje jako pracovní NÁVRH v0.2 (`PRAMEN_SCENAR_STR1-5_PROLOG_NAVRH_v0.2.md`, 2026-09-27, auditováno `PROLOG_AUDIT_2026-09-28.md`) — čeká na formální schválení a případný Production Lock, ne na napsání od nuly. Původní scénář stran 1–5 nebyl získán (OO-SC-01); podle provenience K1 v chatu „KOMPLETACE STRAN 6–30" nikdy nebyl — v0.2 je nový pracovní text, ne rekonstrukce originálu.
 - **Prompty 1–5 (archivní):**
   - 1 zrození Kapky a motto „Pohádka, která se opravdu stala.";
   - 2 Kapka se představuje;
@@ -102,7 +102,7 @@ Formát karty: **postavy** (ID z Character Registeru) · **historické jádro** 
   - 4 legenda × historie, Kapka volí historii;
   - 5 přechod do Teplic (modrošedá → zlatavá).
 - **Postavy:** CH-001 Kapka. Ostatní postavy v promptech nejsou.
-- **Blokuje:** chybí text. **PROMPT ≠ SCÉNÁŘ** (DEC-002): Prolog se nesmí dopsat podle promptů, dokud nerozhodne Jirka nebo Řídící mozek 2.
+- **Blokuje:** formální schválení v0.2 a rozhodnutí o Production Locku. **PROMPT ≠ SCÉNÁŘ** (DEC-002): Prolog se nesmí dopsat/upravit podle promptů, dokud nerozhodne Jirka nebo Řídící mozek 2.
 
 ### KAPITOLA TEPLICE (str. 6–13) — větev zlatavá `#D4A017`
 | Str. | Postavy | Historické jádro | Vizuální slot · guardraily | Blokuje |
