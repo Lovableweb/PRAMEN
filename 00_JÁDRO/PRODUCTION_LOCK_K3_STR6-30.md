@@ -18,7 +18,7 @@
 | Obrazy 1–30 | ⚪ neauditováno | D-6: lock textu bez obrazového auditu; současné obrazy **nejsou** prohlášeny za finální ani schválené |
 | Publikace / tisk | — | lock textu není souhlas s vydáním |
 | Ověření str. 29 (muzeum 2026, role Karla Bašty, výroba; OO-K3-01, G9) | 🟢 | **vyřešeno 2026-09-27** — ověřeno (claimy `BIL-MUZEUM-2026`, `BIL-BASTA-PRUVODCE-2026`, `BIL-VYROBA-2026`), K2/K3 upraveno na pokyn Jirky |
-| Souhlasy Karla Bašty (jméno, podoba) a podoba Digitálního Jirky (G10) | 🔴 | **úkol Jirky**; AI je neoznačuje za splněné |
+| Souhlasy Karla Bašty (jméno, podoba) a podoba Digitálního Jirky (G10) | 🟢 | **G10 uzavřeno 2026-09-28 (DEC-010)** — Jirka potvrdil obdržení osobního souhlasu Karla Bašty; evidence v `SOUHLASY.md`. Textový Production Lock K3 se tím nemění, souhlas je samostatná podmínka mimo textový lock |
 | Image prompty | schváleno D-4 jako **pracovní** produkční sada | není Vizuální Lock; platí pravidlo K3 > prompt |
 
 ## 3. PODMÍNKY D-7 A JEJICH SPLNĚNÍ

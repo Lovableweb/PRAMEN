@@ -2,6 +2,16 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-28] – G10 UZAVŘENO (DEC-010)
+
+- Mozek 3 předal zprávu, že mu Jirka potvrdil obdržení osobního souhlasu Karla Bašty. Claude Code na tuto zprostředkovanou citaci **nespoléhal** a místo toho se přímo zeptal Jirky v tomto chatu.
+- **Jirka přímo potvrdil:** „Ano, Bašta osobně souhlasil." G10 změněno na 🟢 CLOSED.
+- Aktualizovány související živé CORE dokumenty: `SOUHLASY.md`, `PRAMEN_MASTER_CORE_2.0.md`, `PROJECT_STATE.md`, `PRAMEN_OS.md`, `WORK_ALREADY_DONE_MAP.md`, `PRODUCTION_LOCK_K3_STR6-30.md`, `DECISION_REGISTER.md` (DEC-010).
+- Claim Database, K3, historické claimy a historické závěry zůstávají beze změny — ověřeno diffem.
+- Souhlas je evidován jako projektová/autorizující skutečnost (projektová evidence), ne jako historický claim.
+- Přesná forma souhlasu (datum, médium) nebyla v tomto kroku specifikována — nic se nedomýšlí, lze doplnit později.
+- Žádný nový HB/RECOVERY nevznikl — administrativní zápis, ne výzkum.
+
 ## [2026-09-28] – HB-074 (RECOVERY-024): WORK PACKAGE 04 — GAP-03, GAP-07, PROLOG AUDIT
 
 **Velký autonomní balík Mozku 3, PR se neslučuje bez kontroly.** Anti-duplication audit proveden nejdřív, číslování ověřeno (HB-073/RECOVERY-023 → nové HB-074/RECOVERY-024).

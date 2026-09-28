@@ -26,7 +26,7 @@ Plná tabulka: `00_JÁDRO/SOURCE_OF_TRUTH_REGISTRY.md`. Zkráceně:
 
 ## CURRENT STATE (k 2026-09-27)
 
-🟢 K3 str. 6–30 Production Lock · 🟡 Prolog 1–5 (text existuje, bez locku) · 🟢 81 claimů v Claim DB · 🟡 mezera 1948–1989 v historii (viz `HISTORICAL_MASTER_SOURCE_MAP.md`) · 🔴 G10 souhlasy Karla Bašty a Digitálního Jirky nevyřešeny (Digitální Jirka 🟢, Bašta 🟡 — viz `SOUHLASY.md`). Detail: `00_JÁDRO/PROJECT_STATE.md`.
+🟢 K3 str. 6–30 Production Lock · 🟡 Prolog 1–5 (text existuje, bez locku, viz `PROLOG_AUDIT_2026-09-28.md`) · 🟢 81 claimů v Claim DB · 🟡 mezera 1948–1989 v historii (viz `HISTORICAL_MASTER_SOURCE_MAP.md`) · 🟢 G10 souhlasy uzavřeny — osobní souhlas Karla Bašty obdržen, Digitální Jirka 🟢 (viz `SOUHLASY.md`). Detail: `00_JÁDRO/PROJECT_STATE.md`.
 
 ## CORE RULES
 
@@ -44,12 +44,12 @@ Agent nesmí: vymýšlet historii nebo prameny, povyšovat důkazní úroveň, p
 
 `git pull` → přečti `PRAMEN_MAPA.md` + tento soubor → najdi autoritativní zdroj pro úkol → over čísla (HB/RECOVERY) v mapě před přidělením nového → pracuj → validuj → branch → commit → PR → Jirka merge → report.
 
-## BLOCKERS (k 2026-09-27)
+## BLOCKERS (k 2026-09-28)
 
-- OO-K3-01: ověření str. 29 (úkol Jirky)
-- G10: souhlasy Karla Bašty a podoby Digitálního Jirky (úkol Jirky)
 - Redtenbacher 1845 / Löschner 1859: technický bloker (chybí OCR nástroj v tomto prostředí)
-- Cyvín 1977: CATALOG ONLY, plný text nedohledán
+- Cyvín 1977 / Prášil 1982: lokalizováno (GAP-06), obsah čeká na fyzickou návštěvu Geofondu nebo placenou registraci
+- GAP-01 (okupace 1938–45): archivní stopa u SOA Litoměřice čeká na potvrzení
+- GAP-03 (produkce 1898/1900): BLOCKED, online zdroje vyčerpány, potřeba fyzický archiv
 
 ## NEXT ACTION
 

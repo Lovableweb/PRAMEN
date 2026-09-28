@@ -6,24 +6,23 @@
 
 | Kdo | Co potřebujeme | Oslovení proběhlo | Odpověď | Stav |
 |---|---|---|---|---|
-| **Karel Bašta** | Souhlas s použitím jména a podoby jako průvodce komiksem (str. 6–27, 29, 30) | viz níže — rozhodnutí Jirky 2026-09-27, ne přímé oslovení Bašty | — | 🟡 JIRKA AUTORIZOVAL POKRAČOVÁNÍ (viz poznámka) |
+| **Karel Bašta** | Souhlas s použitím jména a podoby jako průvodce komiksem (str. 6–27, 29, 30) | ano — viz poznámka 2026-09-28 | ANO, osobní souhlas obdržen | 🟢 SOUHLAS OBDRŽEN |
 | **Digitální Jirka** | Souhlas s podobou digitálního průvodce (str. 6–8, 10, 12, 15, 17, 18, 20, 22, 24, 25, 27, 28, 30) | Jirka je sám sobě autorem/vlastníkem podoby | — | 🟢 VLASTNÍ ROZHODNUTÍ JIRKY |
 | Cameo Jirka + Karlíček (str. 26) | Odloženo — nepatří do historické části (OO-K3-02) | ⚪ mimo rozsah | — | ⚪ ODLOŽENO |
 
-## POZNÁMKA K ŘÁDKU „KAREL BAŠTA" (2026-09-27)
+## POZNÁMKA K ŘÁDKU „KAREL BAŠTA" — HISTORIE ZÁZNAMU
 
-Jirka v chatu s Claude Code řekl doslova: *„souhlas na všechno máš, na podobu, prostě na všechno, ber to tak"* a zároveň popsal budoucí plán — až bude projekt jinak hotový, sednout si s Karlem Baštou osobně, projít s ním všechno, co ví, vyfotit jeho dokumenty a doplnit to do projektu postupně.
+**2026-09-27:** Jirka v chatu s Claude Code řekl doslova: *„souhlas na všechno máš, na podobu, prostě na všechno, ber to tak"* a zároveň popsal budoucí plán — až bude projekt jinak hotový, sednout si s Karlem Baštou osobně, projít s ním všechno, co ví, vyfotit jeho dokumenty a doplnit to do projektu postupně. Toto bylo zapsáno jako **Jirkova autorizace pokračovat**, výslovně **NE** jako Baštův vlastní souhlas (viz DEC-009) — řádek zůstal 🟡.
 
-**Co to znamená přesně (ať je to zapsáno poctivě, ne domněnkou):**
-- Toto je **rozhodnutí Jirky jako vlastníka projektu jít dál** s tím, co teď je — **není to doložený souhlas od Karla Bašty samotného.** Právo na jméno a podobu má Bašta, ne Jirka, takže tohle nemůže nahradit jeho vlastní vyjádření.
-- Proto řádek zůstává 🟡, ne 🟢 — status „autorizace Jirky k pokračování v práci", ne „potvrzený souhlas Bašty".
-- **Naplánovaný krok** (Jirkova slova): až bude projekt jinak hotový, osobní schůzka s Karlem Baštou — projít s ním všechny informace, vyfotit jeho dokumenty, získat vše, co ví, a doplnit do projektu postupně. **Tahle schůzka je i přirozená příležitost formálně získat jeho souhlas s podobou/jménem** — dá se řešit spolu.
+**2026-09-28 — AKTUALIZACE (DEC-010):** Jirka byl v tomto chatu přímo dotázán (`AskUserQuestion`), zda mu Karel Bašta osobně dal souhlas s použitím jména a podoby — a přímo, ve svých vlastních slovech (ne zprostředkovaně přes Mozek 3), potvrdil: **ano, Bašta osobně souhlasil.** Tím se řádek mění na 🟢. **Přesná forma souhlasu (datum, médium, písemná/ústní forma) nebyla v tomto kroku specifikována — nedomýšlí se, může být doplněna později, pokud existuje konkrétní dokument.**
+
+**Proč je tohle jiné než 2026-09-27:** tehdy šlo jen o Jirkovo rozhodnutí projekt neubrzdit, teď jde o přímé potvrzení, že Bašta sám souhlas dal. Tyto dvě věci projekt záměrně rozlišoval celou dobu (viz DEC-009) — a teď je druhá z nich přímo potvrzená.
 
 ## PRAVIDLO
 
-- **Tento soubor mění jen Jirka** (nebo AI na jeho výslovný pokyn, s doslovným zápisem toho, co Jirka řekl — ne domněnkou).
-- Dokud řádek Karla Bašty nemá **jeho vlastní** potvrzený souhlas, **K3 str. 6–30 zůstává Production Locked jen jako TEXT** — G10 samo o sobě nebrání textovému locku, ale brání dalšímu kroku (publikace, tisk, veřejné šíření jména/podoby).
-- Žádná AI generovaná odpověď „za" Karla Baštu se nepočítá jako jeho souhlas — ani Jirkovo rozhodnutí pokračovat ho nenahrazuje, jen umožňuje projekt zatím nezastavovat.
+- **Tento soubor mění jen Jirka** (nebo AI na jeho výslovný pokyn, s doslovným zápisem toho, co Jirka řekl — ne domněnkou). Toto pravidlo platí beze změny i po uzavření G10.
+- Žádná AI generovaná odpověď „za" Karla Baštu se nikdy nepočítala a nepočítá jako jeho souhlas — status 🟢 vychází výhradně z Jirkova přímého potvrzení v tomto chatu, ne z domněnky nebo AI interpretace.
+- Pokud se v budoucnu objeví konkrétní písemný dokument souhlasu, lze ho sem doplnit jako přesnější evidenci — to není podmínkou uzavření G10, jen možné zpřesnění.
 
 ## SOUVISEJÍCÍ
 

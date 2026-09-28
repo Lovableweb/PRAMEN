@@ -17,11 +17,11 @@
 | Recovery historie | 🟢 | `MASTER_RECOVERY_MAP.md` (RECOVERY-005…024) | 2026-09-28 | — | — |
 | Otevřené otázky | 🟡 | `OTEVRENE_OTAZKY.md` | 2026-09-27 (OO-K3-01 vyřešeno) | namátkový průchod zbytku | — |
 | Moderní historie (1925–2026) | 🟡 nový materiál (HB-070/071/072) | `RECOVERY-020/021/022` | 2026-09-27 | zvážit zařazení do komiksu/dodatku | Jirka rozhodne |
-| Legal / souhlasy | 🟡 Jirka autorizoval pokračování (DEC-009), skutečný souhlas Bašty chybí | `SOUHLASY.md` | 2026-09-27 | osobní schůzka s Karlem Baštou | **Jirka — nelze zastoupit** |
+| Legal / souhlasy | 🟢 G10 uzavřeno — osobní souhlas Karla Bašty obdržen | `SOUHLASY.md`, DEC-010 | 2026-09-28 | — | — |
 
 ## SOUHRNNÉ ČÍSLO
 
-**PROJECT HEALTH: 🟢/🟡** — historická vrstva (6–30) je stabilní a uzamčená, str. 29 ověřena, G1–G3 schváleny. Zbývá: skutečný souhlas Karla Bašty (G10), obrazový audit, plný obsah Cyvína/Prášila/Redtenbachera (přístup znám, čeká na příležitost). Žádný technický problém nebrání dalšímu postupu (viz `PRAMEN_MASTER_INTEGRATION_AUDIT_2026-09-27.md`: RELEASE READY WITH OPEN HISTORICAL GAPS).
+**PROJECT HEALTH: 🟢/🟡** — historická vrstva (6–30) je stabilní a uzamčená, str. 29 ověřena, G1–G3 schváleny, G10 uzavřeno (souhlas Karla Bašty obdržen, DEC-010). Zbývá: obrazový audit, plný obsah Cyvína/Prášila/Redtenbachera (přístup znám, čeká na příležitost), GAP-01/03/07 (archivní přístup). Žádný technický problém nebrání dalšímu postupu (viz `PRAMEN_MASTER_INTEGRATION_AUDIT_2026-09-27.md`: RELEASE READY WITH OPEN HISTORICAL GAPS).
 
 ## AKTUALIZACE
 
