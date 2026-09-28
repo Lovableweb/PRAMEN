@@ -23,6 +23,9 @@
 | Socialistická éra 1948–1989 | 🟡 OPEN | GAP-07 | Periodizace připravena | nevytvářet vymyšlenou historii, viz `GAP_EXECUTION_PLAN.md` |
 | G10 — souhlas Karla Bašty | 🟡 OPEN — pouze Jirka | `SOUHLASY.md`, DEC-009 | Jirka autorizoval pokračování projektu; **skutečný osobní souhlas Bašty chybí** | nezaměňovat Jirkovo oprávnění za Baštův osobní souhlas; AI nesmí souhlas vytvářet ani předstírat |
 | Přejmenování složek na české názvy | 🟢 CLOSED | `CHANGELOG.md` (2026-09-27) | Provedeno, 0 rozbitých odkazů | neopakovat |
+| Produkce 1898 vs. 1900 (GAP-03) | 🔴 BLOCKED — NEOPAKOVAT STEJNOU WEB REŠERŠI | `RECOVERY-024`, GAP-03 | Oba zdroje přímo ověřeny a downgradovány (bez citace/data); katalog Paříž 1900 pro Německou říši nalezen, ale nerelevantní | další web hledání nemá smysl, dokud se neobjeví jiný typ zdroje (archiv); jen Jirka fyzicky v archivu |
+| Socialistická éra 1948–1989 (GAP-07) | 🟡 PARTIAL — NEOPAKOVAT STEJNOU WEB REŠERŠI | `RECOVERY-024`, GAP-07 | Muzeum přineslo dataci 1948/1950/1952–55/1958/1960–63 | neopakovat stejné vyhledávání muzejních stránek; další krok je přímý podnikový/státní archiv |
+| Prolog audit 1–5 | 🟢 CLOSED (jako audit, ne jako schválení textu) | `PROLOG_AUDIT_2026-09-28.md` | Zkontrolováno panel po panelu — vše SYMBOLIC podle designu; 1 vizuální nesoulad nalezen (str.5→K3 str.6) | neopakovat celý audit; jen řešit nalezený nesoulad při přepracování Prologu |
 
 ## PRAVIDLO POUŽITÍ
 

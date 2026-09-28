@@ -32,44 +32,43 @@
 
 **Co chybí:** primární firemní pramen, který rozhodne mezi „5 mil. lahví 1898" a „4 315 307 džbánů 1900".
 
-**Proč to chybí:** obě čísla jsou dnes doložena jen SECONDARY zdroji; nejde vyloučit, že jde o různé jednotky, různé roky nebo dokonce různé podniky (Bílina vs. Zaječice).
+**Aktualizace `RECOVERY-024` (2026-09-28, Work Package 04):** oba údaje přímo ověřeny (WebFetch) a jsou **slabší, ne silnější**, než se předpokládalo. De.wikipedia „4 315 307 Krüge" nemá žádnou citaci. Muzejní web (nová doména `muzeumbilinskekyselky.cz`) sice větu „5 milionů lahví" má, ale bez data a bez pramene — dřívější citovaný zdroj (`muzeum-bilina.netstranky.cz`) je mrtvý. `bilinska.cz` dnešní verze stránky tvrzení vůbec neobsahuje. Zkoušen i katalog Světové výstavy Paříž 1900 — nalezen jen pro Německou říši, ne Rakousko-Uhersko (Bílina).
 
-**Jaký pramen to může vyřešit:** firemní almanach, výroční zpráva k přelomu století, dobový obchodní rejstřík.
+**Proč to chybí:** obě čísla jsou dnes doložena jen SECONDARY zdroji bez citace/data; nejde vyloučit, že jde o různé jednotky, různé roky nebo dokonce různé podniky (Bílina vs. Zaječice).
+
+**Jaký pramen to může vyřešit:** firemní almanach, výroční zpráva k přelomu století, dobový obchodní rejstřík — beze změny.
 
 **Kde je:** neurčeno — typicky podnikový archiv nebo hospodářské periodikum té doby.
 
-**Kdo to může získat:** budoucí web/archivní rešerše (Claude může zkusit najít bibliografické údaje a originální německé formulace), případně Jirka v archivu.
+**Kdo to může získat:** Jirka v archivu — online cesty jsou teď vyčerpané.
 
-**Co může udělat Claude:** dohledat, odkud citace 1898 a 1900 pocházejí (který sekundární zdroj je poprvé uvádí), zkontrolovat, zda nejde o přepis/chybu jednotky.
+**Co může udělat Claude:** hotovo pro tuto fázi — další web rešerše nemá smysl, dokud se neobjeví nový typ zdroje.
 
 **Co nesmí předstírat:** vybrat „vítěze" bez primárního pramene. Pokud primární pramen chybí, stav zůstává OPEN.
 
-**Stav:** 🟡 OPEN.
+**Stav:** 🔴 BLOCKED — vyčerpány dostupné online zdroje, potřeba fyzický archiv.
 
 ---
 
 ## GAP-07 — Socialistická éra 1948–1989 (MEDIUM)
 
-**Co chybí:** téměř cokoliv — 40 let bez jediného záznamu o obou pramenech.
+**Aktualizace `RECOVERY-024` (2026-09-28, Work Package 04):** muzeum Bílinské kyselky (přímo přečteno, WebFetch) poskytlo konkrétní dataci: **1948** převzetí/vznik n.p. Středočeská zřídla, **1950** lesopark okolo pramenů záměrně zničen/vysázen rychle rostoucími smrky „z politických důvodů" (doslovná citace), **1952–55** hydrogeologický průzkum, **1958** vládní usnesení o ochraně kyselky, **1960–63** nové vrty. Žádný interval už není úplně prázdný.
 
-**Proč to chybí:** dosavadní výzkum se soustředil na Rakousko-Uhersko a přelom století; poválečná/socialistická éra nebyla dosud cíleně zpracována kromě jednoho detailu (přechod na n.p. Středočeská zřídla 1948, `RECOVERY-019`).
-
-**Periodizace (místo jednoho velkého pseudo-kompletního textu z internetu):**
+**Periodizace (aktualizovaná):**
 
 | Interval | Co víme | Zdroj | Co nevíme | Jaký pramen chybí | Kdo ho drží |
 |---|---|---|---|---|---|
-| 1948–1952 | Přechod na n.p. Středočeská zřídla, M. E. Lobkowicz do exilu | `RECOVERY-019` (SECONDARY, Český rozhlas) | Přesné datum znárodnění, právní forma | Sbírka zákonů, podnikový archiv | Národní archiv |
-| 1953–1960 | Nic | — | Vše (výroba, investice, vedení) | Podnikový archiv n.p. | neznámo |
-| 1960–1968 | Nic | — | Vše | Podnikový archiv n.p. | neznámo |
-| 1968–1970 | Nic | — | Vše (vliv normalizace) | Podnikový archiv, dobový tisk | neznámo |
+| 1948–1952 | Přechod na n.p. Středočeská zřídla, M. E. Lobkowicz do exilu; lesopark zničen 1950 | `RECOVERY-019`, `RECOVERY-024` (muzeum, přímo přečteno) | Přesné datum znárodnění, právní forma | Sbírka zákonů, podnikový archiv | Národní archiv |
+| 1952–1960 | Hydrogeologický průzkum 1952–55; vládní usnesení o ochraně 1958 | `RECOVERY-024` (muzeum) | Detail usnesení, autoři průzkumu (Hynie/Zima 1950 — nepotvrzeno přímo) | Podnikový archiv n.p., Sbírka usnesení vlády | neznámo |
+| 1960–1970 | Nové vrty 1960–63 | `RECOVERY-024` (muzeum) | Technické detaily, kdo prováděl | Podnikový archiv n.p. | neznámo |
 | 1970–1980 | Cyvín 1977 — geologická zpráva existuje (GAP-06) | `RECOVERY-022` (lokalizováno, nepřečteno) | Obsah zprávy | Geofond (přístup znám) | Geofond |
 | 1980–1989 | Prášil 1982 — geologická zpráva existuje (GAP-06) | `RECOVERY-022` (lokalizováno, nepřečteno) | Obsah zprávy | Geofond (přístup znám) | Geofond |
 
-**Je vůbec realistické to získat:** částečně ano (Cyvín/Prášil — přístup znám, čeká na příležitost), zbytek intervalů vyžaduje neznámý podnikový/státní archiv — nízká pravděpodobnost bez konkrétního vodítka.
+**Je vůbec realistické to získat:** ano, částečně — muzeum má zjevně další materiál (viz i stránka o výzkumné zprávě Cyvín 1977, GAP-06); přímé podnikové archivy 1948–1989 zůstávají neznámé.
 
-**Výsledek:** toto je **ARCHIVAL RESEARCH ROADMAP**, ne vymyšlený historický příběh. Žádný interval se nevyplňuje odhadem.
+**Výsledek:** **ARCHIVAL RESEARCH ROADMAP** — konkrétnější než dřív, žádný interval se nevyplňuje odhadem.
 
-**Stav:** 🟡 OPEN (dva ze šesti intervalů mají alespoň zacílený pramen).
+**Stav:** 🟡 PARTIALLY RESOLVED (všech pět intervalů má alespoň částečný pramen).
 
 ---
 
@@ -126,8 +125,8 @@ Lokalizace je hotová (`RECOVERY-022`) — signatury, instituce i přístupová 
 | GAP | Co může Claude | Co musí Jirka / vyžaduje archiv |
 |---|---|---|
 | GAP-01 | rešerše bibliografie, sekundární stopy — hotovo (`RECOVERY-023`: Radio Prague ověřen; domnělý fond SOA Litoměřice downgradován) | kontakt s SOA Litoměřice (i k ověření existence fondu) / archivní návštěva, případně OCR nástroj |
-| GAP-03 | dohledání citací a jednotek | firemní/archivní pramen |
-| GAP-07 | web rešerše k jednotlivým intervalům | podnikový/státní archiv (z velké části neznámý) |
+| GAP-03 | dohledání citací a jednotek — hotovo, vyčerpáno (`RECOVERY-024`) | firemní/archivní pramen |
+| GAP-07 | web rešerše k jednotlivým intervalům — z velké části hotovo (`RECOVERY-024`: muzeum) | podnikový/státní archiv (zpřesněno na n.p. Středočeská zřídla) |
 | GAP-04 | porovnání důkazní úrovně | archiv OBÚ / dobový tisk |
 | GAP-08 | provenience tabulky | BHMW přímo, etiketa lahve |
 | GAP-09 | scope definition (hotovo) | dramaturgické rozhodnutí, zda vůbec patří do projektu |

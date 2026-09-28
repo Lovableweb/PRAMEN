@@ -2,6 +2,20 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-28] – HB-074 (RECOVERY-024): WORK PACKAGE 04 — GAP-03, GAP-07, PROLOG AUDIT
+
+**Velký autonomní balík Mozku 3, PR se neslučuje bez kontroly.** Anti-duplication audit proveden nejdřív, číslování ověřeno (HB-073/RECOVERY-023 → nové HB-074/RECOVERY-024).
+
+**GAP-03 (produkce 1898 vs. 1900):** uzavřeno jako **🔴 BLOCKED**. Oba zdroje přímo ověřeny (WebFetch, ne jen search snippet) a vyšly **slabší, ne silnější**: de.wikipedia „4 315 307 Krüge" bez jakékoli citace; muzejní zdroj „5 mil. lahví" bez data a bez pramene (dřívější citovaný zdroj mrtvý); bilinska.cz dnes tvrzení vůbec neobsahuje. Katalog Paříž 1900 nalezen jen pro Německou říši (nerelevantní). Online cesty vyčerpány — potřeba fyzický podnikový archiv.
+
+**GAP-07 (socialistická éra 1948–1989):** **🟡 PARTIALLY RESOLVED**. Muzeum Bílinské kyselky (nová oficiální doména `muzeumbilinskekyselky.cz`, přímo přečteno) přineslo konkrétní dataci: 1948 (převzetí, n.p. Středočeská zřídla), 1950 (lesopark okolo pramenů záměrně zničen/vysázen smrky „z politických důvodů"), 1952–55 (hydrogeologie), 1958 (vládní usnesení o ochraně), 1960–63 (nové vrty). Žádný interval už není úplně prázdný.
+
+**Prolog audit (`PROLOG_AUDIT_2026-09-28.md`, nový soubor):** panel-po-panelu kontrola str. 1–5 proti CORE. Potvrzeno: Prolog je čistě SYMBOLIC podle vlastního designu, žádné porušení nenalezeno. **1 nález:** vizuální nesoulad — str. 5 panel 1 ukazuje „renesanční město s lázeňskými věžemi", ale K3 str. 6 panel 1 (skutečný začátek) otevírá prázdnou pravěkou krajinou bez lidí. Klasifikováno REWRITE LATER, **text Prologu neměněn**.
+
+**Traceability, Claim DB, K3, G9/G10:** beze změny — žádný nový claim (oba historické nálezy bez primárního dokladu a bez vazby na stránku komiksu).
+
+**Aktualizováno:** `HISTORICAL_MASTER_SOURCE_MAP.md` (GAP-03/07), `GAP_EXECUTION_PLAN.md` (GAP-03/07), `WORK_ALREADY_DONE_MAP.md`, `PROJECT_STATE.md`, `PRAMEN_MAPA.md`.
+
 ## [2026-09-28] – GAP-01 ARCHIVNÍ FOLLOW-UP: OPRAVA DŮVĚRYHODNOSTI (PRAVIDLO PREVENCE)
 
 **Zadání Mozku 3 po sloučení PR #54:** dohledat signaturu/inventární číslo fondu SOA Litoměřice zmíněného v `RECOVERY-023`, ne další obecnou web rešerši.
