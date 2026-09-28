@@ -12,7 +12,7 @@
 | Page Master | 🟢 schváleno (DEC-007) | `PAGE_MASTER_1-30.md` | 2026-09-27 | — | — |
 | Character Register | 🟢 schváleno (DEC-007) | `CHARACTER_REGISTER.md` | 2026-09-27 | — | — |
 | Prompty | 🟡 pracovní produkční sada | `PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md` + `..._NOVE_...` | 2026-09-26 | — | — |
-| Vizuály / obrazy | ⚪ mimo repo, neauditováno | Content Registry | 2026-08-18 | obrazový audit (odloženo na konec) | Jirka |
+| Vizuály / obrazy | ⚪ mimo repo, neauditováno; **rámec auditu připraven** | Content Registry + `02_COMIKS/VIZUÁLNÍ_KONTROLA/OBRAZOVY_AUDIT_PLAN.md` | 2026-09-28 | zpřístupnit obrazy (repo/chat/Drive), pak spustit audit dle plánu | Jirka (přístup k obrazům) |
 | Production Locks | 🟢 jen text 6–30 | `PRODUCTION_LOCK_K3_STR6-30.md` | 2026-09-26 | případný lock Prologu | Jirka |
 | Recovery historie | 🟢 | `MASTER_RECOVERY_MAP.md` (RECOVERY-005…024) | 2026-09-28 | — | — |
 | Otevřené otázky | 🟡 | `OTEVRENE_OTAZKY.md` | 2026-09-27 (OO-K3-01 vyřešeno) | namátkový průchod zbytku | — |
