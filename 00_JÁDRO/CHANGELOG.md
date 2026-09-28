@@ -2,6 +2,16 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-09-28] – OBRAZOVÝ AUDIT: PŘIPRAVEN RÁMEC (na žádost Jirky)
+
+**Zjištění:** obrazy 1–30 nejsou v tomto prostředí dostupné — `CONTENT_REGISTRY.md`/`PROJECT_STATE.md` je označují jako „mimo repo, neauditováno", žádná cesta/Drive odkaz v repu. Jirka zvolil: připravit auditní rámec teď, obrazy dodat později.
+
+**Vytvořeno:** `02_COMIKS/VIZUÁLNÍ_KONTROLA/OBRAZOVY_AUDIT_PLAN.md` — přesný postup a šablona pro kontrolu každé strany (postavy, historické guardraily, styl R-031, Kapka, vazba na K3, VA-nálezy z `PRAMEN_VIZUALNI_AUDIT_K3.md`), s klasifikací 🟢 MATCH / 🟡 MINOR ISSUE / 🔴 VIOLATION / ⚪ N/A. Nic sám neaudituje — čeká na skutečný přístup k obrazům.
+
+**Aktualizováno:** `PROJECT_STATE.md` (řádek Vizuály/obrazy), `PRAMEN_MAPA.md`.
+
+**Beze změny:** K3, Claim DB, Character Register, Page Master. Žádný nový HB/RECOVERY (jde o přípravný plán, ne výzkum).
+
 ## [2026-09-28] – ZPĚTNÁ KONTROLA PROJEKTU #2 (PRAVIDLO PREVENCE)
 
 **Na žádost Jirky: „Projeď si celý projekt a udělej znovu kontrolu."** Health check OVERALL 🟢 na startu i na konci; žádný zásah do K3/Claim DB/Prolog textu/Character Registeru.

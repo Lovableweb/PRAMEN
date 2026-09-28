@@ -136,6 +136,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | `KONTROLA/PRAMEN_K2_PROMPT_PAROVANI.md` | 494 | ⭐ | **Párování promptů 1–30 ↔ strany K1/K2** (druhý agent + kontrola Claude Code). Číslování promptů ≠ číslování scénáře. Nepokryté strany K2: 7, 11, 12, 16, 19, 24, 25, 28. Tvrdý konflikt: prompty 8, 13, 18, 19. Prompty ani obrazy nepřepsány |
 | `KONTROLA/…CROSS_AUDIT_v1.0.md` | 89 | 🔍 | Tabulka stran 1–30 podle **pracovního** rozložení stran (ne scénáře k1): scéna × claim × prompt × problém; dodatky dole |
 | `VIZUÁLNÍ_KONTROLA/…VISUAL_ARTIFACT_AUDIT_v1.0.md` | 100 | 🔍 | R-031, 16:9 / 3840×2160, paleta, Kapka (varianta B), guardraily §7, §7b |
+| `VIZUÁLNÍ_KONTROLA/OBRAZOVY_AUDIT_PLAN.md` | – | 🔍 | **Připravený rámec pro obrazový audit (2026-09-28).** Obrazy 1–30 nejsou v tomto prostředí dostupné (mimo repo) — dokument dává přesný postup a šablonu, jak je zkontrolovat proti Page Masteru/Character Registeru/K3/guardrailům, jakmile budou přístupné (repo/chat/Drive). Sám nic neaudituje |
 | `KOMIKSOVA_BIBLE/…KOMIKSOVA_BIBLE_RECOVERED_WORKING_v1.0.md` | 166 | 🔍 | Pracovní Bible: postavy, kapitoly, tabulka stran 1–30 (NENÍ originál) |
 | `KOMIKSOVA_BIBLE/…OSA_RECOVERED_WORKING_v1.1.md` | 208 | 🔍 | Pracovní osa. ⚠️ Beethoven stále 🟡 (Claim DB 🟢) |
 
