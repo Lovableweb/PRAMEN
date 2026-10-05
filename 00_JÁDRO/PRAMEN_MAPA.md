@@ -137,6 +137,7 @@ Legenda sloupce ČÍST: ⭐ čti skoro vždy · 🔍 čti jen k danému tématu 
 | `KONTROLA/…CROSS_AUDIT_v1.0.md` | 89 | 🔍 | Tabulka stran 1–30 podle **pracovního** rozložení stran (ne scénáře k1): scéna × claim × prompt × problém; dodatky dole |
 | `VIZUÁLNÍ_KONTROLA/…VISUAL_ARTIFACT_AUDIT_v1.0.md` | 100 | 🔍 | R-031, 16:9 / 3840×2160, paleta, Kapka (varianta B), guardraily §7, §7b |
 | `VIZUÁLNÍ_KONTROLA/OBRAZOVY_AUDIT_PLAN.md` | – | 🔍 | **Připravený rámec pro obrazový audit (2026-09-28).** Obrazy 1–30 nejsou v tomto prostředí dostupné (mimo repo) — dokument dává přesný postup a šablonu, jak je zkontrolovat proti Page Masteru/Character Registeru/K3/guardrailům, jakmile budou přístupné (repo/chat/Drive). Sám nic neaudituje |
+| `VIZUÁLNÍ_KONTROLA/OBRAZOVY_AUDIT_V1_V2_2026-10-06.md` | – | 🔍 | **Skutečný obrazový audit (2026-10-06):** srovnání dvou dodaných verzí komiksu 1–30 (V1 PDF 4K z 11. 9., V2 PPTX ChatGPT „mega audit“ z 5. 10.) proti K3/Prologu/guardrailům; tabulka strana po straně, best-of, verdikt: ani jedna verze nesleduje K3, str. 18–30 jsou v obou totožné, 12 stran V1 s 🔴; doporučení přegenerovat 5–30 podle K3 bez textu v obraze |
 | `KOMIKSOVA_BIBLE/…KOMIKSOVA_BIBLE_RECOVERED_WORKING_v1.0.md` | 166 | 🔍 | Pracovní Bible: postavy, kapitoly, tabulka stran 1–30 (NENÍ originál) |
 | `KOMIKSOVA_BIBLE/…OSA_RECOVERED_WORKING_v1.1.md` | 208 | 🔍 | Pracovní osa. ⚠️ Beethoven stále 🟡 (Claim DB 🟢) |
 

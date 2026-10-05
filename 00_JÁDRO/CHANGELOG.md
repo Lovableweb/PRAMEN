@@ -2,6 +2,17 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-10-06] – OBRAZOVÝ AUDIT: DVĚ VERZE KOMIKSU 1–30 (V1 PDF × V2 PPTX)
+
+**Na pokyn Jirky:** „Tady máš 1. verzi komiksu… ještě budu mít 2. Musíme je porovnat… vytáhneme z nich to nejlepší. Hlavně ať je vše podle pravdy.“
+
+- Spuštěn audit podle `OBRAZOVY_AUDIT_PLAN.md` na skutečných obrazech (mimo repo): V1 `PRAMEN_KOMIKS_30_STRAN_16x9_4K.pdf` (30× JPEG 3840×2160), V2 `PRAMEN_KOMIKS_1-30_MEGA_AUDIT_SLIDESHOW.pptx` (26× PNG 1672×941; str. 2+3 a 4+5 sdílené, str. 8 chybí).
+- **Výsledek:** ani jedna verze nesleduje K3; str. 18–30 jsou v obou totožné; V1 12× 🔴 (1156–1167, „první zděné lázně“, „záchrana Pravřídla“, Piccolomini 1458, Berzeliova metoda u Reusse, Beethoven na kúře v Bílině, vymyšlené citáty a čísla, neexistující aplikace); V2 str. 1–17 bezpečnější, ale obecné, nízké rozlišení, bez 1879. ChatGPT protokol V2 (🟢 u str. 16–30) nepřevzat — obsah stran K3 neodpovídá.
+- Nová otevřená otázka **OO-OBR-01** (Piccolomini 1458).
+- **Vytvořeno:** `02_COMIKS/VIZUÁLNÍ_KONTROLA/OBRAZOVY_AUDIT_V1_V2_2026-10-06.md`. **Aktualizováno:** `PRAMEN_MAPA.md`, `PROJECT_STATE.md`, `OTEVRENE_OTAZKY.md`.
+
+**Beze změny:** K3, Prolog, Claim DB, Character Register, Page Master (sloupec OBRAZ zůstává ⚪, dokud nebudou obrazy podle K3).
+
 ## [2026-09-28] – PROLOG SCHVÁLEN (DEC-011) + ARCHIVNÍ PRÁCE ODLOŽENA NA KONEC (DEC-012)
 
 **Na pokyn Jirky v chatu:** „U toho prologu... schvaluji. Můžeme to dodělat." + „[GAP-01/archivní práce] se bude dělat až na konci a řešit si to všechno přes toho historika... najednou."
