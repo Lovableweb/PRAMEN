@@ -46,7 +46,7 @@ Panel 3: Klidná hladina a kameny v ranním světle; velká prázdná plocha ve 
 NEZOBRAZOVAT: text motta v obraze; jiskřičky a kouzla; konkrétní města nebo budovy; žádný text v obraze.
 ```
 
-**Kontrola strany 1:** 3 panelů · zkontroluj, že v obraze NENÍ: text motta v obraze; jiskřičky a kouzla; konkrétní města nebo budovy
+**Kontrola strany 1:** 3 panelů · zkontroluj, že obraz nezobrazuje: text motta v obraze; jiskřičky a kouzla; konkrétní města nebo budovy
 
 ## STRANA 2 — „Kapka se představuje“
 
@@ -69,7 +69,7 @@ Panel 3: Okraj panelu: barva přechází z modrošedé k teplejšímu zlatavému
 NEZOBRAZOVAT: lidé; budovy; žádný text v obraze.
 ```
 
-**Kontrola strany 2:** 3 panelů · zkontroluj, že v obraze NENÍ: lidé; budovy
+**Kontrola strany 2:** 3 panelů · zkontroluj, že obraz nezobrazuje: lidé; budovy
 
 ## STRANA 3 — „Tichá síla“
 
@@ -92,7 +92,7 @@ Panel 3: Detail hladiny Kapky: v odrazu se mihnou tři nezřetelné body/obrysy 
 NEZOBRAZOVAT: konkrétní stavby nebo města; data, mapy s názvy; žádný text v obraze.
 ```
 
-**Kontrola strany 3:** 3 panelů · zkontroluj, že v obraze NENÍ: konkrétní stavby nebo města; data, mapy s názvy
+**Kontrola strany 3:** 3 panelů · zkontroluj, že obraz nezobrazuje: konkrétní stavby nebo města; data, mapy s názvy
 
 ## STRANA 4 — „Pohádka, nebo pravda?“
 
@@ -115,7 +115,7 @@ Panel 3: Starý rukopis/dokument jako symbol důkazu, text nečitelný; v pozad�
 NEZOBRAZOVAT: čitelný text v dokumentu; konkrétní legendární postavy; žádný text v obraze.
 ```
 
-**Kontrola strany 4:** 3 panelů · zkontroluj, že v obraze NENÍ: čitelný text v dokumentu; konkrétní legendární postavy
+**Kontrola strany 4:** 3 panelů · zkontroluj, že obraz nezobrazuje: čitelný text v dokumentu; konkrétní legendární postavy
 
 ## STRANA 5 — „Cesta do Teplic“
 
@@ -138,7 +138,7 @@ Panel 3: Kapka mizí do páry stoupající z pramene (stejná pára jako str. 6,
 NEZOBRAZOVAT: město, věže, kolonády, barokní stavby (oprava Prologu 2026-09-28); lidé; žádný text v obraze.
 ```
 
-**Kontrola strany 5:** 3 panelů · zkontroluj, že v obraze NENÍ: město, věže, kolonády, barokní stavby (oprava Prologu 2026-09-28); lidé
+**Kontrola strany 5:** 3 panelů · zkontroluj, že obraz nezobrazuje: město, věže, kolonády, barokní stavby (oprava Prologu 2026-09-28); lidé
 
 ## STRANA 6 — „Voda, která tu byla dřív než my“
 
@@ -163,7 +163,7 @@ Panel 5: Digitální Jirka: mladý muž, kudrnaté hnědé vlasy, šedá mikina 
 NEZOBRAZOVAT: klášter, lázně, koupající se lidé; Judita, mniši; jakékoli letopočty (1156–1167 nikdy); žádný text v obraze.
 ```
 
-**Kontrola strany 6:** 5 panelů · zkontroluj, že v obraze NENÍ: klášter, lázně, koupající se lidé; Judita, mniši; jakékoli letopočty (1156–1167 nikdy)
+**Kontrola strany 6:** 5 panelů · zkontroluj, že obraz nezobrazuje: klášter, lázně, koupající se lidé; Judita, mniši; jakékoli letopočty (1156–1167 nikdy)
 
 ## STRANA 7 — „Pohádka, nebo pravda?“
 
@@ -188,7 +188,7 @@ Panel 5: Kapka stéká po kameni kláštera k prameni.
 NEZOBRAZOVAT: lázně nebo koupající se lidi u kláštera (VA-003/005); léčebný rituál (VA-004); rok 762 nebo 1156–1167; Hájka jako očitého svědka; žádný text v obraze.
 ```
 
-**Kontrola strany 7:** 5 panelů · zkontroluj, že v obraze NENÍ: lázně nebo koupající se lidi u kláštera (VA-003/005); léčebný rituál (VA-004); rok 762 nebo 1156–1167; Hájka jako očitého svědka
+**Kontrola strany 7:** 5 panelů · zkontroluj, že obraz nezobrazuje: lázně nebo koupající se lidi u kláštera (VA-003/005); léčebný rituál (VA-004); rok 762 nebo 1156–1167; Hájka jako očitého svědka
 
 ## STRANA 8 — „Kámen a voda“
 
@@ -212,7 +212,7 @@ Panel 4: Digitální Jirka: mladý muž, kudrnaté hnědé vlasy, šedá mikina 
 NEZOBRAZOVAT: Volfa jako stavitele prvních zděných lázní; roky 1446/1477/1581 jako jednu stavbu; plán s letopočtem; žádný text v obraze.
 ```
 
-**Kontrola strany 8:** 4 panelů · zkontroluj, že v obraze NENÍ: Volfa jako stavitele prvních zděných lázní; roky 1446/1477/1581 jako jednu stavbu; plán s letopočtem
+**Kontrola strany 8:** 4 panelů · zkontroluj, že obraz nezobrazuje: Volfa jako stavitele prvních zděných lázní; roky 1446/1477/1581 jako jednu stavbu; plán s letopočtem
 
 ## STRANA 9 — „Malá Paříž“
 
@@ -237,7 +237,7 @@ Panel 5: Kočár přijíždí v noci, vystupuje muž v tmavém plášti — Beet
 NEZOBRAZOVAT: latinské nápisy; Goetha (patří až na str. 10); čitelné cedule; žádný text v obraze.
 ```
 
-**Kontrola strany 9:** 5 panelů · zkontroluj, že v obraze NENÍ: latinské nápisy; Goetha (patří až na str. 10); čitelné cedule
+**Kontrola strany 9:** 5 panelů · zkontroluj, že obraz nezobrazuje: latinské nápisy; Goetha (patří až na str. 10); čitelné cedule
 
 ## STRANA 10 — „Skladatel, který neslyší ticho“
 
@@ -261,7 +261,7 @@ Panel 4: Do dveří vchází Goethe, Beethoven zvedá hlavu; vedle malý inzertn
 NEZOBRAZOVAT: vymyšlené citáty a nápisy; „Kurhaus Teplitz“; adresátku dopisu; žádný text v obraze.
 ```
 
-**Kontrola strany 10:** 4 panelů · zkontroluj, že v obraze NENÍ: vymyšlené citáty a nápisy; „Kurhaus Teplitz“; adresátku dopisu
+**Kontrola strany 10:** 4 panelů · zkontroluj, že obraz nezobrazuje: vymyšlené citáty a nápisy; „Kurhaus Teplitz“; adresátku dopisu
 
 ## STRANA 11 — „Dva velikáni“
 
@@ -286,7 +286,7 @@ Panel 5: Procházka pokračuje; v dálce zářivě oděná společnost s doprovo
 NEZOBRAZOVAT: císařovnu jako účastnici; incident jako fakt; konkrétní nedoložené místo; žádný text v obraze.
 ```
 
-**Kontrola strany 11:** 5 panelů · zkontroluj, že v obraze NENÍ: císařovnu jako účastnici; incident jako fakt; konkrétní nedoložené místo
+**Kontrola strany 11:** 5 panelů · zkontroluj, že obraz nezobrazuje: císařovnu jako účastnici; incident jako fakt; konkrétní nedoložené místo
 
 ## STRANA 12 — „Legenda z promenády“
 
@@ -311,7 +311,7 @@ Panel 5: Digitální Jirka: mladý muž, kudrnaté hnědé vlasy, šedá mikina 
 NEZOBRAZOVAT: incident 1812 jako jistou událost; obraz 1887 jako záznam skutečnosti; žádný text v obraze.
 ```
 
-**Kontrola strany 12:** 5 panelů · zkontroluj, že v obraze NENÍ: incident 1812 jako jistou událost; obraz 1887 jako záznam skutečnosti
+**Kontrola strany 12:** 5 panelů · zkontroluj, že obraz nezobrazuje: incident 1812 jako jistou událost; obraz 1887 jako záznam skutečnosti
 
 ## STRANA 13 — „Den, kdy Teplice ztratily hlas“
 
@@ -339,7 +339,7 @@ Panel 8: Most k Bílině: Kapka stoupá z podzemí, obraz se rozlévá do mapy s
 NEZOBRAZOVAT: vrtnou soupravu; „záchranu Pravřídla“ a hrdinu (Zsigmondy, Sueß, Mahler, Uherr); 64 horníků, mrtvá těla; nápisy s daty; žádný text v obraze.
 ```
 
-**Kontrola strany 13:** 8 panelů · zkontroluj, že v obraze NENÍ: vrtnou soupravu; „záchranu Pravřídla“ a hrdinu (Zsigmondy, Sueß, Mahler, Uherr); 64 horníků, mrtvá těla; nápisy s daty
+**Kontrola strany 13:** 8 panelů · zkontroluj, že obraz nezobrazuje: vrtnou soupravu; „záchranu Pravřídla“ a hrdinu (Zsigmondy, Sueß, Mahler, Uherr); 64 horníků, mrtvá těla; nápisy s daty
 
 ## STRANA 14 — „Ta samá pohádka, jiné město“
 
@@ -364,7 +364,7 @@ Panel 5: Kočár přijíždí, mladý F. A. Reuss vyhlíží ven.
 NEZOBRAZOVAT: pavilon s nápisem „Bílinská kyselka“; středověké mnichy u kyselky; Piccolominiho / rok 1458; 770 l/min; hrnek s korunou, „Lázně Bílina“; žádný text v obraze.
 ```
 
-**Kontrola strany 14:** 5 panelů · zkontroluj, že v obraze NENÍ: pavilon s nápisem „Bílinská kyselka“; středověké mnichy u kyselky; Piccolominiho / rok 1458; 770 l/min; hrnek s korunou, „Lázně Bílina“
+**Kontrola strany 14:** 5 panelů · zkontroluj, že obraz nezobrazuje: pavilon s nápisem „Bílinská kyselka“; středověké mnichy u kyselky; Piccolominiho / rok 1458; 770 l/min; hrnek s korunou, „Lázně Bílina“
 
 ## STRANA 15 — „Muž, který se ptal proč“
 
@@ -388,7 +388,7 @@ Panel 4: Digitální Jirka: mladý muž, kudrnaté hnědé vlasy, šedá mikina 
 NEZOBRAZOVAT: A. E. Reusse; Berzelia; teploměr a zápisník s čísly; žádný text v obraze.
 ```
 
-**Kontrola strany 15:** 4 panelů · zkontroluj, že v obraze NENÍ: A. E. Reusse; Berzelia; teploměr a zápisník s čísly
+**Kontrola strany 15:** 4 panelů · zkontroluj, že obraz nezobrazuje: A. E. Reusse; Berzelia; teploměr a zápisník s čísly
 
 ## STRANA 16 — „Sopka, která možná není sopka“
 
@@ -413,7 +413,7 @@ Panel 5: Další kočár, Goethe vyhlíží ven.
 NEZOBRAZOVAT: Reusse s Humboldtem nebo Freieslebenem; moderní geologii a přístroje; tabulky s čísly; žádný text v obraze.
 ```
 
-**Kontrola strany 16:** 5 panelů · zkontroluj, že v obraze NENÍ: Reusse s Humboldtem nebo Freieslebenem; moderní geologii a přístroje; tabulky s čísly
+**Kontrola strany 16:** 5 panelů · zkontroluj, že obraz nezobrazuje: Reusse s Humboldtem nebo Freieslebenem; moderní geologii a přístroje; tabulky s čísly
 
 ## STRANA 17 — „Básník na Bořni“
 
@@ -438,7 +438,7 @@ Panel 5: Digitální Jirka: mladý muž, kudrnaté hnědé vlasy, šedá mikina 
 NEZOBRAZOVAT: Beethovena u pramene, s Reussem nebo pijícího kyselku; srovnávací tabulky vod a teplot; Berzelia; žádný text v obraze.
 ```
 
-**Kontrola strany 17:** 5 panelů · zkontroluj, že v obraze NENÍ: Beethovena u pramene, s Reussem nebo pijícího kyselku; srovnávací tabulky vod a teplot; Berzelia
+**Kontrola strany 17:** 5 panelů · zkontroluj, že obraz nezobrazuje: Beethovena u pramene, s Reussem nebo pijícího kyselku; srovnávací tabulky vod a teplot; Berzelia
 
 ## STRANA 18 — „Čísla, která cestovala“
 
@@ -463,7 +463,7 @@ Panel 5: Digitální Jirka: mladý muž, kudrnaté hnědé vlasy, šedá mikina 
 NEZOBRAZOVAT: setkání Reusse a Berzelia; Berzelia v Bílině; knihu „Berzeliova metoda“, korespondenční karty; žádný text v obraze.
 ```
 
-**Kontrola strany 18:** 5 panelů · zkontroluj, že v obraze NENÍ: setkání Reusse a Berzelia; Berzelia v Bílině; knihu „Berzeliova metoda“, korespondenční karty
+**Kontrola strany 18:** 5 panelů · zkontroluj, že obraz nezobrazuje: setkání Reusse a Berzelia; Berzelia v Bílině; knihu „Berzeliova metoda“, korespondenční karty
 
 ## STRANA 19 — „Léta ticha“
 
@@ -488,7 +488,7 @@ Panel 5: Jaro: A. K. Eichler dohlíží na obnovu pramenů, voda se vrací.
 NEZOBRAZOVAT: BEETHOVENA (na této straně vůbec není); pavilon „Bílinská kyselka“; povodňovou katastrofu; Reusse/Eichlera jako hrdiny; žádný text v obraze.
 ```
 
-**Kontrola strany 19:** 5 panelů · zkontroluj, že v obraze NENÍ: BEETHOVENA (na této straně vůbec není); pavilon „Bílinská kyselka“; povodňovou katastrofu; Reusse/Eichlera jako hrdiny
+**Kontrola strany 19:** 5 panelů · zkontroluj, že obraz nezobrazuje: BEETHOVENA (na této straně vůbec není); pavilon „Bílinská kyselka“; povodňovou katastrofu; Reusse/Eichlera jako hrdiny
 
 ## STRANA 20 — „Voda, která putovala“
 
@@ -512,7 +512,7 @@ Panel 4: Digitální Jirka: mladý muž, kudrnaté hnědé vlasy, šedá mikina 
 NEZOBRAZOVAT: železnici a parní vlak; šipky na konkrétní města (Paříž, Berlín…); žádný text v obraze.
 ```
 
-**Kontrola strany 20:** 4 panelů · zkontroluj, že v obraze NENÍ: železnici a parní vlak; šipky na konkrétní města (Paříž, Berlín…)
+**Kontrola strany 20:** 4 panelů · zkontroluj, že obraz nezobrazuje: železnici a parní vlak; šipky na konkrétní města (Paříž, Berlín…)
 
 ## STRANA 21 — „Otec, syn a most k jinému prameni“
 
@@ -537,7 +537,7 @@ Panel 5: Most k Zaječicím: Kapka stoupá k mapě (bez názvů), barva přechá
 NEZOBRAZOVAT: Berzelia; záměnu otce a syna; žádný text v obraze.
 ```
 
-**Kontrola strany 21:** 5 panelů · zkontroluj, že v obraze NENÍ: Berzelia; záměnu otce a syna
+**Kontrola strany 21:** 5 panelů · zkontroluj, že obraz nezobrazuje: Berzelia; záměnu otce a syna
 
 ## STRANA 22 — „Muž, který kopal na vlastním poli“
 
@@ -562,7 +562,7 @@ Panel 5: Digitální Jirka: mladý muž, kudrnaté hnědé vlasy, šedá mikina 
 NEZOBRAZOVAT: cedule s nápisy; rok jako nápis; žádný text v obraze.
 ```
 
-**Kontrola strany 22:** 5 panelů · zkontroluj, že v obraze NENÍ: cedule s nápisy; rok jako nápis
+**Kontrola strany 22:** 5 panelů · zkontroluj, že obraz nezobrazuje: cedule s nápisy; rok jako nápis
 
 ## STRANA 23 — „Jméno, které mělo tucet tváří“
 
@@ -587,7 +587,7 @@ Panel 5: Loď v londýnském přístavu, muž v cylindru si prohlíží bedny.
 NEZOBRAZOVAT: Hoffmanna v obraze; „anglického lékaře“, „vyčerpanou epsomskou sůl“; žádný text v obraze.
 ```
 
-**Kontrola strany 23:** 5 panelů · zkontroluj, že v obraze NENÍ: Hoffmanna v obraze; „anglického lékaře“, „vyčerpanou epsomskou sůl“
+**Kontrola strany 23:** 5 panelů · zkontroluj, že obraz nezobrazuje: Hoffmanna v obraze; „anglického lékaře“, „vyčerpanou epsomskou sůl“
 
 ## STRANA 24 — „Lež v prášku“
 
@@ -612,7 +612,7 @@ Panel 5: Kniha o zaječické vodě na stole v pražském interiéru (rok se vys�
 NEZOBRAZOVAT: BERZELIA (na této straně není); vymyšlené citáty; knihu se Stockholmem; žádný text v obraze.
 ```
 
-**Kontrola strany 24:** 5 panelů · zkontroluj, že v obraze NENÍ: BERZELIA (na této straně není); vymyšlené citáty; knihu se Stockholmem
+**Kontrola strany 24:** 5 panelů · zkontroluj, že obraz nezobrazuje: BERZELIA (na této straně není); vymyšlené citáty; knihu se Stockholmem
 
 ## STRANA 25 — „Rozbor v číslech“
 
@@ -636,7 +636,7 @@ Panel 4: Digitální Jirka: mladý muž, kudrnaté hnědé vlasy, šedá mikina 
 NEZOBRAZOVAT: Reusse jako autora rozboru; A. E. Reusse, Berzelia; moderní infografiku, „nejlepší voda“; žádný text v obraze.
 ```
 
-**Kontrola strany 25:** 4 panelů · zkontroluj, že v obraze NENÍ: Reusse jako autora rozboru; A. E. Reusse, Berzelia; moderní infografiku, „nejlepší voda“
+**Kontrola strany 25:** 4 panelů · zkontroluj, že obraz nezobrazuje: Reusse jako autora rozboru; A. E. Reusse, Berzelia; moderní infografiku, „nejlepší voda“
 
 ## STRANA 26 — „Lahve do Stockholmu (komorní vrchol)“
 
@@ -661,7 +661,7 @@ Panel 5: Prázdná otevřená lahvička, večerní světlo, laboratoř ztichlá.
 NEZOBRAZOVAT: Berzelia v Zaječicích nebo v Bílině; F. A. Reusse místo A. E.; cameo Jirka + Karlíček; žádný text v obraze.
 ```
 
-**Kontrola strany 26:** 5 panelů · zkontroluj, že v obraze NENÍ: Berzelia v Zaječicích nebo v Bílině; F. A. Reusse místo A. E.; cameo Jirka + Karlíček
+**Kontrola strany 26:** 5 panelů · zkontroluj, že obraz nezobrazuje: Berzelia v Zaječicích nebo v Bílině; F. A. Reusse místo A. E.; cameo Jirka + Karlíček
 
 ## STRANA 27 — „Tichá voda, hlasitý svět“
 
@@ -686,7 +686,7 @@ Panel 5: Velký panel: ptačí pohled na celý kraj, tři místa propojená modr
 NEZOBRAZOVAT: výškové budovy; lázeňské paláce v Zaječicích; žádný text v obraze.
 ```
 
-**Kontrola strany 27:** 5 panelů · zkontroluj, že v obraze NENÍ: výškové budovy; lázeňské paláce v Zaječicích
+**Kontrola strany 27:** 5 panelů · zkontroluj, že obraz nezobrazuje: výškové budovy; lázeňské paláce v Zaječicích
 
 ## STRANA 28 — „Tři vody, jedna mapa“
 
@@ -710,7 +710,7 @@ Panel 4: Mapa se rozostřuje do obrazu dnešní krajiny.
 NEZOBRAZOVAT: Baštu; mobilní aplikaci, AR, QR kódy, „Pramenná stezka“; nápisy na kamenech; žádný text v obraze.
 ```
 
-**Kontrola strany 28:** 4 panelů · zkontroluj, že v obraze NENÍ: Baštu; mobilní aplikaci, AR, QR kódy, „Pramenná stezka“; nápisy na kamenech
+**Kontrola strany 28:** 4 panelů · zkontroluj, že obraz nezobrazuje: Baštu; mobilní aplikaci, AR, QR kódy, „Pramenná stezka“; nápisy na kamenech
 
 ## STRANA 29 — „Muzeum, ve kterém to všechno bydlí“
 
@@ -735,7 +735,7 @@ Panel 5: Kapka stéká po skleněné vitríně zevnitř.
 NEZOBRAZOVAT: insolvenci a firemní kontext; logo s textem; venkovní scénu místo muzea; žádný text v obraze.
 ```
 
-**Kontrola strany 29:** 5 panelů · zkontroluj, že v obraze NENÍ: insolvenci a firemní kontext; logo s textem; venkovní scénu místo muzea
+**Kontrola strany 29:** 5 panelů · zkontroluj, že obraz nezobrazuje: insolvenci a firemní kontext; logo s textem; venkovní scénu místo muzea
 
 ## STRANA 30 — „Pohádka, která se opravdu stala“
 
@@ -760,7 +760,7 @@ Panel 5: Poslední panel: zavřená kniha v ruce, v pozadí náznak krajiny a mu
 NEZOBRAZOVAT: výzvy „stáhněte aplikaci“, ikony, QR; kamennou desku s nápisem; žádný text v obraze.
 ```
 
-**Kontrola strany 30:** 5 panelů · zkontroluj, že v obraze NENÍ: výzvy „stáhněte aplikaci“, ikony, QR; kamennou desku s nápisem
+**Kontrola strany 30:** 5 panelů · zkontroluj, že obraz nezobrazuje: výzvy „stáhněte aplikaci“, ikony, QR; kamennou desku s nápisem
 
 ---
 
