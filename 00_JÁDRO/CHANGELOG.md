@@ -2,6 +2,17 @@
 
 > **Poznámka (2026-09-27):** Starší záznamy (2026-09-11 až 2026-09-26 včetně) přesunuty do `00_JÁDRO/CHANGELOG_ARCHIV_2026-09.md` — ať zůstane tenhle soubor čitelný. Nic se nesmazalo, jen rozdělilo. Nejnovější nahoře.
 
+## [2026-10-06] – VÝROBNÍ BALÍK OBRAZŮ 1–30 + ROZHODNUTÍ O KAPCE
+
+**Na pokyn Jirky:** „ano, vezmi Kapku ze stran 1–7 a jeď“ (+ dříve: „kompletně rozebrat a pak složit… mistrovské dílo“).
+
+- **Rozhodnutí Jirky:** finální podoba Kapky = V1 str. 1–7 (skleněná, oči, bez úst = Varianta B). Kapka s ústy z V1 str. 8–30 se nepoužívá.
+- „Druhý komiks“ dodaný jako `PRAMEN_KOMIKS_1-30_MEGA_AUDIT_SLIDESHOW.pdf` ověřen porovnáním obrazů: je to tatáž V2 (PPTX), jen převedená do PDF a zmenšená na 1334×750 — žádná nová verze, audit V1×V2 platí beze změny.
+- **Vytvořeno:** `02_COMIKS/VYROBNI_BALIK_OBRAZY_1-30_v1.0.md` — 30 kompletních zadání pro generátor (panely podle Prologu v0.2 / K3, počty strojově ověřeny 25/25 + Prolog 3/3), společný základ (styl V1, Kapka, Bašta, Jirka, zákaz textu v obraze), předloha z V1, NEZOBRAZOVAT a kontrolní seznam u každé strany. V1 str. 12 (průval 1879) určena jako předloha pro K3 str. 13.
+- **Aktualizováno:** `PRAMEN_MAPA.md`, `PROJECT_STATE.md`.
+
+**Beze změny:** K3, Prolog, prompty v0.2, Claim DB, Character Register (finální character sheet Kapky vznikne po vygenerování str. 1–2).
+
 ## [2026-10-06] – OBRAZOVÝ AUDIT: DVĚ VERZE KOMIKSU 1–30 (V1 PDF × V2 PPTX)
 
 **Na pokyn Jirky:** „Tady máš 1. verzi komiksu… ještě budu mít 2. Musíme je porovnat… vytáhneme z nich to nejlepší. Hlavně ať je vše podle pravdy.“
