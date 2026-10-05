@@ -12,7 +12,7 @@
 | Page Master | 🟢 schváleno (DEC-007) | `PAGE_MASTER_1-30.md` | 2026-09-27 | — | — |
 | Character Register | 🟢 schváleno (DEC-007) | `CHARACTER_REGISTER.md` | 2026-09-27 | — | — |
 | Prompty | 🟡 pracovní produkční sada | `PRAMEN_UPRAVENE_PROMPTY_K3_v0.1.md` + `..._NOVE_...` | 2026-09-26 | — | — |
-| Vizuály / obrazy | ⚪ mimo repo, neauditováno; **rámec auditu připraven** | Content Registry + `02_COMIKS/VIZUÁLNÍ_KONTROLA/OBRAZOVY_AUDIT_PLAN.md` | 2026-09-28 | zpřístupnit obrazy (repo/chat/Drive), pak spustit audit dle plánu | Jirka (přístup k obrazům) |
+| Vizuály / obrazy | 🔴 auditováno — 2 dodané verze (V1 PDF 4K, V2 PPTX) **nesledují K3**, V1 má 12 stran s porušením guardrailů | `02_COMIKS/VIZUÁLNÍ_KONTROLA/OBRAZOVY_AUDIT_V1_V2_2026-10-06.md` | 2026-10-06 | Jirka rozhodne finální Kapku → přegenerovat str. 5–30 podle K3 + prompty v0.2, bez textu v obraze (styl V1) | Jirka (rozhodnutí o Kapce a přegenerování) |
 | Production Locks | 🟢 jen text 6–30 | `PRODUCTION_LOCK_K3_STR6-30.md` | 2026-09-26 | případný lock Prologu | Jirka |
 | Recovery historie | 🟢 | `MASTER_RECOVERY_MAP.md` (RECOVERY-005…024) | 2026-09-28 | — | — |
 | Otevřené otázky | 🟡 | `OTEVRENE_OTAZKY.md` | 2026-09-27 (OO-K3-01 vyřešeno) | namátkový průchod zbytku | — |
