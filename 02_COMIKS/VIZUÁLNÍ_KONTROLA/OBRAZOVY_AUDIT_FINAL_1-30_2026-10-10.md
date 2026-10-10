@@ -13,15 +13,15 @@
 1. **Sada sleduje K3 a Prolog.** Na všech 30 stranách sedí obsah i počet panelů s výrobním balíkem (str. 13: 8 panelů; str. 8, 10, 15, 20, 25, 28: 4 panely).
 2. **Žádné porušení historických guardrailů 🔴.** V obrazech nejsou letopočty, vymyšlené citáty, vrtná souprava (str. 13), Berzelius v Bílině ani setkání s Reussem (str. 18, 26), Beethoven na str. 19, Hoffmann (str. 23), insolvence (str. 29) ani aplikace/QR (str. 28, 30).
 3. **Text v obraze:** žádný čitelný. Pseudotext se objevuje jen jako nečitelná textura (rukopis str. 4, dopis str. 10 a 18, okraj mince str. 6, náhrobek str. 21). Sazba podle K3 tím není dotčená.
-4. **Kapka:** 18 stran je v pořádku. **2 strany mají drobný úsměv** (viz §2), což je proti rozhodnutí „Kapka bez úst“ (CHANGELOG 2026-10-06).
+4. **Kapka:** bez úst na všech stranách. Str. 11 a 13 měly drobný úsměv (§2, F-1/F-2), opraveno 2026-10-10.
 5. **Postavy jsou konzistentní:** Bašta je od str. 7 do 30 moderní (tmavomodrá bunda, zlatý znak bez písmen). Digitální Jirka je všude stejný. F. A. Reuss stárne logicky (mladý str. 14–19, starý str. 20–21, 25) a A. E. Reuss je odlišený věkem (str. 21, 26).
 
 ## 2. NÁLEZY K OPRAVĚ
 
 | # | Str. | Panel | Nález | Klasifikace | Návrh |
 |---|---:|---|---|---|---|
-| F-1 | 11 | 4 (Kapka na okně) | Kapka má malý úsměv (ústa) | 🟡 porušení rozhodnutí o Kapce | opravný prompt „remove the mouth“ |
-| F-2 | 13 | 8 (Kapka stoupá z podzemí) | Kapka má malý úsměv (ústa) | 🟡 porušení rozhodnutí o Kapce | opravný prompt „remove the mouth“ |
+| F-1 | 11 | 4 (Kapka na okně) | Kapka má malý úsměv (ústa) | ✅ opraveno 2026-10-10 (3 pokusy); zbývá sotva viditelná křivka, Jirka přijal | — |
+| F-2 | 13 | 8 (Kapka stoupá z podzemí) | Kapka má malý úsměv (ústa) | ✅ opraveno 2026-10-10 | — |
 | F-3 | 6, 7, 9, 11, 13, 17, 21 | — | tenké obloučky nad očima (víčka/obočí) | 🟡 kosmetické; od str. 1 jde o jednotný vzhled | nechat |
 | F-4 | 30 | 3 | nepatrná tečka pod očima (1–2 px) | 🟢 v plné velikosti neviditelná | nechat |
 | F-5 | 3 | 1 | chybí „nezřetelné náznaky lidské přítomnosti“ podél toku | 🟡 drobnost | nechat |
@@ -41,9 +41,9 @@
 | 8 | 4 | staveniště, Volf s prázdným plánem, Kapka v žlábku, Jirka a vrstvy zdí | ✔ | ✔ | 🟢 |
 | 9 | 5 | rokoková zahrada, Clary s architektem, požár, Kapka v sutinách, Beethoven jako silueta | ✔ | ✔ | 🟢 |
 | 10 | 4 | Beethoven u okna, sám ve společnosti, dopis nečitelný, Goethe ve dveřích + Jirka v rámečku | — | ✔ | 🟢 |
-| 11 | 5 | podání ruky, procházka, klavír, Kapka na okně, vzdálená společnost | **úsměv (F-1)** | ✔ | 🟡 |
+| 11 | 5 | podání ruky, procházka, klavír, Kapka na okně, vzdálená společnost | ✔ (opraveno, F-1) | ✔ | 🟢 |
 | 12 | 5 | obraz 1887 v rámu, Bašta, split legenda × realita, Goethe v kočáře, Jirka fotí desku bez textu | — | ✔ | 🟢 |
-| 13 | 8 | důl, průval, čekající lidé, prázdná nádrž, uvězněná Kapka, hloubení bez vrtné soupravy, tlumená úleva, most k Bílině | **úsměv v p. 8 (F-2)** | ✔ | 🟡 |
+| 13 | 8 | důl, průval, čekající lidé, prázdná nádrž, uvězněná Kapka, hloubení bez vrtné soupravy, tlumená úleva, most k Bílině | ✔ (opraveno, F-2) | ✔ | 🟢 |
 | 14 | 5 | kronikář, Kapka mrká, Bašta, obezděné jímky, mladý Reuss v kočáře | ✔ | ✔ | 🟢 |
 | 15 | 4 | Werner ve Freibergu, Reuss nabírá vzorek, noční pracovna, Jirka ve stáčírně | — | ✔ | 🟢 |
 | 16 | 5 | Bořeň, Humboldt + Freiesleben (bez Reusse), postava na vrcholu, Reuss píše, Goethe v kočáře | — | ✔ | 🟢 |
@@ -62,14 +62,14 @@
 | 29 | 5 | muzeum, Bašta provází (nechtěný Jirka odstraněn), Bašta ke čtenáři, stáčírna, Kapka na vitríně | ✔ | ✔ | 🟢 |
 | 30 | 5 | Jirka před muzeem, Bašta u východu, Kapka stoupá do mraků, kotlina plná života, zavřená kniha | ✔ (F-4) | ✔ | 🟢 |
 
-**Souhrn:** 28× 🟢 · 2× 🟡 (str. 11, 13 — úsměv Kapky) · 0× 🔴.
+**Souhrn:** po opravách 2026-10-10 **30× 🟢** · 0× 🔴 (původně 28× 🟢, 2× 🟡 — str. 11 a 13 úsměv Kapky, opraveno).
 
 ## 4. DOPORUČENÝ DALŠÍ POSTUP (návrh, nerozhoduje)
 
-1. Opravit F-1 a F-2 opravným promptem v generátoru (úprava obrázku, jen Kapka).
+1. ~~Opravit F-1 a F-2~~ — hotovo 2026-10-10.
 2. Volitelně přegenerovat 4K verzi (výstupy jsou 1672×941, zadání chtělo 3840×2160). Pro tisk je potřeba upscale nebo nový export.
 3. Pak vysázet text z K3 / Prologu do připravených klidných ploch.
-4. Page Master, sloupec OBRAZ: po opravě F-1/F-2 přepnout na 🟢.
+4. Page Master, sloupec OBRAZ: lze přepnout na 🟢 (samostatná změna).
 
 ## 5. SOUVISEJÍCÍ
 
