@@ -7,10 +7,10 @@
 **Na pokyn Jirky:** „obrazový audit všech 30 stran“.
 
 - Jirka vygeneroval všech 30 stran podle `VYROBNI_BALIK_OBRAZY_1-30_v1.0.md`, Claude Code je průběžně kontroloval a slabé strany se opravovaly (str. 24 Bašta v dobovém kostýmu, str. 27 obočí Kapky, str. 28 opakovaný panel, str. 29 nechtěný Jirka, str. 30 tečka u Kapky). Uloženo mimo repo: `Desktop\FOTO COMIX\PRAMEN_STR-01_v1.png` … `-30_v1.png`.
-- Závěrečný audit všech 30 souborů: obsah a počty panelů sedí s K3/Prologem, žádné porušení guardrailů, žádný čitelný text. **28× 🟢, 2× 🟡** (str. 11 p. 4 a str. 13 p. 8: Kapka má malý úsměv, proti rozhodnutí „Kapka bez úst“), **0× 🔴**.
+- Závěrečný audit všech 30 souborů: obsah a počty panelů sedí s K3/Prologem, žádné porušení guardrailů, žádný čitelný text. **28× 🟢, 2× 🟡** (str. 11 p. 4 a str. 13 p. 8: Kapka s malým úsměvem), **0× 🔴**. Obě strany téhož dne opraveny v generátoru → **30× 🟢**.
 - **Vytvořeno:** `02_COMIKS/VIZUÁLNÍ_KONTROLA/OBRAZOVY_AUDIT_FINAL_1-30_2026-10-10.md`. **Aktualizováno:** `PRAMEN_MAPA.md`, `PROJECT_STATE.md`.
 
-**Beze změny:** K3, Prolog, Claim DB, Character Register, Page Master (sloupec OBRAZ se přepne po opravě str. 11 a 13).
+**Beze změny:** K3, Prolog, Claim DB, Character Register, Page Master (sloupec OBRAZ lze přepnout samostatnou změnou).
 
 ## [2026-10-06] – VÝROBNÍ BALÍK OBRAZŮ 1–30 + ROZHODNUTÍ O KAPCE
 
